@@ -1,0 +1,340 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "xhs-importer",
+        "version": "1.0.0",
+        "title": "Xiaohongshu Importer Plus",
+        "description": "Xiaohongshu Importer Plus Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Remove",
+                    "target": "Remove"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add field",
+                    "target": "添加字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Imported notes will use this folder by default.",
+                    "target": "导入的笔记将默认使用此文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Downloaded images will use this folder by default.",
+                    "target": "下载的图片将默认使用此文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, note images are downloaded to the local vault. Videos remain remote links.",
+                    "target": "如果启用，笔记图片将下载到本地保险库。视频保持为远程链接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Edit the field key, enable state, and order.",
+                    "target": "编辑字段键、启用状态和顺序。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default note folder",
+                    "target": "默认笔记文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default image folder",
+                    "target": "默认图片文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download images",
+                    "target": "下载图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "00.收集箱",
+                    "target": "00.收集箱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "附件/XHS",
+                    "target": "附件/XHS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Field key",
+                    "target": "字段键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Enable field",
+                    "target": "启用字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move up",
+                    "target": "向上移动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move down",
+                    "target": "向下移动"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No valid Xiaohongshu URL found in the text.",
+                    "target": "在文本中未找到有效的小红书URL。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Video URL not found; imported note with cover image only.",
+                    "target": "未找到视频URL；仅导入带有封面图片的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "import",
+                    "target": "import"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Import Xiaohongshu note",
+                    "target": "导入小红书笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g., 64 不叫小黄了发布了一篇小红书笔记...",
+                    "target": "例如，64 不叫小黄了发布了一篇小红书笔记..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Frontmatter Fields",
+                    "target": "Frontmatter 字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Supported placeholders: {{date}}, {{title}}, {{source}}, {{videoUrl}}.",
+                    "target": "支持的占位符：{{date}}, {{title}}, {{source}}, {{videoUrl}}。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default value (raw YAML value, multiline supported)",
+                    "target": "默认值（原始 YAML 值，支持多行）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import Xiaohongshu note",
+                    "target": "导入小红书笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Paste the share text below:",
+                    "target": "粘贴以下分享文本："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Download images locally for this import",
+                    "target": "为此导入本地下载图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import",
+                    "target": "导入"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"No valid Xiaohongshu URL found in the text.\")",
+                    "target": "Notice(\"No valid Xiaohongshu URL found in the text.\")"
+                },
+                {
+                    "source": "log(`Failed to download media from ${url}: ${error.message}`)",
+                    "target": "log(`Failed to download media from ${url}: ${error.message}`)"
+                },
+                {
+                    "source": "Notice(`Failed to download media: ${error.message}`)",
+                    "target": "Notice(`Failed to download media: ${error.message}`)"
+                },
+                {
+                    "source": "Notice(\"Video URL not found; imported note with cover image only.\")",
+                    "target": "Notice(\"Video URL not found; imported note with cover image only.\")"
+                },
+                {
+                    "source": "Notice(`Imported Xiaohongshu note as ${notePath}`)",
+                    "target": "Notice(`Imported Xiaohongshu note as ${notePath}`)"
+                },
+                {
+                    "source": "log(`Failed to import note from ${url}: ${error.message}`)",
+                    "target": "log(`Failed to import note from ${url}: ${error.message}`)"
+                },
+                {
+                    "source": "Notice(`Failed to import note: ${error.message}`)",
+                    "target": "Notice(`Failed to import note: ${error.message}`)"
+                },
+                {
+                    "source": "log(`Failed to parse initial state: ${error.message}`)",
+                    "target": "log(`Failed to parse initial state: ${error.message}`)"
+                },
+                {
+                    "source": "setName(\"Default note folder\")",
+                    "target": "setName(\"Default note folder\")"
+                },
+                {
+                    "source": "setDesc(\"Imported notes will use this folder by default.\")",
+                    "target": "setDesc(\"Imported notes will use this folder by default.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"00.收集箱\")",
+                    "target": "setPlaceholder(\"00.收集箱\")"
+                },
+                {
+                    "source": "setName(\"Default image folder\")",
+                    "target": "setName(\"Default image folder\")"
+                },
+                {
+                    "source": "setDesc(\"Downloaded images will use this folder by default.\")",
+                    "target": "setDesc(\"Downloaded images will use this folder by default.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"附件/XHS\")",
+                    "target": "setPlaceholder(\"附件/XHS\")"
+                },
+                {
+                    "source": "setName(\"Download images\")",
+                    "target": "setName(\"Download images\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, note images are downloaded to the local vault. Videos remain remote links.\")",
+                    "target": "setDesc(\"If enabled, note images are downloaded to the local vault. Videos remain remote links.\")"
+                },
+                {
+                    "source": "setName(`Field ${index + 1}`)",
+                    "target": "setName(`Field ${index + 1}`)"
+                },
+                {
+                    "source": "setDesc(\"Edit the field key, enable state, and order.\")",
+                    "target": "setDesc(\"Edit the field key, enable state, and order.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Field key\")",
+                    "target": "setPlaceholder(\"Field key\")"
+                },
+                {
+                    "source": "setTooltip(\"Enable field\")",
+                    "target": "setTooltip(\"Enable field\")"
+                },
+                {
+                    "source": "setTooltip(\"Move up\")",
+                    "target": "setTooltip(\"Move up\")"
+                },
+                {
+                    "source": "setTooltip(\"Move down\")",
+                    "target": "setTooltip(\"Move down\")"
+                },
+                {
+                    "source": "setButtonText(\"Add field\")",
+                    "target": "setButtonText(\"Add field\")"
+                },
+                {
+                    "source": "name = \"www.xiaohongshu.com\"",
+                    "target": "name = \"www.xiaohongshu.com\""
+                },
+                {
+                    "source": "name: \"Import Xiaohongshu note\"",
+                    "target": "name: \"Import Xiaohongshu note\""
+                },
+                {
+                    "source": "text: \"Frontmatter Fields\"",
+                    "target": "text: \"Frontmatter Fields\""
+                },
+                {
+                    "source": "text: \"Supported placeholders: {{date}}, {{title}}, {{source}}, {{videoUrl}}.\"",
+                    "target": "text: \"Supported placeholders: {{date}}, {{title}}, {{source}}, {{videoUrl}}.\""
+                },
+                {
+                    "source": "text: \"Default value (raw YAML value, multiline supported)\"",
+                    "target": "text: \"Default value (raw YAML value, multiline supported)\""
+                },
+                {
+                    "source": "text: \"Import Xiaohongshu note\"",
+                    "target": "text: \"Import Xiaohongshu note\""
+                },
+                {
+                    "source": "text: \"Paste the share text below:\"",
+                    "target": "text: \"Paste the share text below:\""
+                },
+                {
+                    "source": "text: \"Download images locally for this import\"",
+                    "target": "text: \"Download images locally for this import\""
+                },
+                {
+                    "source": "text: \"Import\"",
+                    "target": "text: \"Import\""
+                }
+            ]
+        }
+    }
+}

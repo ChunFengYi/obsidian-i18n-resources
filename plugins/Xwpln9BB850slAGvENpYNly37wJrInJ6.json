@@ -1,0 +1,1702 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "wechat-inbox-sync",
+        "version": "1.0.0",
+        "title": "WeChat Inbox Sync",
+        "description": "WeChat Inbox Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.134",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "details",
+                    "target": "details"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开教程",
+                    "target": "打开教程"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "复制",
+                    "target": "复制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "刷新状态",
+                    "target": "刷新状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "解除本机",
+                    "target": "解除本机"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "同步",
+                    "target": "同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "清理中…",
+                    "target": "清理中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "复制诊断信息",
+                    "target": "复制诊断信息"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "安装/修复/更新",
+                    "target": "安装/修复/更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "绑定额外设备",
+                    "target": "绑定额外设备"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开抖音登录",
+                    "target": "打开抖音登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "退出登录",
+                    "target": "退出登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "安装/更新组件",
+                    "target": "安装/更新组件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "处理中…",
+                    "target": "处理中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开小红书登录",
+                    "target": "打开小红书登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "检测登录状态",
+                    "target": "检测登录状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "填写你自己在飞书开放平台创建的企业自建应用 App ID。",
+                    "target": "填写你自己在飞书开放平台创建的企业自建应用 App ID。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "只保存在当前 Obsidian 插件本地；授权和提取时会通过 HTTPS 临时发送给云端使用。",
+                    "target": "只保存在当前 Obsidian 插件本地；授权和提取时会通过 HTTPS 临时发送给云端使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "打开微信后搜索这个小程序，进入「绑定 Obsidian」页面复制绑定码。",
+                    "target": "打开微信后搜索这个小程序，进入「绑定 Obsidian」页面复制绑定码。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "同步笔记写入的位置；可选择是否按日期再创建子目录。",
+                    "target": "同步笔记写入的位置；可选择是否按日期再创建子目录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认按日期分类；如果想所有文章都直接进入上面的目录，选择“直接保存到根目录”。",
+                    "target": "默认按日期分类；如果想所有文章都直接进入上面的目录，选择“直接保存到根目录”。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "适用于公众号、飞书和小红书图文。默认仅保留原始图片链接，不下载图片；选择下载到本地时，图片会放入与对应笔记同名的文件夹内的“文章图片”目录。",
+                    "target": "适用于公众号、飞书和小红书图文。默认仅保留原始图片链接，不下载图片；选择下载到本地时，图片会放入与对应笔记同名的文件夹内的“文章图片”目录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "手动拉取云端收集箱，并写入当前 vault。",
+                    "target": "手动拉取云端收集箱，并写入当前 vault。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "同步失败、转写失败、下载卡住时，点这里复制诊断信息发给开发者张张（微信：heyhmjx）。里面包含最近同步阶段、转写日志和安装日志。",
+                    "target": "同步失败、转写失败、下载卡住时，点这里复制诊断信息发给开发者张张（微信：heyhmjx）。里面包含最近同步阶段、转写日志和安装日志。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pro 功能。默认关闭；开启后，新同步且可下载的音频或视频会保存到“音视频附件/日期”目录，并在笔记中插入本地链接；无法下载时仍会保留转写结果。",
+                    "target": "Pro 功能。默认关闭；开启后，新同步且可下载的音频或视频会保存到“音视频附件/日期”目录，并在笔记中插入本地链接；无法下载时仍会保留转写结果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pro 功能，默认关闭。开启后，后续同步的小红书图文会识别图片中的文字；关闭时仍会保存正文和图片，不会启动 OCR。",
+                    "target": "Pro 功能，默认关闭。开启后，后续同步的小红书图文会识别图片中的文字；关闭时仍会保存正文和图片，不会启动 OCR。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "正在检测抖音登录状态...",
+                    "target": "正在检测抖音登录状态..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请在打开的抖音窗口中完成登录，完成后关闭窗口。",
+                    "target": "请在打开的抖音窗口中完成登录，完成后关闭窗口。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅当插件内已登录抖音、但仍无法转写时按需安装。不会自动下载、不会后台检查或更新。",
+                    "target": "仅当插件内已登录抖音、但仍无法转写时按需安装。不会自动下载、不会后台检查或更新。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "小红书评论区可能需要网页登录状态；登录后插件会复用该状态提取评论区。",
+                    "target": "小红书评论区可能需要网页登录状态；登录后插件会复用该状态提取评论区。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "正在打开小红书登录窗口...",
+                    "target": "正在打开小红书登录窗口..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "正在检测小红书登录状态...",
+                    "target": "正在检测小红书登录状态..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "小红书登录状态正常；同步小红书图文时会复用该状态提取评论区。",
+                    "target": "小红书登录状态正常；同步小红书图文时会复用该状态提取评论区。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "未检测到小红书登录状态，或登录状态已过期；如需提取评论区，请重新登录小红书。",
+                    "target": "未检测到小红书登录状态，或登录状态已过期；如需提取评论区，请重新登录小红书。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "已保存小红书登录状态；同步小红书图文时会复用该状态提取评论区。",
+                    "target": "已保存小红书登录状态；同步小红书图文时会复用该状态提取评论区。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "飞书官方 API 连接教程",
+                    "target": "飞书官方 API 连接教程"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "飞书回调地址",
+                    "target": "飞书回调地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "飞书 App ID",
+                    "target": "飞书 App ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "飞书 App Secret",
+                    "target": "飞书 App Secret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "小程序名字：Obsidian 内容同步助手",
+                    "target": "小程序名字：Obsidian 内容同步助手"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "微信小程序绑定教程",
+                    "target": "微信小程序绑定教程"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "输入绑定码",
+                    "target": "输入绑定码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "保存根目录",
+                    "target": "保存根目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "笔记保存方式",
+                    "target": "笔记保存方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图文图片保存方式",
+                    "target": "图文图片保存方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "立即同步",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "清理最近同步失败的内容",
+                    "target": "清理最近同步失败的内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步/安装失败诊断",
+                    "target": "同步/安装失败诊断"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "本地转写组件",
+                    "target": "本地转写组件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "保存原始音视频到本地",
+                    "target": "保存原始音视频到本地"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用小红书图片 OCR",
+                    "target": "启用小红书图片 OCR"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "绑定额外设备",
+                    "target": "绑定额外设备"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "抖音登录状态",
+                    "target": "抖音登录状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "抖音增强解析组件（可选）",
+                    "target": "抖音增强解析组件（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "登录小红书",
+                    "target": "登录小红书"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "App Secret",
+                    "target": "App Secret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如 ABC-123",
+                    "target": "例如 ABC-123"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "临时收集",
+                    "target": "临时收集"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to align social article image folder with note title",
+                    "target": "Failed to align social article image folder with note title"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to complete pending OCR environment switch:",
+                    "target": "Failed to complete pending OCR environment switch:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to copy bundled OCR runtime asset:",
+                    "target": "Failed to copy bundled OCR runtime asset:"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "图片文字识别 OCR 修复已自动完成。",
+                    "target": "图片文字识别 OCR 修复已自动完成。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前没有在本机忽略的历史失败内容。",
+                    "target": "当前没有在本机忽略的历史失败内容。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "微信登录成功！后续同步公众号文章时会自动提取评论区内容。",
+                    "target": "微信登录成功！后续同步公众号文章时会自动提取评论区内容。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "微信登录未完成，请在浏览器窗口中扫码后重试。",
+                    "target": "微信登录未完成，请在浏览器窗口中扫码后重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "飞书登录已保存，后续同步会复用该登录状态。",
+                    "target": "飞书登录已保存，后续同步会复用该登录状态。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "飞书登录未确认，请在打开的窗口中完成登录后再同步。",
+                    "target": "飞书登录未确认，请在打开的窗口中完成登录后再同步。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "小红书登录已保存，后续同步小红书图文会复用该登录状态提取评论区。",
+                    "target": "小红书登录已保存，后续同步小红书图文会复用该登录状态提取评论区。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "小红书登录未确认，请在打开的窗口中完成登录后再同步。",
+                    "target": "小红书登录未确认，请在打开的窗口中完成登录后再同步。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "抖音登录已保存，后续抖音转写会复用该登录状态。",
+                    "target": "抖音登录已保存，后续抖音转写会复用该登录状态。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未检测到抖音登录状态；请在打开的窗口中完成登录后关闭窗口。",
+                    "target": "未检测到抖音登录状态；请在打开的窗口中完成登录后关闭窗口。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已退出插件内的抖音登录；不会影响浏览器或手机抖音。",
+                    "target": "已退出插件内的抖音登录；不会影响浏览器或手机抖音。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前版本已暂停视频号监听功能。",
+                    "target": "当前版本已暂停视频号监听功能。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法创建微信网页会话。",
+                    "target": "无法创建微信网页会话。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "视频号监听窗口已打开。扫码登录后，打开或刷新视频号内容，捕获到媒体后会自动转写保存。",
+                    "target": "视频号监听窗口已打开。扫码登录后，打开或刷新视频号内容，捕获到媒体后会自动转写保存。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已捕获视频号媒体，开始转写...",
+                    "target": "已捕获视频号媒体，开始转写..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请填写小程序绑定码",
+                    "target": "请填写小程序绑定码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请填写同步 API 地址",
+                    "target": "请填写同步 API 地址"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "绑定成功",
+                    "target": "绑定成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "绑定电脑名额已满，请在小程序绑定页新增电脑名额后再试",
+                    "target": "绑定电脑名额已满，请在小程序绑定页新增电脑名额后再试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "体验 Pro 已到期，额外绑定暂不可用；续期后会自动恢复。",
+                    "target": "体验 Pro 已到期，额外绑定暂不可用；续期后会自动恢复。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "绑定码无效",
+                    "target": "绑定码无效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "暂时无法确认绑定码状态，请重试。",
+                    "target": "暂时无法确认绑定码状态，请重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前没有正在转写的任务。",
+                    "target": "当前没有正在转写的任务。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已停止当前转写，会继续处理后面的同步内容。",
+                    "target": "已停止当前转写，会继续处理后面的同步内容。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到绑定码",
+                    "target": "未找到绑定码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已解除当前电脑绑定",
+                    "target": "已解除当前电脑绑定"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "该绑定已在小程序解除，本机旧绑定已同步清除。",
+                    "target": "该绑定已在小程序解除，本机旧绑定已同步清除。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "安全下载源暂不可用，将改用 GitHub/Hugging Face/PyPI 官方源；不会访问腾讯公开静态链接。",
+                    "target": "安全下载源暂不可用，将改用 GitHub/Hugging Face/PyPI 官方源；不会访问腾讯公开静态链接。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "本地转写组件的图片文字识别模块正在安装中，请等待当前安装完成后再重试。",
+                    "target": "本地转写组件的图片文字识别模块正在安装中，请等待当前安装完成后再重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "开始安装本地转写组件的图片文字识别模块，可能需要几分钟。",
+                    "target": "开始安装本地转写组件的图片文字识别模块，可能需要几分钟。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "图片文字识别 OCR 修复已准备完成，重启 Obsidian 后会自动完成切换。",
+                    "target": "图片文字识别 OCR 修复已准备完成，重启 Obsidian 后会自动完成切换。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "本地转写组件的图片文字识别模块已安装。",
+                    "target": "本地转写组件的图片文字识别模块已安装。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请填写兑换码",
+                    "target": "请填写兑换码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先绑定小程序绑定码，再自动识别兑换码。",
+                    "target": "请先绑定小程序绑定码，再自动识别兑换码。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "插件文件没有更新完整。请先更新插件，并完全退出后重新打开 Obsidian，再点击“安装/修复/更新”处理本地转写组件。",
+                    "target": "插件文件没有更新完整。请先更新插件，并完全退出后重新打开 Obsidian，再点击“安装/修复/更新”处理本地转写组件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "本地转写组件正在准备中，请等待当前安装完成后再重试。",
+                    "target": "本地转写组件正在准备中，请等待当前安装完成后再重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "检测到已有 ASR 安装正在运行，插件会继续等待；连续 10 分钟没有进展时会自动结束并重试。",
+                    "target": "检测到已有 ASR 安装正在运行，插件会继续等待；连续 10 分钟没有进展时会自动结束并重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已自动结束上次报错后仍未退出的 ASR 安装进程，现在可以重新安装。",
+                    "target": "已自动结束上次报错后仍未退出的 ASR 安装进程，现在可以重新安装。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "ASR 安装已连续 10 分钟没有进展，插件已自动结束卡住的进程，现在开始重新安装。",
+                    "target": "ASR 安装已连续 10 分钟没有进展，插件已自动结束卡住的进程，现在开始重新安装。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "上一次 ASR 安装进程已结束，正在重新检查本地组件。",
+                    "target": "上一次 ASR 安装进程已结束，正在重新检查本地组件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "本地转写组件正在安装中，请等待当前安装完成后再重试。",
+                    "target": "本地转写组件正在安装中，请等待当前安装完成后再重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "开始安装本地转写组件，可能需要几分钟。",
+                    "target": "开始安装本地转写组件，可能需要几分钟。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "本地转写组件已安装，并已填入默认命令。",
+                    "target": "本地转写组件已安装，并已填入默认命令。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前本地转写组件正常，不需要高级修复。",
+                    "target": "当前本地转写组件正常，不需要高级修复。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已切换到安全安装目录，并重新安装本地转写组件。",
+                    "target": "已切换到安全安装目录，并重新安装本地转写组件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已更新本地转写组件。",
+                    "target": "已更新本地转写组件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "同步正在进行中，请等待当前任务完成。",
+                    "target": "同步正在进行中，请等待当前任务完成。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已打开飞书授权页，授权完成后请回到 Obsidian 点击“刷新状态”。",
+                    "target": "已打开飞书授权页，授权完成后请回到 Obsidian 点击“刷新状态”。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "诊断信息已复制",
+                    "target": "诊断信息已复制"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未识别到 Pro，请确认已绑定小程序并在小程序里开通 Pro。",
+                    "target": "未识别到 Pro，请确认已绑定小程序并在小程序里开通 Pro。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "小红书登录状态正常",
+                    "target": "小红书登录状态正常"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未检测到小红书登录状态，或登录状态已过期",
+                    "target": "未检测到小红书登录状态，或登录状态已过期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "你是内容整理助手。请基于用户提供的文案生成独立标题、简介和关键词。只输出 JSON：{\"title\":\"主题式短标题\",\"description\":\"一句话简介\",\"keywords\":[\"关键词1\",\"关键词2\"]}。title 用 8 到 24 个中文字符概括核心主题，不带平台名，不使用“这是一份”“本文介绍”“本视频讲述”等报告式开头；description 控制在 1 句话；keywords 返回 3 到 8 个简洁中文或英文关键词。",
+                    "target": "你是内容整理助手。请基于用户提供的文案生成独立标题、简介和关键词。只输出 JSON：{\"title\":\"主题式短标题\",\"description\":\"一句话简介\",\"keywords\":[\"关键词1\",\"关键词2\"]}。title 用 8 到 24 个中文字符概括核心主题，不带平台名，不使用“这是一份”“本文介绍”“本视频讲述”等报告式开头；description 控制在 1 句话；keywords 返回 3 到 8 个简洁中文或英文关键词。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "这是一段关于 Obsidian 内容同步助手、飞书机器人和知识管理的测试文案。",
+                    "target": "这是一段关于 Obsidian 内容同步助手、飞书机器人和知识管理的测试文案。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "默认微信",
+                    "target": "默认微信"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "链接",
+                    "target": "链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "请先绑定小程序绑定码，再输入兑换码。",
+                    "target": "请先绑定小程序绑定码，再输入兑换码。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "本地转写失败，正在尝试云端兜底",
+                    "target": "本地转写失败，正在尝试云端兜底"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "local note is saved; completed-record receipt could not be persisted",
+                    "target": "local note is saved; completed-record receipt could not be persisted"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "local note is saved; recovery marker could not be persisted",
+                    "target": "local note is saved; recovery marker could not be persisted"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "sync completion is confirmed; stale recovery marker may be replayed safely",
+                    "target": "sync completion is confirmed; stale recovery marker may be replayed safely"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "local note is saved; post-commit recovery will retry without marking sync failed",
+                    "target": "local note is saved; post-commit recovery will retry without marking sync failed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "status report failed; original error remains local",
+                    "target": "status report failed; original error remains local"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "单条内容同步失败",
+                    "target": "单条内容同步失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "同步失败",
+                    "target": "同步失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "同步微信收集箱",
+                    "target": "同步微信收集箱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "停止当前转写",
+                    "target": "停止当前转写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "登录小红书（用于提取小红书评论区）",
+                    "target": "登录小红书（用于提取小红书评论区）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "恢复本机忽略的历史失败内容",
+                    "target": "恢复本机忽略的历史失败内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文字",
+                    "target": "文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "本地转写组件准备",
+                    "target": "本地转写组件准备"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "开始安装/修复",
+                    "target": "开始安装/修复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "稍后再试",
+                    "target": "稍后再试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "本地转写组件安装失败",
+                    "target": "本地转写组件安装失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "知道了",
+                    "target": "知道了"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "连接飞书文档",
+                    "target": "连接飞书文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian 内容同步助手",
+                    "target": "Obsidian 内容同步助手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "使用教程",
+                    "target": "使用教程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "绑定小程序",
+                    "target": "绑定小程序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "登录设置",
+                    "target": "登录设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pro 高级功能",
+                    "target": "Pro 高级功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pro 状态",
+                    "target": "Pro 状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AI 简介与关键词自动生成：已默认开启。小红书图片 OCR 默认关闭，按需手动开启。",
+                    "target": "AI 简介与关键词自动生成：已默认开启。小红书图片 OCR 默认关闭，按需手动开启。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "额外绑定设备",
+                    "target": "额外绑定设备"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pro 功能。免费版只保留 1 个基础绑定码；Pro 有效期内可以继续绑定第 2、3 个小程序绑定码。",
+                    "target": "Pro 功能。免费版只保留 1 个基础绑定码；Pro 有效期内可以继续绑定第 2、3 个小程序绑定码。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "登录抖音转写",
+                    "target": "登录抖音转写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "用于提高抖音视频转写成功率。登录状态只保存在本插件，不读取、不影响 Chrome、Edge 或手机抖音。",
+                    "target": "用于提高抖音视频转写成功率。登录状态只保存在本插件，不读取、不影响 Chrome、Edge 或手机抖音。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "登录小红书评论区",
+                    "target": "登录小红书评论区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pro 功能。同步小红书图文时保留可解析到的评论区内容；如果评论区提取失败，请先登录小红书。",
+                    "target": "Pro 功能。同步小红书图文时保留可解析到的评论区内容；如果评论区提取失败，请先登录小红书。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "转写内容",
+                    "target": "转写内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "微信扫码登录 — 登录后关闭窗口即可",
+                    "target": "微信扫码登录 — 登录后关闭窗口即可"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "飞书网页登录 - 登录后关闭窗口即可",
+                    "target": "飞书网页登录 - 登录后关闭窗口即可"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "小红书网页登录 - 登录后关闭窗口即可",
+                    "target": "小红书网页登录 - 登录后关闭窗口即可"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "抖音网页登录 - 登录后关闭窗口即可",
+                    "target": "抖音网页登录 - 登录后关闭窗口即可"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "视频号转写监听（实验）",
+                    "target": "视频号转写监听（实验）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "AI 连接测试",
+                    "target": "AI 连接测试"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"--batch-manifest and --output are required\")",
+                    "target": "error(\"--batch-manifest and --output are required\")"
+                },
+                {
+                    "source": "Notice(\"图片文字识别 OCR 修复已自动完成。\")",
+                    "target": "Notice(\"图片文字识别 OCR 修复已自动完成。\")"
+                },
+                {
+                    "source": "Notice(\"当前没有在本机忽略的历史失败内容。\")",
+                    "target": "Notice(\"当前没有在本机忽略的历史失败内容。\")"
+                },
+                {
+                    "source": "Notice(`已恢复 ${count} 条历史失败内容，下次同步会重新尝试。`)",
+                    "target": "Notice(`已恢复 ${count} 条历史失败内容，下次同步会重新尝试。`)"
+                },
+                {
+                    "source": "Notice(\"微信登录成功！后续同步公众号文章时会自动提取评论区内容。\")",
+                    "target": "Notice(\"微信登录成功！后续同步公众号文章时会自动提取评论区内容。\")"
+                },
+                {
+                    "source": "Notice(\"微信登录未完成，请在浏览器窗口中扫码后重试。\")",
+                    "target": "Notice(\"微信登录未完成，请在浏览器窗口中扫码后重试。\")"
+                },
+                {
+                    "source": "Notice(`微信登录失败：${error.message || error}`)",
+                    "target": "Notice(`微信登录失败：${error.message || error}`)"
+                },
+                {
+                    "source": "Notice(\"飞书登录已保存，后续同步会复用该登录状态。\")",
+                    "target": "Notice(\"飞书登录已保存，后续同步会复用该登录状态。\")"
+                },
+                {
+                    "source": "Notice(\"飞书登录未确认，请在打开的窗口中完成登录后再同步。\")",
+                    "target": "Notice(\"飞书登录未确认，请在打开的窗口中完成登录后再同步。\")"
+                },
+                {
+                    "source": "Notice(`飞书登录失败：${error.message || error}`)",
+                    "target": "Notice(`飞书登录失败：${error.message || error}`)"
+                },
+                {
+                    "source": "Notice(\"小红书登录已保存，后续同步小红书图文会复用该登录状态提取评论区。\")",
+                    "target": "Notice(\"小红书登录已保存，后续同步小红书图文会复用该登录状态提取评论区。\")"
+                },
+                {
+                    "source": "Notice(\"小红书登录未确认，请在打开的窗口中完成登录后再同步。\")",
+                    "target": "Notice(\"小红书登录未确认，请在打开的窗口中完成登录后再同步。\")"
+                },
+                {
+                    "source": "Notice(`小红书登录失败：${error.message || error}`)",
+                    "target": "Notice(`小红书登录失败：${error.message || error}`)"
+                },
+                {
+                    "source": "Notice(\"抖音登录已保存，后续抖音转写会复用该登录状态。\")",
+                    "target": "Notice(\"抖音登录已保存，后续抖音转写会复用该登录状态。\")"
+                },
+                {
+                    "source": "Notice(\"未检测到抖音登录状态；请在打开的窗口中完成登录后关闭窗口。\")",
+                    "target": "Notice(\"未检测到抖音登录状态；请在打开的窗口中完成登录后关闭窗口。\")"
+                },
+                {
+                    "source": "Notice(`抖音登录失败：${error.message || error}`)",
+                    "target": "Notice(`抖音登录失败：${error.message || error}`)"
+                },
+                {
+                    "source": "Notice(\"已退出插件内的抖音登录；不会影响浏览器或手机抖音。\")",
+                    "target": "Notice(\"已退出插件内的抖音登录；不会影响浏览器或手机抖音。\")"
+                },
+                {
+                    "source": "Notice(`退出抖音登录失败：${error.message || error}`)",
+                    "target": "Notice(`退出抖音登录失败：${error.message || error}`)"
+                },
+                {
+                    "source": "Notice(\"当前版本已暂停视频号监听功能。\")",
+                    "target": "Notice(\"当前版本已暂停视频号监听功能。\")"
+                },
+                {
+                    "source": "Notice(\"无法创建微信网页会话。\")",
+                    "target": "Notice(\"无法创建微信网页会话。\")"
+                },
+                {
+                    "source": "Notice(\"视频号监听窗口已打开。扫码登录后，打开或刷新视频号内容，捕获到媒体后会自动转写保存。\")",
+                    "target": "Notice(\"视频号监听窗口已打开。扫码登录后，打开或刷新视频号内容，捕获到媒体后会自动转写保存。\")"
+                },
+                {
+                    "source": "Notice(`视频号监听未能启用网络捕获：${error.message || error}`)",
+                    "target": "Notice(`视频号监听未能启用网络捕获：${error.message || error}`)"
+                },
+                {
+                    "source": "Notice(`打开视频号页面失败：${error.message || error}`)",
+                    "target": "Notice(`打开视频号页面失败：${error.message || error}`)"
+                },
+                {
+                    "source": "Notice(\"已捕获视频号媒体，开始转写...\")",
+                    "target": "Notice(\"已捕获视频号媒体，开始转写...\")"
+                },
+                {
+                    "source": "Notice(`视频号转写已保存：${result.title}`)",
+                    "target": "Notice(`视频号转写已保存：${result.title}`)"
+                },
+                {
+                    "source": "Notice(`视频号转写失败：${error.message || error}`)",
+                    "target": "Notice(`视频号转写失败：${error.message || error}`)"
+                },
+                {
+                    "source": "Notice(\"请填写小程序绑定码\")",
+                    "target": "Notice(\"请填写小程序绑定码\")"
+                },
+                {
+                    "source": "Notice(\"请填写同步 API 地址\")",
+                    "target": "Notice(\"请填写同步 API 地址\")"
+                },
+                {
+                    "source": "Notice(`最多绑定 ${MAX_PLUGIN_BINDINGS} 个小程序码`)",
+                    "target": "Notice(`最多绑定 ${MAX_PLUGIN_BINDINGS} 个小程序码`)"
+                },
+                {
+                    "source": "Notice(\"绑定成功\")",
+                    "target": "Notice(\"绑定成功\")"
+                },
+                {
+                    "source": "Notice(`Pro 组件检查失败：${error.message || error}`)",
+                    "target": "Notice(`Pro 组件检查失败：${error.message || error}`)"
+                },
+                {
+                    "source": "Notice(\"绑定电脑名额已满，请在小程序绑定页新增电脑名额后再试\")",
+                    "target": "Notice(\"绑定电脑名额已满，请在小程序绑定页新增电脑名额后再试\")"
+                },
+                {
+                    "source": "Notice(\"体验 Pro 已到期，额外绑定暂不可用；续期后会自动恢复。\")",
+                    "target": "Notice(\"体验 Pro 已到期，额外绑定暂不可用；续期后会自动恢复。\")"
+                },
+                {
+                    "source": "Notice(\"绑定码无效\")",
+                    "target": "Notice(\"绑定码无效\")"
+                },
+                {
+                    "source": "Notice(\"暂时无法确认绑定码状态，请重试。\")",
+                    "target": "Notice(\"暂时无法确认绑定码状态，请重试。\")"
+                },
+                {
+                    "source": "Notice(`绑定失败：${message || \"请稍后重试\"}`)",
+                    "target": "Notice(`绑定失败：${message || \"请稍后重试\"}`)"
+                },
+                {
+                    "source": "Notice(\"当前没有正在转写的任务。\")",
+                    "target": "Notice(\"当前没有正在转写的任务。\")"
+                },
+                {
+                    "source": "Notice(\"已停止当前转写，会继续处理后面的同步内容。\")",
+                    "target": "Notice(\"已停止当前转写，会继续处理后面的同步内容。\")"
+                },
+                {
+                    "source": "Notice(`已停止当前转写，并从云端删除这条内容；后续同步不会再出现${cleanupWarning}。`)",
+                    "target": "Notice(`已停止当前转写，并从云端删除这条内容；后续同步不会再出现${cleanupWarning}。`)"
+                },
+                {
+                    "source": "Notice(`已停止当前转写，但删除云端内容失败：${message}；这条内容下次同步可能还会出现。`)",
+                    "target": "Notice(`已停止当前转写，但删除云端内容失败：${message}；这条内容下次同步可能还会出现。`)"
+                },
+                {
+                    "source": "Notice(\"未找到绑定码\")",
+                    "target": "Notice(\"未找到绑定码\")"
+                },
+                {
+                    "source": "Notice(\"已解除当前电脑绑定\")",
+                    "target": "Notice(\"已解除当前电脑绑定\")"
+                },
+                {
+                    "source": "Notice(\"该绑定已在小程序解除，本机旧绑定已同步清除。\")",
+                    "target": "Notice(\"该绑定已在小程序解除，本机旧绑定已同步清除。\")"
+                },
+                {
+                    "source": "Notice(`解除绑定失败：${message || error}`)",
+                    "target": "Notice(`解除绑定失败：${message || error}`)"
+                },
+                {
+                    "source": "Notice(\"本地转写组件的图片文字识别模块正在安装中，请等待当前安装完成后再重试。\")",
+                    "target": "Notice(\"本地转写组件的图片文字识别模块正在安装中，请等待当前安装完成后再重试。\")"
+                },
+                {
+                    "source": "Notice(\"开始安装本地转写组件的图片文字识别模块，可能需要几分钟。\")",
+                    "target": "Notice(\"开始安装本地转写组件的图片文字识别模块，可能需要几分钟。\")"
+                },
+                {
+                    "source": "Notice(\"图片文字识别 OCR 修复已准备完成，重启 Obsidian 后会自动完成切换。\", 1e4);\n      return { pendingRestart: true };\n    }\n    if (!status.ready) {\n      const missingText = status.missingReasons && status.missingReasons.length ? status.missingReasons.join(\"；\")",
+                    "target": "Notice(\"图片文字识别 OCR 修复已准备完成，重启 Obsidian 后会自动完成切换。\", 1e4);\n      return { pendingRestart: true };\n    }\n    if (!status.ready) {\n      const missingText = status.missingReasons && status.missingReasons.length ? status.missingReasons.join(\"；\")"
+                },
+                {
+                    "source": "Notice(\"本地转写组件的图片文字识别模块已安装。\")",
+                    "target": "Notice(\"本地转写组件的图片文字识别模块已安装。\")"
+                },
+                {
+                    "source": "Notice(`诊断信息已写入：${diagnosticPath}`)",
+                    "target": "Notice(`诊断信息已写入：${diagnosticPath}`)"
+                },
+                {
+                    "source": "Notice(\"请填写兑换码\")",
+                    "target": "Notice(\"请填写兑换码\")"
+                },
+                {
+                    "source": "Notice(`兑换失败：${formatRedeemAccessError(error, \"redeem\")}`)",
+                    "target": "Notice(`兑换失败：${formatRedeemAccessError(error, \"redeem\")}`)"
+                },
+                {
+                    "source": "Notice(\"请先绑定小程序绑定码，再自动识别兑换码。\")",
+                    "target": "Notice(\"请先绑定小程序绑定码，再自动识别兑换码。\")"
+                },
+                {
+                    "source": "Notice(`自动识别兑换码失败：${formatRedeemAccessError(lastError, \"auto\")}`)",
+                    "target": "Notice(`自动识别兑换码失败：${formatRedeemAccessError(lastError, \"auto\")}`)"
+                },
+                {
+                    "source": "Notice(\"本地转写组件正在准备中，请等待当前安装完成后再重试。\")",
+                    "target": "Notice(\"本地转写组件正在准备中，请等待当前安装完成后再重试。\")"
+                },
+                {
+                    "source": "Notice(\"检测到已有 ASR 安装正在运行，插件会继续等待；连续 10 分钟没有进展时会自动结束并重试。\", 1e4);\n      }, \"onWaiting\")",
+                    "target": "Notice(\"检测到已有 ASR 安装正在运行，插件会继续等待；连续 10 分钟没有进展时会自动结束并重试。\", 1e4);\n      }, \"onWaiting\")"
+                },
+                {
+                    "source": "Notice(\"已自动结束上次报错后仍未退出的 ASR 安装进程，现在可以重新安装。\", 8e3);\n    } else if (result.status === \"stopped-stalled\")",
+                    "target": "Notice(\"已自动结束上次报错后仍未退出的 ASR 安装进程，现在可以重新安装。\", 8e3);\n    } else if (result.status === \"stopped-stalled\")"
+                },
+                {
+                    "source": "Notice(\"ASR 安装已连续 10 分钟没有进展，插件已自动结束卡住的进程，现在开始重新安装。\", 8e3);\n    } else if (waitingNoticeShown && result.status === \"completed-or-exited\")",
+                    "target": "Notice(\"ASR 安装已连续 10 分钟没有进展，插件已自动结束卡住的进程，现在开始重新安装。\", 8e3);\n    } else if (waitingNoticeShown && result.status === \"completed-or-exited\")"
+                },
+                {
+                    "source": "Notice(\"上一次 ASR 安装进程已结束，正在重新检查本地组件。\", 6e3);\n    }\n    return {\n      ...result,\n      installRoot\n    };\n  }\n  async installLocalAsr(options = {}) {\n    if (this.localAsrInstallPromise) {\n      new Notice(\"本地转写组件正在安装中，请等待当前安装完成后再重试。\")",
+                    "target": "Notice(\"上一次 ASR 安装进程已结束，正在重新检查本地组件。\", 6e3);\n    }\n    return {\n      ...result,\n      installRoot\n    };\n  }\n  async installLocalAsr(options = {}) {\n    if (this.localAsrInstallPromise) {\n      new Notice(\"本地转写组件正在安装中，请等待当前安装完成后再重试。\")"
+                },
+                {
+                    "source": "Notice(\"开始安装本地转写组件，可能需要几分钟。\")",
+                    "target": "Notice(\"开始安装本地转写组件，可能需要几分钟。\")"
+                },
+                {
+                    "source": "Notice(\"本地转写组件已安装，并已填入默认命令。\")",
+                    "target": "Notice(\"本地转写组件已安装，并已填入默认命令。\")"
+                },
+                {
+                    "source": "Notice(\"当前本地转写组件正常，不需要高级修复。\")",
+                    "target": "Notice(\"当前本地转写组件正常，不需要高级修复。\")"
+                },
+                {
+                    "source": "Notice(\"已切换到安全安装目录，并重新安装本地转写组件。\")",
+                    "target": "Notice(\"已切换到安全安装目录，并重新安装本地转写组件。\")"
+                },
+                {
+                    "source": "Notice(\"已更新本地转写组件。\")",
+                    "target": "Notice(\"已更新本地转写组件。\")"
+                },
+                {
+                    "source": "Notice(`抖音增强解析组件安装失败：${error.message || error}`)",
+                    "target": "Notice(`抖音增强解析组件安装失败：${error.message || error}`)"
+                },
+                {
+                    "source": "Notice(`同步失败：${error.message || error}`)",
+                    "target": "Notice(`同步失败：${error.message || error}`)"
+                },
+                {
+                    "source": "setName(\"飞书官方 API 连接教程\")",
+                    "target": "setName(\"飞书官方 API 连接教程\")"
+                },
+                {
+                    "source": "setDesc(`按教程创建飞书自建应用、配置权限和回调地址：${FEISHU_OFFICIAL_API_TUTORIAL_URL}`)",
+                    "target": "setDesc(`按教程创建飞书自建应用、配置权限和回调地址：${FEISHU_OFFICIAL_API_TUTORIAL_URL}`)"
+                },
+                {
+                    "source": "setButtonText(\"打开教程\")",
+                    "target": "setButtonText(\"打开教程\")"
+                },
+                {
+                    "source": "Notice(`请复制链接到浏览器打开：${FEISHU_OFFICIAL_API_TUTORIAL_URL}`)",
+                    "target": "Notice(`请复制链接到浏览器打开：${FEISHU_OFFICIAL_API_TUTORIAL_URL}`)"
+                },
+                {
+                    "source": "setName(\"飞书回调地址\")",
+                    "target": "setName(\"飞书回调地址\")"
+                },
+                {
+                    "source": "setDesc(`在飞书自建应用后台配置这个重定向 URL：${feishuCallbackUrl}`)",
+                    "target": "setDesc(`在飞书自建应用后台配置这个重定向 URL：${feishuCallbackUrl}`)"
+                },
+                {
+                    "source": "setButtonText(\"复制\")",
+                    "target": "setButtonText(\"复制\")"
+                },
+                {
+                    "source": "setName(\"飞书 App ID\")",
+                    "target": "setName(\"飞书 App ID\")"
+                },
+                {
+                    "source": "setDesc(\"填写你自己在飞书开放平台创建的企业自建应用 App ID。\")",
+                    "target": "setDesc(\"填写你自己在飞书开放平台创建的企业自建应用 App ID。\")"
+                },
+                {
+                    "source": "setName(\"飞书 App Secret\")",
+                    "target": "setName(\"飞书 App Secret\")"
+                },
+                {
+                    "source": "setDesc(\"只保存在当前 Obsidian 插件本地；授权和提取时会通过 HTTPS 临时发送给云端使用。\")",
+                    "target": "setDesc(\"只保存在当前 Obsidian 插件本地；授权和提取时会通过 HTTPS 临时发送给云端使用。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"App Secret\")",
+                    "target": "setPlaceholder(\"App Secret\")"
+                },
+                {
+                    "source": "Notice(\"已打开飞书授权页，授权完成后请回到 Obsidian 点击“刷新状态”。\")",
+                    "target": "Notice(\"已打开飞书授权页，授权完成后请回到 Obsidian 点击“刷新状态”。\")"
+                },
+                {
+                    "source": "Notice(`打开飞书授权失败：${error.message || error}`)",
+                    "target": "Notice(`打开飞书授权失败：${error.message || error}`)"
+                },
+                {
+                    "source": "setButtonText(\"刷新状态\")",
+                    "target": "setButtonText(\"刷新状态\")"
+                },
+                {
+                    "source": "Notice(`刷新飞书授权状态失败：${error.message || error}`)",
+                    "target": "Notice(`刷新飞书授权状态失败：${error.message || error}`)"
+                },
+                {
+                    "source": "setName(\"小程序名字：Obsidian 内容同步助手\")",
+                    "target": "setName(\"小程序名字：Obsidian 内容同步助手\")"
+                },
+                {
+                    "source": "setDesc(\"打开微信后搜索这个小程序，进入「绑定 Obsidian」页面复制绑定码。\")",
+                    "target": "setDesc(\"打开微信后搜索这个小程序，进入「绑定 Obsidian」页面复制绑定码。\")"
+                },
+                {
+                    "source": "setName(\"微信小程序绑定教程\")",
+                    "target": "setName(\"微信小程序绑定教程\")"
+                },
+                {
+                    "source": "setDesc(`插件安装、绑定码填写和常见问题。小程序名字：Obsidian 内容同步助手。教程链接：${FEISHU_TUTORIAL_URL}`)",
+                    "target": "setDesc(`插件安装、绑定码填写和常见问题。小程序名字：Obsidian 内容同步助手。教程链接：${FEISHU_TUTORIAL_URL}`)"
+                },
+                {
+                    "source": "Notice(`请复制链接到浏览器打开：${FEISHU_TUTORIAL_URL}`)",
+                    "target": "Notice(`请复制链接到浏览器打开：${FEISHU_TUTORIAL_URL}`)"
+                },
+                {
+                    "source": "setName(`${binding.label || indexLabel}：${binding.token}`)",
+                    "target": "setName(`${binding.label || indexLabel}：${binding.token}`)"
+                },
+                {
+                    "source": "setName(\"输入绑定码\")",
+                    "target": "setName(\"输入绑定码\")"
+                },
+                {
+                    "source": "setButtonText(\"解除本机\")",
+                    "target": "setButtonText(\"解除本机\")"
+                },
+                {
+                    "source": "setName(\"保存根目录\")",
+                    "target": "setName(\"保存根目录\")"
+                },
+                {
+                    "source": "setDesc(\"同步笔记写入的位置；可选择是否按日期再创建子目录。\")",
+                    "target": "setDesc(\"同步笔记写入的位置；可选择是否按日期再创建子目录。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"临时收集\")",
+                    "target": "setPlaceholder(\"临时收集\")"
+                },
+                {
+                    "source": "setName(\"笔记保存方式\")",
+                    "target": "setName(\"笔记保存方式\")"
+                },
+                {
+                    "source": "setDesc(\"默认按日期分类；如果想所有文章都直接进入上面的目录，选择“直接保存到根目录”。\")",
+                    "target": "setDesc(\"默认按日期分类；如果想所有文章都直接进入上面的目录，选择“直接保存到根目录”。\")"
+                },
+                {
+                    "source": "setName(\"图文图片保存方式\")",
+                    "target": "setName(\"图文图片保存方式\")"
+                },
+                {
+                    "source": "setDesc(\"适用于公众号、飞书和小红书图文。默认仅保留原始图片链接，不下载图片；选择下载到本地时，图片会放入与对应笔记同名的文件夹内的“文章图片”目录。\")",
+                    "target": "setDesc(\"适用于公众号、飞书和小红书图文。默认仅保留原始图片链接，不下载图片；选择下载到本地时，图片会放入与对应笔记同名的文件夹内的“文章图片”目录。\")"
+                },
+                {
+                    "source": "setName(\"立即同步\")",
+                    "target": "setName(\"立即同步\")"
+                },
+                {
+                    "source": "setDesc(\"手动拉取云端收集箱，并写入当前 vault。\")",
+                    "target": "setDesc(\"手动拉取云端收集箱，并写入当前 vault。\")"
+                },
+                {
+                    "source": "setButtonText(\"同步\")",
+                    "target": "setButtonText(\"同步\")"
+                },
+                {
+                    "source": "setName(\"清理最近同步失败的内容\")",
+                    "target": "setName(\"清理最近同步失败的内容\")"
+                },
+                {
+                    "source": "setButtonText(\"清理中…\")",
+                    "target": "setButtonText(\"清理中…\")"
+                },
+                {
+                    "source": "Notice(`已从云端清理 ${result.deletedCount} 条失败内容，后续不会再拉取。`)",
+                    "target": "Notice(`已从云端清理 ${result.deletedCount} 条失败内容，后续不会再拉取。`)"
+                },
+                {
+                    "source": "Notice(`${result.failedCount} 条内容暂未清理成功，仍会保留在失败清单中。${reasonText}`)",
+                    "target": "Notice(`${result.failedCount} 条内容暂未清理成功，仍会保留在失败清单中。${reasonText}`)"
+                },
+                {
+                    "source": "Notice(`清理失败内容失败：${error.message || error}`)",
+                    "target": "Notice(`清理失败内容失败：${error.message || error}`)"
+                },
+                {
+                    "source": "setName(\"同步/安装失败诊断\")",
+                    "target": "setName(\"同步/安装失败诊断\")"
+                },
+                {
+                    "source": "setDesc(\"同步失败、转写失败、下载卡住时，点这里复制诊断信息发给开发者张张（微信：heyhmjx）。里面包含最近同步阶段、转写日志和安装日志。\")",
+                    "target": "setDesc(\"同步失败、转写失败、下载卡住时，点这里复制诊断信息发给开发者张张（微信：heyhmjx）。里面包含最近同步阶段、转写日志和安装日志。\")"
+                },
+                {
+                    "source": "setButtonText(\"复制诊断信息\")",
+                    "target": "setButtonText(\"复制诊断信息\")"
+                },
+                {
+                    "source": "Notice(\"诊断信息已复制\")",
+                    "target": "Notice(\"诊断信息已复制\")"
+                },
+                {
+                    "source": "Notice(`复制诊断信息失败：${error.message || error}`)",
+                    "target": "Notice(`复制诊断信息失败：${error.message || error}`)"
+                },
+                {
+                    "source": "setName(\"本地转写组件\")",
+                    "target": "setName(\"本地转写组件\")"
+                },
+                {
+                    "source": "setButtonText(\"安装/修复/更新\")",
+                    "target": "setButtonText(\"安装/修复/更新\")"
+                },
+                {
+                    "source": "Notice(\"未识别到 Pro，请确认已绑定小程序并在小程序里开通 Pro。\")",
+                    "target": "Notice(\"未识别到 Pro，请确认已绑定小程序并在小程序里开通 Pro。\")"
+                },
+                {
+                    "source": "Notice(`权限查询失败：${error.message || error}`)",
+                    "target": "Notice(`权限查询失败：${error.message || error}`)"
+                },
+                {
+                    "source": "setName(\"保存原始音视频到本地\")",
+                    "target": "setName(\"保存原始音视频到本地\")"
+                },
+                {
+                    "source": "setDesc(\"Pro 功能。默认关闭；开启后，新同步且可下载的音频或视频会保存到“音视频附件/日期”目录，并在笔记中插入本地链接；无法下载时仍会保留转写结果。\")",
+                    "target": "setDesc(\"Pro 功能。默认关闭；开启后，新同步且可下载的音频或视频会保存到“音视频附件/日期”目录，并在笔记中插入本地链接；无法下载时仍会保留转写结果。\")"
+                },
+                {
+                    "source": "setName(\"启用小红书图片 OCR\")",
+                    "target": "setName(\"启用小红书图片 OCR\")"
+                },
+                {
+                    "source": "setDesc(\"Pro 功能，默认关闭。开启后，后续同步的小红书图文会识别图片中的文字；关闭时仍会保存正文和图片，不会启动 OCR。\")",
+                    "target": "setDesc(\"Pro 功能，默认关闭。开启后，后续同步的小红书图文会识别图片中的文字；关闭时仍会保存正文和图片，不会启动 OCR。\")"
+                },
+                {
+                    "source": "setName(\"绑定额外设备\")",
+                    "target": "setName(\"绑定额外设备\")"
+                },
+                {
+                    "source": "setButtonText(\"绑定额外设备\")",
+                    "target": "setButtonText(\"绑定额外设备\")"
+                },
+                {
+                    "source": "Notice(`绑定额外设备失败：${error.message || error}`)",
+                    "target": "Notice(`绑定额外设备失败：${error.message || error}`)"
+                },
+                {
+                    "source": "setName(\"抖音登录状态\")",
+                    "target": "setName(\"抖音登录状态\")"
+                },
+                {
+                    "source": "setDesc(\"正在检测抖音登录状态...\")",
+                    "target": "setDesc(\"正在检测抖音登录状态...\")"
+                },
+                {
+                    "source": "setButtonText(\"打开抖音登录\")",
+                    "target": "setButtonText(\"打开抖音登录\")"
+                },
+                {
+                    "source": "setDesc(\"请在打开的抖音窗口中完成登录，完成后关闭窗口。\")",
+                    "target": "setDesc(\"请在打开的抖音窗口中完成登录，完成后关闭窗口。\")"
+                },
+                {
+                    "source": "setButtonText(\"退出登录\")",
+                    "target": "setButtonText(\"退出登录\")"
+                },
+                {
+                    "source": "setName(\"抖音增强解析组件（可选）\")",
+                    "target": "setName(\"抖音增强解析组件（可选）\")"
+                },
+                {
+                    "source": "setDesc(\"仅当插件内已登录抖音、但仍无法转写时按需安装。不会自动下载、不会后台检查或更新。\")",
+                    "target": "setDesc(\"仅当插件内已登录抖音、但仍无法转写时按需安装。不会自动下载、不会后台检查或更新。\")"
+                },
+                {
+                    "source": "setButtonText(\"安装/更新组件\")",
+                    "target": "setButtonText(\"安装/更新组件\")"
+                },
+                {
+                    "source": "setButtonText(\"处理中…\")",
+                    "target": "setButtonText(\"处理中…\")"
+                },
+                {
+                    "source": "setName(\"登录小红书\")",
+                    "target": "setName(\"登录小红书\")"
+                },
+                {
+                    "source": "setDesc(\"小红书评论区可能需要网页登录状态；登录后插件会复用该状态提取评论区。\")",
+                    "target": "setDesc(\"小红书评论区可能需要网页登录状态；登录后插件会复用该状态提取评论区。\")"
+                },
+                {
+                    "source": "setButtonText(\"打开小红书登录\")",
+                    "target": "setButtonText(\"打开小红书登录\")"
+                },
+                {
+                    "source": "setDesc(\"正在打开小红书登录窗口...\")",
+                    "target": "setDesc(\"正在打开小红书登录窗口...\")"
+                },
+                {
+                    "source": "setButtonText(\"检测登录状态\")",
+                    "target": "setButtonText(\"检测登录状态\")"
+                },
+                {
+                    "source": "setDesc(\"正在检测小红书登录状态...\")",
+                    "target": "setDesc(\"正在检测小红书登录状态...\")"
+                },
+                {
+                    "source": "setDesc(\"小红书登录状态正常；同步小红书图文时会复用该状态提取评论区。\")",
+                    "target": "setDesc(\"小红书登录状态正常；同步小红书图文时会复用该状态提取评论区。\")"
+                },
+                {
+                    "source": "Notice(\"小红书登录状态正常\")",
+                    "target": "Notice(\"小红书登录状态正常\")"
+                },
+                {
+                    "source": "setDesc(\"未检测到小红书登录状态，或登录状态已过期；如需提取评论区，请重新登录小红书。\")",
+                    "target": "setDesc(\"未检测到小红书登录状态，或登录状态已过期；如需提取评论区，请重新登录小红书。\")"
+                },
+                {
+                    "source": "Notice(\"未检测到小红书登录状态，或登录状态已过期\")",
+                    "target": "Notice(\"未检测到小红书登录状态，或登录状态已过期\")"
+                },
+                {
+                    "source": "setDesc(\"已保存小红书登录状态；同步小红书图文时会复用该状态提取评论区。\")",
+                    "target": "setDesc(\"已保存小红书登录状态；同步小红书图文时会复用该状态提取评论区。\")"
+                },
+                {
+                    "source": "Notice(`Pro 自动能力检查失败：${error.message || error}`)",
+                    "target": "Notice(`Pro 自动能力检查失败：${error.message || error}`)"
+                },
+                {
+                    "source": "description=\"Run local OCR for one image.\"",
+                    "target": "description=\"Run local OCR for one image.\""
+                },
+                {
+                    "source": "text = \"\\\\n\"",
+                    "target": "text = \"\\\\n\""
+                },
+                {
+                    "source": "text : `说话人${speaker}：${text}`",
+                    "target": "text : `说话人${speaker}：${text}`"
+                },
+                {
+                    "source": "description: \"\"",
+                    "target": "description: \"\""
+                },
+                {
+                    "source": "description = \"\"",
+                    "target": "description = \"\""
+                },
+                {
+                    "source": "text : \"\"",
+                    "target": "text : \"\""
+                },
+                {
+                    "source": "text: \"文字\"",
+                    "target": "text: \"文字\""
+                },
+                {
+                    "source": "link: \"链接\"",
+                    "target": "link: \"链接\""
+                },
+                {
+                    "source": "page: \"网页\"",
+                    "target": "page: \"网页\""
+                },
+                {
+                    "source": "description : \"\"",
+                    "target": "description : \"\""
+                },
+                {
+                    "source": "name = \"AbortError\"",
+                    "target": "name = \"AbortError\""
+                },
+                {
+                    "source": "name: \"bigmodel\"",
+                    "target": "name: \"bigmodel\""
+                },
+                {
+                    "source": "text = `${pendingListMarker} ${text}`",
+                    "target": "text = `${pendingListMarker} ${text}`"
+                },
+                {
+                    "source": "text = \"\"",
+                    "target": "text = \"\""
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "name = \"/space/api/docx/pages/client_vars\"",
+                    "target": "name = \"/space/api/docx/pages/client_vars\""
+                },
+                {
+                    "source": "search = `?id=${encodeURIComponent(token)}`",
+                    "target": "search = `?id=${encodeURIComponent(token)}`"
+                },
+                {
+                    "source": "text: \"本地转写组件准备\"",
+                    "target": "text: \"本地转写组件准备\""
+                },
+                {
+                    "source": "text: \"开始安装/修复\"",
+                    "target": "text: \"开始安装/修复\""
+                },
+                {
+                    "source": "text: \"稍后再试\"",
+                    "target": "text: \"稍后再试\""
+                },
+                {
+                    "source": "text: \"本地转写组件安装失败\"",
+                    "target": "text: \"本地转写组件安装失败\""
+                },
+                {
+                    "source": "text: \"知道了\"",
+                    "target": "text: \"知道了\""
+                },
+                {
+                    "source": "name: \"同步微信收集箱\"",
+                    "target": "name: \"同步微信收集箱\""
+                },
+                {
+                    "source": "name: \"停止当前转写\"",
+                    "target": "name: \"停止当前转写\""
+                },
+                {
+                    "source": "name: \"登录小红书（用于提取小红书评论区）\"",
+                    "target": "name: \"登录小红书（用于提取小红书评论区）\""
+                },
+                {
+                    "source": "name: \"恢复本机忽略的历史失败内容\"",
+                    "target": "name: \"恢复本机忽略的历史失败内容\""
+                },
+                {
+                    "source": "text: \"连接飞书文档\"",
+                    "target": "text: \"连接飞书文档\""
+                },
+                {
+                    "source": "text: \"Obsidian 内容同步助手\"",
+                    "target": "text: \"Obsidian 内容同步助手\""
+                },
+                {
+                    "source": "text: \"使用教程\"",
+                    "target": "text: \"使用教程\""
+                },
+                {
+                    "source": "text: \"绑定小程序\"",
+                    "target": "text: \"绑定小程序\""
+                },
+                {
+                    "source": "text: \"登录设置\"",
+                    "target": "text: \"登录设置\""
+                },
+                {
+                    "source": "text: \"Pro 高级功能\"",
+                    "target": "text: \"Pro 高级功能\""
+                },
+                {
+                    "source": "text: \"Pro 状态\"",
+                    "target": "text: \"Pro 状态\""
+                },
+                {
+                    "source": "text: `插件会通过已绑定的小程序绑定码自动识别 Pro 权限；本地组件缺失或损坏时会提示一次，兼容可用时保持静默。${proStatusText}`",
+                    "target": "text: `插件会通过已绑定的小程序绑定码自动识别 Pro 权限；本地组件缺失或损坏时会提示一次，兼容可用时保持静默。${proStatusText}`"
+                },
+                {
+                    "source": "text: \"AI 简介与关键词自动生成：已默认开启。小红书图片 OCR 默认关闭，按需手动开启。\"",
+                    "target": "text: \"AI 简介与关键词自动生成：已默认开启。小红书图片 OCR 默认关闭，按需手动开启。\""
+                },
+                {
+                    "source": "text: `本地转写组件：${proComponentStatusText}；当前系统：${proComponentReadiness.platformName || \"自动识别\"}`",
+                    "target": "text: `本地转写组件：${proComponentStatusText}；当前系统：${proComponentReadiness.platformName || \"自动识别\"}`"
+                },
+                {
+                    "source": "text: \"额外绑定设备\"",
+                    "target": "text: \"额外绑定设备\""
+                },
+                {
+                    "source": "text: \"登录抖音转写\"",
+                    "target": "text: \"登录抖音转写\""
+                },
+                {
+                    "source": "text: \"用于提高抖音视频转写成功率。登录状态只保存在本插件，不读取、不影响 Chrome、Edge 或手机抖音。\"",
+                    "target": "text: \"用于提高抖音视频转写成功率。登录状态只保存在本插件，不读取、不影响 Chrome、Edge 或手机抖音。\""
+                },
+                {
+                    "source": "text: \"登录小红书评论区\"",
+                    "target": "text: \"登录小红书评论区\""
+                },
+                {
+                    "source": "text: \"Pro 功能。同步小红书图文时保留可解析到的评论区内容；如果评论区提取失败，请先登录小红书。\"",
+                    "target": "text: \"Pro 功能。同步小红书图文时保留可解析到的评论区内容；如果评论区提取失败，请先登录小红书。\""
+                }
+            ]
+        }
+    }
+}

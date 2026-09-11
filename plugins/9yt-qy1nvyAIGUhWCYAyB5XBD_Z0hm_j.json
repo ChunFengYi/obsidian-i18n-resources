@@ -1,0 +1,3004 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "weixin-mp-publisher",
+        "version": "1.0.0",
+        "title": "WeiXin MP Publisher",
+        "description": "WeiXin MP Publisher Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.9",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "alt",
+                    "source": "cover",
+                    "target": "cover"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "仅用于本次发布，不写入笔记属性",
+                    "target": "仅用于本次发布，不写入笔记属性"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "署名（留空走账号默认署名）",
+                    "target": "署名（留空走账号默认署名）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "点击下方按钮从电脑选图；留空则用占位封面或账号默认封面",
+                    "target": "点击下方按钮从电脑选图；留空则用占位封面或账号默认封面"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "❌ 未能识别格式，请确认已复制微信公众号平台「基础信息」页的完整内容（包含「公众号」「AppID」「AppSecret」字样）。",
+                    "target": "❌ 未能识别格式，请确认已复制微信公众号平台「基础信息」页的完整内容（包含「公众号」「AppID」「AppSecret」字样）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "github",
+                    "target": "github"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "新建 / 管理账号…",
+                    "target": "新建 / 管理账号…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Mermaid 渲染失败",
+                    "target": "Mermaid 渲染失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "块级公式渲染失败",
+                    "target": "块级公式渲染失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "LaTeX 块级公式渲染失败",
+                    "target": "LaTeX 块级公式渲染失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "LaTeX 行内公式渲染失败",
+                    "target": "LaTeX 行内公式渲染失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "行内公式渲染失败",
+                    "target": "行内公式渲染失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理 Wiki 图片失败",
+                    "target": "处理 Wiki 图片失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "处理 Markdown 图片失败",
+                    "target": "处理 Markdown 图片失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Sync E→P] error:",
+                    "target": "[Sync E→P] error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Sync P→E] error:",
+                    "target": "[Sync P→E] error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Element previously highlighted. To highlight again, first unset `dataset.highlighted`.",
+                    "target": "Element previously highlighted. To highlight again, first unset `dataset.highlighted`."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "手动新增账号",
+                    "target": "手动新增账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "快速粘贴新建账号",
+                    "target": "快速粘贴新建账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "识别并新增账号",
+                    "target": "识别并新增账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "检测微信出口 IP",
+                    "target": "检测微信出口 IP"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "复制",
+                    "target": "复制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "IP 设置",
+                    "target": "IP 设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "清空默认封面",
+                    "target": "清空默认封面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "套用",
+                    "target": "套用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "管理我的方案",
+                    "target": "管理我的方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "进入高级微调",
+                    "target": "进入高级微调"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "激活",
+                    "target": "激活"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "联系帮助",
+                    "target": "联系帮助"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "新增账号",
+                    "target": "新增账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "恢复默认",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存为方案",
+                    "target": "保存为方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开公众号后台",
+                    "target": "打开公众号后台"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "关闭",
+                    "target": "关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "例如：主号 / 备用号",
+                    "target": "例如：主号 / 备用号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "可选。右侧发布资料里没有作者时，自动先填这个名字。",
+                    "target": "可选。右侧发布资料里没有作者时，自动先填这个名字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "适合先选气质，再决定排版。",
+                    "target": "适合先选气质，再决定排版。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "适合文章、快讯、专栏等不同阅读场景。",
+                    "target": "适合文章、快讯、专栏等不同阅读场景。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "保存当前搭配、覆盖同名方案或删除旧方案。",
+                    "target": "保存当前搭配、覆盖同名方案或删除旧方案。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "适合需要做品牌化风格或保存新格式方案时使用。",
+                    "target": "适合需要做品牌化风格或保存新格式方案时使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于预览和复制 HTML 的默认主题。",
+                    "target": "用于预览和复制 HTML 的默认主题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "控制字号、留白和阅读节奏，独立于主题风格。",
+                    "target": "控制字号、留白和阅读节奏，独立于主题风格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "微信公众号的 AppSecret，仅保存在本地。",
+                    "target": "微信公众号的 AppSecret，仅保存在本地。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "使用中转服务 API Key，享受稳定IP地址和发布服务，中转服务加密保存 AppID，绝不保存 AppSecret。",
+                    "target": "使用中转服务 API Key，享受稳定IP地址和发布服务，中转服务加密保存 AppID，绝不保存 AppSecret。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "API Key 已激活，已绑定当前 AppID",
+                    "target": "API Key 已激活，已绑定当前 AppID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "可选。右侧发布资料没有作者时，会先用这里自动填充。",
+                    "target": "可选。右侧发布资料没有作者时，会先用这里自动填充。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "后续发布草稿时优先使用这个账号。",
+                    "target": "后续发布草稿时优先使用这个账号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "保存的是当前排版模板 + 当前高级微调配置。",
+                    "target": "保存的是当前排版模板 + 当前高级微调配置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认推荐无衬线，字号仍由下面单独控制。",
+                    "target": "默认推荐无衬线，字号仍由下面单独控制。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "适合长文，短句和清单内容通常建议关闭。",
+                    "target": "适合长文，短句和清单内容通常建议关闭。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "更像杂志或专栏排版。",
+                    "target": "更像杂志或专栏排版。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "留空时沿用当前主题主色。",
+                    "target": "留空时沿用当前主题主色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "控制正文承载区域的底色，也就是文字下面那层页面颜色。",
+                    "target": "控制正文承载区域的底色，也就是文字下面那层页面颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "账号名称",
+                    "target": "账号名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AppID",
+                    "target": "AppID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AppSecret",
+                    "target": "AppSecret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "IP 白名单辅助",
+                    "target": "IP 白名单辅助"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认作者",
+                    "target": "默认作者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认封面",
+                    "target": "默认封面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "设为默认账号",
+                    "target": "设为默认账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "当前主题风格",
+                    "target": "当前主题风格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "当前排版模板",
+                    "target": "当前排版模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "方案管理",
+                    "target": "方案管理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "打开高级微调",
+                    "target": "打开高级微调"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认主题",
+                    "target": "默认主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认排版模板",
+                    "target": "默认排版模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API Key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "方案别名",
+                    "target": "方案别名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字体方案",
+                    "target": "字体方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "段落两端对齐",
+                    "target": "段落两端对齐"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "段落首行缩进",
+                    "target": "段落首行缩进"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自定义主色",
+                    "target": "自定义主色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "纸张颜色",
+                    "target": "纸张颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "代码块主题",
+                    "target": "代码块主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mac 代码块头",
+                    "target": "Mac 代码块头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "代码块行号",
+                    "target": "代码块行号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入 AppSecret",
+                    "target": "请输入 AppSecret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：拾月 / SKYue",
+                    "target": "例如：拾月 / SKYue"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "我的公众号",
+                    "target": "我的公众号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：佛教长文 / 快讯版 / 课程封面版",
+                    "target": "例如：佛教长文 / 快讯版 / 课程封面版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "确认操作",
+                    "target": "确认操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "公众号账号配置",
+                    "target": "公众号账号配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "格式",
+                    "target": "格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "⌄ 显示工具栏",
+                    "target": "⌄ 显示工具栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "未命名草稿",
+                    "target": "未命名草稿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "尚未配置公众号账号",
+                    "target": "尚未配置公众号账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "主题风格",
+                    "target": "主题风格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "排版模板",
+                    "target": "排版模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "请先在主编辑区打开一篇 Markdown 笔记。",
+                    "target": "请先在主编辑区打开一篇 Markdown 笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "未配置账号",
+                    "target": "未配置账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "未选择",
+                    "target": "未选择"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "高级微调",
+                    "target": "高级微调"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "正在准备……",
+                    "target": "正在准备……"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "发布成功",
+                    "target": "发布成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "发布失败",
+                    "target": "发布失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "发布完成",
+                    "target": "发布完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "修复失败的图片后，重新发布即可补传（已成功的图片会走缓存，无需重传）。",
+                    "target": "修复失败的图片后，重新发布即可补传（已成功的图片会走缓存，无需重传）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "删除账号",
+                    "target": "删除账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "删除方案",
+                    "target": "删除方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "One of your code blocks includes unescaped HTML. This is a potentially serious security risk.",
+                    "target": "One of your code blocks includes unescaped HTML. This is a potentially serious security risk."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The element with unescaped HTML:",
+                    "target": "The element with unescaped HTML:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: KaTeX doesn't work in quirks mode. Make sure your website has a suitable doctype.",
+                    "target": "Warning: KaTeX doesn't work in quirks mode. Make sure your website has a suitable doctype."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Obsidian Mermaid 渲染失败，回退到 npm mermaid",
+                    "target": "Obsidian Mermaid 渲染失败，回退到 npm mermaid"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "DOMParser 解析图片引用失败，回退正则提取",
+                    "target": "DOMParser 解析图片引用失败，回退正则提取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "sips 图片转换失败",
+                    "target": "sips 图片转换失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Electron nativeImage 通过文件路径解码失败，尝试回退 data URL / Buffer",
+                    "target": "Electron nativeImage 通过文件路径解码失败，尝试回退 data URL / Buffer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Electron nativeImage 通过 data URL 解码失败，尝试回退 Buffer",
+                    "target": "Electron nativeImage 通过 data URL 解码失败，尝试回退 Buffer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Electron nativeImage 通过 Buffer 解码失败",
+                    "target": "Electron nativeImage 通过 Buffer 解码失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "createImageBitmap 解码失败，回退 HTMLImageElement",
+                    "target": "createImageBitmap 解码失败，回退 HTMLImageElement"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "资源路径解码失败，继续回退 Blob 解码",
+                    "target": "资源路径解码失败，继续回退 Blob 解码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Electron nativeImage 转 PNG 失败，回退浏览器画布转换",
+                    "target": "Electron nativeImage 转 PNG 失败，回退浏览器画布转换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Electron nativeImage 转 JPEG 失败，回退浏览器画布转换",
+                    "target": "Electron nativeImage 转 JPEG 失败，回退浏览器画布转换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[WeiXin MP Publisher] 正文图片转 PNG 失败，回退 JPEG 压缩",
+                    "target": "[WeiXin MP Publisher] 正文图片转 PNG 失败，回退 JPEG 压缩"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "data URL 标记为 base64，但解码失败，尝试按普通文本处理",
+                    "target": "data URL 标记为 base64，但解码失败，尝试按普通文本处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "微信拒绝了原始图片格式，尝试转成安全格式后重试",
+                    "target": "微信拒绝了原始图片格式，尝试转成安全格式后重试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[WeiXin MP Publisher] 图片节点数量与提取结果不一致",
+                    "target": "[WeiXin MP Publisher] 图片节点数量与提取结果不一致"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "校验已缓存封面素材失败，将重新上传封面",
+                    "target": "校验已缓存封面素材失败，将重新上传封面"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已清空账号默认封面。",
+                    "target": "已清空账号默认封面。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "公众号账号已保存。",
+                    "target": "公众号账号已保存。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先配置公众号账号，才能设置默认封面。",
+                    "target": "请先配置公众号账号，才能设置默认封面。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "API Key 激活成功",
+                    "target": "API Key 激活成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已新增一个本地公众号账号配置。",
+                    "target": "已新增一个本地公众号账号配置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "高级微调已保存。",
+                    "target": "高级微调已保存。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先打开一个 Markdown 文件。",
+                    "target": "请先打开一个 Markdown 文件。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "复制失败，当前环境不支持剪贴板写入。",
+                    "target": "复制失败，当前环境不支持剪贴板写入。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "只支持打开 http(s) 外部链接。",
+                    "target": "只支持打开 http(s) 外部链接。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先给样式方案起一个名字。",
+                    "target": "请先给样式方案起一个名字。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "最多只能保存 5 个样式方案。请先删除不用的方案。",
+                    "target": "最多只能保存 5 个样式方案。请先删除不用的方案。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有找到这个样式方案。",
+                    "target": "没有找到这个样式方案。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有找到对应账号。",
+                    "target": "没有找到对应账号。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已保存默认封面。",
+                    "target": "已保存默认封面。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在发布中，请稍候...",
+                    "target": "正在发布中，请稍候..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先在插件设置里配置一个公众号账号。",
+                    "target": "请先在插件设置里配置一个公众号账号。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前默认账号缺少 AppID 或 AppSecret。",
+                    "target": "当前默认账号缺少 AppID 或 AppSecret。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wp-cover empty",
+                    "target": "wp-cover empty"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wp-title untitled",
+                    "target": "wp-title untitled"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wp-account-status none",
+                    "target": "wp-account-status none"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wp-field wide",
+                    "target": "wp-field wide"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wp-cover-thumb empty",
+                    "target": "wp-cover-thumb empty"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wp-input wp-cover-input",
+                    "target": "wp-input wp-cover-input"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wp-menu-item wp-theme-menu-item",
+                    "target": "wp-menu-item wp-theme-menu-item"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "sep",
+                    "target": "sep"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "weixin-mp-publisher-publish-result weixin-mp-publisher-publish-failure",
+                    "target": "weixin-mp-publisher-publish-result weixin-mp-publisher-publish-failure"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "对应微信编辑器里的两端缩进，单位为 px。",
+                    "target": "对应微信编辑器里的两端缩进，单位为 px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "经典蓝白，接近公众号常见教程排版。",
+                    "target": "经典蓝白，接近公众号常见教程排版。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "冷静的深灰金属风，适合产品说明。",
+                    "target": "冷静的深灰金属风，适合产品说明。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "暖色杂志感，适合故事和观点文。",
+                    "target": "暖色杂志感，适合故事和观点文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "清爽的薄荷绿，适合轻教程和知识卡片。",
+                    "target": "清爽的薄荷绿，适合轻教程和知识卡片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "高对比橙黄，适合运营和增长内容。",
+                    "target": "高对比橙黄，适合运营和增长内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "偏青色的内容页，适合专业讲解。",
+                    "target": "偏青色的内容页，适合专业讲解。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "更像专栏文章的报刊风。",
+                    "target": "更像专栏文章的报刊风。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "深绿系，适合方法论和长期主义主题。",
+                    "target": "深绿系，适合方法论和长期主义主题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "黑白灰 · 大留白，适合观点长文和深度阅读。",
+                    "target": "黑白灰 · 大留白，适合观点长文和深度阅读。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "厚横线 + 高对比，像专栏杂志的版式。",
+                    "target": "厚横线 + 高对比，像专栏杂志的版式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "米色卡片 · 温润克制，像一页淡雅的韩系博客。",
+                    "target": "米色卡片 · 温润克制，像一页淡雅的韩系博客。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "米黄底 + 栗色主色 + 圆角，手感柔和。",
+                    "target": "米黄底 + 栗色主色 + 圆角，手感柔和。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "深蓝标题 + 薄荷引用 + 代码块友好，适合技术/工具文。",
+                    "target": "深蓝标题 + 薄荷引用 + 代码块友好，适合技术/工具文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "默认的公众号阅读节奏，适合大多数文章。",
+                    "target": "默认的公众号阅读节奏，适合大多数文章。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "更省篇幅，适合资讯、清单和短内容。",
+                    "target": "更省篇幅，适合资讯、清单和短内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "留白更多，适合长文和叙事内容。",
+                    "target": "留白更多，适合长文和叙事内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "更像专栏排版，适合观点和品牌内容。",
+                    "target": "更像专栏排版，适合观点和品牌内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render math in display mode, which puts the math in display style (so \\int and \\sum are large, for example), and centers the math on the page on its own line.",
+                    "target": "Render math in display mode, which puts the math in display style (so \\int and \\sum are large, for example), and centers the math on the page on its own line."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Determines the markup language of the output.",
+                    "target": "Determines the markup language of the output."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render display math in leqno style (left-justified tags).",
+                    "target": "Render display math in leqno style (left-justified tags)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Render display math flush left.",
+                    "target": "Render display math flush left."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Specifies a minimum thickness, in ems, for fraction lines, `\\sqrt` top lines, `{array}` vertical lines, `\\hline`, `\\hdashline`, `\\underline`, `\\overline`, and the borders of `\\fbox`, `\\boxed`, and `\\fcolorbox`.",
+                    "target": "Specifies a minimum thickness, in ems, for fraction lines, `\\sqrt` top lines, `{array}` vertical lines, `\\hline`, `\\hdashline`, `\\underline`, `\\overline`, and the borders of `\\fbox`, `\\boxed`, and `\\fcolorbox`."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Makes \\color behave like LaTeX's 2-argument \\textcolor, instead of LaTeX's one-argument \\color mode change.",
+                    "target": "Makes \\color behave like LaTeX's 2-argument \\textcolor, instead of LaTeX's one-argument \\color mode change."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Turn on strict / LaTeX faithfulness mode, which throws an error if the input uses features that are not supported by LaTeX.",
+                    "target": "Turn on strict / LaTeX faithfulness mode, which throws an error if the input uses features that are not supported by LaTeX."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Trust the input, enabling all HTML features such as \\url.",
+                    "target": "Trust the input, enabling all HTML features such as \\url."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If non-zero, all user-specified sizes, e.g. in \\rule{500em}{500em}, will be capped to maxSize ems. Otherwise, elements and spaces can be arbitrarily large",
+                    "target": "If non-zero, all user-specified sizes, e.g. in \\rule{500em}{500em}, will be capped to maxSize ems. Otherwise, elements and spaces can be arbitrarily large"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Limit the number of macro expansions to the specified number, to prevent e.g. infinite macro loops. If set to Infinity, the macro expander will try to fully expand as in LaTeX.",
+                    "target": "Limit the number of macro expansions to the specified number, to prevent e.g. infinite macro loops. If set to Infinity, the macro expander will try to fully expand as in LaTeX."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "错误",
+                    "target": "错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "API Key无效",
+                    "target": "API Key无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "请先填写 API Key 和 AppID",
+                    "target": "请先填写 API Key 和 AppID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "激活失败：请先填写 API Key 和 AppID",
+                    "target": "激活失败：请先填写 API Key 和 AppID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "激活失败：请求方式错误",
+                    "target": "激活失败：请求方式错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "激活失败：绑定写入失败，请稍后重试",
+                    "target": "激活失败：绑定写入失败，请稍后重试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "提示",
+                    "target": "提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "说明",
+                    "target": "说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "shebang",
+                    "target": "shebang"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "interpol",
+                    "target": "interpol"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "symbol",
+                    "target": "symbol"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "经典蓝",
+                    "target": "经典蓝"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "石墨灰",
+                    "target": "石墨灰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "枫糖棕",
+                    "target": "枫糖棕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "薄荷绿",
+                    "target": "薄荷绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "朝阳橙",
+                    "target": "朝阳橙"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "湖水青",
+                    "target": "湖水青"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "报刊风",
+                    "target": "报刊风"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "森林绿",
+                    "target": "森林绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "极简白",
+                    "target": "极简白"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "编辑部",
+                    "target": "编辑部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "墨卡",
+                    "target": "墨卡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "暖栗色",
+                    "target": "暖栗色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "技术流",
+                    "target": "技术流"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "均衡版",
+                    "target": "均衡版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "紧凑版",
+                    "target": "紧凑版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "舒展版",
+                    "target": "舒展版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "专栏版",
+                    "target": "专栏版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "跟随当前主题",
+                    "target": "跟随当前主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "无衬线",
+                    "target": "无衬线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "衬线",
+                    "target": "衬线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "等宽",
+                    "target": "等宽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "圆润",
+                    "target": "圆润"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "居中下划线",
+                    "target": "居中下划线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "整块色带",
+                    "target": "整块色带"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "描边圆角框",
+                    "target": "描边圆角框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "左侧竖线",
+                    "target": "左侧竖线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "胶囊标签",
+                    "target": "胶囊标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "浅底胶囊",
+                    "target": "浅底胶囊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "纯文字强调",
+                    "target": "纯文字强调"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "浅底标签",
+                    "target": "浅底标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "细下划线",
+                    "target": "细下划线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "柔和卡片（推荐）",
+                    "target": "柔和卡片（推荐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "包裹 + 圆角",
+                    "target": "包裹 + 圆角"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "包裹 + 方角",
+                    "target": "包裹 + 方角"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "不包裹 + 圆角",
+                    "target": "不包裹 + 圆角"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "不包裹 + 方角",
+                    "target": "不包裹 + 方角"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "title 优先",
+                    "target": "title 优先"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "alt 优先",
+                    "target": "alt 优先"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "只显示 alt",
+                    "target": "只显示 alt"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "不显示",
+                    "target": "不显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "胶囊（带背景色）",
+                    "target": "胶囊（带背景色）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "纯文字（仅主色）",
+                    "target": "纯文字（仅主色）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ipify",
+                    "target": "ipify"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "icanhazip",
+                    "target": "icanhazip"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "scope",
+                    "target": "scope"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "actuate",
+                    "target": "actuate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "arcrole",
+                    "target": "arcrole"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "href",
+                    "target": "href"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "role",
+                    "target": "role"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "show",
+                    "target": "show"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "title",
+                    "target": "title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "type",
+                    "target": "type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "lang",
+                    "target": "lang"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "space",
+                    "target": "space"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "xmlns",
+                    "target": "xmlns"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "xlink",
+                    "target": "xlink"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "import",
+                    "target": "import"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "charset",
+                    "target": "charset"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "namespace",
+                    "target": "namespace"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plain text",
+                    "target": "Plain text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Augmented Backus-Naur Form",
+                    "target": "Augmented Backus-Naur Form"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apache Access Log",
+                    "target": "Apache Access Log"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ActionScript",
+                    "target": "ActionScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ada",
+                    "target": "Ada"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AngelScript",
+                    "target": "AngelScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Apache config",
+                    "target": "Apache config"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AppleScript",
+                    "target": "AppleScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ArcGIS Arcade",
+                    "target": "ArcGIS Arcade"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ARM Assembly",
+                    "target": "ARM Assembly"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HTML, XML",
+                    "target": "HTML, XML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "style",
+                    "target": "style"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "script",
+                    "target": "script"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AsciiDoc",
+                    "target": "AsciiDoc"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AspectJ",
+                    "target": "AspectJ"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AutoHotkey",
+                    "target": "AutoHotkey"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AutoIt",
+                    "target": "AutoIt"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AVR Assembly",
+                    "target": "AVR Assembly"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Awk",
+                    "target": "Awk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bash",
+                    "target": "Bash"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Backus–Naur Form",
+                    "target": "Backus–Naur Form"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Brainfuck",
+                    "target": "Brainfuck"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cap’n Proto",
+                    "target": "Cap’n Proto"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ceylon",
+                    "target": "Ceylon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clean",
+                    "target": "Clean"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clojure",
+                    "target": "Clojure"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clojure REPL",
+                    "target": "Clojure REPL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CMake",
+                    "target": "CMake"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CoffeeScript",
+                    "target": "CoffeeScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Coq",
+                    "target": "Coq"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Caché Object Script",
+                    "target": "Caché Object Script"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "crmsh",
+                    "target": "crmsh"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Crystal",
+                    "target": "Crystal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CSP",
+                    "target": "CSP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CSS",
+                    "target": "CSS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown",
+                    "target": "Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dart",
+                    "target": "Dart"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delphi",
+                    "target": "Delphi"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Diff",
+                    "target": "Diff"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "truncatewords removetags linebreaksbr yesno get_digit timesince random striptags filesizeformat escape linebreaks length_is ljust rjust cut urlize fix_ampersands title floatformat capfirst pprint divisibleby add make_list unordered_list urlencode timeuntil urlizetrunc wordcount stringformat linenumbers slice date dictsort dictsortreversed default_if_none pluralize lower join center default truncatewords_html upper length phone2numeric wordwrap time addslashes slugify first escapejs force_escape iriencode last safe safeseq truncatechars localize unlocalize localtime utc timezone",
+                    "target": "truncatewords removetags linebreaksbr yesno get_digit timesince random striptags filesizeformat escape linebreaks length_is ljust rjust cut urlize fix_ampersands title floatformat capfirst pprint divisibleby add make_list unordered_list urlencode timeuntil urlizetrunc wordcount stringformat linenumbers slice date dictsort dictsortreversed default_if_none pluralize lower join center default truncatewords_html upper length phone2numeric wordwrap time addslashes slugify first escapejs force_escape iriencode last safe safeseq truncatechars localize unlocalize localtime utc timezone"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Django",
+                    "target": "Django"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "comment endcomment load templatetag ifchanged endifchanged if endif firstof for endfor ifnotequal endifnotequal widthratio extends include spaceless endspaceless regroup ifequal endifequal ssi now with cycle url filter endfilter debug block endblock else autoescape endautoescape csrf_token empty elif endwith static trans blocktrans endblocktrans get_static_prefix get_media_prefix plural get_current_language language get_available_languages get_current_language_bidi get_language_info get_language_info_list localize endlocalize localtime endlocaltime timezone endtimezone get_current_timezone verbatim",
+                    "target": "comment endcomment load templatetag ifchanged endifchanged if endif firstof for endfor ifnotequal endifnotequal widthratio extends include spaceless endspaceless regroup ifequal endifequal ssi now with cycle url filter endfilter debug block endblock else autoescape endautoescape csrf_token empty elif endwith static trans blocktrans endblocktrans get_static_prefix get_media_prefix plural get_current_language language get_available_languages get_current_language_bidi get_language_info get_language_info_list localize endlocalize localtime endlocaltime timezone endtimezone get_current_timezone verbatim"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "DNS Zone",
+                    "target": "DNS Zone"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dockerfile",
+                    "target": "Dockerfile"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Batch file (DOS)",
+                    "target": "Batch file (DOS)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Device Tree",
+                    "target": "Device Tree"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Dust",
+                    "target": "Dust"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extended Backus-Naur Form",
+                    "target": "Extended Backus-Naur Form"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Elixir",
+                    "target": "Elixir"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Elm",
+                    "target": "Elm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ruby",
+                    "target": "Ruby"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ERB",
+                    "target": "ERB"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Erlang REPL",
+                    "target": "Erlang REPL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Erlang",
+                    "target": "Erlang"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Excel formulae",
+                    "target": "Excel formulae"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "FIX",
+                    "target": "FIX"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flix",
+                    "target": "Flix"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fortran",
+                    "target": "Fortran"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "G-code (ISO 6983)",
+                    "target": "G-code (ISO 6983)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gherkin",
+                    "target": "Gherkin"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GML",
+                    "target": "GML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Go",
+                    "target": "Go"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Golo",
+                    "target": "Golo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Gradle",
+                    "target": "Gradle"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GraphQL",
+                    "target": "GraphQL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Groovy",
+                    "target": "Groovy"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Handlebars",
+                    "target": "Handlebars"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Haskell",
+                    "target": "Haskell"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Haxe",
+                    "target": "Haxe"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HSP",
+                    "target": "HSP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Hy",
+                    "target": "Hy"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Inform 7",
+                    "target": "Inform 7"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "TOML, also INI",
+                    "target": "TOML, also INI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Java",
+                    "target": "Java"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JavaScript",
+                    "target": "JavaScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JBoss CLI",
+                    "target": "JBoss CLI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Julia REPL",
+                    "target": "Julia REPL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kotlin",
+                    "target": "Kotlin"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lasso",
+                    "target": "Lasso"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LaTeX",
+                    "target": "LaTeX"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Leaf",
+                    "target": "Leaf"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Less",
+                    "target": "Less"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "quote",
+                    "target": "quote"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lisp",
+                    "target": "Lisp"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LiveCode",
+                    "target": "LiveCode"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LiveScript",
+                    "target": "LiveScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LLVM IR",
+                    "target": "LLVM IR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LSL (Linden Scripting Language)",
+                    "target": "LSL (Linden Scripting Language)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lua",
+                    "target": "Lua"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Makefile",
+                    "target": "Makefile"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mathematica",
+                    "target": "Mathematica"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Matlab",
+                    "target": "Matlab"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Maxima",
+                    "target": "Maxima"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MEL",
+                    "target": "MEL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mercury",
+                    "target": "Mercury"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MIPS Assembly",
+                    "target": "MIPS Assembly"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mizar",
+                    "target": "Mizar"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Perl",
+                    "target": "Perl"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Mojolicious",
+                    "target": "Mojolicious"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Monkey",
+                    "target": "Monkey"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MoonScript",
+                    "target": "MoonScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nested Text",
+                    "target": "Nested Text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nginx config",
+                    "target": "Nginx config"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nim",
+                    "target": "Nim"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nix",
+                    "target": "Nix"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Node REPL",
+                    "target": "Node REPL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OCaml",
+                    "target": "OCaml"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenSCAD",
+                    "target": "OpenSCAD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Oxygene",
+                    "target": "Oxygene"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Packet Filter config",
+                    "target": "Packet Filter config"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PostgreSQL",
+                    "target": "PostgreSQL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PHP template",
+                    "target": "PHP template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pony",
+                    "target": "Pony"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PowerShell",
+                    "target": "PowerShell"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Processing",
+                    "target": "Processing"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Python profiler",
+                    "target": "Python profiler"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prolog",
+                    "target": "Prolog"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Protocol Buffers",
+                    "target": "Protocol Buffers"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Puppet",
+                    "target": "Puppet"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PureBASIC",
+                    "target": "PureBASIC"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Python",
+                    "target": "Python"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "QML",
+                    "target": "QML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ReasonML",
+                    "target": "ReasonML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RenderMan RIB",
+                    "target": "RenderMan RIB"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Roboconf",
+                    "target": "Roboconf"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MikroTik RouterOS script",
+                    "target": "MikroTik RouterOS script"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RenderMan RSL",
+                    "target": "RenderMan RSL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Oracle Rules Language",
+                    "target": "Oracle Rules Language"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rust",
+                    "target": "Rust"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SAS",
+                    "target": "SAS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scala",
+                    "target": "Scala"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scheme",
+                    "target": "Scheme"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Scilab",
+                    "target": "Scilab"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Shell Session",
+                    "target": "Shell Session"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Smali",
+                    "target": "Smali"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Smalltalk",
+                    "target": "Smalltalk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SML (Standard ML)",
+                    "target": "SML (Standard ML)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SQF",
+                    "target": "SQF"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SQL",
+                    "target": "SQL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stan",
+                    "target": "Stan"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stata",
+                    "target": "Stata"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "STEP Part 21",
+                    "target": "STEP Part 21"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stylus",
+                    "target": "Stylus"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SubUnit",
+                    "target": "SubUnit"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Swift",
+                    "target": "Swift"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tagger Script",
+                    "target": "Tagger Script"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Test Anything Protocol",
+                    "target": "Test Anything Protocol"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tcl",
+                    "target": "Tcl"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Thrift",
+                    "target": "Thrift"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "TP",
+                    "target": "TP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Twig",
+                    "target": "Twig"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "TypeScript",
+                    "target": "TypeScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vala",
+                    "target": "Vala"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Visual Basic .NET",
+                    "target": "Visual Basic .NET"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "VBScript",
+                    "target": "VBScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "VBScript in HTML",
+                    "target": "VBScript in HTML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Verilog",
+                    "target": "Verilog"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Vim Script",
+                    "target": "Vim Script"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "WebAssembly",
+                    "target": "WebAssembly"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Wren",
+                    "target": "Wren"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Intel x86 Assembly",
+                    "target": "Intel x86 Assembly"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "XL",
+                    "target": "XL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "XQuery",
+                    "target": "XQuery"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zephir",
+                    "target": "Zephir"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "新账号",
+                    "target": "新账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "latin",
+                    "target": "latin"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cyrillic",
+                    "target": "cyrillic"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "armenian",
+                    "target": "armenian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "brahmic",
+                    "target": "brahmic"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "georgian",
+                    "target": "georgian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cjk",
+                    "target": "cjk"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "hangul",
+                    "target": "hangul"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "字号",
+                    "target": "字号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "行高",
+                    "target": "行高"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "字间距",
+                    "target": "字间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "段落上下间距",
+                    "target": "段落上下间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "两端缩进",
+                    "target": "两端缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题上间距",
+                    "target": "标题上间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标题下间距",
+                    "target": "标题下间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "引用上下内边距",
+                    "target": "引用上下内边距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "引用左右内边距",
+                    "target": "引用左右内边距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "图片圆角",
+                    "target": "图片圆角"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开微信公众号预览",
+                    "target": "打开微信公众号预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "复制当前笔记的微信 HTML",
+                    "target": "复制当前笔记的微信 HTML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "发布到公众号草稿箱",
+                    "target": "发布到公众号草稿箱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "\\u516C\\u4F17\\u53F7\n\\u4F60\\u7684\\u516C\\u4F17\\u53F7\\u540D\\u79F0\nAppID\nwx...\nAppSecret\n...",
+                    "target": "\\u516C\\u4F17\\u53F7\n\\u4F60\\u7684\\u516C\\u4F17\\u53F7\\u540D\\u79F0\nAppID\nwx...\nAppSecret\n..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "完成",
+                    "target": "完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "确定",
+                    "target": "确定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "账号信息只保存在本地插件配置，用于直接调用微信草稿接口。个人使用完全免费。",
+                    "target": "账号信息只保存在本地插件配置，用于直接调用微信草稿接口。个人使用完全免费。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "将微信公众号后台「基础信息」页的内容全选复制后粘贴到下方，自动识别账号名、AppID 和 AppSecret：",
+                    "target": "将微信公众号后台「基础信息」页的内容全选复制后粘贴到下方，自动识别账号名、AppID 和 AppSecret："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前还没有账号，先新增一个再保存。",
+                    "target": "当前还没有账号，先新增一个再保存。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "还没有保存过格式方案。先去高级微调里调一套，再保存成自己的方案。",
+                    "target": "还没有保存过格式方案。先去高级微调里调一套，再保存成自己的方案。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "发布草稿",
+                    "target": "发布草稿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "标题",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "作者",
+                    "target": "作者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "封面",
+                    "target": "封面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "从电脑选择…",
+                    "target": "从电脑选择…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "使用账号默认封面",
+                    "target": "使用账号默认封面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "恢复默认",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "高级微调 / 我的方案…",
+                    "target": "高级微调 / 我的方案…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前没有可预览的 Markdown 文件。",
+                    "target": "当前没有可预览的 Markdown 文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "打开一篇笔记以开始",
+                    "target": "打开一篇笔记以开始"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "WeiXin MP Publisher 设置",
+                    "target": "WeiXin MP Publisher 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "公众号账号",
+                    "target": "公众号账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "还没有配置公众号账号。配置后即可用于发布草稿。",
+                    "target": "还没有配置公众号账号。配置后即可用于发布草稿。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "还没有保存格式方案。先调好一套，再起个别名保存。",
+                    "target": "还没有保存格式方案。先调好一套，再起个别名保存。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "setup draw",
+                    "target": "setup draw"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "警示",
+                    "target": "警示"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(`WARN: ${e}`,...t)},Pa=(e,t)=>{QE[`${e}/${t}`]||(console.log(`Deprecated as of ${e}. ${t}`)",
+                    "target": "log(`WARN: ${e}`,...t)},Pa=(e,t)=>{QE[`${e}/${t}`]||(console.log(`Deprecated as of ${e}. ${t}`)"
+                },
+                {
+                    "source": "log(\"Element previously highlighted. To highlight again, first unset `dataset.highlighted`.\",B);return}if(B.children.length>0&&(o.ignoreUnescapedHTML||(console.warn(\"One of your code blocks includes unescaped HTML. This is a potentially serious security risk.\")",
+                    "target": "log(\"Element previously highlighted. To highlight again, first unset `dataset.highlighted`.\",B);return}if(B.children.length>0&&(o.ignoreUnescapedHTML||(console.warn(\"One of your code blocks includes unescaped HTML. This is a potentially serious security risk.\")"
+                },
+                {
+                    "source": "setName(\"API Key\")",
+                    "target": "setName(\"API Key\")"
+                },
+                {
+                    "source": "text:\"input:is(:not([type!='']), [type=text])\"",
+                    "target": "text:\"input:is(:not([type!='']), [type=text])\""
+                },
+                {
+                    "source": "name:\"Plain text\"",
+                    "target": "name:\"Plain text\""
+                },
+                {
+                    "source": "name:\"Augmented Backus-Naur Form\"",
+                    "target": "name:\"Augmented Backus-Naur Form\""
+                },
+                {
+                    "source": "name:\"Apache Access Log\"",
+                    "target": "name:\"Apache Access Log\""
+                },
+                {
+                    "source": "name:\"Apache config\"",
+                    "target": "name:\"Apache config\""
+                },
+                {
+                    "source": "name:\"ArcGIS Arcade\"",
+                    "target": "name:\"ArcGIS Arcade\""
+                },
+                {
+                    "source": "name:\"ARM Assembly\"",
+                    "target": "name:\"ARM Assembly\""
+                },
+                {
+                    "source": "name:\"HTML, XML\"",
+                    "target": "name:\"HTML, XML\""
+                },
+                {
+                    "source": "name:\"AVR Assembly\"",
+                    "target": "name:\"AVR Assembly\""
+                },
+                {
+                    "source": "name:\"Clojure REPL\"",
+                    "target": "name:\"Clojure REPL\""
+                },
+                {
+                    "source": "name:\"DNS Zone\"",
+                    "target": "name:\"DNS Zone\""
+                },
+                {
+                    "source": "name:\"Batch file (DOS)\"",
+                    "target": "name:\"Batch file (DOS)\""
+                },
+                {
+                    "source": "name:\"Device Tree\"",
+                    "target": "name:\"Device Tree\""
+                },
+                {
+                    "source": "name:\"Extended Backus-Naur Form\"",
+                    "target": "name:\"Extended Backus-Naur Form\""
+                },
+                {
+                    "source": "name:\"Erlang REPL\"",
+                    "target": "name:\"Erlang REPL\""
+                },
+                {
+                    "source": "name:\"Excel formulae\"",
+                    "target": "name:\"Excel formulae\""
+                },
+                {
+                    "source": "name:\"G-code (ISO 6983)\"",
+                    "target": "name:\"G-code (ISO 6983)\""
+                },
+                {
+                    "source": "name:\"Inform 7\"",
+                    "target": "name:\"Inform 7\""
+                },
+                {
+                    "source": "name:\"TOML, also INI\"",
+                    "target": "name:\"TOML, also INI\""
+                },
+                {
+                    "source": "name:\"JBoss CLI\"",
+                    "target": "name:\"JBoss CLI\""
+                },
+                {
+                    "source": "name:\"Julia REPL\"",
+                    "target": "name:\"Julia REPL\""
+                },
+                {
+                    "source": "name:\"LLVM IR\"",
+                    "target": "name:\"LLVM IR\""
+                },
+                {
+                    "source": "name:\"LSL (Linden Scripting Language)\"",
+                    "target": "name:\"LSL (Linden Scripting Language)\""
+                },
+                {
+                    "source": "name:\"MIPS Assembly\"",
+                    "target": "name:\"MIPS Assembly\""
+                },
+                {
+                    "source": "name:\"Nested Text\"",
+                    "target": "name:\"Nested Text\""
+                },
+                {
+                    "source": "name:\"Nginx config\"",
+                    "target": "name:\"Nginx config\""
+                },
+                {
+                    "source": "name:\"Node REPL\"",
+                    "target": "name:\"Node REPL\""
+                },
+                {
+                    "source": "name:\"Packet Filter config\"",
+                    "target": "name:\"Packet Filter config\""
+                },
+                {
+                    "source": "name:\"PHP template\"",
+                    "target": "name:\"PHP template\""
+                },
+                {
+                    "source": "name:\"Python profiler\"",
+                    "target": "name:\"Python profiler\""
+                },
+                {
+                    "source": "name:\"Protocol Buffers\"",
+                    "target": "name:\"Protocol Buffers\""
+                },
+                {
+                    "source": "name:\"RenderMan RIB\"",
+                    "target": "name:\"RenderMan RIB\""
+                },
+                {
+                    "source": "name:\"MikroTik RouterOS script\"",
+                    "target": "name:\"MikroTik RouterOS script\""
+                },
+                {
+                    "source": "name:\"RenderMan RSL\"",
+                    "target": "name:\"RenderMan RSL\""
+                },
+                {
+                    "source": "name:\"Oracle Rules Language\"",
+                    "target": "name:\"Oracle Rules Language\""
+                },
+                {
+                    "source": "name:\"Shell Session\"",
+                    "target": "name:\"Shell Session\""
+                },
+                {
+                    "source": "name:\"SML (Standard ML)\"",
+                    "target": "name:\"SML (Standard ML)\""
+                },
+                {
+                    "source": "name:\"Tagger Script\"",
+                    "target": "name:\"Tagger Script\""
+                },
+                {
+                    "source": "name:\"Test Anything Protocol\"",
+                    "target": "name:\"Test Anything Protocol\""
+                },
+                {
+                    "source": "name:\"Visual Basic .NET\"",
+                    "target": "name:\"Visual Basic .NET\""
+                },
+                {
+                    "source": "name:\"VBScript in HTML\"",
+                    "target": "name:\"VBScript in HTML\""
+                },
+                {
+                    "source": "name:\"Vim Script\"",
+                    "target": "name:\"Vim Script\""
+                },
+                {
+                    "source": "name:\"Intel x86 Assembly\"",
+                    "target": "name:\"Intel x86 Assembly\""
+                },
+                {
+                    "source": "description:\"Render math in display mode, which puts the math in display style (so \\\\int and \\\\sum are large, for example), and centers the math on the page on its own line.\"",
+                    "target": "description:\"Render math in display mode, which puts the math in display style (so \\\\int and \\\\sum are large, for example), and centers the math on the page on its own line.\""
+                },
+                {
+                    "source": "description:\"Determines the markup language of the output.\"",
+                    "target": "description:\"Determines the markup language of the output.\""
+                },
+                {
+                    "source": "description:\"Render display math in leqno style (left-justified tags).\"",
+                    "target": "description:\"Render display math in leqno style (left-justified tags).\""
+                },
+                {
+                    "source": "description:\"Render display math flush left.\"",
+                    "target": "description:\"Render display math flush left.\""
+                },
+                {
+                    "source": "description:\"Specifies a minimum thickness, in ems, for fraction lines, `\\\\sqrt` top lines, `{array}` vertical lines, `\\\\hline`, `\\\\hdashline`, `\\\\underline`, `\\\\overline`, and the borders of `\\\\fbox`, `\\\\boxed`, and `\\\\fcolorbox`.\"",
+                    "target": "description:\"Specifies a minimum thickness, in ems, for fraction lines, `\\\\sqrt` top lines, `{array}` vertical lines, `\\\\hline`, `\\\\hdashline`, `\\\\underline`, `\\\\overline`, and the borders of `\\\\fbox`, `\\\\boxed`, and `\\\\fcolorbox`.\""
+                },
+                {
+                    "source": "description:\"Turn on strict / LaTeX faithfulness mode, which throws an error if the input uses features that are not supported by LaTeX.\"",
+                    "target": "description:\"Turn on strict / LaTeX faithfulness mode, which throws an error if the input uses features that are not supported by LaTeX.\""
+                },
+                {
+                    "source": "description:\"Trust the input, enabling all HTML features such as \\\\url.\"",
+                    "target": "description:\"Trust the input, enabling all HTML features such as \\\\url.\""
+                },
+                {
+                    "source": "description:\"If non-zero, all user-specified sizes, e.g. in \\\\rule{500em}{500em}, will be capped to maxSize ems. Otherwise, elements and spaces can be arbitrarily large\"",
+                    "target": "description:\"If non-zero, all user-specified sizes, e.g. in \\\\rule{500em}{500em}, will be capped to maxSize ems. Otherwise, elements and spaces can be arbitrarily large\""
+                },
+                {
+                    "source": "description:\"Limit the number of macro expansions to the specified number, to prevent e.g. infinite macro loops. If set to Infinity, the macro expander will try to fully expand as in LaTeX.\"",
+                    "target": "description:\"Limit the number of macro expansions to the specified number, to prevent e.g. infinite macro loops. If set to Infinity, the macro expander will try to fully expand as in LaTeX.\""
+                },
+                {
+                    "source": "text:\" \"",
+                    "target": "text:\" \""
+                }
+            ]
+        }
+    }
+}

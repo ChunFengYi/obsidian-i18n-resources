@@ -1,0 +1,50 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "tidy-tabs",
+        "version": "1.0.0",
+        "title": "Tidy Tabs",
+        "description": "Tidy Tabs Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Leave pinned tabs open when closing the other tabs.",
+                    "target": "Leave pinned tabs open when closing the other tabs."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Keep only the current tab",
+                    "target": "Keep only the current tab"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Keep pinned tabs",
+                    "target": "Keep pinned tabs"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\n      `Kept only the current tab (closed ${targets.length} ${targets.length === 1 ? \"tab\" : \"tabs\"}).`\n    )",
+                    "target": "Notice(\n      `Kept only the current tab (closed ${targets.length} ${targets.length === 1 ? \"tab\" : \"tabs\"}).`\n    )"
+                },
+                {
+                    "source": "name: \"Keep only the current tab\"",
+                    "target": "name: \"Keep only the current tab\""
+                },
+                {
+                    "source": "name: \"Keep pinned tabs\"",
+                    "target": "name: \"Keep pinned tabs\""
+                }
+            ]
+        }
+    }
+}

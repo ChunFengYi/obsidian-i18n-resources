@@ -1,0 +1,1314 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "wechat-link-sync",
+        "version": "1.0.0",
+        "title": "WeChat Link Sync",
+        "description": "WeChat Link Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.7.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "return to article",
+                    "target": "return to article"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "安全标题",
+                    "target": "安全标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "article",
+                    "target": "article"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "meta",
+                    "target": "meta"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "EntityRef: expecting ;",
+                    "target": "EntityRef: expecting ;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Extra content at the end of the document",
+                    "target": "Extra content at the end of the document"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unexpected end of input",
+                    "target": "unexpected end of input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Defuddle",
+                    "target": "Defuddle"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching async variables:",
+                    "target": "Error fetching async variables:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in async extraction:",
+                    "target": "Error in async extraction:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing document:",
+                    "target": "Error processing document:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Defuddle: Error evaluating media queries:",
+                    "target": "Defuddle: Error evaluating media queries:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error applying styles for selector:",
+                    "target": "Error applying styles for selector:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Defuddle: Error parsing schema.org data:",
+                    "target": "Defuddle: Error parsing schema.org data:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Defuddle: Problematic JSON content:",
+                    "target": "Defuddle: Problematic JSON content:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error finding extractor:",
+                    "target": "Error finding extractor:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "YoutubeExtractor: failed to extract transcript from existing DOM",
+                    "target": "YoutubeExtractor: failed to extract transcript from existing DOM"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "YoutubeExtractor: failed to parse inline JSON",
+                    "target": "YoutubeExtractor: failed to parse inline JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "YoutubeExtractor: failed to fetch transcript",
+                    "target": "YoutubeExtractor: failed to fetch transcript"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "YoutubeExtractor: failed to extract transcript from opened DOM",
+                    "target": "YoutubeExtractor: failed to extract transcript from opened DOM"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "YoutubeExtractor: failed to open mobile transcript panel",
+                    "target": "YoutubeExtractor: failed to open mobile transcript panel"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error converting HTML to Markdown:",
+                    "target": "Error converting HTML to Markdown:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Defuddle:",
+                    "target": "Defuddle:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Problematic content:",
+                    "target": "Problematic content:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "测试",
+                    "target": "测试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "绑定",
+                    "target": "绑定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "解除绑定",
+                    "target": "解除绑定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "重新连接",
+                    "target": "重新连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "导出",
+                    "target": "导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Defuddle: Failed to process stylesheet:",
+                    "target": "Defuddle: Failed to process stylesheet:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Defuddle: Failed to process CSS rule:",
+                    "target": "Defuddle: Failed to process CSS rule:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to convert MathML to LaTeX:",
+                    "target": "Failed to convert MathML to LaTeX:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to convert LaTeX to MathML:",
+                    "target": "Failed to convert LaTeX to MathML:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to parse URL:",
+                    "target": "Failed to parse URL:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to parse base URL:",
+                    "target": "Failed to parse base URL:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: Temml doesn't work in quirks mode. Make sure your website has a suitable doctype.",
+                    "target": "Warning: Temml doesn't work in quirks mode. Make sure your website has a suitable doctype."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法读取剪贴板，请手动粘贴链接",
+                    "target": "无法读取剪贴板，请手动粘贴链接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "复制失败，请检查系统剪贴板权限",
+                    "target": "复制失败，请检查系统剪贴板权限"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入 6 位绑定码",
+                    "target": "请输入 6 位绑定码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "设备绑定成功",
+                    "target": "设备绑定成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前知识库中没有找到这篇已处理文章",
+                    "target": "当前知识库中没有找到这篇已处理文章"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先打开要在文件列表中定位的文章",
+                    "target": "请先打开要在文件列表中定位的文章"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法打开文件列表，请先启用核心插件“文件列表”",
+                    "target": "无法打开文件列表，请先启用核心插件“文件列表”"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法在文件列表中定位当前文件",
+                    "target": "无法在文件列表中定位当前文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请等待当前处理任务结束",
+                    "target": "请等待当前处理任务结束"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "本地处理完成，文章已写入当前知识库",
+                    "target": "本地处理完成，文章已写入当前知识库"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先在“选项”中绑定设备",
+                    "target": "请先在“选项”中绑定设备"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "将在当前文章安全结束后停止",
+                    "target": "将在当前文章安全结束后停止"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已移入“不处理”，全部处理时会自动跳过",
+                    "target": "已移入“不处理”，全部处理时会自动跳过"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已恢复为未处理",
+                    "target": "已恢复为未处理"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已移入回收箱，3 天后自动永久清除；本地文档未删除",
+                    "target": "已移入回收箱，3 天后自动永久清除；本地文档未删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "服务器记录已永久清除；本地文档未删除",
+                    "target": "服务器记录已永久清除；本地文档未删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "服务器已解绑，但本地安全存储清理失败；旧令牌已在服务器失效",
+                    "target": "服务器已解绑，但本地安全存储清理失败；旧令牌已在服务器失效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已解除绑定",
+                    "target": "已解除绑定"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "设备名称已保存在本机，服务器更新失败",
+                    "target": "设备名称已保存在本机，服务器更新失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "在文件列表中定位当前文件",
+                    "target": "在文件列表中定位当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "本地处理的文章链接",
+                    "target": "本地处理的文章链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "刷新文章记录",
+                    "target": "刷新文章记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "文章处理进度",
+                    "target": "文章处理进度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "永久清空当前回收箱分类",
+                    "target": "永久清空当前回收箱分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "永久清除这条记录",
+                    "target": "永久清除这条记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "清除这条服务器记录",
+                    "target": "清除这条服务器记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "callout",
+                    "source": "正文顶部 Callout",
+                    "target": "正文顶部 Callout"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "article-inbox-banner is-unbound",
+                    "target": "article-inbox-banner is-unbound"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon article-inbox-corner-tool article-inbox-local-reveal",
+                    "target": "clickable-icon article-inbox-corner-tool article-inbox-local-reveal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "mod-cta article-inbox-local-process",
+                    "target": "mod-cta article-inbox-local-process"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon article-inbox-corner-tool article-inbox-action-refresh",
+                    "target": "clickable-icon article-inbox-corner-tool article-inbox-action-refresh"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon article-inbox-list-tool is-danger",
+                    "target": "clickable-icon article-inbox-list-tool is-danger"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon article-inbox-list-tool",
+                    "target": "clickable-icon article-inbox-list-tool"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "article-inbox-empty is-loading",
+                    "target": "article-inbox-empty is-loading"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon article-inbox-purge",
+                    "target": "clickable-icon article-inbox-purge"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "mod-cta article-inbox-process",
+                    "target": "mod-cta article-inbox-process"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon article-inbox-clear",
+                    "target": "clickable-icon article-inbox-clear"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "modal-button-container article-inbox-detail-actions",
+                    "target": "modal-button-container article-inbox-detail-actions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon article-inbox-danger",
+                    "target": "clickable-icon article-inbox-danger"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "setting-item-description article-inbox-settings-lead",
+                    "target": "setting-item-description article-inbox-settings-lead"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "只检查服务、证书和协议版本，不创建绑定。",
+                    "target": "只检查服务、证书和协议版本，不创建绑定。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在小程序“设备”页生成，6 位数字，10 分钟有效。",
+                    "target": "在小程序“设备”页生成，6 位数字，10 分钟有效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "会显示在小程序的消费者设备列表中。",
+                    "target": "会显示在小程序的消费者设备列表中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "用于实时更新数量和当前文章列表，不会自动处理文章。",
+                    "target": "用于实时更新数量和当前文章列表，不会自动处理文章。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "撤销本设备令牌并断开实时连接。",
+                    "target": "撤销本设备令牌并断开实时连接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "10–120 秒。",
+                    "target": "10–120 秒。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "默认 00-同步链接",
+                    "target": "默认 00-同步链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "统一下载到文章目录下的 ImageSource；所有文章共用该图片文件夹。",
+                    "target": "统一下载到文章目录下的 ImageSource；所有文章共用该图片文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "第一版固定为安全标题；同名追加短采集编号。",
+                    "target": "第一版固定为安全标题；同名追加短采集编号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "重建 WebSocket 后通过 REST 补查数量。",
+                    "target": "重建 WebSocket 后通过 REST 补查数量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "版本、连接状态与脱敏错误码。",
+                    "target": "版本、连接状态与脱敏错误码。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "在小程序中投递链接后，文章会出现在这里",
+                    "target": "在小程序中投递链接后，文章会出现在这里"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "处理失败的文章会保留原因，并等待手动重试",
+                    "target": "处理失败的文章会保留原因，并等待手动重试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "领取任务后，可在这里查看处理进度",
+                    "target": "领取任务后，可在这里查看处理进度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "处理完成后，可从这里打开本地 Markdown",
+                    "target": "处理完成后，可从这里打开本地 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "标记为“不处理”的文章会保留在这里",
+                    "target": "标记为“不处理”的文章会保留在这里"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "清除的服务器记录会在这里保留 3 天",
+                    "target": "清除的服务器记录会在这里保留 3 天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "当前桌面客户端",
+                    "target": "当前桌面客户端"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "“全部处理”会依次处理所有未处理文章，并自动跳过“不处理”分类",
+                    "target": "“全部处理”会依次处理所有未处理文章，并自动跳过“不处理”分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "每篇文章直接保存为该目录下的一个 Markdown 文件",
+                    "target": "每篇文章直接保存为该目录下的一个 Markdown 文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "右下角状态栏与轻量反馈",
+                    "target": "右下角状态栏与轻量反馈"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "不导出令牌、正文或 Vault 内容",
+                    "target": "不导出令牌、正文或 Vault 内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "frontmatter",
+                    "source": "Frontmatter",
+                    "target": "Frontmatter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "连接与绑定",
+                    "target": "连接与绑定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "文章处理",
+                    "target": "文章处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "文件与目录",
+                    "target": "文件与目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "界面与提醒",
+                    "target": "界面与提醒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "高级与诊断",
+                    "target": "高级与诊断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "reconnect",
+                    "target": "reconnect"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "来源",
+                    "target": "来源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "作者",
+                    "target": "作者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "发布时间",
+                    "target": "发布时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "采集时间",
+                    "target": "采集时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "更新时间",
+                    "target": "更新时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "移入回收箱",
+                    "target": "移入回收箱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "处理设备",
+                    "target": "处理设备"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "完成设备",
+                    "target": "完成设备"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "本地文件",
+                    "target": "本地文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "失败原因",
+                    "target": "失败原因"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "采集备注",
+                    "target": "采集备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "状态",
+                    "target": "状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "标题",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "链接",
+                    "target": "链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mi",
+                    "target": "mi"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mfenced",
+                    "target": "mfenced"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mrow",
+                    "target": "mrow"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "连接测试",
+                    "target": "连接测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "绑定状态",
+                    "target": "绑定状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "一次性绑定码",
+                    "target": "一次性绑定码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "设备名称",
+                    "target": "设备名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "WebSocket 自动连接",
+                    "target": "WebSocket 自动连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "解除绑定",
+                    "target": "解除绑定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "处理结束后打开报告",
+                    "target": "处理结束后打开报告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "抓取超时",
+                    "target": "抓取超时"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文章保存目录",
+                    "target": "文章保存目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "图片保存方式",
+                    "target": "图片保存方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文件名规则",
+                    "target": "文件名规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "用户备注写入位置",
+                    "target": "用户备注写入位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "连接状态",
+                    "target": "连接状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "重新连接",
+                    "target": "重新连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "导出诊断信息",
+                    "target": "导出诊断信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开同步链接",
+                    "target": "打开同步链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "全部处理未处理文章",
+                    "target": "全部处理未处理文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开本地链接处理入口",
+                    "target": "打开本地链接处理入口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "重新连接实时提醒",
+                    "target": "重新连接实时提醒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "hyphen",
+                    "target": "hyphen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "1st-level escape",
+                    "target": "1st-level escape"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "ellipsis",
+                    "target": "ellipsis"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "addition compound",
+                    "target": "addition compound"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "circa",
+                    "target": "circa"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "comma enumeration S",
+                    "target": "comma enumeration S"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "electron dot",
+                    "target": "electron dot"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "KV x",
+                    "target": "KV x"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "prime",
+                    "target": "prime"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "粘贴文章链接",
+                    "target": "粘贴文章链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "实时提醒已断开，仍可手动刷新和处理文章",
+                    "target": "实时提醒已断开，仍可手动刷新和处理文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "重连",
+                    "target": "重连"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "请先在“选项”中绑定小程序账号",
+                    "target": "请先在“选项”中绑定小程序账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "本地处理链接",
+                    "target": "本地处理链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "直接解析并写入当前 Vault，不会创建或上传服务器记录",
+                    "target": "直接解析并写入当前 Vault，不会创建或上传服务器记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "粘贴",
+                    "target": "粘贴"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文章记录",
+                    "target": "文章记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "恢复",
+                    "target": "恢复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "不处理",
+                    "target": "不处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "处理",
+                    "target": "处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "重新处理",
+                    "target": "重新处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "打开文章",
+                    "target": "打开文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正在加载更多…",
+                    "target": "正在加载更多…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "打开原文",
+                    "target": "打开原文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "复制详情",
+                    "target": "复制详情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "复制链接",
+                    "target": "复制链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "恢复为未处理",
+                    "target": "恢复为未处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "再次处理",
+                    "target": "再次处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "打开本地文章",
+                    "target": "打开本地文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "恢复记录",
+                    "target": "恢复记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "状态和列表会实时更新；文章只会在你点击“全部处理”或单条“处理”后写入当前知识库。",
+                    "target": "状态和列表会实时更新；文章只会在你点击“全部处理”或单条“处理”后写入当前知识库。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "此操作会立即使当前设备令牌失效。",
+                    "target": "此操作会立即使当前设备令牌失效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "解除绑定",
+                    "target": "解除绑定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "在文件列表中定位当前文件",
+                    "target": "在文件列表中定位当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "刷新文章记录",
+                    "target": "刷新文章记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "永久清空当前回收箱分类",
+                    "target": "永久清空当前回收箱分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "永久清除这条记录",
+                    "target": "永久清除这条记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "清除这条服务器记录",
+                    "target": "清除这条服务器记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "暂无未处理文章",
+                    "target": "暂无未处理文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "暂无处理失败记录",
+                    "target": "暂无处理失败记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "暂无正在处理的文章",
+                    "target": "暂无正在处理的文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "暂无已处理文章",
+                    "target": "暂无已处理文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "暂无不处理文章",
+                    "target": "暂无不处理文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "回收箱为空",
+                    "target": "回收箱为空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "url",
+                    "target": "url"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"EntityRef: expecting ;\")",
+                    "target": "error(\"EntityRef: expecting ;\")"
+                },
+                {
+                    "source": "error(\"entity not matching Reference production: \"+be),be;var Fe=_e.slice(1,-1);return a(V,Fe)?V[Fe]:Fe.charAt(0)===\"#\"?T(parseInt(Fe.substring(1).replace(\"x\",\"0x\")",
+                    "target": "error(\"entity not matching Reference production: \"+be),be;var Fe=_e.slice(1,-1);return a(V,Fe)?V[Fe]:Fe.charAt(0)===\"#\"?T(parseInt(Fe.substring(1).replace(\"x\",\"0x\")"
+                },
+                {
+                    "source": "error(\"Extra content at the end of the document\")",
+                    "target": "error(\"Extra content at the end of the document\")"
+                },
+                {
+                    "source": "error(\"Unexpected content outside root element: '\"+we+\"'\")",
+                    "target": "error(\"Unexpected content outside root element: '\"+we+\"'\")"
+                },
+                {
+                    "source": "error(\"unexpected end of input\")",
+                    "target": "error(\"unexpected end of input\")"
+                },
+                {
+                    "source": "log(\"Initial parse returned very little content, trying again\")",
+                    "target": "log(\"Initial parse returned very little content, trying again\")"
+                },
+                {
+                    "source": "log(\"Retry produced more content\")",
+                    "target": "log(\"Retry produced more content\")"
+                },
+                {
+                    "source": "log(\"Still very little content, retrying without hidden-element removal\")",
+                    "target": "log(\"Still very little content, retrying without hidden-element removal\")"
+                },
+                {
+                    "source": "log(\"Hidden-element retry produced more content\")",
+                    "target": "log(\"Hidden-element retry produced more content\")"
+                },
+                {
+                    "source": "log(\"Hidden-selector retry produced better focused content\")",
+                    "target": "log(\"Hidden-selector retry produced better focused content\")"
+                },
+                {
+                    "source": "log(\"Still very little content, retrying without scoring/partial selectors (possible index page)\")",
+                    "target": "log(\"Still very little content, retrying without scoring/partial selectors (possible index page)\")"
+                },
+                {
+                    "source": "log(\"Index page retry produced more content\")",
+                    "target": "log(\"Index page retry produced more content\")"
+                },
+                {
+                    "source": "log(\"Schema.org suggests a better content element, retrying with selector:\",E),x=this.parseInternal({contentSelector:E})}else this._log(\"Using schema.org text as content (DOM element not found)\")",
+                    "target": "log(\"Schema.org suggests a better content element, retrying with selector:\",E),x=this.parseInternal({contentSelector:E})}else this._log(\"Using schema.org text as content (DOM element not found)\")"
+                },
+                {
+                    "source": "log(\"Using contentSelector:\",T.contentSelector,fe?\"found\":\"not found\")",
+                    "target": "log(\"Using contentSelector:\",T.contentSelector,fe?\"found\":\"not found\")"
+                },
+                {
+                    "source": "log(\"Found content element via schema.org text\")",
+                    "target": "log(\"Found content element via schema.org text\")"
+                },
+                {
+                    "source": "error(\"Defuddle\",\"Error processing document:\",se);let n=this._serializeFallbackBody(),s=Date.now();return Object.assign(Object.assign({content:n},oe),{wordCount:this.countHtmlWords(n),parseTime:Math.round(s-V),metaTags:X})}}countHtmlWords(x){let k=x.replace(/<[^>]*>/g,\" \")",
+                    "target": "error(\"Defuddle\",\"Error processing document:\",se);let n=this._serializeFallbackBody(),s=Date.now();return Object.assign(Object.assign({content:n},oe),{wordCount:this.countHtmlWords(n),parseTime:Math.round(s-V),metaTags:X})}}countHtmlWords(x){let k=x.replace(/<[^>]*>/g,\" \")"
+                },
+                {
+                    "source": "error(\"Defuddle: Error evaluating media queries:\",A)}return k}applyMobileStyles(x,k){k.forEach(({selector:S,styles:A})=>{try{x.querySelectorAll(S).forEach(m=>{m.setAttribute(\"style\",(m.getAttribute(\"style\")",
+                    "target": "error(\"Defuddle: Error evaluating media queries:\",A)}return k}applyMobileStyles(x,k){k.forEach(({selector:S,styles:A})=>{try{x.querySelectorAll(S).forEach(m=>{m.setAttribute(\"style\",(m.getAttribute(\"style\")"
+                },
+                {
+                    "source": "error(\"Defuddle\",\"Error applying styles for selector:\",S,m)}})}removeImages(x){let k=x.getElementsByTagName(\"img\")",
+                    "target": "error(\"Defuddle\",\"Error applying styles for selector:\",S,m)}})}removeImages(x){let k=x.getElementsByTagName(\"img\")"
+                },
+                {
+                    "source": "log(\"Content candidates:\",k.map(m=>({element:m.element.tagName,selector:this.getElementSelector(m.element),score:m.score}))),k.length===1&&k[0].element.tagName.toLowerCase()===\"body\")",
+                    "target": "log(\"Content candidates:\",k.map(m=>({element:m.element.tagName,selector:this.getElementSelector(m.element),score:m.score}))),k.length===1&&k[0].element.tagName.toLowerCase()===\"body\")"
+                },
+                {
+                    "source": "log(\"Resolved streamed content:\",m,\"suspense boundaries\")",
+                    "target": "log(\"Resolved streamed content:\",m,\"suspense boundaries\")"
+                },
+                {
+                    "source": "error(\"Defuddle: Error parsing schema.org data:\",L),this.debug&&console.error(\"Defuddle: Problematic JSON content:\",E)}});let A=m=>{if(typeof m==\"string\")",
+                    "target": "error(\"Defuddle: Error parsing schema.org data:\",L),this.debug&&console.error(\"Defuddle: Problematic JSON content:\",E)}});let A=m=>{if(typeof m==\"string\")"
+                },
+                {
+                    "source": "error(\"Error converting HTML to Markdown:\",A),console.log(\"Problematic content:\",_.substring(0,1e3)+\"...\")",
+                    "target": "error(\"Error converting HTML to Markdown:\",A),console.log(\"Problematic content:\",_.substring(0,1e3)+\"...\")"
+                },
+                {
+                    "source": "log(`Temml parse error: Command ${e.funcName} is invalid in math mode.`)",
+                    "target": "log(`Temml parse error: Command ${e.funcName} is invalid in math mode.`)"
+                },
+                {
+                    "source": "log(`Temml strict-mode warning: Command ${t} is invalid in math mode.`)",
+                    "target": "log(`Temml strict-mode warning: Command ${t} is invalid in math mode.`)"
+                },
+                {
+                    "source": "text:`<a href=\"${k}\">${S}</a>${A}`",
+                    "target": "text:`<a href=\"${k}\">${S}</a>${A}`"
+                },
+                {
+                    "source": "description:`ChatGPT conversation with ${d.length} messages`",
+                    "target": "description:`ChatGPT conversation with ${d.length} messages`"
+                },
+                {
+                    "source": "description:`Claude conversation with ${d.length} messages`",
+                    "target": "description:`Claude conversation with ${d.length} messages`"
+                },
+                {
+                    "source": "description:`Gemini conversation with ${a} messages`",
+                    "target": "description:`Gemini conversation with ${a} messages`"
+                },
+                {
+                    "source": "description:`Grok conversation with ${a} messages`",
+                    "target": "description:`Grok conversation with ${a} messages`"
+                },
+                {
+                    "source": "text=`${L.text} ${F.text}`",
+                    "target": "text=`${L.text} ${F.text}`"
+                },
+                {
+                    "source": "text:\" \"",
+                    "target": "text:\" \""
+                },
+                {
+                    "source": "text=\"}}}),actions:{output:function(e){if(e.text_){var t={type_:\"",
+                    "target": "text=\"}}}),actions:{output:function(e){if(e.text_){var t={type_:\""
+                },
+                {
+                    "source": "name: \"+v,p);B=this.formatUnsupportedCmd(v),this.consume()}return B}formLigatures(t){let r=t.length-1;for(let p=0;p<r;++p){let v=t[p],B=v.text;B===\"",
+                    "target": "name: \"+v,p);B=this.formatUnsupportedCmd(v),this.consume()}return B}formLigatures(t){let r=t.length-1;for(let p=0;p<r;++p){let v=t[p],B=v.text;B===\""
+                },
+                {
+                    "source": "text:`${x.primaryTimeKind} ${gr(x.primaryTime)}`",
+                    "target": "text:`${x.primaryTimeKind} ${gr(x.primaryTime)}`"
+                }
+            ]
+        }
+    }
+}

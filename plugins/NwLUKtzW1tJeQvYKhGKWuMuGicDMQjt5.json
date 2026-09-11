@@ -1,0 +1,277 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "weixin-sync",
+        "version": "1.0.0",
+        "title": "Weixin Sync",
+        "description": "Weixin Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "synced",
+                    "target": "synced"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[weixin-sync] 同步失败",
+                    "target": "[weixin-sync] 同步失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "添加并绑定",
+                    "target": "添加并绑定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "绑定中…",
+                    "target": "绑定中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "移除绑定",
+                    "target": "移除绑定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "立即同步",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "同步中…",
+                    "target": "同步中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "显示在绑定关系中的名称（默认「仓库名 的 obsidian」）",
+                    "target": "显示在绑定关系中的名称（默认「仓库名 的 obsidian」）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在微信小程序「API Key 管理」中生成后粘贴到这里，点击添加即完成绑定",
+                    "target": "在微信小程序「API Key 管理」中生成后粘贴到这里，点击添加即完成绑定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "0 表示仅手动同步；默认 5 分钟",
+                    "target": "0 表示仅手动同步；默认 5 分钟"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "文章写入目录。默认「WX同步/{{source}}」，即按来源公众号分目录。支持变量：{{title}} {{source}} {{content_kind}} {{saved_date}} {{sync_id}}（用 / 分隔层级）",
+                    "target": "文章写入目录。默认「WX同步/{{source}}」，即按来源公众号分目录。支持变量：{{title}} {{source}} {{content_kind}} {{saved_date}} {{sync_id}}（用 / 分隔层级）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "笔记文件名模板。默认「{{saved_date}}-{{title}}」。可用变量：{{title}} {{source}} {{content_kind}} {{saved_date}} {{sync_id}}",
+                    "target": "笔记文件名模板。默认「{{saved_date}}-{{title}}」。可用变量：{{title}} {{source}} {{content_kind}} {{saved_date}} {{sync_id}}"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "图片附件所在目录（笔记内以 wikilink 引用）。默认「WX同步/{{source}}/附件资源/{{title}}」，即按来源账号 + 标题分桶。支持变量：{{title}} {{source}} {{content_kind}} {{saved_date}} {{sync_id}}（用 / 分隔层级）",
+                    "target": "图片附件所在目录（笔记内以 wikilink 引用）。默认「WX同步/{{source}}/附件资源/{{title}}」，即按来源账号 + 标题分桶。支持变量：{{title}} {{source}} {{content_kind}} {{saved_date}} {{sync_id}}（用 / 分隔层级）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "设备绑定（API Key）",
+                    "target": "设备绑定（API Key）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "设备名称",
+                    "target": "设备名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "添加 API Key",
+                    "target": "添加 API Key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步设置",
+                    "target": "同步设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动同步间隔（分钟）",
+                    "target": "自动同步间隔（分钟）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文章同步目录",
+                    "target": "文章同步目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文件名格式",
+                    "target": "文件名格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图片本地化",
+                    "target": "图片本地化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图片存储路径",
+                    "target": "图片存储路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "服务器地址",
+                    "target": "服务器地址"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先粘贴 API Key",
+                    "target": "请先粘贴 API Key"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "该 API Key 已吊销/失效，请在微信小程序中重新生成后再绑定",
+                    "target": "该 API Key 已吊销/失效，请在微信小程序中重新生成后再绑定"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已移除该 Key",
+                    "target": "已移除该 Key"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Weixin Sync：尚未配置 API Key，请在设置中添加微信生成的 Key",
+                    "target": "Weixin Sync：尚未配置 API Key，请在设置中添加微信生成的 Key"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在同步中，请稍候",
+                    "target": "正在同步中，请稍候"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "尚未配置 API Key，无法同步",
+                    "target": "尚未配置 API Key，无法同步"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "同步完成：当前没有需要同步的内容",
+                    "target": "同步完成：当前没有需要同步的内容"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "同步失败，请检查网络或服务端连接是否正常，稍后重试",
+                    "target": "同步失败，请检查网络或服务端连接是否正常，稍后重试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "状态未知",
+                    "target": "状态未知"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "无效",
+                    "target": "无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "已吊销",
+                    "target": "已吊销"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "已过期",
+                    "target": "已过期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "有效",
+                    "target": "有效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "未绑定",
+                    "target": "未绑定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Weixin Sync: 立即同步",
+                    "target": "Weixin Sync: 立即同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "尚未配置任何 API Key。添加后插件即可拉取对应微信账号的待同步文章。",
+                    "target": "尚未配置任何 API Key。添加后插件即可拉取对应微信账号的待同步文章。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "如何获取 API Key？",
+                    "target": "如何获取 API Key？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "打开微信 → 搜索小程序「Obsidian同步」，或直接用微信扫描右侧小程序码；进入后在「我的」-「API Key 管理」中生成并复制，再回到此处粘贴绑定。",
+                    "target": "打开微信 → 搜索小程序「Obsidian同步」，或直接用微信扫描右侧小程序码；进入后在「我的」-「API Key 管理」中生成并复制，再回到此处粘贴绑定。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

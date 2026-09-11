@@ -1,0 +1,612 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "wetongbu",
+        "version": "1.0.0",
+        "title": "WeTongbu",
+        "description": "WeTongbu Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.11.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "restore",
+                    "target": "restore"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "delete",
+                    "target": "delete"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "keep",
+                    "target": "keep"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "暂不处理（保留现状）",
+                    "target": "暂不处理（保留现状）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "off",
+                    "target": "off"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "关闭保护（有风险）",
+                    "target": "关闭保护（有风险）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "50%（默认）",
+                    "target": "50%（默认）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "保存到微同步云端",
+                    "target": "保存到微同步云端"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "local",
+                    "target": "local"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "保存到本地",
+                    "target": "保存到本地"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "腾讯云 COS",
+                    "target": "腾讯云 COS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "阿里云 OSS",
+                    "target": "阿里云 OSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Amazon S3",
+                    "target": "Amazon S3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Cloudflare R2",
+                    "target": "Cloudflare R2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "整个 Vault（推荐）",
+                    "target": "整个 Vault（推荐）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "从本机上传到电脑/云端",
+                    "target": "从本机上传到电脑/云端"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "remote",
+                    "target": "remote"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "从电脑/云端下载到本机",
+                    "target": "从电脑/云端下载到本机"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ask",
+                    "target": "ask"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "首次遇到时提醒我",
+                    "target": "首次遇到时提醒我"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "自动判断（推荐）",
+                    "target": "自动判断（推荐）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "关闭后，大量修改和删除可能直接同步到其他设备。确定关闭保护吗？",
+                    "target": "关闭后，大量修改和删除可能直接同步到其他设备。确定关闭保护吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "vault sync operation failed",
+                    "target": "vault sync operation failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WeTongbu vault sync failed",
+                    "target": "WeTongbu vault sync failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WeTongbu sync failed",
+                    "target": "WeTongbu sync failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "暂不处理",
+                    "target": "暂不处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "执行所选操作",
+                    "target": "执行所选操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消本次同步",
+                    "target": "取消本次同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "仅允许这一次",
+                    "target": "仅允许这一次"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存保护设置",
+                    "target": "保存保护设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开账号中心",
+                    "target": "打开账号中心"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "测试并保存",
+                    "target": "测试并保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "生成 6 位绑定码",
+                    "target": "生成 6 位绑定码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "设为本机接收",
+                    "target": "设为本机接收"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "立即同步",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "查看并处理",
+                    "target": "查看并处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "停用",
+                    "target": "停用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "复制恢复码",
+                    "target": "复制恢复码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "提交问题",
+                    "target": "提交问题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅影响当前设备；首次同步方向确认仍会单独生效",
+                    "target": "仅影响当前设备；首次同步方向确认仍会单独生效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "免费版使用你自己的私有对象存储；图片和附件仍保存到 Obsidian 本地",
+                    "target": "免费版使用你自己的私有对象存储；图片和附件仍保存到 Obsidian 本地"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择要同步的范围。整个 Vault 会包含所有笔记；仅微同步目录只同步剪藏产生的内容。",
+                    "target": "选择要同步的范围。整个 Vault 会包含所有笔记；仅微同步目录只同步剪藏产生的内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅在此设备第一次同步时生效。推荐自动判断：电脑先建立空云端基线，新设备与云端非破坏性合并；已有同步基线后不再使用。",
+                    "target": "仅在此设备第一次同步时生效。推荐自动判断：电脑先建立空云端基线，新设备与云端非破坏性合并；已有同步基线后不再使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Plus 用户请点击上方“登录账号”，登录后会自动恢复当前账号和 Vault。",
+                    "target": "Plus 用户请点击上方“登录账号”，登录后会自动恢复当前账号和 Vault。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "保护比例",
+                    "target": "保护比例"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "账号与登录",
+                    "target": "账号与登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图片保存位置",
+                    "target": "图片保存位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "存储服务",
+                    "target": "存储服务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "配置提示",
+                    "target": "配置提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "测试验证",
+                    "target": "测试验证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "多端密钥状态",
+                    "target": "多端密钥状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "连接 Chrome 扩展",
+                    "target": "连接 Chrome 扩展"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "剪藏接收设备（Free）",
+                    "target": "剪藏接收设备（Free）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "立即同步",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "待确认的删除",
+                    "target": "待确认的删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动获取剪藏笔记",
+                    "target": "自动获取剪藏笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "多端同步",
+                    "target": "多端同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步范围",
+                    "target": "同步范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "首次同步方向",
+                    "target": "首次同步方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "大批量变更保护",
+                    "target": "大批量变更保护"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "端到端加密（可选）",
+                    "target": "端到端加密（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "账号恢复",
+                    "target": "账号恢复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "恢复当前 Vault",
+                    "target": "恢复当前 Vault"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "更换设备与恢复（重要）",
+                    "target": "更换设备与恢复（重要）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "插件版本",
+                    "target": "插件版本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "帮助与问题反馈",
+                    "target": "帮助与问题反馈"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入访问密钥 ID",
+                    "target": "请输入访问密钥 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入访问密钥密码",
+                    "target": "请输入访问密钥密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "至少 8 个字符",
+                    "target": "至少 8 个字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入恢复码",
+                    "target": "请输入恢复码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "确认文件删除或恢复",
+                    "target": "确认文件删除或恢复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "发现大量文件变化，已暂停同步",
+                    "target": "发现大量文件变化，已暂停同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WeTongbu default Vault sync enable deferred",
+                    "target": "WeTongbu default Vault sync enable deferred"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WeTongbu capture handoff recovery failed",
+                    "target": "WeTongbu capture handoff recovery failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WeTongbu task failure report failed",
+                    "target": "WeTongbu task failure report failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WeTongbu task failure report unavailable",
+                    "target": "WeTongbu task failure report unavailable"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WeTongbu note saved but could not be opened",
+                    "target": "WeTongbu note saved but could not be opened"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "多端同步已自动开启",
+                    "target": "多端同步已自动开启"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault 同步正在运行",
+                    "target": "Vault 同步正在运行"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault 同步已中止，请检查后重试",
+                    "target": "Vault 同步已中止，请检查后重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault 同步完成：已是最新",
+                    "target": "Vault 同步完成：已是最新"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "微同步正在运行",
+                    "target": "微同步正在运行"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "微同步：没有待同步文章",
+                    "target": "微同步：没有待同步文章"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "原笔记没有可安全更新的微同步区块，已新建完整笔记",
+                    "target": "原笔记没有可安全更新的微同步区块，已新建完整笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已保留待处理删除，下次手动同步时可继续处理",
+                    "target": "已保留待处理删除，下次手动同步时可继续处理"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "大批量变更保护设置已保存，请再次点击立即同步",
+                    "target": "大批量变更保护设置已保存，请再次点击立即同步"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已将本机设为 Free 剪藏接收设备",
+                    "target": "已将本机设为 Free 剪藏接收设备"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault 多端同步已开启：将在后台检查并同步",
+                    "target": "Vault 多端同步已开启：将在后台检查并同步"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault 多端同步已暂停",
+                    "target": "Vault 多端同步已暂停"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "端到端加密已启用；请在其他设备输入相同密码",
+                    "target": "端到端加密已启用；请在其他设备输入相同密码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "端到端加密已停用；已有云端文件仍保持加密，请先转存或继续使用原密码",
+                    "target": "端到端加密已停用；已有云端文件仍保持加密，请先转存或继续使用原密码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Free Vault 已恢复，请保存新的恢复码",
+                    "target": "Free Vault 已恢复，请保存新的恢复码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "恢复码已复制，请保存到安全位置",
+                    "target": "恢复码已复制，请保存到安全位置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已生成新的恢复码，旧恢复码已失效",
+                    "target": "已生成新的恢复码，旧恢复码已失效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "微同步：立即同步",
+                    "target": "微同步：立即同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "微同步：仅同步 Vault 文件（高级）",
+                    "target": "微同步：仅同步 Vault 文件（高级）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "为避免误删，下面的跨设备删除不会自动执行。请逐项选择：确认删除、恢复文件，或暂不处理。",
+                    "target": "为避免误删，下面的跨设备删除不会自动执行。请逐项选择：确认删除、恢复文件，或暂不处理。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "可以取消本次同步、只放行这一次，或调整后续保护比例。",
+                    "target": "可以取消本次同步、只放行这一次，或调整后续保护比例。"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"WeTongbu sync failed\")",
+                    "target": "error(\"WeTongbu sync failed\")"
+                }
+            ]
+        }
+    }
+}

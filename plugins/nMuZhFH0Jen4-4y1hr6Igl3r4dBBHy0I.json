@@ -1,0 +1,2388 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "resojot",
+        "version": "1.0.0",
+        "title": "Resojot",
+        "description": "Resojot Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.9.17",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "manual",
+                    "target": "manual"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "payg",
+                    "target": "payg"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "en",
+                    "target": "en"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "zh",
+                    "target": "zh"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "custom",
+                    "target": "custom"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ollama",
+                    "target": "ollama"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "anthropic",
+                    "target": "anthropic"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "gemini",
+                    "target": "gemini"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "chatgpt",
+                    "target": "chatgpt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "openai",
+                    "target": "openai"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "deepseek",
+                    "target": "deepseek"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "qwen",
+                    "target": "qwen"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "doubao",
+                    "target": "doubao"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "siliconflow",
+                    "target": "siliconflow"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "fullscreen",
+                    "target": "fullscreen"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "strip",
+                    "target": "strip"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "none",
+                    "target": "none"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "notes",
+                    "target": "notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "clips",
+                    "target": "clips"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "monthly",
+                    "target": "monthly"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "daily",
+                    "target": "daily"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "new",
+                    "target": "new"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "inherit",
+                    "target": "inherit"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "sensevoice",
+                    "target": "sensevoice"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "paraformer",
+                    "target": "paraformer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "mark",
+                    "target": "mark"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "details",
+                    "target": "details"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Retrying failed fetch. Error:",
+                    "target": "Retrying failed fetch. Error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error building AVC Decoder Configuration Record:",
+                    "target": "Error building AVC Decoder Configuration Record:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error deserializing AVC Decoder Configuration Record:",
+                    "target": "Error deserializing AVC Decoder Configuration Record:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing AVC SPS:",
+                    "target": "Error parsing AVC SPS:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing HEVC SPS:",
+                    "target": "Error parsing HEVC SPS:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error building HEVC Decoder Configuration Record:",
+                    "target": "Error building HEVC Decoder Configuration Record:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error deserializing HEVC Decoder Configuration Record:",
+                    "target": "Error deserializing HEVC Decoder Configuration Record:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error while reading response stream. Attempting to resume.",
+                    "target": "Error while reading response stream. Attempting to resume."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "A VideoSample was garbage collected without first being closed. For proper resource management, make sure to call close() on all your VideoSamples as soon as you're done using them.",
+                    "target": "A VideoSample was garbage collected without first being closed. For proper resource management, make sure to call close() on all your VideoSamples as soon as you're done using them."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "An AudioSample was garbage collected without first being closed. For proper resource management, make sure to call close() on all your AudioSamples as soon as you're done using them.",
+                    "target": "An AudioSample was garbage collected without first being closed. For proper resource management, make sure to call close() on all your AudioSamples as soon as you're done using them."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during decodability check:",
+                    "target": "Error during decodability check:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Shader compile error:",
+                    "target": "Shader compile error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[WARNING]\nMediabunny was loaded twice. This will likely cause Mediabunny not to work correctly. Check if multiple dependencies are importing different versions of Mediabunny, or if something is being bundled incorrectly.",
+                    "target": "[WARNING]\nMediabunny was loaded twice. This will likely cause Mediabunny not to work correctly. Check if multiple dependencies are importing different versions of Mediabunny, or if something is being bundled incorrectly."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Resojot] Local transcription management action failed",
+                    "target": "[Resojot] Local transcription management action failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Resojot] Failed to archive desktop voice input failure:",
+                    "target": "[Resojot] Failed to archive desktop voice input failure:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Resojot] Failed to preserve external voice input audio:",
+                    "target": "[Resojot] Failed to preserve external voice input audio:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Resojot] Failed to save external voice input failure note:",
+                    "target": "[Resojot] Failed to save external voice input failure note:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Resojot] Failed to queue external voice input failure archive:",
+                    "target": "[Resojot] Failed to queue external voice input failure archive:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Resojot] Failed to save external voice input audio:",
+                    "target": "[Resojot] Failed to save external voice input audio:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Resojot] Failed to archive external voice input note:",
+                    "target": "[Resojot] Failed to archive external voice input note:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Resojot] Failed to restart desktop voice helper:",
+                    "target": "[Resojot] Failed to restart desktop voice helper:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Resojot] Failed to finalize desktop voice input archive:",
+                    "target": "[Resojot] Failed to finalize desktop voice input archive:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to open Resojot from empty tab:",
+                    "target": "Failed to open Resojot from empty tab:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Resojot] Failed to hydrate settings tab.",
+                    "target": "[Resojot] Failed to hydrate settings tab."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Error when probing encoder support. Falling back to rerender path.",
+                    "target": "Error when probing encoder support. Falling back to rerender path."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "zh / en",
+                    "target": "zh / en"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "SenseVoiceSmall",
+                    "target": "SenseVoiceSmall"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "{ ... }",
+                    "target": "{ ... }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "default",
+                    "target": "default"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "bigmodel",
+                    "target": "bigmodel"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "sk-... / tp-...",
+                    "target": "sk-... / tp-..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unsupported edit list: multiple edits are not currently supported. Only using first edit.",
+                    "target": "Unsupported edit list: multiple edits are not currently supported. Only using first edit."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unsupported edit list entry: media rate must be 1.",
+                    "target": "Unsupported edit list entry: media rate must be 1."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unsupported PCM format.",
+                    "target": "Unsupported PCM format."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid dec3 box contents, ignoring.",
+                    "target": "Invalid dec3 box contents, ignoring."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Multiple saio entries are not supported; using the first offset only.",
+                    "target": "Multiple saio entries are not supported; using the first offset only."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Request will not be retried because a CORS error was suspected due to different origins. You can modify this behavior by providing your own function for the 'getRetryDelay' option.",
+                    "target": "Request will not be retried because a CORS error was suspected due to different origins. You can modify this behavior by providing your own function for the 'getRetryDelay' option."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Video decoder already registered.",
+                    "target": "Video decoder already registered."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Audio decoder already registered.",
+                    "target": "Audio decoder already registered."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Video encoder already registered.",
+                    "target": "Video encoder already registered."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Audio encoder already registered.",
+                    "target": "Audio encoder already registered."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Falling back to CPU for color/alpha merging.",
+                    "target": "Falling back to CPU for color/alpha merging."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Falling back to CPU for color/alpha splitting.",
+                    "target": "Falling back to CPU for color/alpha splitting."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Make sure not to ignore the `errorPromise` field on MediaStreamVideoTrackSource, so that any internal errors get bubbled up properly.",
+                    "target": "Make sure not to ignore the `errorPromise` field on MediaStreamVideoTrackSource, so that any internal errors get bubbled up properly."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Make sure not to ignore the `errorPromise` field on MediaStreamAudioTrackSource, so that any internal errors get bubbled up properly.",
+                    "target": "Make sure not to ignore the `errorPromise` field on MediaStreamAudioTrackSource, so that any internal errors get bubbled up properly."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "A key-packets-only video track is pairable with another track, which is not possible in HLS; treating them as unpaired.",
+                    "target": "A key-packets-only video track is pairable with another track, which is not possible in HLS; treating them as unpaired."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dropping track name since it includes a line feed, carriage return, or double quote character, which are not allowed in HLS playlist attributes.",
+                    "target": "Dropping track name since it includes a line feed, carriage return, or double quote character, which are not allowed in HLS playlist attributes."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Output has already been started.",
+                    "target": "Output has already been started."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Output has already been canceled.",
+                    "target": "Output has already been canceled."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Output has already been finalized.",
+                    "target": "Output has already been finalized."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Conversion already canceled.",
+                    "target": "Conversion already canceled."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Resojot] Recording draft write failed; continuing in memory only.",
+                    "target": "[Resojot] Recording draft write failed; continuing in memory only."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Resojot] Recording rollover observer failed.",
+                    "target": "[Resojot] Recording rollover observer failed."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Resojot] Desktop voice helper restarted after unexpected exit.",
+                    "target": "[Resojot] Desktop voice helper restarted after unexpected exit."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Resojot] Failed to clear recovered recording draft.",
+                    "target": "[Resojot] Failed to clear recovered recording draft."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Resojot] Failed to clear saved recording draft.",
+                    "target": "[Resojot] Failed to clear saved recording draft."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Resojot] Failed to hand off completed live transcript to polish.",
+                    "target": "[Resojot] Failed to hand off completed live transcript to polish."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Resojot] Live sentence transcription unavailable.",
+                    "target": "[Resojot] Live sentence transcription unavailable."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Resojot] Previous live recording part could not be finalized.",
+                    "target": "[Resojot] Previous live recording part could not be finalized."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Resojot] Live recording rollover preparation failed.",
+                    "target": "[Resojot] Live recording rollover preparation failed."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-provider-entry-modal-section resojot-provider-entry-modal-section--form",
+                    "target": "resojot-provider-entry-modal-section resojot-provider-entry-modal-section--form"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-provider-entry-modal-section resojot-provider-entry-modal-section--actions",
+                    "target": "resojot-provider-entry-modal-section resojot-provider-entry-modal-section--actions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-terminology-modal-section resojot-terminology-modal-section--form",
+                    "target": "resojot-terminology-modal-section resojot-terminology-modal-section--form"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-terminology-modal-section resojot-terminology-modal-section--actions",
+                    "target": "resojot-terminology-modal-section resojot-terminology-modal-section--actions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-terminology-field resojot-terminology-alias-field",
+                    "target": "resojot-terminology-field resojot-terminology-alias-field"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-terminology-field resojot-terminology-canonical-field",
+                    "target": "resojot-terminology-field resojot-terminology-canonical-field"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-terminology-field-error resojot-terminology-canonical-error",
+                    "target": "resojot-terminology-field-error resojot-terminology-canonical-error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-terminology-field-error resojot-terminology-alias-error",
+                    "target": "resojot-terminology-field-error resojot-terminology-alias-error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-cleanup-icon-button resojot-plugin-management-select-button",
+                    "target": "resojot-plugin-cleanup-icon-button resojot-plugin-management-select-button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-cleanup-icon-button resojot-plugin-management-action-menu-button",
+                    "target": "resojot-plugin-cleanup-icon-button resojot-plugin-management-action-menu-button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-ui-round-btn resojot-plugin-live-stop-btn",
+                    "target": "resojot-ui-round-btn resojot-plugin-live-stop-btn"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon resojot-settings-list-action is-danger",
+                    "target": "clickable-icon resojot-settings-list-action is-danger"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "setting-item-name resojot-settings-window-rule-section-title",
+                    "target": "setting-item-name resojot-settings-window-rule-section-title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon resojot-settings-list-action is-default",
+                    "target": "clickable-icon resojot-settings-list-action is-default"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-settings-provider-entry-row resojot-terminology-list-row",
+                    "target": "resojot-settings-provider-entry-row resojot-terminology-list-row"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-settings-nav vertical-tab-header-group-items",
+                    "target": "resojot-settings-nav vertical-tab-header-group-items"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-settings-nav-button vertical-tab-nav-item tappable",
+                    "target": "resojot-settings-nav-button vertical-tab-nav-item tappable"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-settings-nav-icon vertical-tab-nav-item-icon",
+                    "target": "resojot-settings-nav-icon vertical-tab-nav-item-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-settings-nav-label vertical-tab-nav-item-title",
+                    "target": "resojot-settings-nav-label vertical-tab-nav-item-title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-settings-mobile-nav resojot-settings-mobile-nav--portal resojot-settings-mobile-nav--floating",
+                    "target": "resojot-settings-mobile-nav resojot-settings-mobile-nav--portal resojot-settings-mobile-nav--floating"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-settings-mobile-nav-trigger-icon resojot-settings-mobile-nav-icon",
+                    "target": "resojot-settings-mobile-nav-trigger-icon resojot-settings-mobile-nav-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-section-heading resojot-plugin-view-topbar resojot-plugin-view-topbar--dense resojot-plugin-view-topbar--desktop-shared resojot-plugin-preview-topbar",
+                    "target": "resojot-plugin-section-heading resojot-plugin-view-topbar resojot-plugin-view-topbar--dense resojot-plugin-view-topbar--desktop-shared resojot-plugin-preview-topbar"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-toolbar resojot-plugin-view-topbar-actions resojot-plugin-toolbar--desktop-topbar resojot-plugin-toolbar--preview-desktop",
+                    "target": "resojot-plugin-toolbar resojot-plugin-view-topbar-actions resojot-plugin-toolbar--desktop-topbar resojot-plugin-toolbar--preview-desktop"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-workbench-layout resojot-plugin-management-layout is-dual-pane",
+                    "target": "resojot-plugin-workbench-layout resojot-plugin-management-layout is-dual-pane"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-pane resojot-plugin-pane--sidebar resojot-plugin-pane--management",
+                    "target": "resojot-plugin-pane resojot-plugin-pane--sidebar resojot-plugin-pane--management"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-pane resojot-plugin-pane--preview",
+                    "target": "resojot-plugin-pane resojot-plugin-pane--preview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-section-title resojot-plugin-view-topbar-title resojot-plugin-management-title",
+                    "target": "resojot-plugin-section-title resojot-plugin-view-topbar-title resojot-plugin-management-title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-workbench-layout is-dual-pane",
+                    "target": "resojot-plugin-workbench-layout is-dual-pane"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-pane resojot-plugin-pane--sidebar resojot-plugin-pane--workbench",
+                    "target": "resojot-plugin-pane resojot-plugin-pane--sidebar resojot-plugin-pane--workbench"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-workbench is-widget",
+                    "target": "resojot-plugin-workbench is-widget"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon resojot-plugin-widget-note-open-btn",
+                    "target": "clickable-icon resojot-plugin-widget-note-open-btn"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-toolbar resojot-plugin-toolbar--widget",
+                    "target": "resojot-plugin-toolbar resojot-plugin-toolbar--widget"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-ui-round-btn resojot-plugin-tool-btn resojot-plugin-tool-btn--record",
+                    "target": "resojot-ui-round-btn resojot-plugin-tool-btn resojot-plugin-tool-btn--record"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-tool-btn-icon resojot-plugin-record-icon",
+                    "target": "resojot-plugin-tool-btn-icon resojot-plugin-record-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-section resojot-plugin-recent-section",
+                    "target": "resojot-plugin-section resojot-plugin-recent-section"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-section-title resojot-plugin-view-topbar-title",
+                    "target": "resojot-plugin-section-title resojot-plugin-view-topbar-title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-ui-round-btn resojot-plugin-record-btn",
+                    "target": "resojot-ui-round-btn resojot-plugin-record-btn"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-toolbar resojot-plugin-view-topbar-actions resojot-plugin-toolbar--desktop-topbar resojot-plugin-toolbar--workbench-desktop",
+                    "target": "resojot-plugin-toolbar resojot-plugin-view-topbar-actions resojot-plugin-toolbar--desktop-topbar resojot-plugin-toolbar--workbench-desktop"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-toolbar resojot-plugin-view-topbar-actions resojot-plugin-toolbar--desktop-topbar resojot-plugin-toolbar--management-desktop",
+                    "target": "resojot-plugin-toolbar resojot-plugin-view-topbar-actions resojot-plugin-toolbar--desktop-topbar resojot-plugin-toolbar--management-desktop"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "resojot-plugin-widget-note-markdown markdown-rendered",
+                    "target": "resojot-plugin-widget-note-markdown markdown-rendered"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Describe the Resojot CLI and its available commands.",
+                    "target": "Describe the Resojot CLI and its available commands."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return the current Resojot, host, license, provider, and action capabilities.",
+                    "target": "Return the current Resojot, host, license, provider, and action capabilities."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return the machine-readable schema for all commands or one command.",
+                    "target": "Return the machine-readable schema for all commands or one command."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional exact Resojot command id.",
+                    "target": "Optional exact Resojot command id."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return a bounded in-memory health snapshot without network or file probes.",
+                    "target": "Return a bounded in-memory health snapshot without network or file probes."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return official feedback channels and a safe issue-submission contract.",
+                    "target": "Return official feedback channels and a safe issue-submission contract."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return settings from a stable allowlisted scope.",
+                    "target": "Return settings from a stable allowlisted scope."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Settings scope. Supported scopes: storage and polish.",
+                    "target": "Settings scope. Supported scopes: storage and polish."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create an immutable preview or atomically apply that exact allowlisted storage plan.",
+                    "target": "Create an immutable preview or atomically apply that exact allowlisted storage plan."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "How Resojot writes voice-note Markdown.",
+                    "target": "How Resojot writes voice-note Markdown."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Folder for new Resojot audio files.",
+                    "target": "Folder for new Resojot audio files."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Folder for new Resojot note files.",
+                    "target": "Folder for new Resojot note files."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "File-name format used by create-each-time mode.",
+                    "target": "File-name format used by create-each-time mode."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "File-name format used by append-by-day mode.",
+                    "target": "File-name format used by append-by-day mode."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether new entries are inserted before older entries.",
+                    "target": "Whether new entries are inserted before older entries."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Existing Markdown template path, or an empty value to clear it.",
+                    "target": "Existing Markdown template path, or an empty value to clear it."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Use an existing daily journal as the append target.",
+                    "target": "Use an existing daily journal as the append target."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Journal folder pattern; date tokens such as YYYY are supported.",
+                    "target": "Journal folder pattern; date tokens such as YYYY are supported."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Existing journal file-name pattern.",
+                    "target": "Existing journal file-name pattern."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Level-2 heading under which Resojot inserts entries.",
+                    "target": "Level-2 heading under which Resojot inserts entries."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create an immutable, session-scoped plan from the supplied setting values without writing.",
+                    "target": "Create an immutable, session-scoped plan from the supplied setting values without writing."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Exact planId returned by the approved dry-run.",
+                    "target": "Exact planId returned by the approved dry-run."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Exact planDigest returned by the approved dry-run.",
+                    "target": "Exact planDigest returned by the approved dry-run."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Assert that the Agent already obtained the user's natural-language permission.",
+                    "target": "Assert that the Agent already obtained the user's natural-language permission."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stable idempotency key required for an actual write.",
+                    "target": "Stable idempotency key required for an actual write."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create an immutable preview or atomically apply automatic-polish and user custom-prompt changes.",
+                    "target": "Create an immutable preview or atomically apply automatic-polish and user custom-prompt changes."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enable or disable automatic polish for future eligible transcription and desktop voice-input flows.",
+                    "target": "Enable or disable automatic polish for future eligible transcription and desktop voice-input flows."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create a new user custom polish operation or update one existing user custom profile.",
+                    "target": "Create a new user custom polish operation or update one existing user custom profile."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Existing user custom profile id. Required for update and forbidden for create.",
+                    "target": "Existing user custom profile id. Required for update and forbidden for create."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "User-visible custom operation name. Required for create and optional for update.",
+                    "target": "User-visible custom operation name. Required for create and optional for update."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Complete user custom polish prompt, up to 8000 characters. Required for create and optional for update.",
+                    "target": "Complete user custom polish prompt, up to 8000 characters. Required for create and optional for update."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create an immutable, session-scoped plan from the supplied values without writing.",
+                    "target": "Create an immutable, session-scoped plan from the supplied values without writing."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Assert that the Agent already obtained the user's natural-language permission for this exact plan.",
+                    "target": "Assert that the Agent already obtained the user's natural-language permission for this exact plan."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Inspect Resojot's current Windows FunASR program, service, model, and local-provider state.",
+                    "target": "Inspect Resojot's current Windows FunASR program, service, model, and local-provider state."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return current, state-aware FunASR installation, connection, and troubleshooting guidance.",
+                    "target": "Return current, state-aware FunASR installation, connection, and troubleshooting guidance."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "List bounded public CLI job receipts.",
+                    "target": "List bounded public CLI job receipts."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional public job-state filter.",
+                    "target": "Optional public job-state filter."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maximum jobs to return, from 1 to 50.",
+                    "target": "Maximum jobs to return, from 1 to 50."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Opaque cursor returned by a previous call.",
+                    "target": "Opaque cursor returned by a previous call."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return one public CLI job.",
+                    "target": "Return one public CLI job."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Public job id.",
+                    "target": "Public job id."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create a bounded snapshot from the same Resojot-managed recording domain used by the management list.",
+                    "target": "Create a bounded snapshot from the same Resojot-managed recording domain used by the management list."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stable idempotency key.",
+                    "target": "Stable idempotency key."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "List one page of managed recording entries from a live recording audit.",
+                    "target": "List one page of managed recording entries from a live recording audit."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Live recording audit id.",
+                    "target": "Live recording audit id."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional reference-state filter.",
+                    "target": "Optional reference-state filter."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional source-note-state filter.",
+                    "target": "Optional source-note-state filter."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional audio-state filter.",
+                    "target": "Optional audio-state filter."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional transcription task-state filter.",
+                    "target": "Optional transcription task-state filter."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional polish task-state filter.",
+                    "target": "Optional polish task-state filter."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional management-list state filter such as orphan-audio, transcribe-failed, or polish-processing.",
+                    "target": "Optional management-list state filter such as orphan-audio, transcribe-failed, or polish-processing."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional risk filter.",
+                    "target": "Optional risk filter."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional audit content-evidence filter.",
+                    "target": "Optional audit content-evidence filter."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional evidence-source filter such as full-transcription-result or partial-transcript.",
+                    "target": "Optional evidence-source filter such as full-transcription-result or partial-transcript."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return only recordings that currently allow this action.",
+                    "target": "Return only recordings that currently allow this action."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return only recordings for which the audit recommends this action.",
+                    "target": "Return only recordings for which the audit recommends this action."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return only recordings with a known duration at or below this value.",
+                    "target": "Return only recordings with a known duration at or below this value."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Compact is the default Agent projection; full includes reference and source-note details.",
+                    "target": "Compact is the default Agent projection; full includes reference and source-note details."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stable result ordering. Defaults to recorded-at.",
+                    "target": "Stable result ordering. Defaults to recorded-at."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sort direction. Defaults to desc.",
+                    "target": "Sort direction. Defaults to desc."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maximum findings to return, from 1 to 50.",
+                    "target": "Maximum findings to return, from 1 to 50."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Opaque finding cursor returned by a previous call.",
+                    "target": "Opaque finding cursor returned by a previous call."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create bounded content previews for selected findings without writing notes or changing cleanup eligibility.",
+                    "target": "Create bounded content previews for selected findings without writing notes or changing cleanup eligibility."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Comma-separated stable recording ids from the audit, maximum 100.",
+                    "target": "Comma-separated stable recording ids from the audit, maximum 100."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Head sample duration in seconds. Defaults to 30.",
+                    "target": "Head sample duration in seconds. Defaults to 30."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Assert permission for Provider cost and external transfer when a selected item cannot reuse existing evidence.",
+                    "target": "Assert permission for Provider cost and external transfer when a selected item cannot reuse existing evidence."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return one live recording preview with explicit coverage and trust labels.",
+                    "target": "Return one live recording preview with explicit coverage and trust labels."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Live recording preview id.",
+                    "target": "Live recording preview id."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Translate exact recording finding/action assignments into an immutable review plan without changing files.",
+                    "target": "Translate exact recording finding/action assignments into an immutable review plan without changing files."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Comma-separated typed assignments. Actions: trash_audio, remove_recording_entry, restore_note, retry_transcription, retry_polish, cancel_transcription, cancel_polish, clear_stale_task, keep.",
+                    "target": "Comma-separated typed assignments. Actions: trash_audio, remove_recording_entry, restore_note, retry_transcription, retry_polish, cancel_transcription, cancel_polish, clear_stale_task, keep."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional preview from the same audit; successful evidence summaries are bound into matching plan items.",
+                    "target": "Optional preview from the same audit; successful evidence summaries are bound into matching plan items."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Apply one immutable recording plan after confirmation and per-item state revalidation.",
+                    "target": "Apply one immutable recording plan after confirmation and per-item state revalidation."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Live immutable recording plan id.",
+                    "target": "Live immutable recording plan id."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Exact digest returned with the plan.",
+                    "target": "Exact digest returned with the plan."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Assert that the Agent obtained permission for this exact displayed plan.",
+                    "target": "Assert that the Agent obtained permission for this exact displayed plan."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create a durable job that processes one vault audio file.",
+                    "target": "Create a durable job that processes one vault audio file."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Exact vault-relative audio path.",
+                    "target": "Exact vault-relative audio path."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retry a public job only when its current error is retryable.",
+                    "target": "Retry a public job only when its current error is retryable."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Assert that the Agent already obtained permission for this retry.",
+                    "target": "Assert that the Agent already obtained permission for this retry."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Request cancellation of a cancellable public job.",
+                    "target": "Request cancellation of a cancellable public job."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Assert that the Agent already obtained permission for this cancellation.",
+                    "target": "Assert that the Agent already obtained permission for this cancellation."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Future audio and note placement, naming, append, template, and journal behavior.",
+                    "target": "Future audio and note placement, naming, append, template, and journal behavior."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Automatic polish state plus protected built-in metadata and user-owned custom polish operations.",
+                    "target": "Automatic polish state plus protected built-in metadata and user-owned custom polish operations."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "mediabunny input.canRead() returned false",
+                    "target": "mediabunny input.canRead() returned false"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "mediabunny primary audio track cannot decode",
+                    "target": "mediabunny primary audio track cannot decode"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "managed audio entry update fell back to full audio entry rebuild",
+                    "target": "managed audio entry update fell back to full audio entry rebuild"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "managed callout update fell back to full audio entry rebuild",
+                    "target": "managed callout update fell back to full audio entry rebuild"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "streaming callout patch fell back to full audio entry rebuild",
+                    "target": "streaming callout patch fell back to full audio entry rebuild"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "Obsidian app is unavailable for chunked audio probe.",
+                    "target": "Obsidian app is unavailable for chunked audio probe."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "failed",
+                    "target": "failed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "disabled",
+                    "target": "disabled"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "dispatched",
+                    "target": "dispatched"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "mode=live-sentence lifecycle=prepared",
+                    "target": "mode=live-sentence lifecycle=prepared"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "mode=live-sentence lifecycle=attached",
+                    "target": "mode=live-sentence lifecycle=attached"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "mode=live-sentence lifecycle=pcm-capture-unavailable fallback=full-audio",
+                    "target": "mode=live-sentence lifecycle=pcm-capture-unavailable fallback=full-audio"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "mode=live-sentence no-valid-speech skipped=true",
+                    "target": "mode=live-sentence no-valid-speech skipped=true"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "mode=live-sentence license-blocked=true fallback=full-audio",
+                    "target": "mode=live-sentence license-blocked=true fallback=full-audio"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "mode=live-sentence deadline-exceeded=true fallback=full-audio",
+                    "target": "mode=live-sentence deadline-exceeded=true fallback=full-audio"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "target snapshot refreshed",
+                    "target": "target snapshot refreshed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "vault.process start",
+                    "target": "vault.process start"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "workspace editor-change",
+                    "target": "workspace editor-change"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "detail",
+                    "source": "vault modify",
+                    "target": "vault modify"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Use the original parameters or choose a new idempotency key.",
+                    "target": "Use the original parameters or choose a new idempotency key."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Create a user custom profile instead, or update an existing profile listed under customProfiles.",
+                    "target": "Create a user custom profile instead, or update an existing profile listed under customProfiles."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Read scope=polish and use an exact id from customProfiles.",
+                    "target": "Read scope=polish and use an exact id from customProfiles."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Run a new recording audit before requesting another preview.",
+                    "target": "Run a new recording audit before requesting another preview."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Check the source and submit it again with a new idempotency key.",
+                    "target": "Check the source and submit it again with a new idempotency key."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Inspect the note and source before submitting a new job.",
+                    "target": "Inspect the note and source before submitting a new job."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Run configure-storage with dry-run=true, show its plan and digest, then apply plan=<id> digest=<digest>.",
+                    "target": "Run configure-storage with dry-run=true, show its plan and digest, then apply plan=<id> digest=<digest>."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Show and apply the exact storage plan returned by Resojot.",
+                    "target": "Show and apply the exact storage plan returned by Resojot."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "After permission, rerun with the same plan, digest, confirmed=true, and idempotency key.",
+                    "target": "After permission, rerun with the same plan, digest, confirmed=true, and idempotency key."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Inspect current settings and create a new dry-run before retrying.",
+                    "target": "Inspect current settings and create a new dry-run before retrying."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Run configure-polish with dry-run=true, show its full plan and prompt, then apply plan=<id> digest=<digest>.",
+                    "target": "Run configure-polish with dry-run=true, show its full plan and prompt, then apply plan=<id> digest=<digest>."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Show and apply the exact polish plan returned by Resojot.",
+                    "target": "Show and apply the exact polish plan returned by Resojot."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Inspect current polish settings and create a new dry-run before retrying.",
+                    "target": "Inspect current polish settings and create a new dry-run before retrying."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "List the live audit again and use exact stable recording ids.",
+                    "target": "List the live audit again and use exact stable recording ids."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Remove this item from the preview request and decide it from audit evidence.",
+                    "target": "Remove this item from the preview request and decide it from audit evidence."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Wait for the active task or preview only findings with reusable evidence.",
+                    "target": "Wait for the active task or preview only findings with reusable evidence."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Use a preview created from the same live audit as the plan.",
+                    "target": "Use a preview created from the same live audit as the plan."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Show and apply the exact plan returned by Resojot.",
+                    "target": "Show and apply the exact plan returned by Resojot."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Submit the current file with a new idempotency key.",
+                    "target": "Submit the current file with a new idempotency key."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Read current settings and run a new configure-storage dry-run.",
+                    "target": "Read current settings and run a new configure-storage dry-run."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Read current settings, run a new dry-run, explain the new plan, and obtain permission again.",
+                    "target": "Read current settings, run a new dry-run, explain the new plan, and obtain permission again."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Read current polish settings and run a new configure-polish dry-run.",
+                    "target": "Read current polish settings and run a new configure-polish dry-run."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Read current polish settings, run a new dry-run, explain the new plan, and obtain permission again.",
+                    "target": "Read current polish settings, run a new dry-run, explain the new plan, and obtain permission again."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Create a new preview from a live recording audit.",
+                    "target": "Create a new preview from a live recording audit."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Run a new audit and create a new recording plan.",
+                    "target": "Run a new audit and create a new recording plan."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Use recording_id=typed_action.",
+                    "target": "Use recording_id=typed_action."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Run resojot:audit-recordings again.",
+                    "target": "Run resojot:audit-recordings again."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Retry after resojot:capabilities reports writeReadiness=ready.",
+                    "target": "Retry after resojot:capabilities reports writeReadiness=ready."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "mic",
+                    "target": "mic"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "captions",
+                    "target": "captions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "settings",
+                    "target": "settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "sparkles",
+                    "target": "sparkles"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "stethoscope",
+                    "target": "stethoscope"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "wrench",
+                    "target": "wrench"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "前台听写观察",
+                    "target": "前台听写观察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "前台听写观察错误",
+                    "target": "前台听写观察错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "当前笔记音频动作",
+                    "target": "当前笔记音频动作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "笔记定位观察",
+                    "target": "笔记定位观察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "转写入列失败",
+                    "target": "转写入列失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "后台转写 worker",
+                    "target": "后台转写 worker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "转写任务时间线",
+                    "target": "转写任务时间线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "转写任务时间线错误",
+                    "target": "转写任务时间线错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "长音频观察",
+                    "target": "长音频观察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "长音频观察错误",
+                    "target": "长音频观察错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "润色队列观察",
+                    "target": "润色队列观察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "润色队列观察错误",
+                    "target": "润色队列观察错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Todo 重排观察",
+                    "target": "Todo 重排观察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "队列 reconcile 决策",
+                    "target": "队列 reconcile 决策"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "后台 pump 生命周期",
+                    "target": "后台 pump 生命周期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "授权跳过观察",
+                    "target": "授权跳过观察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "授权完整性观察",
+                    "target": "授权完整性观察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "音频条目 patch 观察",
+                    "target": "音频条目 patch 观察"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "m4a / MP4 AAC-LC",
+                    "target": "m4a / MP4 AAC-LC"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "m4a / MP4",
+                    "target": "m4a / MP4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "webm / Opus",
+                    "target": "webm / Opus"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "webm",
+                    "target": "webm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "aac",
+                    "target": "aac"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ogg / opus",
+                    "target": "ogg / opus"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ogg",
+                    "target": "ogg"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Journal assist is stored but only takes effect in daily mode.",
+                    "target": "Journal assist is stored but only takes effect in daily mode."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Append order is stored but does not affect create-each-time mode.",
+                    "target": "Append order is stored but does not affect create-each-time mode."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The selected program is not named funasr-server.exe. Select the supported FunASR server executable.",
+                    "target": "The selected program is not named funasr-server.exe. Select the supported FunASR server executable."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The configured funasr-server.exe path no longer exists. Reinstall FunASR or select its current executable.",
+                    "target": "The configured funasr-server.exe path no longer exists. Reinstall FunASR or select its current executable."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Resojot cannot find funasr-server.exe through this device's remembered program, the legacy selected path, or Obsidian's current PATH.",
+                    "target": "Resojot cannot find funasr-server.exe through this device's remembered program, the legacy selected path, or Obsidian's current PATH."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The running service came from an old compatibility source instead of a user-installed funasr-server.exe.",
+                    "target": "The running service came from an old compatibility source instead of a user-installed funasr-server.exe."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Local transcription is enabled in settings, but the service runtime still reports disabled. Refresh or restart it from Resojot's management dialog.",
+                    "target": "Local transcription is enabled in settings, but the service runtime still reports disabled. Refresh or restart it from Resojot's management dialog."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "FunASR is ready, but Resojot's managed local Provider projection is not yet usable at runtime.",
+                    "target": "FunASR is ready, but Resojot's managed local Provider projection is not yet usable at runtime."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The Resojot local transcription service is disabled. Enable it only after a supported FunASR program is available.",
+                    "target": "The Resojot local transcription service is disabled. Enable it only after a supported FunASR program is available."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Resojot-managed FunASR local transcription is currently supported only on Windows desktop.",
+                    "target": "Resojot-managed FunASR local transcription is currently supported only on Windows desktop."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The custom prompt is very short. Confirm that it states the intended transformation and output.",
+                    "target": "The custom prompt is very short. Confirm that it states the intended transformation and output."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The settings can be saved, but Resojot cannot run polish until a usable polish Provider is configured.",
+                    "target": "The settings can be saved, but Resojot cannot run polish until a usable polish Provider is configured."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The recording does not exist in this live audit.",
+                    "target": "The recording does not exist in this live audit."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The plan finished, but Resojot could not create a current post-apply audit.",
+                    "target": "The plan finished, but Resojot could not create a current post-apply audit."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "口述笔记",
+                    "target": "口述笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "口述笔记（9B）",
+                    "target": "口述笔记（9B）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "会议记录",
+                    "target": "会议记录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "交流讨论",
+                    "target": "交流讨论"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "待办提取",
+                    "target": "待办提取"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "内容提要",
+                    "target": "内容提要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "翻译整理",
+                    "target": "翻译整理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "FunASR",
+                    "target": "FunASR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Resojot",
+                    "target": "Resojot"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "text",
+                    "target": "text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "MediabunnyTextHandler",
+                    "target": "MediabunnyTextHandler"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Future recordings append under the configured heading in the existing daily journal. Resojot does not create a missing journal.",
+                    "target": "Future recordings append under the configured heading in the existing daily journal. Resojot does not create a missing journal."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Future recordings append to one Markdown note per day in the configured note folder.",
+                    "target": "Future recordings append to one Markdown note per day in the configured note folder."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Future recordings append to one YYYY-MM Markdown note, grouped by day, in the configured note folder.",
+                    "target": "Future recordings append to one YYYY-MM Markdown note, grouped by day, in the configured note folder."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Each future recording creates a new Markdown note in the configured note folder.",
+                    "target": "Each future recording creates a new Markdown note in the configured note folder."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Generate a transcript of the speech.",
+                    "target": "Generate a transcript of the speech."
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"Retrying failed fetch. Error:\",o),!Number.isFinite(a)||a<0)throw new TypeError(\"Retry delay must be a non-negative finite number.\")",
+                    "target": "error(\"Retrying failed fetch. Error:\",o),!Number.isFinite(a)||a<0)throw new TypeError(\"Retry delay must be a non-negative finite number.\")"
+                },
+                {
+                    "source": "error(\"A VideoSample was garbage collected without first being closed. For proper resource management, make sure to call close() on all your VideoSamples as soon as you're done using them.\")",
+                    "target": "error(\"A VideoSample was garbage collected without first being closed. For proper resource management, make sure to call close() on all your VideoSamples as soon as you're done using them.\")"
+                },
+                {
+                    "source": "error(\"An AudioSample was garbage collected without first being closed. For proper resource management, make sure to call close() on all your AudioSamples as soon as you're done using them.\")",
+                    "target": "error(\"An AudioSample was garbage collected without first being closed. For proper resource management, make sure to call close() on all your AudioSamples as soon as you're done using them.\")"
+                },
+                {
+                    "source": "error(\"Error during decodability check:\",e),!1}}async determinePacketType(e){if(!(e instanceof vt))throw new TypeError(\"packet must be an EncodedPacket.\")",
+                    "target": "error(\"Error during decodability check:\",e),!1}}async determinePacketType(e){if(!(e instanceof vt))throw new TypeError(\"packet must be an EncodedPacket.\")"
+                },
+                {
+                    "source": "error(`[WARNING]\nMediabunny was loaded twice. This will likely cause Mediabunny not to work correctly. Check if multiple dependencies are importing different versions of Mediabunny, or if something is being bundled incorrectly.`)",
+                    "target": "error(`[WARNING]\nMediabunny was loaded twice. This will likely cause Mediabunny not to work correctly. Check if multiple dependencies are importing different versions of Mediabunny, or if something is being bundled incorrectly.`)"
+                },
+                {
+                    "source": "setPlaceholder(\"zh / en\")",
+                    "target": "setPlaceholder(\"zh / en\")"
+                },
+                {
+                    "source": "setPlaceholder(\"{ ... }\")",
+                    "target": "setPlaceholder(\"{ ... }\")"
+                },
+                {
+                    "source": "setPlaceholder(\"sk-... / tp-...\")",
+                    "target": "setPlaceholder(\"sk-... / tp-...\")"
+                },
+                {
+                    "source": "error(\"[Resojot] Local transcription management action failed\",t)}).finally(()=>{this.actionBusy=!1,this.refreshState()}))}showMoreMenu(e){const{context:t}=this,i=()=>this.refreshState(),r=ia(t),n=new He.Menu;n.addItem(o=>o.setTitle(d(\"settings.voxBox.management.action.rediscover\")",
+                    "target": "error(\"[Resojot] Local transcription management action failed\",t)}).finally(()=>{this.actionBusy=!1,this.refreshState()}))}showMoreMenu(e){const{context:t}=this,i=()=>this.refreshState(),r=ia(t),n=new He.Menu;n.addItem(o=>o.setTitle(d(\"settings.voxBox.management.action.rediscover\")"
+                },
+                {
+                    "source": "error(\"[Resojot] Failed to archive desktop voice input failure:\",C),bt(i,\"failure-archive-background-failed\")",
+                    "target": "error(\"[Resojot] Failed to archive desktop voice input failure:\",C),bt(i,\"failure-archive-background-failed\")"
+                },
+                {
+                    "source": "error(\"[Resojot] Failed to preserve external voice input audio:\",n),bt(r,\"audio-failure-preserve-failed\")",
+                    "target": "error(\"[Resojot] Failed to preserve external voice input audio:\",n),bt(r,\"audio-failure-preserve-failed\")"
+                },
+                {
+                    "source": "error(\"[Resojot] Failed to save external voice input failure note:\",c),bt(o,\"failure-archive-save-failed\")",
+                    "target": "error(\"[Resojot] Failed to save external voice input failure note:\",c),bt(o,\"failure-archive-save-failed\")"
+                },
+                {
+                    "source": "error(\"[Resojot] Failed to queue external voice input failure archive:\",c),bt(o,\"failure-archive-queue-failed\")",
+                    "target": "error(\"[Resojot] Failed to queue external voice input failure archive:\",c),bt(o,\"failure-archive-queue-failed\")"
+                },
+                {
+                    "source": "error(\"[Resojot] Failed to save external voice input audio:\",s),bt(r,\"audio-save-after-delivery-failed\")",
+                    "target": "error(\"[Resojot] Failed to save external voice input audio:\",s),bt(r,\"audio-save-after-delivery-failed\")"
+                },
+                {
+                    "source": "error(\"[Resojot] Failed to archive external voice input note:\",h),bt(a,\"archive-save-failed\")",
+                    "target": "error(\"[Resojot] Failed to archive external voice input note:\",h),bt(a,\"archive-save-failed\")"
+                },
+                {
+                    "source": "error(\"[Resojot] Failed to restart desktop voice helper:\",e),this.setFailureState(A(e instanceof Error?e.message:e)||d(\"desktopVoiceInput.runtime.helperStartFailed\")",
+                    "target": "error(\"[Resojot] Failed to restart desktop voice helper:\",e),this.setFailureState(A(e instanceof Error?e.message:e)||d(\"desktopVoiceInput.runtime.helperStartFailed\")"
+                },
+                {
+                    "source": "error(\"Failed to open Resojot from empty tab:\",t),this.plugin.notices.showMessage(d(\"notice.emptyTab.openWorkbenchFailed\")",
+                    "target": "error(\"Failed to open Resojot from empty tab:\",t),this.plugin.notices.showMessage(d(\"notice.emptyTab.openWorkbenchFailed\")"
+                },
+                {
+                    "source": "name:\"口述笔记\"",
+                    "target": "name:\"口述笔记\""
+                },
+                {
+                    "source": "name:\"口述笔记（9B）\"",
+                    "target": "name:\"口述笔记（9B）\""
+                },
+                {
+                    "source": "name:\"会议记录\"",
+                    "target": "name:\"会议记录\""
+                },
+                {
+                    "source": "name:\"交流讨论\"",
+                    "target": "name:\"交流讨论\""
+                },
+                {
+                    "source": "name:\"待办提取\"",
+                    "target": "name:\"待办提取\""
+                },
+                {
+                    "source": "name:\"内容提要\"",
+                    "target": "name:\"内容提要\""
+                },
+                {
+                    "source": "name:\"翻译整理\"",
+                    "target": "name:\"翻译整理\""
+                },
+                {
+                    "source": "text:\"Generate a transcript of the speech.\"",
+                    "target": "text:\"Generate a transcript of the speech.\""
+                },
+                {
+                    "source": "text:\"→\"",
+                    "target": "text:\"→\""
+                },
+                {
+                    "source": "text:\"·\"",
+                    "target": "text:\"·\""
+                },
+                {
+                    "source": "description:\"Describe the Resojot CLI and its available commands.\"",
+                    "target": "description:\"Describe the Resojot CLI and its available commands.\""
+                },
+                {
+                    "source": "description:\"Return the current Resojot, host, license, provider, and action capabilities.\"",
+                    "target": "description:\"Return the current Resojot, host, license, provider, and action capabilities.\""
+                },
+                {
+                    "source": "description:\"Return the machine-readable schema for all commands or one command.\"",
+                    "target": "description:\"Return the machine-readable schema for all commands or one command.\""
+                },
+                {
+                    "source": "description:\"Optional exact Resojot command id.\"",
+                    "target": "description:\"Optional exact Resojot command id.\""
+                },
+                {
+                    "source": "description:\"Return a bounded in-memory health snapshot without network or file probes.\"",
+                    "target": "description:\"Return a bounded in-memory health snapshot without network or file probes.\""
+                },
+                {
+                    "source": "description:\"Return official feedback channels and a safe issue-submission contract.\"",
+                    "target": "description:\"Return official feedback channels and a safe issue-submission contract.\""
+                },
+                {
+                    "source": "description:\"Return settings from a stable allowlisted scope.\"",
+                    "target": "description:\"Return settings from a stable allowlisted scope.\""
+                },
+                {
+                    "source": "description:\"Settings scope. Supported scopes: storage and polish.\"",
+                    "target": "description:\"Settings scope. Supported scopes: storage and polish.\""
+                },
+                {
+                    "source": "description:\"Create an immutable preview or atomically apply that exact allowlisted storage plan.\"",
+                    "target": "description:\"Create an immutable preview or atomically apply that exact allowlisted storage plan.\""
+                },
+                {
+                    "source": "description:\"How Resojot writes voice-note Markdown.\"",
+                    "target": "description:\"How Resojot writes voice-note Markdown.\""
+                },
+                {
+                    "source": "description:\"Folder for new Resojot audio files.\"",
+                    "target": "description:\"Folder for new Resojot audio files.\""
+                },
+                {
+                    "source": "description:\"Folder for new Resojot note files.\"",
+                    "target": "description:\"Folder for new Resojot note files.\""
+                },
+                {
+                    "source": "description:\"File-name format used by create-each-time mode.\"",
+                    "target": "description:\"File-name format used by create-each-time mode.\""
+                },
+                {
+                    "source": "description:\"File-name format used by append-by-day mode.\"",
+                    "target": "description:\"File-name format used by append-by-day mode.\""
+                },
+                {
+                    "source": "description:\"Whether new entries are inserted before older entries.\"",
+                    "target": "description:\"Whether new entries are inserted before older entries.\""
+                },
+                {
+                    "source": "description:\"Existing Markdown template path, or an empty value to clear it.\"",
+                    "target": "description:\"Existing Markdown template path, or an empty value to clear it.\""
+                },
+                {
+                    "source": "description:\"Use an existing daily journal as the append target.\"",
+                    "target": "description:\"Use an existing daily journal as the append target.\""
+                },
+                {
+                    "source": "description:\"Journal folder pattern; date tokens such as YYYY are supported.\"",
+                    "target": "description:\"Journal folder pattern; date tokens such as YYYY are supported.\""
+                },
+                {
+                    "source": "description:\"Existing journal file-name pattern.\"",
+                    "target": "description:\"Existing journal file-name pattern.\""
+                },
+                {
+                    "source": "description:\"Create an immutable, session-scoped plan from the supplied setting values without writing.\"",
+                    "target": "description:\"Create an immutable, session-scoped plan from the supplied setting values without writing.\""
+                },
+                {
+                    "source": "description:\"Exact planId returned by the approved dry-run.\"",
+                    "target": "description:\"Exact planId returned by the approved dry-run.\""
+                },
+                {
+                    "source": "description:\"Exact planDigest returned by the approved dry-run.\"",
+                    "target": "description:\"Exact planDigest returned by the approved dry-run.\""
+                },
+                {
+                    "source": "description:\"Assert that the Agent already obtained the user's natural-language permission.\"",
+                    "target": "description:\"Assert that the Agent already obtained the user's natural-language permission.\""
+                },
+                {
+                    "source": "description:\"Stable idempotency key required for an actual write.\"",
+                    "target": "description:\"Stable idempotency key required for an actual write.\""
+                },
+                {
+                    "source": "description:\"Create an immutable preview or atomically apply automatic-polish and user custom-prompt changes.\"",
+                    "target": "description:\"Create an immutable preview or atomically apply automatic-polish and user custom-prompt changes.\""
+                },
+                {
+                    "source": "description:\"Enable or disable automatic polish for future eligible transcription and desktop voice-input flows.\"",
+                    "target": "description:\"Enable or disable automatic polish for future eligible transcription and desktop voice-input flows.\""
+                },
+                {
+                    "source": "description:\"Create a new user custom polish operation or update one existing user custom profile.\"",
+                    "target": "description:\"Create a new user custom polish operation or update one existing user custom profile.\""
+                },
+                {
+                    "source": "description:\"Existing user custom profile id. Required for update and forbidden for create.\"",
+                    "target": "description:\"Existing user custom profile id. Required for update and forbidden for create.\""
+                },
+                {
+                    "source": "description:\"User-visible custom operation name. Required for create and optional for update.\"",
+                    "target": "description:\"User-visible custom operation name. Required for create and optional for update.\""
+                },
+                {
+                    "source": "description:\"Complete user custom polish prompt, up to 8000 characters. Required for create and optional for update.\"",
+                    "target": "description:\"Complete user custom polish prompt, up to 8000 characters. Required for create and optional for update.\""
+                },
+                {
+                    "source": "description:\"Create an immutable, session-scoped plan from the supplied values without writing.\"",
+                    "target": "description:\"Create an immutable, session-scoped plan from the supplied values without writing.\""
+                },
+                {
+                    "source": "description:\"Assert that the Agent already obtained the user's natural-language permission for this exact plan.\"",
+                    "target": "description:\"Assert that the Agent already obtained the user's natural-language permission for this exact plan.\""
+                },
+                {
+                    "source": "description:\"Inspect Resojot's current Windows FunASR program, service, model, and local-provider state.\"",
+                    "target": "description:\"Inspect Resojot's current Windows FunASR program, service, model, and local-provider state.\""
+                },
+                {
+                    "source": "description:\"Return current, state-aware FunASR installation, connection, and troubleshooting guidance.\"",
+                    "target": "description:\"Return current, state-aware FunASR installation, connection, and troubleshooting guidance.\""
+                },
+                {
+                    "source": "description:\"List bounded public CLI job receipts.\"",
+                    "target": "description:\"List bounded public CLI job receipts.\""
+                },
+                {
+                    "source": "description:\"Optional public job-state filter.\"",
+                    "target": "description:\"Optional public job-state filter.\""
+                },
+                {
+                    "source": "description:\"Maximum jobs to return, from 1 to 50.\"",
+                    "target": "description:\"Maximum jobs to return, from 1 to 50.\""
+                },
+                {
+                    "source": "description:\"Opaque cursor returned by a previous call.\"",
+                    "target": "description:\"Opaque cursor returned by a previous call.\""
+                },
+                {
+                    "source": "description:\"Return one public CLI job.\"",
+                    "target": "description:\"Return one public CLI job.\""
+                },
+                {
+                    "source": "description:\"Public job id.\"",
+                    "target": "description:\"Public job id.\""
+                },
+                {
+                    "source": "description:\"Create a bounded snapshot from the same Resojot-managed recording domain used by the management list.\"",
+                    "target": "description:\"Create a bounded snapshot from the same Resojot-managed recording domain used by the management list.\""
+                },
+                {
+                    "source": "description:\"Stable idempotency key.\"",
+                    "target": "description:\"Stable idempotency key.\""
+                },
+                {
+                    "source": "description:\"List one page of managed recording entries from a live recording audit.\"",
+                    "target": "description:\"List one page of managed recording entries from a live recording audit.\""
+                },
+                {
+                    "source": "description:\"Live recording audit id.\"",
+                    "target": "description:\"Live recording audit id.\""
+                },
+                {
+                    "source": "description:\"Optional reference-state filter.\"",
+                    "target": "description:\"Optional reference-state filter.\""
+                },
+                {
+                    "source": "description:\"Optional source-note-state filter.\"",
+                    "target": "description:\"Optional source-note-state filter.\""
+                },
+                {
+                    "source": "description:\"Optional audio-state filter.\"",
+                    "target": "description:\"Optional audio-state filter.\""
+                },
+                {
+                    "source": "description:\"Optional transcription task-state filter.\"",
+                    "target": "description:\"Optional transcription task-state filter.\""
+                },
+                {
+                    "source": "description:\"Optional polish task-state filter.\"",
+                    "target": "description:\"Optional polish task-state filter.\""
+                },
+                {
+                    "source": "description:\"Optional management-list state filter such as orphan-audio, transcribe-failed, or polish-processing.\"",
+                    "target": "description:\"Optional management-list state filter such as orphan-audio, transcribe-failed, or polish-processing.\""
+                },
+                {
+                    "source": "description:\"Optional risk filter.\"",
+                    "target": "description:\"Optional risk filter.\""
+                },
+                {
+                    "source": "description:\"Optional audit content-evidence filter.\"",
+                    "target": "description:\"Optional audit content-evidence filter.\""
+                },
+                {
+                    "source": "description:\"Optional evidence-source filter such as full-transcription-result or partial-transcript.\"",
+                    "target": "description:\"Optional evidence-source filter such as full-transcription-result or partial-transcript.\""
+                },
+                {
+                    "source": "description:\"Return only recordings that currently allow this action.\"",
+                    "target": "description:\"Return only recordings that currently allow this action.\""
+                },
+                {
+                    "source": "description:\"Return only recordings for which the audit recommends this action.\"",
+                    "target": "description:\"Return only recordings for which the audit recommends this action.\""
+                },
+                {
+                    "source": "description:\"Return only recordings with a known duration at or below this value.\"",
+                    "target": "description:\"Return only recordings with a known duration at or below this value.\""
+                },
+                {
+                    "source": "description:\"Compact is the default Agent projection; full includes reference and source-note details.\"",
+                    "target": "description:\"Compact is the default Agent projection; full includes reference and source-note details.\""
+                },
+                {
+                    "source": "description:\"Stable result ordering. Defaults to recorded-at.\"",
+                    "target": "description:\"Stable result ordering. Defaults to recorded-at.\""
+                },
+                {
+                    "source": "description:\"Sort direction. Defaults to desc.\"",
+                    "target": "description:\"Sort direction. Defaults to desc.\""
+                },
+                {
+                    "source": "description:\"Maximum findings to return, from 1 to 50.\"",
+                    "target": "description:\"Maximum findings to return, from 1 to 50.\""
+                },
+                {
+                    "source": "description:\"Opaque finding cursor returned by a previous call.\"",
+                    "target": "description:\"Opaque finding cursor returned by a previous call.\""
+                },
+                {
+                    "source": "description:\"Create bounded content previews for selected findings without writing notes or changing cleanup eligibility.\"",
+                    "target": "description:\"Create bounded content previews for selected findings without writing notes or changing cleanup eligibility.\""
+                },
+                {
+                    "source": "description:\"Comma-separated stable recording ids from the audit, maximum 100.\"",
+                    "target": "description:\"Comma-separated stable recording ids from the audit, maximum 100.\""
+                },
+                {
+                    "source": "description:\"Head sample duration in seconds. Defaults to 30.\"",
+                    "target": "description:\"Head sample duration in seconds. Defaults to 30.\""
+                },
+                {
+                    "source": "description:\"Assert permission for Provider cost and external transfer when a selected item cannot reuse existing evidence.\"",
+                    "target": "description:\"Assert permission for Provider cost and external transfer when a selected item cannot reuse existing evidence.\""
+                },
+                {
+                    "source": "description:\"Return one live recording preview with explicit coverage and trust labels.\"",
+                    "target": "description:\"Return one live recording preview with explicit coverage and trust labels.\""
+                },
+                {
+                    "source": "description:\"Live recording preview id.\"",
+                    "target": "description:\"Live recording preview id.\""
+                },
+                {
+                    "source": "description:\"Translate exact recording finding/action assignments into an immutable review plan without changing files.\"",
+                    "target": "description:\"Translate exact recording finding/action assignments into an immutable review plan without changing files.\""
+                },
+                {
+                    "source": "description:\"Comma-separated typed assignments. Actions: trash_audio, remove_recording_entry, restore_note, retry_transcription, retry_polish, cancel_transcription, cancel_polish, clear_stale_task, keep.\"",
+                    "target": "description:\"Comma-separated typed assignments. Actions: trash_audio, remove_recording_entry, restore_note, retry_transcription, retry_polish, cancel_transcription, cancel_polish, clear_stale_task, keep.\""
+                },
+                {
+                    "source": "description:\"Optional preview from the same audit; successful evidence summaries are bound into matching plan items.\"",
+                    "target": "description:\"Optional preview from the same audit; successful evidence summaries are bound into matching plan items.\""
+                },
+                {
+                    "source": "description:\"Apply one immutable recording plan after confirmation and per-item state revalidation.\"",
+                    "target": "description:\"Apply one immutable recording plan after confirmation and per-item state revalidation.\""
+                },
+                {
+                    "source": "description:\"Live immutable recording plan id.\"",
+                    "target": "description:\"Live immutable recording plan id.\""
+                },
+                {
+                    "source": "description:\"Exact digest returned with the plan.\"",
+                    "target": "description:\"Exact digest returned with the plan.\""
+                },
+                {
+                    "source": "description:\"Assert that the Agent obtained permission for this exact displayed plan.\"",
+                    "target": "description:\"Assert that the Agent obtained permission for this exact displayed plan.\""
+                },
+                {
+                    "source": "description:\"Create a durable job that processes one vault audio file.\"",
+                    "target": "description:\"Create a durable job that processes one vault audio file.\""
+                },
+                {
+                    "source": "description:\"Exact vault-relative audio path.\"",
+                    "target": "description:\"Exact vault-relative audio path.\""
+                },
+                {
+                    "source": "description:\"Retry a public job only when its current error is retryable.\"",
+                    "target": "description:\"Retry a public job only when its current error is retryable.\""
+                },
+                {
+                    "source": "description:\"Assert that the Agent already obtained permission for this retry.\"",
+                    "target": "description:\"Assert that the Agent already obtained permission for this retry.\""
+                },
+                {
+                    "source": "description:\"Request cancellation of a cancellable public job.\"",
+                    "target": "description:\"Request cancellation of a cancellable public job.\""
+                },
+                {
+                    "source": "description:\"Assert that the Agent already obtained permission for this cancellation.\"",
+                    "target": "description:\"Assert that the Agent already obtained permission for this cancellation.\""
+                },
+                {
+                    "source": "description:\"Future audio and note placement, naming, append, template, and journal behavior.\"",
+                    "target": "description:\"Future audio and note placement, naming, append, template, and journal behavior.\""
+                },
+                {
+                    "source": "description:\"Automatic polish state plus protected built-in metadata and user-owned custom polish operations.\"",
+                    "target": "description:\"Automatic polish state plus protected built-in metadata and user-owned custom polish operations.\""
+                }
+            ]
+        }
+    }
+}

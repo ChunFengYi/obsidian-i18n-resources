@@ -1,0 +1,4476 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "wechat-converter",
+        "version": "1.0.0",
+        "title": "Wechat Converter",
+        "description": "Wechat Converter Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.10.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "敏感图片",
+                    "target": "敏感图片"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "向左滑动查看",
+                    "target": "向左滑动查看"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "未填写",
+                    "target": "未填写"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "已就绪",
+                    "target": "已就绪"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "已断开",
+                    "target": "已断开"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "连接失败",
+                    "target": "连接失败"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "等待连接",
+                    "target": "等待连接"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "测试中...",
+                    "target": "测试中..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "测试",
+                    "target": "测试"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "测试连接",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "复制一份包含文章摘录、布局摘要和调试信息的排查 Prompt",
+                    "target": "复制一份包含文章摘录、布局摘要和调试信息的排查 Prompt"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "复制当前调试面板内容",
+                    "target": "复制当前调试面板内容"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "只复制当前布局 JSON 调试内容",
+                    "target": "只复制当前布局 JSON 调试内容"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "只复制当前错误详情调试内容",
+                    "target": "只复制当前错误详情调试内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "自动选择",
+                    "target": "自动选择"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "默认开启留言",
+                    "target": "默认开启留言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "默认仅粉丝可留言",
+                    "target": "默认仅粉丝可留言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "details",
+                    "target": "details"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Image resolution failed:",
+                    "target": "Image resolution failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Missed semicolon",
+                    "target": "Missed semicolon"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Double colon",
+                    "target": "Double colon"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unclosed block",
+                    "target": "Unclosed block"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unclosed bracket",
+                    "target": "Unclosed bracket"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected }",
+                    "target": "Unexpected }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "At-rule without name",
+                    "target": "At-rule without name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected an attribute followed by an operator preceding the string.",
+                    "target": "Expected an attribute followed by an operator preceding the string."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected \"=\" found; an operator was already defined.",
+                    "target": "Unexpected \"=\" found; an operator was already defined."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Expected a backslash preceding the semicolon.",
+                    "target": "Expected a backslash preceding the semicolon."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unexpected '|'.",
+                    "target": "Unexpected '|'."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Misplaced parenthesis.",
+                    "target": "Misplaced parenthesis."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MathJax3 Plugin: Registration failed",
+                    "target": "MathJax3 Plugin: Registration failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Mermaid 图表导出为图片失败，保留原始 SVG:",
+                    "target": "Mermaid 图表导出为图片失败，保留原始 SVG:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Mermaid 代码块渲染失败，保留原始代码块:",
+                    "target": "Mermaid 代码块渲染失败，保留原始代码块:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "图片处理失败，已跳过:",
+                    "target": "图片处理失败，已跳过:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "公式转换失败，保留原SVG:",
+                    "target": "公式转换失败，保留原SVG:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Wechatsync] test connection failed",
+                    "target": "[Wechatsync] test connection failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Wechatsync] selected platform cached auth snapshot failed",
+                    "target": "[Wechatsync] selected platform cached auth snapshot failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Wechatsync] bridge content contains inline base64 images — this should never happen on bridge flow. Likely a regression in prepareHtmlForWechatsyncArticleViaBridge or a forgotten callsite using the legacy preparator.",
+                    "target": "[Wechatsync] bridge content contains inline base64 images — this should never happen on bridge flow. Likely a regression in prepareHtmlForWechatsyncArticleViaBridge or a forgotten callsite using the legacy preparator."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Wechatsync] enqueueSyncArticle failed",
+                    "target": "[Wechatsync] enqueueSyncArticle failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[飞书连接测试失败]:",
+                    "target": "[飞书连接测试失败]:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[飞书同步失败]:",
+                    "target": "[飞书同步失败]:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Upload Error:",
+                    "target": "Upload Error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "❌ 设置面板加载失败:",
+                    "target": "❌ 设置面板加载失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "❌ 依赖加载失败:",
+                    "target": "❌ 依赖加载失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "转换失败:",
+                    "target": "转换失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "原文增强型本地恢复失败:",
+                    "target": "原文增强型本地恢复失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "AI 编排生成失败:",
+                    "target": "AI 编排生成失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "复制失败:",
+                    "target": "复制失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Image processing failed:",
+                    "target": "Image processing failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Sticker preview refresh after modal close failed:",
+                    "target": "Sticker preview refresh after modal close failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Wechatsync] open task failed",
+                    "target": "[Wechatsync] open task failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Wechat Sync Error:",
+                    "target": "Wechat Sync Error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Wechat Sticker Sync Error:",
+                    "target": "Wechat Sticker Sync Error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存重命名设置失败:",
+                    "target": "保存重命名设置失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存插件设置失败:",
+                    "target": "保存插件设置失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Element previously highlighted. To highlight again, first unset `dataset.highlighted`.",
+                    "target": "Element previously highlighted. To highlight again, first unset `dataset.highlighted`."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "测试",
+                    "target": "测试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "等待插件...",
+                    "target": "等待插件..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "读取",
+                    "target": "读取"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "读取中...",
+                    "target": "读取中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "测试连接",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "清除",
+                    "target": "清除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "清空缓存",
+                    "target": "清空缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Obsidian 负责写作、预览和平台选择；浏览器插件使用当前的浏览器登录态，把文章保存到知乎、掘金、CSDN 等平台草稿箱。微信仍可使用上方公众号 API。",
+                    "target": "Obsidian 负责写作、预览和平台选择；浏览器插件使用当前的浏览器登录态，把文章保存到知乎、掘金、CSDN 等平台草稿箱。微信仍可使用上方公众号 API。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后，Obsidian 会把文章发送给浏览器插件，由插件使用浏览器登录态保存到各平台草稿箱。在下方填入「连接令牌」即可完成配对。",
+                    "target": "开启后，Obsidian 会把文章发送给浏览器插件，由插件使用浏览器登录态保存到各平台草稿箱。在下方填入「连接令牌」即可完成配对。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认 9527。只有当浏览器插件中的本地服务地址使用了其他端口时才需要修改。",
+                    "target": "默认 9527。只有当浏览器插件中的本地服务地址使用了其他端口时才需要修改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "填入浏览器插件本地服务中显示的连接令牌，用于确认 Obsidian 与插件属于同一组连接。",
+                    "target": "填入浏览器插件本地服务中显示的连接令牌，用于确认 Obsidian 与插件属于同一组连接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "只验证 Obsidian、浏览器插件和连接令牌是否连通，并读取平台清单；不会实时检测所有平台登录状态。",
+                    "target": "只验证 Obsidian、浏览器插件和连接令牌是否连通，并读取平台清单；不会实时检测所有平台登录状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "读取浏览器插件缓存的上次状态，不会实时检测登录；发布时仍以浏览器插件实际执行为准。",
+                    "target": "读取浏览器插件缓存的上次状态，不会实时检测登录；发布时仍以浏览器插件实际执行为准。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后，发布弹窗中会出现「飞书」选项卡，支持将笔记发布至飞书云盘。",
+                    "target": "开启后，发布弹窗中会出现「飞书」选项卡，支持将笔记发布至飞书云盘。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在飞书开放平台（open.feishu.cn）中，您创建的企业自建应用的 App ID",
+                    "target": "在飞书开放平台（open.feishu.cn）中，您创建的企业自建应用的 App ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "自建应用的 App Secret 凭证",
+                    "target": "自建应用的 App Secret 凭证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "飞书文件夹链接中的最后一串字符。例如：https://feishu.cn/drive/folder/fldcnXXXXXXXXX 的 Token 是 fldcnXXXXXXXXX",
+                    "target": "飞书文件夹链接中的最后一串字符。例如：https://feishu.cn/drive/folder/fldcnXXXXXXXXX 的 Token 是 fldcnXXXXXXXXX"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于在同步成功后，把文档的所有权由机器人自动转移给您本人（您的飞书云盘中）。建议使用 user_id 格式，如 abc1234。",
+                    "target": "用于在同步成功后，把文档的所有权由机器人自动转移给您本人（您的飞书云盘中）。建议使用 user_id 格式，如 abc1234。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "验证自建应用授权和目标文件夹读取权限。完整上传/导入权限会在实际同步时验证。",
+                    "target": "验证自建应用授权和目标文件夹读取权限。完整上传/导入权限会在实际同步时验证。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "发布至飞书时的文档标题。默认使用笔记文件名，支持自定义。",
+                    "target": "发布至飞书时的文档标题。默认使用笔记文件名，支持自定义。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后，预览区域将显示为 iPhone X 手机框样式；关闭则恢复为经典全宽预览模式（需重启插件面板生效）",
+                    "target": "开启后，预览区域将显示为 iPhone X 手机框样式；关闭则恢复为经典全宽预览模式（需重启插件面板生效）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在每张图片上方显示头像（需重启插件面板生效）",
+                    "target": "在每张图片上方显示头像（需重启插件面板生效）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如未上传本地头像，将使用此 URL",
+                    "target": "如未上传本地头像，将使用此 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认关闭。开启后会在创建草稿成功后，删除你在下方配置的目录。",
+                    "target": "默认关闭。开启后会在创建草稿成功后，删除你在下方配置的目录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "填写 vault 内相对路径（不要填 /Users/... 这类绝对路径），支持 {{note}} 占位符，例如 published/{{note}}_img。",
+                    "target": "填写 vault 内相对路径（不要填 /Users/... 这类绝对路径），支持 {{note}} 占位符，例如 published/{{note}}_img。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启时优先移动到系统回收站；关闭时直接从 vault 删除。",
+                    "target": "开启时优先移动到系统回收站；关闭时直接从 vault 删除。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果您的网络 IP 经常变化（如多地办公或使用移动热点），可配置代理服务以解决微信 IP 白名单漂移导致的同步失败问题。",
+                    "target": "如果您的网络 IP 经常变化（如多地办公或使用移动热点），可配置代理服务以解决微信 IP 白名单漂移导致的同步失败问题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后，下方输入的 CSS 将覆盖当前主题的部分样式。",
+                    "target": "开启后，下方输入的 CSS 将覆盖当前主题的部分样式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "直接粘贴 CSS，例如 p { color: #333; }。无需写 .owc-article-root 前缀，插件会自动限定作用域。",
+                    "target": "直接粘贴 CSS，例如 p { color: #333; }。无需写 .owc-article-root 前缀，插件会自动限定作用域。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "填写 vault 内笔记路径（如 Meta/custom.css.md），插件会优先读取该笔记内容作为 CSS。读取失败时回退到上方 textarea。",
+                    "target": "填写 vault 内笔记路径（如 Meta/custom.css.md），插件会优先读取该笔记内容作为 CSS。读取失败时回退到上方 textarea。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "管理模型、默认布局、默认颜色和缓存策略。实际生成与应用入口在转换器顶部工具栏的「AI 编排」按钮中。",
+                    "target": "管理模型、默认布局、默认颜色和缓存策略。实际生成与应用入口在转换器顶部工具栏的「AI 编排」按钮中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "关闭后会隐藏右侧工具栏中的 AI 编排入口，但不会删除已经为文章和布局/颜色组合生成过的缓存结果。",
+                    "target": "关闭后会隐藏右侧工具栏中的 AI 编排入口，但不会删除已经为文章和布局/颜色组合生成过的缓存结果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "打开 AI 编排面板时默认选中的布局。保持“自动推荐”时，AI 会根据文章内容推荐布局风格。",
+                    "target": "打开 AI 编排面板时默认选中的布局。保持“自动推荐”时，AI 会根据文章内容推荐布局风格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "打开 AI 编排面板时默认选中的颜色。保持“自动推荐”时，AI 会在内置配色方案中推荐一个结果；生成后也可以手动切换颜色复用当前布局。",
+                    "target": "打开 AI 编排面板时默认选中的颜色。保持“自动推荐”时，AI 会在内置配色方案中推荐一个结果；生成后也可以手动切换颜色复用当前布局。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后，AI 会把文中的配图和截图作为排版素材参考，但不会直接改写你的正文。",
+                    "target": "开启后，AI 会把文中的配图和截图作为排版素材参考，但不会直接改写你的正文。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认 120 秒；较快模型可设 15 到 45 秒，较慢或本地模型建议保持 60 到 120 秒。",
+                    "target": "默认 120 秒；较快模型可设 15 到 45 秒，较慢或本地模型建议保持 60 到 120 秒。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "浏览器插件发布",
+                    "target": "浏览器插件发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用浏览器插件发布",
+                    "target": "启用浏览器插件发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "本地服务端口",
+                    "target": "本地服务端口"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "连接令牌",
+                    "target": "连接令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "测试连接",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "读取已选平台状态",
+                    "target": "读取已选平台状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用飞书同步功能",
+                    "target": "启用飞书同步功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "飞书自建应用 App ID",
+                    "target": "飞书自建应用 App ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "飞书自建应用 App Secret",
+                    "target": "飞书自建应用 App Secret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步目标文件夹 Token",
+                    "target": "同步目标文件夹 Token"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "飞书用户 ID (User ID)",
+                    "target": "飞书用户 ID (User ID)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文档标题",
+                    "target": "文档标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "预览模式",
+                    "target": "预览模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用手机仿真框",
+                    "target": "使用手机仿真框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图片水印",
+                    "target": "图片水印"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用图片水印",
+                    "target": "启用图片水印"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "上传本地头像",
+                    "target": "上传本地头像"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "头像 URL（备用）",
+                    "target": "头像 URL（备用）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "微信公众号账号",
+                    "target": "微信公众号账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "高级设置",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "发送成功后自动清理资源",
+                    "target": "发送成功后自动清理资源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "清理目录",
+                    "target": "清理目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用系统回收站",
+                    "target": "使用系统回收站"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API 代理地址",
+                    "target": "API 代理地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自定义 CSS",
+                    "target": "自定义 CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用指南",
+                    "target": "使用指南"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用自定义 CSS",
+                    "target": "启用自定义 CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自定义 CSS 内容",
+                    "target": "自定义 CSS 内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "或从笔记读取 CSS",
+                    "target": "或从笔记读取 CSS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI 编排",
+                    "target": "AI 编排"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用 AI 编排",
+                    "target": "启用 AI 编排"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认布局",
+                    "target": "默认布局"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认颜色",
+                    "target": "默认颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认 AI Provider",
+                    "target": "默认 AI Provider"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "编排时参考图片",
+                    "target": "编排时参考图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI 请求超时（秒）",
+                    "target": "AI 请求超时（秒）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AI 编排缓存",
+                    "target": "AI 编排缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "xxxxxxxxxxxxxxxxxxxx",
+                    "target": "xxxxxxxxxxxxxxxxxxxx"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "fldcnxxxxxxxxxxxxxxxxxx",
+                    "target": "fldcnxxxxxxxxxxxxxxxxxx"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入文档标题",
+                    "target": "请输入文档标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "/* 在此输入你的自定义 CSS */\np { color: #333; }",
+                    "target": "/* 在此输入你的自定义 CSS */\np { color: #333; }"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Math input error",
+                    "target": "Math input error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "飞书应用配置简易步骤 (SOP Guide):",
+                    "target": "飞书应用配置简易步骤 (SOP Guide):"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "请输入有效的飞书 docx 链接或 token。",
+                    "target": "请输入有效的飞书 docx 链接或 token。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "绑定失败，请确认当前笔记路径和飞书链接。",
+                    "target": "绑定失败，请确认当前笔记路径和飞书链接。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "关闭",
+                    "target": "关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "未选择文档",
+                    "target": "未选择文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "因全局设置中已开启水印，此选项默认开启",
+                    "target": "因全局设置中已开启水印，此选项默认开启"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "移除",
+                    "target": "移除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "调试输出",
+                    "target": "调试输出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "复制给 AI",
+                    "target": "复制给 AI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "复制当前内容",
+                    "target": "复制当前内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "布局 JSON",
+                    "target": "布局 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "复制 JSON",
+                    "target": "复制 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "错误详情",
+                    "target": "错误详情"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "复制错误详情",
+                    "target": "复制错误详情"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "生成中...",
+                    "target": "生成中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "未配置公众号账号",
+                    "target": "未配置公众号账号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "同步失败",
+                    "target": "同步失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "发布与分发",
+                    "target": "发布与分发"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "图片不足，无法同步",
+                    "target": "图片不足，无法同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "文字超长，无法同步",
+                    "target": "文字超长，无法同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "同步到贴图草稿",
+                    "target": "同步到贴图草稿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "请先设置封面",
+                    "target": "请先设置封面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "再次点击确认取消关联",
+                    "target": "再次点击确认取消关联"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "确认取消",
+                    "target": "确认取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "已发送到浏览器插件",
+                    "target": "已发送到浏览器插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "发布受限",
+                    "target": "发布受限"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "同步结果",
+                    "target": "同步结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "正在加载素材库...",
+                    "target": "正在加载素材库..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "加载失败",
+                    "target": "加载失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Star",
+                    "target": "Star"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "One of your code blocks includes unescaped HTML. This is a potentially serious security risk.",
+                    "target": "One of your code blocks includes unescaped HTML. This is a potentially serious security risk."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The element with unescaped HTML:",
+                    "target": "The element with unescaped HTML:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "图片读取失败，使用缓存链接兜底:",
+                    "target": "图片读取失败，使用缓存链接兜底:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "停止浏览器插件连接失败:",
+                    "target": "停止浏览器插件连接失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Wechatsync] extension does not support health, falling back to socket-only check",
+                    "target": "[Wechatsync] extension does not support health, falling back to socket-only check"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Wechatsync] extension does not support listSupportedPlatforms, keeping fallback list",
+                    "target": "[Wechatsync] extension does not support listSupportedPlatforms, keeping fallback list"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Wechatsync] listSupportedPlatforms failed, keeping existing platform list",
+                    "target": "[Wechatsync] listSupportedPlatforms failed, keeping existing platform list"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Wechatsync] enqueueSyncArticle unsupported, falling back to one-way syncArticle",
+                    "target": "[Wechatsync] enqueueSyncArticle unsupported, falling back to one-way syncArticle"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] API 调用计数失败:",
+                    "target": "[飞书同步] API 调用计数失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 插入内容块失败:",
+                    "target": "[飞书同步] 插入内容块失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 插入嵌套内容块失败:",
+                    "target": "[飞书同步] 插入嵌套内容块失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 清理临时 Markdown 文件失败:",
+                    "target": "[飞书同步] 清理临时 Markdown 文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 清理临时飞书文档失败:",
+                    "target": "[飞书同步] 清理临时飞书文档失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 文件夹检索失败 (不影响正常创建):",
+                    "target": "[飞书同步] 文件夹检索失败 (不影响正常创建):"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 图片预处理跳过:",
+                    "target": "[飞书同步] 图片预处理跳过:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 清理临时 MD 文件失败:",
+                    "target": "[飞书同步] 清理临时 MD 文件失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 重命名失败:",
+                    "target": "[飞书同步] 重命名失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 智能覆盖写入失败，旧文档内容已保留:",
+                    "target": "[飞书同步] 智能覆盖写入失败，旧文档内容已保留:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 检测到历史飞书 token 已失效，已清理本地关联记录",
+                    "target": "[飞书同步] 检测到历史飞书 token 已失效，已清理本地关联记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 重新绑定后覆盖更新仍然失败，降级为新建文档:",
+                    "target": "[飞书同步] 重新绑定后覆盖更新仍然失败，降级为新建文档:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 历史飞书 token 已失效，且未能在目标文件夹中重新定位原文档",
+                    "target": "[飞书同步] 历史飞书 token 已失效，且未能在目标文件夹中重新定位原文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 智能覆盖更新失败，降级为新建文档:",
+                    "target": "[飞书同步] 智能覆盖更新失败，降级为新建文档:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 图片后处理跳过，文档正文已导入:",
+                    "target": "[飞书同步] 图片后处理跳过，文档正文已导入:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 文档所有权转移失败:",
+                    "target": "[飞书同步] 文档所有权转移失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 读取当前笔记以检测 Mermaid 失败:",
+                    "target": "[飞书同步] 读取当前笔记以检测 Mermaid 失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[飞书同步] 复制链接失败:",
+                    "target": "[飞书同步] 复制链接失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Wechatsync] generateCoverThumbnailFromAsset failed",
+                    "target": "[Wechatsync] generateCoverThumbnailFromAsset failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "恢复普通预览失败，已回退基础主题:",
+                    "target": "恢复普通预览失败，已回退基础主题:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Wechatsync] openSyncTask failed, falling back to task link",
+                    "target": "[Wechatsync] openSyncTask failed, falling back to task link"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Wechatsync] getSyncTaskLink failed",
+                    "target": "[Wechatsync] getSyncTaskLink failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Wechatsync] getSyncTask failed after enqueue",
+                    "target": "[Wechatsync] getSyncTask failed after enqueue"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "同步转换器标题失败:",
+                    "target": "同步转换器标题失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "刷新自定义 CSS 预览失败:",
+                    "target": "刷新自定义 CSS 预览失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "停止旧浏览器插件连接失败:",
+                    "target": "停止旧浏览器插件连接失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Wechatsync] bridge warm start failed",
+                    "target": "[Wechatsync] bridge warm start failed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "文章排版模式",
+                    "target": "文章排版模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "微信贴图模式",
+                    "target": "微信贴图模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "这里是保留在 section-block 内的 callout。",
+                    "target": "这里是保留在 section-block 内的 callout。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "这里是 subsection 内的 callout。",
+                    "target": "这里是 subsection 内的 callout。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "这类提醒应保留在正文对应 section 里，而不是改写成普通段落。",
+                    "target": "这类提醒应保留在正文对应 section 里，而不是改写成普通段落。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "教程型布局可以强化结构，但原文里的提示信息仍应作为 callout 保留。",
+                    "target": "教程型布局可以强化结构，但原文里的提示信息仍应作为 callout 保留。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "不要把所有提示内容都压平成普通子段落。",
+                    "target": "不要把所有提示内容都压平成普通子段落。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "即使是轻杂志型，也应保留原文里的提示、说明和注记，而不是把它们改写成普通正文。",
+                    "target": "即使是轻杂志型，也应保留原文里的提示、说明和注记，而不是把它们改写成普通正文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "body",
+                    "source": "正文",
+                    "target": "正文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-pro-identity-badge wechat-pro-identity-badge-panel",
+                    "target": "wechat-pro-identity-badge wechat-pro-identity-badge-panel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-pro-identity-badge wechat-pro-identity-badge-quota",
+                    "target": "wechat-pro-identity-badge wechat-pro-identity-badge-quota"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-publish-mode-tab is-active",
+                    "target": "wechat-publish-mode-tab is-active"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-modal-section wechat-feishu-section wechat-feishu-card-section",
+                    "target": "wechat-modal-section wechat-feishu-section wechat-feishu-card-section"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-modal-section wechat-feishu-section wechat-feishu-mermaid-section is-hidden",
+                    "target": "wechat-modal-section wechat-feishu-section wechat-feishu-mermaid-section is-hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-modal-section wechat-feishu-section wechat-feishu-status-section",
+                    "target": "wechat-modal-section wechat-feishu-section wechat-feishu-status-section"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "title",
+                    "target": "title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "dots",
+                    "target": "dots"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-preview-header-top apple-top-toolbar",
+                    "target": "apple-preview-header-top apple-top-toolbar"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-preview-header-bottom hidden",
+                    "target": "apple-preview-header-bottom hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-mode-btn active",
+                    "target": "apple-mode-btn active"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-settings-sticker-wrapper hidden",
+                    "target": "apple-settings-sticker-wrapper hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-settings-area apple-settings-advanced-area",
+                    "target": "apple-settings-area apple-settings-advanced-area"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-sticker-readiness-notice is-error",
+                    "target": "apple-sticker-readiness-notice is-error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-ai-layout-section apple-ai-layout-controls-section",
+                    "target": "apple-ai-layout-section apple-ai-layout-controls-section"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-select apple-ai-layout-color-select",
+                    "target": "apple-select apple-ai-layout-color-select"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-color-picker-hidden apple-ai-custom-color-input",
+                    "target": "apple-color-picker-hidden apple-ai-custom-color-input"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-ai-layout-section apple-ai-layout-result-section",
+                    "target": "apple-ai-layout-section apple-ai-layout-result-section"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-ai-layout-section apple-ai-layout-advanced",
+                    "target": "apple-ai-layout-section apple-ai-layout-advanced"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-btn-secondary apple-ai-layout-debug-btn",
+                    "target": "apple-btn-secondary apple-ai-layout-debug-btn"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-ai-layout-cache-state is-stale",
+                    "target": "apple-ai-layout-cache-state is-stale"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-ai-layout-block-item is-skeleton",
+                    "target": "apple-ai-layout-block-item is-skeleton"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-ai-layout-block-skeleton-line is-title",
+                    "target": "apple-ai-layout-block-skeleton-line is-title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-ai-layout-block-skeleton-line is-meta",
+                    "target": "apple-ai-layout-block-skeleton-line is-meta"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-setting-section wechat-account-selector",
+                    "target": "apple-setting-section wechat-account-selector"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-modal-section sticker-publish-account",
+                    "target": "wechat-modal-section sticker-publish-account"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-modal-section sticker-publish-title",
+                    "target": "wechat-modal-section sticker-publish-title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-modal-section sticker-publish-images",
+                    "target": "wechat-modal-section sticker-publish-images"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "sticker-publish-image-actions wechat-modal-cover-btns",
+                    "target": "sticker-publish-image-actions wechat-modal-cover-btns"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "sticker-publish-image-body wechat-modal-sticker-grid-preview",
+                    "target": "sticker-publish-image-body wechat-modal-sticker-grid-preview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-modal-buttons sticker-publish-footer",
+                    "target": "wechat-modal-buttons sticker-publish-footer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-multiplatform-result-pill is-success",
+                    "target": "wechat-multiplatform-result-pill is-success"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-multiplatform-result-row is-warning",
+                    "target": "wechat-multiplatform-result-row is-warning"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-multiplatform-result-pill is-warning",
+                    "target": "wechat-multiplatform-result-pill is-warning"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-multiplatform-result-summary is-warning is-quota-blocked",
+                    "target": "wechat-multiplatform-result-summary is-warning is-quota-blocked"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-multiplatform-result-detail wechat-multiplatform-quota-platforms",
+                    "target": "wechat-multiplatform-result-detail wechat-multiplatform-quota-platforms"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-multiplatform-result-row is-error",
+                    "target": "wechat-multiplatform-result-row is-error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "mod-cta wechat-material-confirm",
+                    "target": "mod-cta wechat-material-confirm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-settings-tab active",
+                    "target": "apple-settings-tab active"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "apple-settings-tab apple-settings-tab-multi",
+                    "target": "apple-settings-tab apple-settings-tab-multi"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-btn-small wechat-btn-test",
+                    "target": "wechat-btn-small wechat-btn-test"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-btn-small wechat-btn-danger",
+                    "target": "wechat-btn-small wechat-btn-danger"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-sync-advanced wechat-account-publish-options",
+                    "target": "wechat-sync-advanced wechat-account-publish-options"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "wechat-sync-advanced-body wechat-account-publish-body",
+                    "target": "wechat-sync-advanced-body wechat-account-publish-body"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "confirmText",
+                    "source": "添加这张图片",
+                    "target": "添加这张图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "confirmText",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "confirmText",
+                    "source": "清空",
+                    "target": "清空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "<span style=\"display: inline-block; font-size: 1.15em; font-weight: bold; margin-right: 6px; vertical-align: -0.05em; color: #8f959e; line-height: 1;\">☑</span>",
+                    "target": "<span style=\"display: inline-block; font-size: 1.15em; font-weight: bold; margin-right: 6px; vertical-align: -0.05em; color: #8f959e; line-height: 1;\">☑</span>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "<span style=\"text-decoration: line-through; color: #8f959e;\">",
+                    "target": "<span style=\"text-decoration: line-through; color: #8f959e;\">"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "信息卡与案例教程风格，适合产品介绍、操作指南和案例拆解。",
+                    "target": "信息卡与案例教程风格，适合产品介绍、操作指南和案例拆解。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "更冷静的科技信息风格，适合教程、知识卡片和产品更新。",
+                    "target": "更冷静的科技信息风格，适合教程、知识卡片和产品更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "更偏内容杂志感的暖色风格，适合观点、清单和经验分享。",
+                    "target": "更偏内容杂志感的暖色风格，适合观点、清单和经验分享。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "偏编辑感的灰粉中性色，适合案例拆解和品牌内容。",
+                    "target": "偏编辑感的灰粉中性色，适合案例拆解和品牌内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AI 编排独立基础色，适合通用知识文章和工具说明。",
+                    "target": "AI 编排独立基础色，适合通用知识文章和工具说明。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AI 编排独立基础色，适合流程、经验和效率主题。",
+                    "target": "AI 编排独立基础色，适合流程、经验和效率主题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AI 编排独立基础色，适合创作、灵感和方法论内容。",
+                    "target": "AI 编排独立基础色，适合创作、灵感和方法论内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AI 编排独立基础色，适合清单、推荐和运营复盘。",
+                    "target": "AI 编排独立基础色，适合清单、推荐和运营复盘。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AI 编排独立基础色，适合产品、数据和轻科技内容。",
+                    "target": "AI 编排独立基础色，适合产品、数据和轻科技内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AI 编排独立基础色，适合品牌、生活方式和案例故事。",
+                    "target": "AI 编排独立基础色，适合品牌、生活方式和案例故事。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AI 编排独立基础色，适合重点提醒、观点表达和发布说明。",
+                    "target": "AI 编排独立基础色，适合重点提醒、观点表达和发布说明。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AI 编排独立基础色，适合长文、说明文和偏专业内容。",
+                    "target": "AI 编排独立基础色，适合长文、说明文和偏专业内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AI 编排独立自定义色，会根据你选择的颜色自动派生深色、浅底和边框。",
+                    "target": "AI 编排独立自定义色，会根据你选择的颜色自动派生深色、浅底和边框。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "文章封面卡，适合标题、导语和封面图。",
+                    "target": "文章封面卡，适合标题、导语和封面图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "章节导航卡，适合目录或分段导读。",
+                    "target": "章节导航卡，适合目录或分段导读。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "导语摘要卡，适合金句、总结或开场重点。",
+                    "target": "导语摘要卡，适合金句、总结或开场重点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "案例/教程主体区块，适合分章节承载正文。",
+                    "target": "案例/教程主体区块，适合分章节承载正文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "正文保真区块，按 sectionIndex 引用原文章节内容，不改写正文；默认由 H2 级主章节承载，H3/H4 留在块内做 subsection，并尽量保留 callout、代码块、表格和嵌套列表等特殊结构。",
+                    "target": "正文保真区块，按 sectionIndex 引用原文章节内容，不改写正文；默认由 H2 级主章节承载，H3/H4 留在块内做 subsection，并尽量保留 callout、代码块、表格和嵌套列表等特殊结构。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "手机截图展示块，适合 App 界面或聊天截图。",
+                    "target": "手机截图展示块，适合 App 界面或聊天截图。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "收尾 CTA 区块，适合总结、引导或后续动作。",
+                    "target": "收尾 CTA 区块，适合总结、引导或后续动作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "兼容旧版本字段；运行时应以 resolved.colorPalette 为准。",
+                    "target": "兼容旧版本字段；运行时应以 resolved.colorPalette 为准。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "最接近普通预览，正文尽量连续流动，只做轻量结构增强。",
+                    "target": "最接近普通预览，正文尽量连续流动，只做轻量结构增强。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "更强调章节编号、信息卡与截图展示，适合教程、清单和案例拆解。",
+                    "target": "更强调章节编号、信息卡与截图展示，适合教程、清单和案例拆解。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "偏编辑感的留白与图文节奏，适合观点、经验与品牌表达类内容。",
+                    "target": "偏编辑感的留白与图文节奏，适合观点、经验与品牌表达类内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "由 AI 根据文章内容自动推荐布局。",
+                    "target": "由 AI 根据文章内容自动推荐布局。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "由 AI 根据文章内容自动推荐颜色。",
+                    "target": "由 AI 根据文章内容自动推荐颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "由 AI 根据文章内容推荐布局风格。",
+                    "target": "由 AI 根据文章内容推荐布局风格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "由 AI 根据文章内容推荐颜色。",
+                    "target": "由 AI 根据文章内容推荐颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "danger",
+                    "target": "danger"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "tip",
+                    "target": "tip"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "💡",
+                    "target": "💡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "info",
+                    "target": "info"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "ℹ️",
+                    "target": "ℹ️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "Info",
+                    "target": "Info"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "shebang",
+                    "target": "shebang"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "interpol",
+                    "target": "interpol"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "symbol",
+                    "target": "symbol"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "备注",
+                    "target": "备注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "信息",
+                    "target": "信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "待办",
+                    "target": "待办"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "摘要",
+                    "target": "摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "提示",
+                    "target": "提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "重要",
+                    "target": "重要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "成功",
+                    "target": "成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "完成",
+                    "target": "完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "问题",
+                    "target": "问题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "帮助",
+                    "target": "帮助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "FAQ",
+                    "target": "FAQ"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "警告",
+                    "target": "警告"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "注意",
+                    "target": "注意"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "失败",
+                    "target": "失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "缺失",
+                    "target": "缺失"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "危险",
+                    "target": "危险"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "错误",
+                    "target": "错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Bug",
+                    "target": "Bug"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "引用",
+                    "target": "引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "示例",
+                    "target": "示例"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "HandleLabel",
+                    "target": "HandleLabel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "科技绿",
+                    "target": "科技绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "深海蓝",
+                    "target": "深海蓝"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "暖砂金",
+                    "target": "暖砂金"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "石墨玫瑰",
+                    "target": "石墨玫瑰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "经典蓝",
+                    "target": "经典蓝"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "清爽绿",
+                    "target": "清爽绿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "灵感紫",
+                    "target": "灵感紫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "活力橙",
+                    "target": "活力橙"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "湖水青",
+                    "target": "湖水青"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "柔和玫瑰",
+                    "target": "柔和玫瑰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "醒目红",
+                    "target": "醒目红"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "克制灰",
+                    "target": "克制灰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "自定义",
+                    "target": "自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "原文增强型",
+                    "target": "原文增强型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "教程卡片型",
+                    "target": "教程卡片型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "PART 01",
+                    "target": "PART 01"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "PART 02",
+                    "target": "PART 02"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "轻杂志型",
+                    "target": "轻杂志型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "自动推荐",
+                    "target": "自动推荐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "settings health",
+                    "target": "settings health"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "无衬线",
+                    "target": "无衬线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "衬线",
+                    "target": "衬线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "等宽",
+                    "target": "等宽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "较小",
+                    "target": "较小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "推荐",
+                    "target": "推荐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "较大",
+                    "target": "较大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "经典主题色",
+                    "target": "经典主题色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "中性灰（推荐）",
+                    "target": "中性灰（推荐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "生成中...",
+                    "target": "生成中..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "生成并应用",
+                    "target": "生成并应用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "应用旧缓存",
+                    "target": "应用旧缓存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "重新生成并应用",
+                    "target": "重新生成并应用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "应用上一版",
+                    "target": "应用上一版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "应用当前结果",
+                    "target": "应用当前结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "OpenAI 兼容接口",
+                    "target": "OpenAI 兼容接口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Gemini 兼容格式",
+                    "target": "Gemini 兼容格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Anthropic 兼容格式",
+                    "target": "Anthropic 兼容格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "已读取所选平台的上次登录状态。",
+                    "target": "已读取所选平台的上次登录状态。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "unknown policy error",
+                    "target": "unknown policy error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Mermaid 图表暂未渲染为图片，已保留原始代码块",
+                    "target": "Mermaid 图表暂未渲染为图片，已保留原始代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "CSS 笔记的 YAML frontmatter 没有结束标记。",
+                    "target": "CSS 笔记的 YAML frontmatter 没有结束标记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "CSS 代码块没有结束标记。",
+                    "target": "CSS 代码块没有结束标记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plain text",
+                    "target": "Plain text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HTML, XML",
+                    "target": "HTML, XML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "style",
+                    "target": "style"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "script",
+                    "target": "script"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bash",
+                    "target": "Bash"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CSS",
+                    "target": "CSS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown",
+                    "target": "Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Diff",
+                    "target": "Diff"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ruby",
+                    "target": "Ruby"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Go",
+                    "target": "Go"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "GraphQL",
+                    "target": "GraphQL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "TOML, also INI",
+                    "target": "TOML, also INI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Java",
+                    "target": "Java"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JavaScript",
+                    "target": "JavaScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kotlin",
+                    "target": "Kotlin"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Less",
+                    "target": "Less"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lua",
+                    "target": "Lua"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Makefile",
+                    "target": "Makefile"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Perl",
+                    "target": "Perl"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PHP template",
+                    "target": "PHP template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Python",
+                    "target": "Python"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rust",
+                    "target": "Rust"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Shell Session",
+                    "target": "Shell Session"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SQL",
+                    "target": "SQL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Swift",
+                    "target": "Swift"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "TypeScript",
+                    "target": "TypeScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Visual Basic .NET",
+                    "target": "Visual Basic .NET"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "WebAssembly",
+                    "target": "WebAssembly"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "简约",
+                    "target": "简约"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "经典",
+                    "target": "经典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "优雅",
+                    "target": "优雅"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "纸张长文",
+                    "target": "纸张长文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "网格文档",
+                    "target": "网格文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Typo",
+                    "target": "Typo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "清爽媒体",
+                    "target": "清爽媒体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "彩色强调",
+                    "target": "彩色强调"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "scope",
+                    "target": "scope"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "actuate",
+                    "target": "actuate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "arcrole",
+                    "target": "arcrole"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "href",
+                    "target": "href"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "role",
+                    "target": "role"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "show",
+                    "target": "show"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "title",
+                    "target": "title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "type",
+                    "target": "type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "lang",
+                    "target": "lang"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "space",
+                    "target": "space"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "xmlns",
+                    "target": "xmlns"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "xlink",
+                    "target": "xlink"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "import",
+                    "target": "import"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "charset",
+                    "target": "charset"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "namespace",
+                    "target": "namespace"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "base",
+                    "target": "base"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "root",
+                    "target": "root"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "小红书",
+                    "target": "小红书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "知乎",
+                    "target": "知乎"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "微博",
+                    "target": "微博"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "抖音图文",
+                    "target": "抖音图文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "头条号",
+                    "target": "头条号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "B站专栏",
+                    "target": "B站专栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "语雀",
+                    "target": "语雀"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "简书",
+                    "target": "简书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "什么值得买",
+                    "target": "什么值得买"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "掘金",
+                    "target": "掘金"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "百家号",
+                    "target": "百家号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "豆瓣",
+                    "target": "豆瓣"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "搜狐号",
+                    "target": "搜狐号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "雪球",
+                    "target": "雪球"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "人人都是产品经理",
+                    "target": "人人都是产品经理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "大鱼号",
+                    "target": "大鱼号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "一点号",
+                    "target": "一点号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "慕课手记",
+                    "target": "慕课手记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "开源中国",
+                    "target": "开源中国"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "思否",
+                    "target": "思否"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "博客园",
+                    "target": "博客园"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "搜狐焦点",
+                    "target": "搜狐焦点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "X (Twitter)",
+                    "target": "X (Twitter)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "东方财富",
+                    "target": "东方财富"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "网易号",
+                    "target": "网易号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "我的公众号",
+                    "target": "我的公众号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "hyphen",
+                    "target": "hyphen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "1st-level escape",
+                    "target": "1st-level escape"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "ellipsis",
+                    "target": "ellipsis"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "addition compound",
+                    "target": "addition compound"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "circa",
+                    "target": "circa"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "comma enumeration S",
+                    "target": "comma enumeration S"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "electron dot",
+                    "target": "electron dot"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "KV x",
+                    "target": "KV x"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "prime",
+                    "target": "prime"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "粘贴飞书文档 URL 或 docx token",
+                    "target": "粘贴飞书文档 URL 或 docx token"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "默认使用 frontmatter title 或文件名",
+                    "target": "默认使用 frontmatter title 或文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "留空则默认使用 frontmatter 中的 title 或文件名",
+                    "target": "留空则默认使用 frontmatter 中的 title 或文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "留空则自动提取文章前 45 字",
+                    "target": "留空则自动提取文章前 45 字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例如：OpenAI / OpenRouter / 自建网关",
+                    "target": "例如：OpenAI / OpenRouter / 自建网关"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例如：我的公众号",
+                    "target": "例如：我的公众号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "开发者密钥",
+                    "target": "开发者密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "留空则不显示作者",
+                    "target": "留空则不显示作者"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "留空则不同步原文链接",
+                    "target": "留空则不同步原文链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "style",
+                    "source": "width: 100%; display: flex; align-items: center; gap: 10px;",
+                    "target": "width: 100%; display: flex; align-items: center; gap: 10px;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "style",
+                    "source": "font-size: 12px; color: var(--apple-secondary); min-width: 32px; text-align: right;",
+                    "target": "font-size: 12px; color: var(--apple-secondary); min-width: 32px; text-align: right;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "style",
+                    "source": "text-align: right; font-size: 11px; color: var(--text-muted); margin-top: 4px; opacity: 0.7;",
+                    "target": "text-align: right; font-size: 11px; color: var(--text-muted); margin-top: 4px; opacity: 0.7;"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "封面导语",
+                    "target": "封面导语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "让内容自己跳出来",
+                    "target": "让内容自己跳出来"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "subtitle",
+                    "source": "更轻、更有呼吸感的版式",
+                    "target": "更轻、更有呼吸感的版式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "success",
+                    "target": "success"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "Success",
+                    "target": "Success"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "info",
+                    "target": "info"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "📄",
+                    "target": "📄"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "一句摘要",
+                    "target": "一句摘要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "保留原文节奏，只做轻量增强。",
+                    "target": "保留原文节奏，只做轻量增强。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "像教程精修稿一样结构清晰。",
+                    "target": "像教程精修稿一样结构清晰。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "更有呼吸感、更像编辑稿。",
+                    "target": "更有呼吸感、更像编辑稿。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "summary",
+                    "source": "Summary",
+                    "target": "Summary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "HBox",
+                    "target": "HBox"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "一段适合做导语的重点摘要。",
+                    "target": "一段适合做导语的重点摘要。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "先放过自己，很多教育焦虑才会真正松开。",
+                    "target": "先放过自己，很多教育焦虑才会真正松开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "标签是什么",
+                    "target": "标签是什么"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "怎么用",
+                    "target": "怎么用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "写作的真正难点，从来不是表达，而是删改。",
+                    "target": "写作的真正难点，从来不是表达，而是删改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "需连接浏览器插件",
+                    "target": "需连接浏览器插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "未检测",
+                    "target": "未检测"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pro",
+                    "target": "Pro"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "安装浏览器插件",
+                    "target": "安装浏览器插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "查看配置步骤",
+                    "target": "查看配置步骤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "连接令牌尚未填写。请到浏览器扩展弹窗复制令牌。",
+                    "target": "连接令牌尚未填写。请到浏览器扩展弹窗复制令牌。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " 已断开，请重启浏览器扩展重新连接。",
+                    "target": " 已断开，请重启浏览器扩展重新连接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "令牌已填写，请点击下方「测试连接」确认连接。",
+                    "target": "令牌已填写，请点击下方「测试连接」确认连接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "发现待配对的浏览器",
+                    "target": "发现待配对的浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "这些浏览器使用了不同的本地连接凭据。只有你明确批准后，它们才能连接此 Obsidian。",
+                    "target": "这些浏览器使用了不同的本地连接凭据。只有你明确批准后，它们才能连接此 Obsidian。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "批准配对",
+                    "target": "批准配对"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "已配对浏览器",
+                    "target": "已配对浏览器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "移除",
+                    "target": "移除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "发布平台（浏览器插件支持）",
+                    "target": "发布平台（浏览器插件支持）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "启用浏览器插件发布",
+                    "target": "启用浏览器插件发布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "连接浏览器插件后，可将文章保存到小红书、知乎、头条等平台的草稿箱。",
+                    "target": "连接浏览器插件后，可将文章保存到小红书、知乎、头条等平台的草稿箱。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "去设置",
+                    "target": "去设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "查看安装教程",
+                    "target": "查看安装教程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择平台后通过浏览器插件保存为草稿。",
+                    "target": "选择平台后通过浏览器插件保存为草稿。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💡 提示：多平台发布能力依赖于浏览器插件，建议在电脑端使用。",
+                    "target": "💡 提示：多平台发布能力依赖于浏览器插件，建议在电脑端使用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "免费版",
+                    "target": "免费版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "升级 Pro",
+                    "target": "升级 Pro"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "发送到浏览器插件",
+                    "target": "发送到浏览器插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "还没有可分发的平台",
+                    "target": "还没有可分发的平台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "请先连接浏览器插件，或稍后重试读取平台清单。",
+                    "target": "请先连接浏览器插件，或稍后重试读取平台清单。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "数据统计",
+                    "target": "数据统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "分享文档数",
+                    "target": "分享文档数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "本月 API 调用次数",
+                    "target": "本月 API 调用次数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "重置计数",
+                    "target": "重置计数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "飞书云文档同步配置",
+                    "target": "飞书云文档同步配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "通过飞书自建应用机器人接口，将当前 Obsidian 笔记一键发布并转换为原生的飞书云文档（docx），支持保留标题、表格、以及图片上传（包含本地和图床图片）。",
+                    "target": "通过飞书自建应用机器人接口，将当前 Obsidian 笔记一键发布并转换为原生的飞书云文档（docx），支持保留标题、表格、以及图片上传（包含本地和图床图片）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💡 ",
+                    "target": "💡 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "点击查看飞书同步详细图文配置与排障指南 ➔",
+                    "target": "点击查看飞书同步详细图文配置与排障指南 ➔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "访问 ",
+                    "target": "访问 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "飞书开放平台",
+                    "target": "飞书开放平台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " 创建自建应用，并在「应用功能」中启用「机器人」能力。",
+                    "target": " 创建自建应用，并在「应用功能」中启用「机器人」能力。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "进入「权限管理」，建议按更稳妥的方式开通权限：应用身份开通「云文档」相关全部权限，用户身份开通全部权限。这样可最大限度避免导入、更新、图片处理或所有权转移时遇到 403/权限不足。完成后点击「版本管理与发布」申请上线（需管理员审批）。",
+                    "target": "进入「权限管理」，建议按更稳妥的方式开通权限：应用身份开通「云文档」相关全部权限，用户身份开通全部权限。这样可最大限度避免导入、更新、图片处理或所有权转移时遇到 403/权限不足。完成后点击「版本管理与发布」申请上线（需管理员审批）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "在飞书客户端新建群聊，添加自建机器人，并将云盘同步文件夹共享给该群，协作权限必须选择 ",
+                    "target": "在飞书客户端新建群聊，添加自建机器人，并将云盘同步文件夹共享给该群，协作权限必须选择 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "「可管理」",
+                    "target": "「可管理」"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " 权限。",
+                    "target": " 权限。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "微信草稿箱",
+                    "target": "微信草稿箱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "多平台发布（小红书/知乎/头条/B 站等）",
+                    "target": "多平台发布（小红书/知乎/头条/B 站等）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "飞书云文档",
+                    "target": "飞书云文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "尚未完成飞书同步配置",
+                    "target": "尚未完成飞书同步配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "一键同步至飞书前，需要先在插件设置中开启并填写 App ID、App Secret 和目标文件夹 Token。",
+                    "target": "一键同步至飞书前，需要先在插件设置中开启并填写 App ID、App Secret 和目标文件夹 Token。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "❌ 未找到当前活动的 Markdown 笔记，请先打开一篇文档。",
+                    "target": "❌ 未找到当前活动的 Markdown 笔记，请先打开一篇文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Mermaid 图表",
+                    "target": "Mermaid 图表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保留源码（推荐，最安全）",
+                    "target": "保留源码（推荐，最安全）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "使用 Kroki 远端渲染成图片",
+                    "target": "使用 Kroki 远端渲染成图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "远端渲染会把 Mermaid 源码发送到 Kroki 渲染服务。请确认这篇笔记中的图表源码不包含敏感信息。",
+                    "target": "远端渲染会把 Mermaid 源码发送到 Kroki 渲染服务。请确认这篇笔记中的图表源码不包含敏感信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "记住这篇笔记的选择",
+                    "target": "记住这篇笔记的选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "同步状态",
+                    "target": "同步状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "第一次同步该笔记。开始后会先检索目标文件夹中的同名文档，命中则自动绑定更新，未命中则新建文档。",
+                    "target": "第一次同步该笔记。开始后会先检索目标文件夹中的同名文档，命中则自动绑定更新，未命中则新建文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文档绑定",
+                    "target": "文档绑定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "飞书端文档被移动、重建，或本地缓存指向旧 token 时，可粘贴新的 docx 链接重新绑定。",
+                    "target": "飞书端文档被移动、重建，或本地缓存指向旧 token 时，可粘贴新的 docx 链接重新绑定。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "在浏览器中打开",
+                    "target": "在浏览器中打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "复制链接",
+                    "target": "复制链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "公众号预览",
+                    "target": "公众号预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "•••",
+                    "target": "•••"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Obsidian 发布助手",
+                    "target": "Obsidian 发布助手"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前面板用于预览微信公众号排版。请在左侧编辑器中打开或激活任意 Markdown 笔记以自动加载预览。",
+                    "target": "当前面板用于预览微信公众号排版。请在左侧编辑器中打开或激活任意 Markdown 笔记以自动加载预览。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "1. 打开或点击任意 Markdown 笔记",
+                    "target": "1. 打开或点击任意 Markdown 笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "2. 预览微信公众号排版",
+                    "target": "2. 预览微信公众号排版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "3. 一键复制或同步到微信、飞书、小红书等平台",
+                    "target": "3. 一键复制或同步到微信、飞书、小红书等平台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "注：此面板仅预览微信排版。同步至飞书、小红书等平台直接以源 Markdown 笔记为准。",
+                    "target": "注：此面板仅预览微信排版。同步至飞书、小红书等平台直接以源 Markdown 笔记为准。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️",
+                    "target": "⚠️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "渲染失败",
+                    "target": "渲染失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前文档尚未成功渲染，复制/同步已禁用。请修复后重试。",
+                    "target": "当前文档尚未成功渲染，复制/同步已禁用。请修复后重试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "未选择文档",
+                    "target": "未选择文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "自定义",
+                    "target": "自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "排版间距",
+                    "target": "排版间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "高级选项",
+                    "target": "高级选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "中性灰更适合长文阅读；经典主题色兼容现有风格。",
+                    "target": "中性灰更适合长文阅读；经典主题色兼容现有风格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "标题使用加深主题色",
+                    "target": "标题使用加深主题色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "仅作用于预览 / 复制 / 同步结果",
+                    "target": "仅作用于预览 / 复制 / 同步结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "关闭水印时，在图片下方显示说明文字",
+                    "target": "关闭水印时，在图片下方显示说明文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "在文案中插入 [配图 N]",
+                    "target": "在文案中插入 [配图 N]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "便于读者对应下方图片；只影响贴图文案。",
+                    "target": "便于读者对应下方图片；只影响贴图文案。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "· 自动忽略 Frontmatter 等机器信息\n· 代码块、表格、公式和脚注会转换为可读纯文本\n· 只影响预览和草稿，不会改动笔记原文",
+                    "target": "· 自动忽略 Frontmatter 等机器信息\n· 代码块、表格、公式和脚注会转换为可读纯文本\n· 只影响预览和草稿，不会改动笔记原文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "内容已转换为适合贴图的纯文本，不会改动笔记原文。",
+                    "target": "内容已转换为适合贴图的纯文本，不会改动笔记原文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "撤销上次移除",
+                    "target": "撤销上次移除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "恢复全部",
+                    "target": "恢复全部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "贴图图片列表",
+                    "target": "贴图图片列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "顺序即最终发布顺序；添加图片请打开发布弹窗，移除不会改动笔记。",
+                    "target": "顺序即最终发布顺序；添加图片请打开发布弹窗，移除不会改动笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "还缺 1 张图片，当前贴图无法同步。请在笔记中插入图片，或在发布弹窗中上传。",
+                    "target": "还缺 1 张图片，当前贴图无法同步。请在笔记中插入图片，或在发布弹窗中上传。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "发布文案",
+                    "target": "发布文案"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "将以纯文本同步到微信草稿",
+                    "target": "将以纯文本同步到微信草稿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AI 编排",
+                    "target": "AI 编排"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "按当前文章内容生成区块化排版建议",
+                    "target": "按当前文章内容生成区块化排版建议"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "未生成",
+                    "target": "未生成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "尚未生成当前文章的 AI 编排结果。",
+                    "target": "尚未生成当前文章的 AI 编排结果。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "生成后会在这里展示当前结果的简要说明。",
+                    "target": "生成后会在这里展示当前结果的简要说明。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "布局",
+                    "target": "布局"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "颜色",
+                    "target": "颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "生成并应用",
+                    "target": "生成并应用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "重新生成并应用",
+                    "target": "重新生成并应用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "恢复普通预览",
+                    "target": "恢复普通预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "恢复已移除",
+                    "target": "恢复已移除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "区块",
+                    "target": "区块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "高级 / 调试",
+                    "target": "高级 / 调试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "查看布局 JSON",
+                    "target": "查看布局 JSON"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "查看错误详情",
+                    "target": "查看错误详情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "调试输出",
+                    "target": "调试输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "复制给 AI",
+                    "target": "复制给 AI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "复制当前内容",
+                    "target": "复制当前内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正在生成 AI 编排...",
+                    "target": "正在生成 AI 编排..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "基于旧内容",
+                    "target": "基于旧内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "切换到",
+                    "target": "切换到"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "同步账号",
+                    "target": "同步账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚙️",
+                    "target": "⚙️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "先配置公众号账号",
+                    "target": "先配置公众号账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "请先在插件设置中填写 AppID / AppSecret，再发送到微信草稿箱。",
+                    "target": "请先在插件设置中填写 AppID / AppSecret，再发送到微信草稿箱。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "去配置账号",
+                    "target": "去配置账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "关闭",
+                    "target": "关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消关联并新建草稿",
+                    "target": "取消关联并新建草稿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "重试同步",
+                    "target": "重试同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "发布账号",
+                    "target": "发布账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "贴图标题",
+                    "target": "贴图标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "发布图片",
+                    "target": "发布图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "上传",
+                    "target": "上传"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "从素材库选择",
+                    "target": "从素材库选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "同步到贴图草稿",
+                    "target": "同步到贴图草稿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "尚未配置微信公众号账号",
+                    "target": "尚未配置微信公众号账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "微信草稿箱需要先配置公众号 API。其他平台仍可通过浏览器插件发送。",
+                    "target": "微信草稿箱需要先配置公众号 API。其他平台仍可通过浏览器插件发送。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "账号",
+                    "target": "账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "未检测到图片素材（贴图要求至少有一张图片）",
+                    "target": "未检测到图片素材（贴图要求至少有一张图片）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "素材库",
+                    "target": "素材库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂无封面",
+                    "target": "暂无封面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文章摘要（可选）",
+                    "target": "文章摘要（可选）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "已关联微信草稿，同步将更新该草稿",
+                    "target": "已关联微信草稿，同步将更新该草稿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消关联",
+                    "target": "取消关联"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "任务",
+                    "target": "任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "请打开插件历史查看。",
+                    "target": "请打开插件历史查看。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "已投递",
+                    "target": "已投递"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "已跳过",
+                    "target": "已跳过"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "查看任务",
+                    "target": "查看任务"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "浏览器插件发布",
+                    "target": "浏览器插件发布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "等待插件结果",
+                    "target": "等待插件结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前连接没有返回平台明细。请在浏览器插件侧确认草稿是否已生成。",
+                    "target": "当前连接没有返回平台明细。请在浏览器插件侧确认草稿是否已生成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "打开草稿",
+                    "target": "打开草稿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "重新选择平台",
+                    "target": "重新选择平台"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "刷新",
+                    "target": "刷新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正在加载素材库...",
+                    "target": "正在加载素材库..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "上一页",
+                    "target": "上一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "下一页",
+                    "target": "下一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "素材库中暂无图片素材",
+                    "target": "素材库中暂无图片素材"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "喜欢这个插件？",
+                    "target": "喜欢这个插件？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "在 GitHub 上点个 Star，可以帮更多 Obsidian 创作者发现它。",
+                    "target": "在 GitHub 上点个 Star，可以帮更多 Obsidian 创作者发现它。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Star on GitHub",
+                    "target": "Star on GitHub"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "微信",
+                    "target": "微信"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "飞书",
+                    "target": "飞书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂无账号，请点击下方按钮添加",
+                    "target": "暂无账号，请点击下方按钮添加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "默认",
+                    "target": "默认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "设为默认",
+                    "target": "设为默认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "编辑",
+                    "target": "编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "测试",
+                    "target": "测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "+ 添加账号",
+                    "target": "+ 添加账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💡",
+                    "target": "💡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "官方中转",
+                    "target": "官方中转"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "：已上线稳定中转代理，彻底解决微信 IP 白名单频繁漂移问题。",
+                    "target": "：已上线稳定中转代理，彻底解决微信 IP 白名单频繁漂移问题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "获取官方中转 Token ➔",
+                    "target": "获取官方中转 Token ➔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🛠️",
+                    "target": "🛠️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "手工自建",
+                    "target": "手工自建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "：如果您想拥有完全自主的控制权，也可以基于 Cloudflare Worker 或个人 VPS 自建。",
+                    "target": "：如果您想拥有完全自主的控制权，也可以基于 Cloudflare Worker 或个人 VPS 自建。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "查看自建部署指南 ➔",
+                    "target": "查看自建部署指南 ➔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔒",
+                    "target": "🔒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "安全声明",
+                    "target": "安全声明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "：代理服务将中转您的请求。请确保使用受信任的代理（自建或官方），以保护 AppSecret 安全。中转服务仅在内存中转发，不存储您的任何敏感凭证。",
+                    "target": "：代理服务将中转您的请求。请确保使用受信任的代理（自建或官方），以保护 AppSecret 安全。中转服务仅在内存中转发，不存储您的任何敏感凭证。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ 高阶功能",
+                    "target": "⚠️ 高阶功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "：需要您自己编写 CSS。插件会自动把选择器样式内联到元素上，但微信仍可能清洗部分复杂样式；当文章已使用 AI 编排结果时，自定义 CSS 不生效（两者为独立的样式系统）。启用前建议先用「复制到公众号」小范围测试。",
+                    "target": "：需要您自己编写 CSS。插件会自动把选择器样式内联到元素上，但微信仍可能清洗部分复杂样式；当文章已使用 AI 编排结果时，自定义 CSS 不生效（两者为独立的样式系统）。启用前建议先用「复制到公众号」小范围测试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前状态",
+                    "target": "当前状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正在检查自定义 CSS…",
+                    "target": "正在检查自定义 CSS…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂无 AI Provider，请点击下方按钮添加",
+                    "target": "暂无 AI Provider，请点击下方按钮添加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "已停用",
+                    "target": "已停用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "可用",
+                    "target": "可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "待补全",
+                    "target": "待补全"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "+ 添加 AI Provider",
+                    "target": "+ 添加 AI Provider"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AI 编排高级选项",
+                    "target": "AI 编排高级选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "名称",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "类型",
+                    "target": "类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Base URL",
+                    "target": "Base URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "API Key",
+                    "target": "API Key"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "模型",
+                    "target": "模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "启用",
+                    "target": "启用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保存后可用于 AI 编排和连接测试",
+                    "target": "保存后可用于 AI 编排和连接测试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "测试连接",
+                    "target": "测试连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "账号名称",
+                    "target": "账号名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AppID",
+                    "target": "AppID"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AppSecret",
+                    "target": "AppSecret"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "默认作者（可选）",
+                    "target": "默认作者（可选）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "发布选项",
+                    "target": "发布选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "可为当前公众号预设原文链接与留言相关的默认发布策略。",
+                    "target": "可为当前公众号预设原文链接与留言相关的默认发布策略。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "默认原文链接（可选）",
+                    "target": "默认原文链接（可选）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "关闭留言时，此选项不会生效。",
+                    "target": "关闭留言时，此选项不会生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "WeChat Article Layout",
+                    "target": "WeChat Article Layout"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "文章标题",
+                    "target": "文章标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "第一部分",
+                    "target": "第一部分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "补充提示",
+                    "target": "补充提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "子节一",
+                    "target": "子节一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "子节说明",
+                    "target": "子节说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "养好一个孩子，从放过自己开始！",
+                    "target": "养好一个孩子，从放过自己开始！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "作者提醒",
+                    "target": "作者提醒"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Obsidian 入门：给笔记打标签",
+                    "target": "Obsidian 入门：给笔记打标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标签是什么",
+                    "target": "标签是什么"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "先理解再操作",
+                    "target": "先理解再操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "常见误区",
+                    "target": "常见误区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "注意",
+                    "target": "注意"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "写作经验复盘",
+                    "target": "写作经验复盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "删改比落笔更重要",
+                    "target": "删改比落笔更重要"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "编者按",
+                    "target": "编者按"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "核心内容",
+                    "target": "核心内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "文章排版模式",
+                    "target": "文章排版模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "微信贴图模式",
+                    "target": "微信贴图模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "自定义颜色",
+                    "target": "自定义颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "不发布这张图片",
+                    "target": "不发布这张图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "向前移动",
+                    "target": "向前移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "向后移动",
+                    "target": "向后移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "复制一份包含文章摘录、布局摘要和调试信息的排查 Prompt",
+                    "target": "复制一份包含文章摘录、布局摘要和调试信息的排查 Prompt"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "复制当前调试面板内容",
+                    "target": "复制当前调试面板内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "从公众号素材库添加图片",
+                    "target": "从公众号素材库添加图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "删除公众号账号",
+                    "target": "删除公众号账号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "删除 AI Provider",
+                    "target": "删除 AI Provider"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "清空 AI 编排缓存",
+                    "target": "清空 AI 编排缓存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "color",
+                    "target": "color"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "range",
+                    "target": "range"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "password",
+                    "target": "password"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "url",
+                    "target": "url"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "warning",
+                    "target": "warning"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "⚠️",
+                    "target": "⚠️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "Warning",
+                    "target": "Warning"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "未配置清理目录，请在插件设置中先填写目录后再启用自动清理",
+                    "target": "未配置清理目录，请在插件设置中先填写目录后再启用自动清理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "当前没有活动文档，无法解析清理目录中的 {{note}}",
+                    "target": "当前没有活动文档，无法解析清理目录中的 {{note}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "清理目录为空，请检查设置值",
+                    "target": "清理目录为空，请检查设置值"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(\"Deprecated as of \".concat(Me,\". \")",
+                    "target": "log(\"Deprecated as of \".concat(Me,\". \")"
+                },
+                {
+                    "source": "log(\"Element previously highlighted. To highlight again, first unset `dataset.highlighted`.\",jt);return}if(jt.children.length>0&&(a1.ignoreUnescapedHTML||(console.warn(\"One of your code blocks includes unescaped HTML. This is a potentially serious security risk.\")",
+                    "target": "log(\"Element previously highlighted. To highlight again, first unset `dataset.highlighted`.\",jt);return}if(jt.children.length>0&&(a1.ignoreUnescapedHTML||(console.warn(\"One of your code blocks includes unescaped HTML. This is a potentially serious security risk.\")"
+                },
+                {
+                    "source": "error(\"Expected an attribute followed by an operator preceding the string.\",{index:P[Bt.FIELDS.START_POS]});var Te=(0,Nx.unescapeValue)(D),oe=Te.unescaped,_e=Te.quoteMark;a.value=oe,a.quoteMark=_e,A=\"value\",(0,Fr.ensureObject)(a,\"raws\")",
+                    "target": "error(\"Expected an attribute followed by an operator preceding the string.\",{index:P[Bt.FIELDS.START_POS]});var Te=(0,Nx.unescapeValue)(D),oe=Te.unescaped,_e=Te.quoteMark;a.value=oe,a.quoteMark=_e,A=\"value\",(0,Fr.ensureObject)(a,\"raws\")"
+                },
+                {
+                    "source": "error(\"Cannot parse selector: nesting depth exceeds the maximum of \".concat(this.maxNestingDepth,\".\")",
+                    "target": "error(\"Cannot parse selector: nesting depth exceeds the maximum of \".concat(this.maxNestingDepth,\".\")"
+                },
+                {
+                    "source": "error(\"Expected \".concat(l,\" \")",
+                    "target": "error(\"Expected \".concat(l,\" \")"
+                },
+                {
+                    "source": "setText(\"Math input error\")",
+                    "target": "setText(\"Math input error\")"
+                },
+                {
+                    "source": "error(\"Image processing failed:\",t)}},blobToDataUrl(e){return new Promise((t,r)=>{let n=new FileReader;n.onloadend=()=>t(typeof n.result==\"string\"?n.result:\"\")",
+                    "target": "error(\"Image processing failed:\",t)}},blobToDataUrl(e){return new Promise((t,r)=>{let n=new FileReader;n.onloadend=()=>t(typeof n.result==\"string\"?n.result:\"\")"
+                },
+                {
+                    "source": "setText(\"\".concat(st.length,\" / \")",
+                    "target": "setText(\"\".concat(st.length,\" / \")"
+                },
+                {
+                    "source": "name:\"Plain text\"",
+                    "target": "name:\"Plain text\""
+                },
+                {
+                    "source": "name:\"HTML, XML\"",
+                    "target": "name:\"HTML, XML\""
+                },
+                {
+                    "source": "name:\"TOML, also INI\"",
+                    "target": "name:\"TOML, also INI\""
+                },
+                {
+                    "source": "name:\"PHP template\"",
+                    "target": "name:\"PHP template\""
+                },
+                {
+                    "source": "name:\"Shell Session\"",
+                    "target": "name:\"Shell Session\""
+                },
+                {
+                    "source": "name:\"Visual Basic .NET\"",
+                    "target": "name:\"Visual Basic .NET\""
+                },
+                {
+                    "source": "text:\"input:is(:not([type!='']), [type=text])\"",
+                    "target": "text:\"input:is(:not([type!='']), [type=text])\""
+                },
+                {
+                    "source": "text=\"}}}),actions:{output:function(m){if(m.text_){var f={type_:\"",
+                    "target": "text=\"}}}),actions:{output:function(m){if(m.text_){var f={type_:\""
+                },
+                {
+                    "source": "name:\"X (Twitter)\"",
+                    "target": "name:\"X (Twitter)\""
+                },
+                {
+                    "source": "text:\" / \"",
+                    "target": "text:\" / \""
+                },
+                {
+                    "source": "text:\"Star on GitHub\"",
+                    "target": "text:\"Star on GitHub\""
+                },
+                {
+                    "source": "text:\"AppID: \"",
+                    "target": "text:\"AppID: \""
+                },
+                {
+                    "source": "text:\"Base URL\"",
+                    "target": "text:\"Base URL\""
+                },
+                {
+                    "source": "text:\"API Key\"",
+                    "target": "text:\"API Key\""
+                }
+            ]
+        }
+    }
+}
