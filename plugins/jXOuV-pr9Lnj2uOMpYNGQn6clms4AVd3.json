@@ -1,0 +1,276 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "auto-headings",
+        "version": "1.0.0",
+        "title": "Auto Headings",
+        "description": "Auto Headings Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "off",
+                    "target": "off"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "manual",
+                    "target": "manual"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "zh",
+                    "target": "zh"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "en",
+                    "target": "en"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "yield",
+                    "target": "yield"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "own",
+                    "target": "own"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "self",
+                    "target": "self"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "arabic",
+                    "target": "arabic"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "none",
+                    "target": "none"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "drop",
+                    "target": "drop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "fill",
+                    "target": "fill"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-path-row ah-path-head",
+                    "target": "ah-path-row ah-path-head"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-path-cell ah-path-handle",
+                    "target": "ah-path-cell ah-path-handle"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-path-cell ah-path-index",
+                    "target": "ah-path-cell ah-path-index"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-path-cell ah-path-pattern-cell",
+                    "target": "ah-path-cell ah-path-pattern-cell"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "dropdown",
+                    "target": "dropdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-wl-input ah-wl-row-edit",
+                    "target": "ah-wl-input ah-wl-row-edit"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-wl-input ah-wl-filter",
+                    "target": "ah-wl-input ah-wl-filter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "dropdown ah-wl-sort",
+                    "target": "dropdown ah-wl-sort"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-section-desc ah-wl-mismatch",
+                    "target": "ah-section-desc ah-wl-mismatch"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-section-desc ah-wl-preview",
+                    "target": "ah-section-desc ah-wl-preview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-grid-row ah-grid-head",
+                    "target": "ah-grid-row ah-grid-head"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-grid-cell ah-level-label",
+                    "target": "ah-grid-cell ah-level-label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-grid-cell ah-inherit-cell",
+                    "target": "ah-grid-cell ah-inherit-cell"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-grid-cell ah-preview-cell",
+                    "target": "ah-grid-cell ah-preview-cell"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "mod-warning ah-template-del",
+                    "target": "mod-warning ah-template-del"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-foreign-guard-line ah-foreign-guard-before",
+                    "target": "ah-foreign-guard-line ah-foreign-guard-before"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ah-foreign-guard-line ah-foreign-guard-after",
+                    "target": "ah-foreign-guard-line ah-foreign-guard-after"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认",
+                    "target": "默认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "复选框类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "all",
+                    "target": "全部值"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "appendText(`${t.noticeForeignNumberingGuard} `)",
+                    "target": "appendText(`${t.noticeForeignNumberingGuard} `)"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,352 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "automatic-renumbering",
+        "version": "1.0.0",
+        "title": "Automatic List Management",
+        "description": "Automatic List Management Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.13",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "For more information, visit ",
+                    "target": "更多信息，请访问 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "When enabled, tasks with any special checkbox characters will be sorted according to ",
+                    "target": "当启用时，带有任何特殊复选框字符的任务将根据 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in handleMouseClick:",
+                    "target": "在 handleMouseClick 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the indent size to the same size as in the editor's settings. Can be found under: Options > Editor > Tab indent size/Indent visual width.",
+                    "target": "将缩进大小设置为与编辑器设置相同的大小。可以在以下位置找到：选项 > 编辑器 > 制表符缩进大小/缩进视觉宽度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically sort checklists whenever checkboxes are checked or unchecked.",
+                    "target": "当复选框被勾选或取消勾选时，自动对清单进行排序。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, checked tasks will be placed at the bottom. When disabled, they will be at the top.",
+                    "target": "当启用时，勾选的任务将被放置在底部。当禁用时，它们将在顶部。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, checking a checkbox moves it along with all indented content (sub-tasks, paragraphs) as a block. When disabled, checkbox lines moves individually.",
+                    "target": "当启用时，勾选复选框会将它以及所有缩进的（子任务、段落）内容作为一个块移动。当禁用时，复选框行将单独移动。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Specify which checkbox characters mark tasks for deletion. Tasks with these characters are always sorted below tasks with other characters, and can be removed by using the delete command.",
+                    "target": "指定哪些复选框字符标记为删除的任务。带有这些字符的任务始终排在其他字符标记的任务下方，并且可以通过使用删除命令来移除。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pasting keeps the sequencing consistent with the original numbered list.",
+                    "target": "粘贴操作将保持与原始编号列表一致的顺序。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether lists always start from 1 or preserve their original starting numbers.",
+                    "target": "列表是否始终从1开始或保留其原始起始数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically sort numbered lists as changes are made.",
+                    "target": "在做出更改时自动对编号列表进行排序。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tab size",
+                    "target": "制表符大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Checklists",
+                    "target": "检查列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-sort on changes",
+                    "target": "更改时自动排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Place checked items at bottom",
+                    "target": "将勾选的项目放置在底部"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hierarchical checkbox reordering",
+                    "target": "层次复选框重新排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sort all special checkboxes",
+                    "target": "排序所有特殊复选框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Checkbox delete-characters",
+                    "target": "复选框删除字符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Numbered lists",
+                    "target": "编号列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Smart pasting",
+                    "target": "智能粘贴"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start numbering from 1",
+                    "target": "从1开始编号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-renumber on changes",
+                    "target": "更改时自动重新编号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter characters",
+                    "target": "输入字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Renumber lists: in selection or at cursor",
+                    "target": "重排列表：在选中项或光标处"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Renumber lists: entire note",
+                    "target": "重排列表：整个笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reorder checkboxes: in selection or at cursor",
+                    "target": "重排复选框：在选中项或光标处"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reorder checkboxes: entire note",
+                    "target": "重排复选框：整个笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete all checked Items in note",
+                    "target": "删除笔记中所有选中的项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Github",
+                    "target": "Github"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Enter single characters separated by spaces (case-insensitive). Default: 'X'.",
+                    "target": "输入单个字符，用空格分隔（不区分大小写）。默认：'X'。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Example: '- /' means tasks with [x], [-], or [/] will be removed, while tasks with other characters like [>] will remain.",
+                    "target": "示例：'- /' 表示带有 [x]、[-] 或 [/] 的任务将被删除，而带有其他字符（如 [>]）的任务将保留。"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\n      `reorderAllListsInRange is invalid with index=${start}, limit=${limit}. editor.lastLine()=${editor.lastLine()}`\n    )",
+                    "target": "error(\n      `reorderAllListsInRange is invalid with index=${start}, limit=${limit}. editor.lastLine()=${editor.lastLine()}`\n    )"
+                },
+                {
+                    "source": "error(`Invalid renumbering range: start=${start}, limit=${limit}. Requires (0 <= start <= limit).`)",
+                    "target": "error(`Invalid renumbering range: start=${start}, limit=${limit}. Requires (0 <= start <= limit).`)"
+                },
+                {
+                    "source": "error(\n          `Limit exceeds document bounds: attempted limit=${limit}, actual limit=${editorLastLine + 1}. Adjusting limit.`\n        )",
+                    "target": "error(\n          `Limit exceeds document bounds: attempted limit=${limit}, actual limit=${editorLastLine + 1}. Adjusting limit.`\n        )"
+                },
+                {
+                    "source": "appendText(\"For more information, visit \")",
+                    "target": "appendText(\"For more information, visit \")"
+                },
+                {
+                    "source": "setName(\"Tab size\")",
+                    "target": "setName(\"Tab size\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Set the indent size to the same size as in the editor's settings. Can be found under: Options > Editor > Tab indent size/Indent visual width.\"\n    )",
+                    "target": "setDesc(\n      \"Set the indent size to the same size as in the editor's settings. Can be found under: Options > Editor > Tab indent size/Indent visual width.\"\n    )"
+                },
+                {
+                    "source": "setName(\"Auto-sort on changes\")",
+                    "target": "setName(\"Auto-sort on changes\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically sort checklists whenever checkboxes are checked or unchecked.\")",
+                    "target": "setDesc(\"Automatically sort checklists whenever checkboxes are checked or unchecked.\")"
+                },
+                {
+                    "source": "setName(\"Place checked items at bottom\")",
+                    "target": "setName(\"Place checked items at bottom\")"
+                },
+                {
+                    "source": "setDesc(\n      \"When enabled, checked tasks will be placed at the bottom. When disabled, they will be at the top.\"\n    )",
+                    "target": "setDesc(\n      \"When enabled, checked tasks will be placed at the bottom. When disabled, they will be at the top.\"\n    )"
+                },
+                {
+                    "source": "setName(\"Hierarchical checkbox reordering\")",
+                    "target": "setName(\"Hierarchical checkbox reordering\")"
+                },
+                {
+                    "source": "setDesc(\n      \"When enabled, checking a checkbox moves it along with all indented content (sub-tasks, paragraphs) as a block. When disabled, checkbox lines moves individually.\"\n    )",
+                    "target": "setDesc(\n      \"When enabled, checking a checkbox moves it along with all indented content (sub-tasks, paragraphs) as a block. When disabled, checkbox lines moves individually.\"\n    )"
+                },
+                {
+                    "source": "appendText(\"When enabled, tasks with any special checkbox characters will be sorted according to \")",
+                    "target": "appendText(\"When enabled, tasks with any special checkbox characters will be sorted according to \")"
+                },
+                {
+                    "source": "appendText(\". When disabled, only tasks marked for deletion will be sorted.\")",
+                    "target": "appendText(\". When disabled, only tasks marked for deletion will be sorted.\")"
+                },
+                {
+                    "source": "setName(\"Sort all special checkboxes\")",
+                    "target": "setName(\"Sort all special checkboxes\")"
+                },
+                {
+                    "source": "setName(\"Checkbox delete-characters\")",
+                    "target": "setName(\"Checkbox delete-characters\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Specify which checkbox characters mark tasks for deletion. Tasks with these characters are always sorted below tasks with other characters, and can be removed by using the delete command.\"\n    )",
+                    "target": "setDesc(\n      \"Specify which checkbox characters mark tasks for deletion. Tasks with these characters are always sorted below tasks with other characters, and can be removed by using the delete command.\"\n    )"
+                },
+                {
+                    "source": "setPlaceholder(\"Enter characters\")",
+                    "target": "setPlaceholder(\"Enter characters\")"
+                },
+                {
+                    "source": "setName(\"Numbered lists\")",
+                    "target": "setName(\"Numbered lists\")"
+                },
+                {
+                    "source": "setName(\"Smart pasting\")",
+                    "target": "setName(\"Smart pasting\")"
+                },
+                {
+                    "source": "setDesc(\"Pasting keeps the sequencing consistent with the original numbered list.\")",
+                    "target": "setDesc(\"Pasting keeps the sequencing consistent with the original numbered list.\")"
+                },
+                {
+                    "source": "setName(\"Start numbering from 1\")",
+                    "target": "setName(\"Start numbering from 1\")"
+                },
+                {
+                    "source": "setDesc(\"Whether lists always start from 1 or preserve their original starting numbers.\")",
+                    "target": "setDesc(\"Whether lists always start from 1 or preserve their original starting numbers.\")"
+                },
+                {
+                    "source": "setName(\"Auto-renumber on changes\")",
+                    "target": "setName(\"Auto-renumber on changes\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically sort numbered lists as changes are made.\")",
+                    "target": "setDesc(\"Automatically sort numbered lists as changes are made.\")"
+                },
+                {
+                    "source": "text: \"\"",
+                    "target": "text: \"\""
+                },
+                {
+                    "source": "name: \"Renumber lists: in selection or at cursor\"",
+                    "target": "name: \"Renumber lists: in selection or at cursor\""
+                },
+                {
+                    "source": "name: \"Renumber lists: entire note\"",
+                    "target": "name: \"Renumber lists: entire note\""
+                },
+                {
+                    "source": "name: \"Reorder checkboxes: in selection or at cursor\"",
+                    "target": "name: \"Reorder checkboxes: in selection or at cursor\""
+                },
+                {
+                    "source": "name: \"Reorder checkboxes: entire note\"",
+                    "target": "name: \"Reorder checkboxes: entire note\""
+                },
+                {
+                    "source": "name: \"Delete all checked Items in note\"",
+                    "target": "name: \"Delete all checked Items in note\""
+                },
+                {
+                    "source": "text: \"Github\"",
+                    "target": "text: \"Github\""
+                },
+                {
+                    "source": "text: \"ASCII\"",
+                    "target": "text: \"ASCII\""
+                },
+                {
+                    "source": "text: \"Enter single characters separated by spaces (case-insensitive). Default: 'X'.\"",
+                    "target": "text: \"Enter single characters separated by spaces (case-insensitive). Default: 'X'.\""
+                },
+                {
+                    "source": "text: \"Example: '- /' means tasks with [x], [-], or [/] will be removed, while tasks with other characters like [>] will remain.\"",
+                    "target": "text: \"Example: '- /' means tasks with [x], [-], or [/] will be removed, while tasks with other characters like [>] will remain.\""
+                }
+            ]
+        }
+    }
+}

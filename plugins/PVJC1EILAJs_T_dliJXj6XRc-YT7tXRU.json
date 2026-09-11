@@ -1,0 +1,262 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "a-plugins",
+        "version": "1.0.0",
+        "title": "插件加载器",
+        "description": "插件加载器 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Jiao Yingxing",
+                    "target": "Jiao Yingxing"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "delayed",
+                    "target": "delayed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "稍后加载",
+                    "target": "稍后加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "early",
+                    "target": "early"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "启动时加载",
+                    "target": "启动时加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[A Loader] Failed to initialize plugin.",
+                    "target": "[A Loader] Failed to initialize plugin."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[A Loader] phase execution failed",
+                    "target": "[A Loader] phase execution failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[A Loader] failed to persist the previous system enabled set",
+                    "target": "[A Loader] failed to persist the previous system enabled set"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[A Loader] fail-open recovery could not update the system enabled set",
+                    "target": "[A Loader] fail-open recovery could not update the system enabled set"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "全部稍后",
+                    "target": "全部稍后"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "产品",
+                    "target": "产品"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "作者",
+                    "target": "作者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "搜索插件",
+                    "target": "搜索插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "将所有已启用插件设为稍后加载",
+                    "target": "将所有已启用插件设为稍后加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "启用或停用插件",
+                    "target": "启用或停用插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[插件加载器] 无法获取当前的功能区布局",
+                    "target": "[插件加载器] 无法获取当前的功能区布局"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[插件加载器] 无法恢复已管理的功能区布局",
+                    "target": "[插件加载器] 无法恢复已管理的功能区布局"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前没有已启用的插件可调整。",
+                    "target": "当前没有已启用的插件可调整。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前已启用插件都已经是稍后加载。",
+                    "target": "当前已启用插件都已经是稍后加载。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "连续两次启动没有正常收尾，启动优化已自动暂停，稍后加载插件已经恢复。",
+                    "target": "连续两次启动没有正常收尾，启动优化已自动暂停，稍后加载插件已经恢复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "还没有安排任何启动优化任务。",
+                    "target": "还没有安排任何启动优化任务。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "当前没有已激活的稍后加载插件。",
+                    "target": "当前没有已激活的稍后加载插件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "稍后加载的插件已经完成。",
+                    "target": "稍后加载的插件已经完成。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "这一次启动优化已按你的要求跳过。",
+                    "target": "这一次启动优化已按你的要求跳过。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开 插件加载器 设置",
+                    "target": "打开 插件加载器 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "暂停下一次启动优化",
+                    "target": "暂停下一次启动优化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "恢复稍后加载插件",
+                    "target": "恢复稍后加载插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "全部稍后",
+                    "target": "全部稍后"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setPlaceholder(\"搜索插件\")",
+                    "target": "setPlaceholder(\"搜索插件\")"
+                },
+                {
+                    "source": "setButtonText(\"全部稍后\")",
+                    "target": "setButtonText(\"全部稍后\")"
+                },
+                {
+                    "source": "setTooltip(\"将所有已启用插件设为稍后加载\")",
+                    "target": "setTooltip(\"将所有已启用插件设为稍后加载\")"
+                },
+                {
+                    "source": "setName(\"产品\")",
+                    "target": "setName(\"产品\")"
+                },
+                {
+                    "source": "setDesc(`${this.plugin.manifest.name} ${this.plugin.manifest.version}`)",
+                    "target": "setDesc(`${this.plugin.manifest.name} ${this.plugin.manifest.version}`)"
+                },
+                {
+                    "source": "setName(\"作者\")",
+                    "target": "setName(\"作者\")"
+                },
+                {
+                    "source": "setTooltip(\"启用或停用插件\")",
+                    "target": "setTooltip(\"启用或停用插件\")"
+                },
+                {
+                    "source": "Notice(\"当前没有已启用的插件可调整。\")",
+                    "target": "Notice(\"当前没有已启用的插件可调整。\")"
+                },
+                {
+                    "source": "Notice(\"当前已启用插件都已经是稍后加载。\")",
+                    "target": "Notice(\"当前已启用插件都已经是稍后加载。\")"
+                },
+                {
+                    "source": "setButtonText(\"取消\")",
+                    "target": "setButtonText(\"取消\")"
+                },
+                {
+                    "source": "Notice(\"连续两次启动没有正常收尾，启动优化已自动暂停，稍后加载插件已经恢复。\")",
+                    "target": "Notice(\"连续两次启动没有正常收尾，启动优化已自动暂停，稍后加载插件已经恢复。\")"
+                },
+                {
+                    "source": "error(\"[A Loader] fail-open recovery could not update the system enabled set\",t)}}captureCurrentRibbonLayout(t){if(t.length!==0)try{let e=this.getInternalApp().workspace.leftRibbon;if(typeof e.serialize!=\"function\")",
+                    "target": "error(\"[A Loader] fail-open recovery could not update the system enabled set\",t)}}captureCurrentRibbonLayout(t){if(t.length!==0)try{let e=this.getInternalApp().workspace.leftRibbon;if(typeof e.serialize!=\"function\")"
+                },
+                {
+                    "source": "textContent=\"Jiao Yingxing\"",
+                    "target": "textContent=\"Jiao Yingxing\""
+                },
+                {
+                    "source": "text:\"全部稍后\"",
+                    "target": "text:\"全部稍后\""
+                },
+                {
+                    "source": "name:\"打开 插件加载器 设置\"",
+                    "target": "name:\"打开 插件加载器 设置\""
+                },
+                {
+                    "source": "name:\"暂停下一次启动优化\"",
+                    "target": "name:\"暂停下一次启动优化\""
+                },
+                {
+                    "source": "name:\"恢复稍后加载插件\"",
+                    "target": "name:\"恢复稍后加载插件\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,2844 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "wechat-note-helper",
+        "version": "1.0.0",
+        "title": "笔记同步",
+        "description": "笔记同步 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.2.14",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "请前往 笔记同步助手 服务号查看",
+                    "target": "请前往 笔记同步助手 服务号查看"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "点击下方「会员」菜单查询会员状态及有效期",
+                    "target": "点击下方「会员」菜单查询会员状态及有效期"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "如需加入用户交流群，请在「笔记同步助手」服务号内联系获取",
+                    "target": "如需加入用户交流群，请在「笔记同步助手」服务号内联系获取"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "购买高级权益",
+                    "target": "购买高级权益"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "all",
+                    "target": "all"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "dual",
+                    "target": "dual"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "messages",
+                    "target": "messages"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "none",
+                    "target": "none"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "asc",
+                    "target": "asc"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "desc",
+                    "target": "desc"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "disabled",
+                    "target": "disabled"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "remote",
+                    "target": "remote"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "local",
+                    "target": "local"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "bottom",
+                    "target": "bottom"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "top",
+                    "target": "top"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "anchor",
+                    "target": "anchor"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "articles",
+                    "target": "articles"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "en",
+                    "target": "en"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "zh",
+                    "target": "zh"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "details",
+                    "target": "details"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "small",
+                    "target": "small"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "canvas",
+                    "target": "canvas"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Search error",
+                    "target": "Search error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "UpdatesSince error",
+                    "target": "UpdatesSince error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Delete error",
+                    "target": "Delete error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "SaveByURL error",
+                    "target": "SaveByURL error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "No custom daily note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "No custom weekly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "No custom monthly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "No custom quarterly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "No custom yearly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "笔记同步助手首次同步完成",
+                    "target": "笔记同步助手首次同步完成"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to read the daily note template",
+                    "target": "Failed to read the daily note template"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "Unable to create new file."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "API 密钥无效，请前往「笔记同步助手」公众号重新获取",
+                    "target": "API 密钥无效，请前往「笔记同步助手」公众号重新获取"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "网络连接失败，请检查网络后重试",
+                    "target": "网络连接失败，请检查网络后重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "同步失败，请稍后重试",
+                    "target": "同步失败，请稍后重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "检测到配置文件异常，已自动修复。您的核心配置已保留。",
+                    "target": "检测到配置文件异常，已自动修复。您的核心配置已保留。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "配置文件修复失败，已使用默认配置。请重新配置 API key。",
+                    "target": "配置文件修复失败，已使用默认配置。请重新配置 API key。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "该文件夹没有可处理的笔记",
+                    "target": "该文件夹没有可处理的笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "🐢 正在同步中...",
+                    "target": "🐢 正在同步中..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "API 密钥未填写，请前往「笔记同步助手」公众号获取",
+                    "target": "API 密钥未填写，请前往「笔记同步助手」公众号获取"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "同步超时，已自动重置。请检查网络后重试。",
+                    "target": "同步超时，已自动重置。请检查网络后重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "📔 日记链接处理出错，请查看控制台日志",
+                    "target": "📔 日记链接处理出错，请查看控制台日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "vip-refresh-fresh-btn mod-cta",
+                    "target": "vip-refresh-fresh-btn mod-cta"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "setting-item-description notehelper-inline-preview",
+                    "target": "setting-item-description notehelper-inline-preview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "setting-item-description notehelper-diary-link-template-preview",
+                    "target": "setting-item-description notehelper-diary-link-template-preview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "mod-cta omnivore-check-update-btn",
+                    "target": "mod-cta omnivore-check-update-btn"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "mod-cta omnivore-goto-plugin-page-btn",
+                    "target": "mod-cta omnivore-goto-plugin-page-btn"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "mod-cta notehelper-renewal-refresh-btn",
+                    "target": "mod-cta notehelper-renewal-refresh-btn"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Sample content",
+                    "target": "Sample content"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Permanently delete every article and message in your cloud space. This cannot be undone.",
+                    "target": "Permanently delete every article and message in your cloud space. This cannot be undone."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Follow the \"笔记同步助手\" WeChat official account to obtain your key.",
+                    "target": "Follow the \"笔记同步助手\" WeChat official account to obtain your key."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Tutorials, simulators and cloud space management links.",
+                    "target": "Tutorials, simulators and cloud space management links."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "For troubleshooting. On a manual sync, re-pull the last 24h to the DEFAULT location and auto-open the notes. Does not change your settings or delete anything. Turn it off when done.",
+                    "target": "For troubleshooting. On a manual sync, re-pull the last 24h to the DEFAULT location and auto-open the notes. Does not change your settings or delete anything. Turn it off when done."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Shows the total count of articles and messages in cloud space. Message merge mode is enabled by default; messages from the same day are merged into a single note.",
+                    "target": "Shows the total count of articles and messages in cloud space. Message merge mode is enabled by default; messages from the same day are merged into a single note."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Toggle to auto-sync when Obsidian loads. Per-device setting.",
+                    "target": "Toggle to auto-sync when Obsidian loads. Per-device setting."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Auto-sync interval in seconds. 0 means manual sync only; the minimum is 60 seconds — lower values are raised to 60. Per-device setting.",
+                    "target": "Auto-sync interval in seconds. 0 means manual sync only; the minimum is 60 seconds — lower values are raised to 60. Per-device setting."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Timestamp of the last sync. The sync command fetches articles updated after this. You can edit it manually to widen or narrow the sync window.",
+                    "target": "Timestamp of the last sync. The sync command fetches articles updated after this. You can edit it manually to widen or narrow the sync window."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Folder for merged message files. Leave empty to reuse the article folder path.",
+                    "target": "Folder for merged message files. Leave empty to reuse the article folder path."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Format used to render the date variable in the message filename. See moment.js format reference for details.",
+                    "target": "Format used to render the date variable in the message filename. See moment.js format reference for details."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Customize the header of a merged message file: properties, a heading, an intro. Written once, when the merged file is CREATED; messages follow below it. Leave empty to keep the current behaviour (an empty file that only holds messages). Existing files are never rewritten.",
+                    "target": "Customize the header of a merged message file: properties, a heading, an intro. Written once, when the merged file is CREATED; messages follow below it. Leave empty to keep the current behaviour (an empty file that only holds messages). Existing files are never rewritten."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Stop writing hidden dedup markers (<!--nh:…-->, which carry the message id) at the end of merged messages. Duplicates are then prevented purely by the latest sync cursor (time-based).",
+                    "target": "Stop writing hidden dedup markers (<!--nh:…-->, which carry the message id) at the end of merged messages. Duplicates are then prevented purely by the latest sync cursor (time-based)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Folder path for stored articles. Supports {{{title}}}, {{{dateSaved}}}, {{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}.",
+                    "target": "Folder path for stored articles. Supports {{{title}}}, {{{dateSaved}}}, {{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Date format used inside the article folder path. Example: yyyy-MM-dd",
+                    "target": "Date format used inside the article folder path. Example: yyyy-MM-dd"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Folder path for downloaded attachments. Supports {{{title}}}, {{{dateSaved}}}, {{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}.",
+                    "target": "Folder path for downloaded attachments. Supports {{{title}}}, {{{dateSaved}}}, {{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Filename template for stored articles. Supports {{id}}, {{{title}}}, {{{dateSaved}}}, {{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}.",
+                    "target": "Filename template for stored articles. Supports {{id}}, {{{title}}}, {{{dateSaved}}}, {{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Date format used in the article filename. See the moment.js format docs for details.",
+                    "target": "Date format used in the article filename. See the moment.js format docs for details."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When enabled, #hashtags inside synced article bodies are rewritten to \\#hashtags so Obsidian does not pick them up as tags and pollute your tag tree.",
+                    "target": "When enabled, #hashtags inside synced article bodies are rewritten to \\#hashtags so Obsidian does not pick them up as tags and pollute your tag tree."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Language for this plugin's UI. \"\\u4E2D\\u6587\" forces Chinese even when Obsidian and your system are in English. \"Follow system\" auto-detects from Obsidian / OS.",
+                    "target": "Language for this plugin's UI. \"\\u4E2D\\u6587\" forces Chinese even when Obsidian and your system are in English. \"Follow system\" auto-detects from Obsidian / OS."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Stop writing the id field into note properties (and syncedIds in merge mode). Duplicates are then prevented purely by the latest sync cursor (time-based).",
+                    "target": "Stop writing the id field into note properties (and syncedIds in merge mode). Duplicates are then prevented purely by the latest sync cursor (time-based)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Format for the dateSaved variable inside rendered templates. Example: yyyy-MM-dd'T'HH:mm:ss",
+                    "target": "Format for the dateSaved variable inside rendered templates. Example: yyyy-MM-dd'T'HH:mm:ss"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Template for assistant messages (titles like 同步助手_yyyyMMdd_xxx). Assistant messages use this clean template, dropping titles and tags.",
+                    "target": "Template for assistant messages (titles like 同步助手_yyyyMMdd_xxx). Assistant messages use this clean template, dropping titles and tags."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "In a forwarded chat record every inner message starts with a time line (yyyy/MM/dd HH:mm:ss). This decides how that line is shown; empty = the default small grey text.",
+                    "target": "In a forwarded chat record every inner message starts with a time line (yyyy/MM/dd HH:mm:ss). This decides how that line is shown; empty = the default small grey text."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When enabled, detailed logs are written to the developer console for troubleshooting.",
+                    "target": "When enabled, detailed logs are written to the developer console for troubleshooting."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Download the plugin’s current data.json file.",
+                    "target": "Download the plugin’s current data.json file."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "After each sync, insert wikilinks to the synced articles into your diary file.",
+                    "target": "After each sync, insert wikilinks to the synced articles into your diary file."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "When enabled, missing diary files are auto-created. Reads path/template from the Daily Notes core plugin or Periodic Notes community plugin.",
+                    "target": "When enabled, missing diary files are auto-created. Reads path/template from the Daily Notes core plugin or Periodic Notes community plugin."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Diary folder path. Leave empty to read from Daily Notes / Periodic Notes settings.",
+                    "target": "Diary folder path. Leave empty to read from Daily Notes / Periodic Notes settings."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Where links are written in the diary. \"Between anchors\" needs two identical anchor markers in the diary (default). \"Top of file\" writes right below the frontmatter, above the body. \"Bottom of file\" appends to the end. Top and bottom need no anchors; de-duplication then covers the whole diary file.",
+                    "target": "Where links are written in the diary. \"Between anchors\" needs two identical anchor markers in the diary (default). \"Top of file\" writes right below the frontmatter, above the body. \"Bottom of file\" appends to the end. Top and bottom need no anchors; de-duplication then covers the whole diary file."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "How a batch of links is ordered inside the anchor region when one sync brings several. \"Newest first\": the batch is placed at the top of the region. \"Oldest first\": the batch is appended at the bottom of the region.",
+                    "target": "How a batch of links is ordered inside the anchor region when one sync brings several. \"Newest first\": the batch is placed at the top of the region. \"Oldest first\": the batch is appended at the bottom of the region."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Which content types to link into the diary.",
+                    "target": "Which content types to link into the diary."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Stop appending the hidden de-duplication comment (<!-- notehelper:id:… -->) after each diary link; duplicates are then judged purely by time (the latest sync cursor).",
+                    "target": "Stop appending the hidden de-duplication comment (<!-- notehelper:id:… -->) after each diary link; duplicates are then judged purely by time (the latest sync cursor)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Max characters for the display text (after | in [[link|display]]). Excess is truncated with …; 0 means no limit.",
+                    "target": "Max characters for the display text (after | in [[link|display]]). Excess is truncated with …; 0 means no limit."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Convert PNG images to JPEG to save disk space. Note: transparency will be lost.",
+                    "target": "Convert PNG images to JPEG to save disk space. Note: transparency will be lost."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "JPEG compression quality (0–100; default 85). Higher values mean better quality but larger files.",
+                    "target": "JPEG compression quality (0–100; default 85). Higher values mean better quality but larger files."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Number of retries (exponential backoff) when an image download fails. Default 5. If the image origin is not ready yet, the original link is kept and retried on later syncs.",
+                    "target": "Number of retries (exponential backoff) when an image download fails. Default 5. If the image origin is not ready yet, the original link is kept and retried on later syncs."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Folder for localized images. Supports {{{title}}}, {{{dateSaved}}}, {{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}. Example: 笔记同步助手/{{{yearSaved}}}/{{{monthSaved}}}/images",
+                    "target": "Folder for localized images. Supports {{{title}}}, {{{dateSaved}}}, {{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}. Example: 笔记同步助手/{{{yearSaved}}}/{{{monthSaved}}}/images"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "⚠️ Dangerous & irreversible. After each note is successfully saved locally, the matching article is permanently deleted from the cloud — there is no recycle bin and it CANNOT be recovered. Any other device that has not yet received that note will NEVER get it again. Use only on a SINGLE device. When on, message merging switches to incremental, exact-deduplicated writes (no more silent message loss, but cross-device use will cause duplicates or data loss).",
+                    "target": "⚠️ Dangerous & irreversible. After each note is successfully saved locally, the matching article is permanently deleted from the cloud — there is no recycle bin and it CANNOT be recovered. Any other device that has not yet received that note will NEVER get it again. Use only on a SINGLE device. When on, message merging switches to incremental, exact-deduplicated writes (no more silent message loss, but cross-device use will cause duplicates or data loss)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "永久删除云空间中的所有文章与消息，不可恢复。",
+                    "target": "永久删除云空间中的所有文章与消息，不可恢复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "请关注《笔记同步助手》公众号获取密钥",
+                    "target": "请关注《笔记同步助手》公众号获取密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "教程、模拟器与云空间管理入口集中于此。",
+                    "target": "教程、模拟器与云空间管理入口集中于此。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "排查专用。手动同步时，把近 24 小时的内容重新拉取到「默认位置」并自动打开笔记。不会改动你的设置，也不会删除任何数据。排查完请关闭。",
+                    "target": "排查专用。手动同步时，把近 24 小时的内容重新拉取到「默认位置」并自动打开笔记。不会改动你的设置，也不会删除任何数据。排查完请关闭。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "显示云空间中文章和消息的总数量。消息合并模式默认开启，一天的消息会合并到同一个笔记中。",
+                    "target": "显示云空间中文章和消息的总数量。消息合并模式默认开启，一天的消息会合并到同一个笔记中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "勾选此选项在应用加载时自动同步。此设置仅对当前设备生效。",
+                    "target": "勾选此选项在应用加载时自动同步。此设置仅对当前设备生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "自动同步的间隔（秒）。0 表示仅手动同步；最低 60 秒，低于 60 将自动按 60 生效。此设置仅对当前设备生效。",
+                    "target": "自动同步的间隔（秒）。0 表示仅手动同步；最低 60 秒，低于 60 将自动按 60 生效。此设置仅对当前设备生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "上次同步的时间。同步命令将获取此时间戳之后更新的文章。您可以手动修改此时间来控制同步范围。",
+                    "target": "上次同步的时间。同步命令将获取此时间戳之后更新的文章。您可以手动修改此时间来控制同步范围。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "消息合并文件的存储路径，留空则使用文章文件夹路径。",
+                    "target": "消息合并文件的存储路径，留空则使用文章文件夹路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置消息文件名称中日期变量的格式。可参考 moment.js 的格式文档。",
+                    "target": "设置消息文件名称中日期变量的格式。可参考 moment.js 的格式文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "自定义合并消息文件的「文件头」：笔记属性、标题、说明。只在【新建】该合并文件时写一次，消息接在它下面。留空 = 保持现在的样子（空文件，只有消息）。已存在的文件不会被改写。",
+                    "target": "自定义合并消息文件的「文件头」：笔记属性、标题、说明。只在【新建】该合并文件时写一次，消息接在它下面。留空 = 保持现在的样子（空文件，只有消息）。已存在的文件不会被改写。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "不再在合并消息末尾写入用于去重的隐藏注释符（<!--nh:…-->，内含消息 id），是否重复完全按时间（最新同步游标）判断。",
+                    "target": "不再在合并消息末尾写入用于去重的隐藏注释符（<!--nh:…-->，内含消息 id），是否重复完全按时间（最新同步游标）判断。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "输入数据存储的文件夹路径。支持变量 {{{title}}}、{{{dateSaved}}}、{{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}。",
+                    "target": "输入数据存储的文件夹路径。支持变量 {{{title}}}、{{{dateSaved}}}、{{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "文件夹路径里日期变量的格式，例如：yyyy-MM-dd。",
+                    "target": "文件夹路径里日期变量的格式，例如：yyyy-MM-dd。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "输入附件下载的文件夹路径。支持变量 {{{title}}}、{{{dateSaved}}}、{{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}。",
+                    "target": "输入附件下载的文件夹路径。支持变量 {{{title}}}、{{{dateSaved}}}、{{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "输入数据存储的文件名。支持变量 {{id}}、{{{title}}}、{{{dateSaved}}}、{{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}。",
+                    "target": "输入数据存储的文件名。支持变量 {{id}}、{{{title}}}、{{{dateSaved}}}、{{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "文章文件名里日期变量的格式，可参考 moment.js 的格式文档。",
+                    "target": "文章文件名里日期变量的格式，可参考 moment.js 的格式文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，同步的文章正文中的 #标签 会被转义为 \\#标签，防止 Obsidian 将其识别为标签干扰你的标签体系。",
+                    "target": "开启后，同步的文章正文中的 #标签 会被转义为 \\#标签，防止 Obsidian 将其识别为标签干扰你的标签体系。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "本插件界面的显示语言。选「中文」后，即使 Obsidian 和系统是英文也强制显示中文；「跟随系统」会根据 Obsidian / 操作系统自动判断。",
+                    "target": "本插件界面的显示语言。选「中文」后，即使 Obsidian 和系统是英文也强制显示中文；「跟随系统」会根据 Obsidian / 操作系统自动判断。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "同步的笔记属性（frontmatter）不再包含 id 字段（合并模式下也不再写 syncedIds），是否重复完全按时间（最新同步游标）判断。",
+                    "target": "同步的笔记属性（frontmatter）不再包含 id 字段（合并模式下也不再写 syncedIds），是否重复完全按时间（最新同步游标）判断。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "渲染模板中 dateSaved 变量的日期格式，示例：yyyy-MM-dd'T'HH:mm:ss",
+                    "target": "渲染模板中 dateSaved 变量的日期格式，示例：yyyy-MM-dd'T'HH:mm:ss"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置助手消息（标题格式：同步助手_yyyyMMdd_xxx）的显示模板。助手消息会自动使用此简洁模板，去除标题、标签等冗余信息。",
+                    "target": "设置助手消息（标题格式：同步助手_yyyyMMdd_xxx）的显示模板。助手消息会自动使用此简洁模板，去除标题、标签等冗余信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "多选转发的聊天记录里，每条内层消息前面都有一行时间（yyyy/MM/dd HH:mm:ss）。这里决定这行时间怎么显示；留空 = 默认的灰色小字。",
+                    "target": "多选转发的聊天记录里，每条内层消息前面都有一行时间（yyyy/MM/dd HH:mm:ss）。这里决定这行时间怎么显示；留空 = 默认的灰色小字。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后可在浏览器控制台查看详细日志，便于排查问题。",
+                    "target": "开启后可在浏览器控制台查看详细日志，便于排查问题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "下载当前插件配置文件 data.json。",
+                    "target": "下载当前插件配置文件 data.json。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "同步完成后，自动在日记文件中插入同步内容的链接。",
+                    "target": "同步完成后，自动在日记文件中插入同步内容的链接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "开启后，日记文件不存在时自动创建。支持 Daily Notes 核心插件和 Periodic Notes 社区插件，自动读取其日记路径和模板配置。",
+                    "target": "开启后，日记文件不存在时自动创建。支持 Daily Notes 核心插件和 Periodic Notes 社区插件，自动读取其日记路径和模板配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "日记文件夹路径。留空时自动读取 Daily Notes / Periodic Notes 插件配置。",
+                    "target": "日记文件夹路径。留空时自动读取 Daily Notes / Periodic Notes 插件配置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "链接写到日记的哪个位置。「锚点之间」需要在日记里放两个相同的锚点标记（默认）；「文件顶部」写在前置元数据之后、正文最上方；「文件底部」追加到文件末尾。顶部/底部都不需要锚点，去重范围为整个日记文件。",
+                    "target": "链接写到日记的哪个位置。「锚点之间」需要在日记里放两个相同的锚点标记（默认）；「文件顶部」写在前置元数据之后、正文最上方；「文件底部」追加到文件末尾。顶部/底部都不需要锚点，去重范围为整个日记文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "一次同步多条时，锚点区域内的排列方式。「时间降序」：新的在前，整批压在区域最上方；「时间升序」：新的在后，整批追加到区域最下方。",
+                    "target": "一次同步多条时，锚点区域内的排列方式。「时间降序」：新的在前，整批压在区域最上方；「时间升序」：新的在后，整批追加到区域最下方。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择要链接到日记的内容类型。",
+                    "target": "选择要链接到日记的内容类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "双链显示文字（| 后面的部分）的最大字符数，超出截断为 …。0 = 不限制。",
+                    "target": "双链显示文字（| 后面的部分）的最大字符数，超出截断为 …。0 = 不限制。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "不再在日记双链末尾写入用于去重的隐藏注释符（<!-- notehelper:id:… -->），是否重复完全按时间（最新同步游标）判断。",
+                    "target": "不再在日记双链末尾写入用于去重的隐藏注释符（<!-- notehelper:id:… -->），是否重复完全按时间（最新同步游标）判断。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "勾选此选项将 PNG 图片转换为 JPEG 格式以节省空间。注意：会丢失透明度信息。",
+                    "target": "勾选此选项将 PNG 图片转换为 JPEG 格式以节省空间。注意：会丢失透明度信息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置 JPEG 压缩质量（0-100），默认 85。数值越高质量越好但文件越大。",
+                    "target": "设置 JPEG 压缩质量（0-100），默认 85。数值越高质量越好但文件越大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置图片下载失败时的重试次数（指数退避），默认 5 次。图床源站未就绪时会保留原链接并在后续同步时再试。",
+                    "target": "设置图片下载失败时的重试次数（指数退避），默认 5 次。图床源站未就绪时会保留原链接并在后续同步时再试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置本地化图片的存储路径。支持变量 {{{title}}}、{{{dateSaved}}}、{{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}。示例：笔记同步助手/{{{yearSaved}}}/{{{monthSaved}}}/images",
+                    "target": "设置本地化图片的存储路径。支持变量 {{{title}}}、{{{dateSaved}}}、{{{yearSaved}}}/{{{monthSaved}}}/{{{daySaved}}}。示例：笔记同步助手/{{{yearSaved}}}/{{{monthSaved}}}/images"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "⚠️ 危险且不可逆。每成功落盘一篇笔记后，会把云端对应文章永久删除——没有回收站、删了无法恢复。其它尚未收到该笔记的设备将永远收不到。请仅在单台设备上开启。开启后消息合并改为增量、精确去重写入（不再因判重假阳性静默丢消息；但多设备使用会产生重复或数据丢失）。",
+                    "target": "⚠️ 危险且不可逆。每成功落盘一篇笔记后，会把云端对应文章永久删除——没有回收站、删了无法恢复。其它尚未收到该笔记的设备将永远收不到。请仅在单台设备上开启。开启后消息合并改为增量、精确去重写入（不再因判重假阳性静默丢消息；但多设备使用会产生重复或数据丢失）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sample description",
+                    "target": "Sample description"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "YAML 解析结果不是对象（插件会忽略所有字段）",
+                    "target": "YAML 解析结果不是对象（插件会忽略所有字段）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "模板第一行的 --- 会被 Obsidian 当作「属性块」起始，但后面没有闭合的 ---。想画分割线请把它挪到第二行之后。",
+                    "target": "模板第一行的 --- 会被 Obsidian 当作「属性块」起始，但后面没有闭合的 ---。想画分割线请把它挪到第二行之后。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "开头的属性块解析结果不是键值对，Obsidian 会忽略这些字段。",
+                    "target": "开头的属性块解析结果不是键值对，Obsidian 会忽略这些字段。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "下载失败",
+                    "target": "下载失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "文件已过期，无法下载",
+                    "target": "文件已过期，无法下载"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Membership",
+                    "target": "Membership"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Article management",
+                    "target": "Article management"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Sync",
+                    "target": "Sync"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Content processing",
+                    "target": "Content processing"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Advanced",
+                    "target": "Advanced"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Diary links",
+                    "target": "Diary links"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "Image processing",
+                    "target": "Image processing"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "会员中心",
+                    "target": "会员中心"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "文章管理",
+                    "target": "文章管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "同步",
+                    "target": "同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "内容处理",
+                    "target": "内容处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "高级选项",
+                    "target": "高级选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "日记链接",
+                    "target": "日记链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "图片处理",
+                    "target": "图片处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Got a \"synced\" notice from the official account but the note is nowhere in Obsidian? Turn on Debug Mode.",
+                    "target": "Got a \"synced\" notice from the official account but the note is nowhere in Obsidian? Turn on Debug Mode."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Note: no hidden markers are ever written into your notes. With newest-first ordering new messages land right below the header; once you edit the header yourself, new messages go back to the top of the file.",
+                    "target": "Note: no hidden markers are ever written into your notes. With newest-first ordering new messages land right below the header; once you edit the header yourself, new messages go back to the top of the file."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "收到公众号推送的成功提醒，但 Obsidian 里不显示笔记？打开调试模式",
+                    "target": "收到公众号推送的成功提醒，但 Obsidian 里不显示笔记？打开调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "提示：不会往笔记里写任何隐藏标记。按时间降序时新消息紧跟在文件头之下；你手动改过文件头之后，新消息会回到文件最前面。",
+                    "target": "提示：不会往笔记里写任何隐藏标记。按时间降序时新消息紧跟在文件头之下；你手动改过文件头之后，新消息会回到文件最前面。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "sync",
+                    "target": "sync"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Messages",
+                    "target": "Messages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "消息处理",
+                    "target": "消息处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LINE FEED",
+                    "target": "LINE FEED"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LINE TABULATION",
+                    "target": "LINE TABULATION"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "FORM FEED",
+                    "target": "FORM FEED"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CARRIAGE RETURN",
+                    "target": "CARRIAGE RETURN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "NEXT LINE",
+                    "target": "NEXT LINE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "NO-BREAK SPACE",
+                    "target": "NO-BREAK SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LINE SEPARATOR",
+                    "target": "LINE SEPARATOR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PARAGRAPH SEPARATOR",
+                    "target": "PARAGRAPH SEPARATOR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CHARACTER TABULATION",
+                    "target": "CHARACTER TABULATION"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SOFT HYPHEN",
+                    "target": "SOFT HYPHEN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "COMBINING GRAPHEME JOINER",
+                    "target": "COMBINING GRAPHEME JOINER"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ARABIC LETTER MARK",
+                    "target": "ARABIC LETTER MARK"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SYRIAC ABBREVIATION MARK",
+                    "target": "SYRIAC ABBREVIATION MARK"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HANGUL CHOSEONG FILLER",
+                    "target": "HANGUL CHOSEONG FILLER"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HANGUL JUNGSEONG FILLER",
+                    "target": "HANGUL JUNGSEONG FILLER"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OGHAM SPACE MARK",
+                    "target": "OGHAM SPACE MARK"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "KHMER VOWEL INHERENT AQ",
+                    "target": "KHMER VOWEL INHERENT AQ"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "KHMER VOWEL INHERENT AA",
+                    "target": "KHMER VOWEL INHERENT AA"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MONGOLIAN VOWEL SEPARATOR",
+                    "target": "MONGOLIAN VOWEL SEPARATOR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EN QUAD",
+                    "target": "EN QUAD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EM QUAD",
+                    "target": "EM QUAD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EN SPACE",
+                    "target": "EN SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EM SPACE",
+                    "target": "EM SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "THREE-PER-EM SPACE",
+                    "target": "THREE-PER-EM SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "FOUR-PER-EM SPACE",
+                    "target": "FOUR-PER-EM SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SIX-PER-EM SPACE",
+                    "target": "SIX-PER-EM SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "FIGURE SPACE",
+                    "target": "FIGURE SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PUNCTUATION SPACE",
+                    "target": "PUNCTUATION SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "THIN SPACE",
+                    "target": "THIN SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HAIR SPACE",
+                    "target": "HAIR SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ZERO WIDTH SPACE",
+                    "target": "ZERO WIDTH SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ZERO WIDTH NON-JOINER",
+                    "target": "ZERO WIDTH NON-JOINER"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ZERO WIDTH",
+                    "target": "ZERO WIDTH"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LEFT-TO-RIGHT MARK",
+                    "target": "LEFT-TO-RIGHT MARK"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RIGHT-TO-LEFT MARK",
+                    "target": "RIGHT-TO-LEFT MARK"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "NARROW NO-BREAK SPACE",
+                    "target": "NARROW NO-BREAK SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MEDIUM MATHEMATICAL SPACE",
+                    "target": "MEDIUM MATHEMATICAL SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "WORD JOINER",
+                    "target": "WORD JOINER"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "FUNCTION APPLICATION",
+                    "target": "FUNCTION APPLICATION"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "INVISIBLE TIMES",
+                    "target": "INVISIBLE TIMES"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "INVISIBLE SEPARATOR",
+                    "target": "INVISIBLE SEPARATOR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "INVISIBLE PLUS",
+                    "target": "INVISIBLE PLUS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "INHIBIT SYMMETRIC SWAPPING",
+                    "target": "INHIBIT SYMMETRIC SWAPPING"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ACTIVATE SYMMETRIC SWAPPING",
+                    "target": "ACTIVATE SYMMETRIC SWAPPING"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "INHIBIT ARABIC FORM SHAPING",
+                    "target": "INHIBIT ARABIC FORM SHAPING"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ACTIVATE ARABIC FORM SHAPING",
+                    "target": "ACTIVATE ARABIC FORM SHAPING"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "NATIONAL DIGIT SHAPES",
+                    "target": "NATIONAL DIGIT SHAPES"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "NOMINAL DIGIT SHAPES",
+                    "target": "NOMINAL DIGIT SHAPES"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "IDEOGRAPHIC SPACE",
+                    "target": "IDEOGRAPHIC SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "BRAILLE PATTERN BLANK",
+                    "target": "BRAILLE PATTERN BLANK"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HANGUL FILLER",
+                    "target": "HANGUL FILLER"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ZERO WIDTH NO-BREAK SPACE",
+                    "target": "ZERO WIDTH NO-BREAK SPACE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HALFWIDTH HANGUL FILLER",
+                    "target": "HALFWIDTH HANGUL FILLER"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "KAITHI VOWEL SIGN I",
+                    "target": "KAITHI VOWEL SIGN I"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SHORTHAND FORMAT LETTER OVERLAP",
+                    "target": "SHORTHAND FORMAT LETTER OVERLAP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SHORTHAND FORMAT CONTINUING OVERLAP",
+                    "target": "SHORTHAND FORMAT CONTINUING OVERLAP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SHORTHAND FORMAT DOWN STEP",
+                    "target": "SHORTHAND FORMAT DOWN STEP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SHORTHAND FORMAT UP STEP",
+                    "target": "SHORTHAND FORMAT UP STEP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MUSICAL SYMBOL NULL NOTEHEAD",
+                    "target": "MUSICAL SYMBOL NULL NOTEHEAD"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MUSICAL SYMBOL BEGIN BEAM",
+                    "target": "MUSICAL SYMBOL BEGIN BEAM"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MUSICAL SYMBOL END BEAM",
+                    "target": "MUSICAL SYMBOL END BEAM"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MUSICAL SYMBOL BEGIN TIE",
+                    "target": "MUSICAL SYMBOL BEGIN TIE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MUSICAL SYMBOL END TIE",
+                    "target": "MUSICAL SYMBOL END TIE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MUSICAL SYMBOL BEGIN SLUR",
+                    "target": "MUSICAL SYMBOL BEGIN SLUR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MUSICAL SYMBOL END SLUR",
+                    "target": "MUSICAL SYMBOL END SLUR"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MUSICAL SYMBOL BEGIN PHRASE",
+                    "target": "MUSICAL SYMBOL BEGIN PHRASE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MUSICAL SYMBOL END PHRASE",
+                    "target": "MUSICAL SYMBOL END PHRASE"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "sample",
+                    "target": "sample"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "VIP center",
+                    "target": "VIP center"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cloud space",
+                    "target": "Cloud space"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Troubleshooting",
+                    "target": "Troubleshooting"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync",
+                    "target": "Sync"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Path settings",
+                    "target": "Path settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "System",
+                    "target": "System"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear cloud space",
+                    "target": "Clear cloud space"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "API Key",
+                    "target": "API Key"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Help & resources",
+                    "target": "Help & resources"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Debug mode",
+                    "target": "Debug mode"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cloud space content count",
+                    "target": "Cloud space content count"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync on startup (this device)",
+                    "target": "Sync on startup (this device)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Frequency (this device)",
+                    "target": "Frequency (this device)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Last sync",
+                    "target": "Last sync"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Message merge mode",
+                    "target": "Message merge mode"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Message sort order",
+                    "target": "Message sort order"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Message folder",
+                    "target": "Message folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Message file name template",
+                    "target": "Message file name template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Message file date format",
+                    "target": "Message file date format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Merged file template",
+                    "target": "Merged file template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Messages without id",
+                    "target": "Messages without id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Article folder",
+                    "target": "Article folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Article folder date format",
+                    "target": "Article folder date format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Attachment folder",
+                    "target": "Attachment folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Article filename",
+                    "target": "Article filename"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Article filename date format",
+                    "target": "Article filename date format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Escape hashtags in content",
+                    "target": "Escape hashtags in content"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Interface language",
+                    "target": "Interface language"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Front matter",
+                    "target": "Front matter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note properties template",
+                    "target": "Note properties template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note properties without id",
+                    "target": "Note properties without id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Article template",
+                    "target": "Article template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date saved format",
+                    "target": "Date saved format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Assistant message template",
+                    "target": "Assistant message template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chat record time style",
+                    "target": "Chat record time style"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Available template variables",
+                    "target": "Available template variables"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Debug log",
+                    "target": "Debug log"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Export current configuration",
+                    "target": "Export current configuration"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable diary links",
+                    "target": "Enable diary links"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Auto-create diary",
+                    "target": "Auto-create diary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Diary folder",
+                    "target": "Diary folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Diary date format",
+                    "target": "Diary date format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Write position",
+                    "target": "Write position"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Anchor identifier",
+                    "target": "Anchor identifier"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Write order",
+                    "target": "Write order"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link type",
+                    "target": "Link type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Diary link template",
+                    "target": "Diary link template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "No id in diary",
+                    "target": "No id in diary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link max length",
+                    "target": "Link max length"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Image processing mode",
+                    "target": "Image processing mode"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert PNG to JPEG",
+                    "target": "Convert PNG to JPEG"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JPEG quality",
+                    "target": "JPEG quality"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Download retries",
+                    "target": "Download retries"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Image storage folder",
+                    "target": "Image storage folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Burn after reading",
+                    "target": "Burn after reading"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "VIP中心",
+                    "target": "VIP中心"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "云空间",
+                    "target": "云空间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "问题诊断",
+                    "target": "问题诊断"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "同步设置",
+                    "target": "同步设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "路径设置",
+                    "target": "路径设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "系统设置",
+                    "target": "系统设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "清空云空间",
+                    "target": "清空云空间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "密钥",
+                    "target": "密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "帮助与资源",
+                    "target": "帮助与资源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调试模式",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "云空间内容数量",
+                    "target": "云空间内容数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启动时同步（本设备）",
+                    "target": "启动时同步（本设备）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "频率（本设备）",
+                    "target": "频率（本设备）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "最后同步",
+                    "target": "最后同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "消息合并模式",
+                    "target": "消息合并模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "消息排序",
+                    "target": "消息排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "消息文件夹",
+                    "target": "消息文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "消息文件名称模板",
+                    "target": "消息文件名称模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "消息文件日期格式",
+                    "target": "消息文件日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "合并文件模板",
+                    "target": "合并文件模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "消息不写 id",
+                    "target": "消息不写 id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文章文件夹",
+                    "target": "文章文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文章文件夹日期格式",
+                    "target": "文章文件夹日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "附件文件夹",
+                    "target": "附件文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文章文件名",
+                    "target": "文章文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文章文件名日期格式",
+                    "target": "文章文件名日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "转义文中标签",
+                    "target": "转义文中标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "界面语言",
+                    "target": "界面语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "前置元数据",
+                    "target": "前置元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "笔记属性模板",
+                    "target": "笔记属性模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "笔记属性不写 id",
+                    "target": "笔记属性不写 id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文章模板",
+                    "target": "文章模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "保存日期格式",
+                    "target": "保存日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "助手消息模板",
+                    "target": "助手消息模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "聊天记录时间样式",
+                    "target": "聊天记录时间样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "可用模板变量",
+                    "target": "可用模板变量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "调试日志",
+                    "target": "调试日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "导出当前配置",
+                    "target": "导出当前配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用日记链接",
+                    "target": "启用日记链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动创建日记",
+                    "target": "自动创建日记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "日记文件夹",
+                    "target": "日记文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "日记日期格式",
+                    "target": "日记日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "日记写入位置",
+                    "target": "日记写入位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "锚点标识",
+                    "target": "锚点标识"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "写入顺序",
+                    "target": "写入顺序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "链接类型",
+                    "target": "链接类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "日记链接模板",
+                    "target": "日记链接模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "双链最大字符数",
+                    "target": "双链最大字符数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "日记不写 id",
+                    "target": "日记不写 id"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "图片处理模式",
+                    "target": "图片处理模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PNG 转 JPEG",
+                    "target": "PNG 转 JPEG"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JPEG 质量",
+                    "target": "JPEG 质量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "下载重试次数",
+                    "target": "下载重试次数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "图片存储文件夹",
+                    "target": "图片存储文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "阅后即焚",
+                    "target": "阅后即焚"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync new changes",
+                    "target": "Sync new changes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter your API key",
+                    "target": "Enter your API key"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Frequency in seconds",
+                    "target": "Frequency in seconds"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Last sync",
+                    "target": "Last sync"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "同步助手_{{{date}}}",
+                    "target": "同步助手_{{{date}}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "date format: yyyy-MM-dd",
+                    "target": "date format: yyyy-MM-dd"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "# 📮 {{{date}}} messages",
+                    "target": "# 📮 {{{date}}} messages"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter the folder",
+                    "target": "Enter the folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "date format",
+                    "target": "date format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter the attachment folder",
+                    "target": "Enter the attachment folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter the filename",
+                    "target": "Enter the filename"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "title, author, tags, date_saved",
+                    "target": "title, author, tags, date_saved"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "author: {{{author}}}\nsource: {{{siteName}}}\ntags: [synced]",
+                    "target": "author: {{{author}}}\nsource: {{{siteName}}}\ntags: [synced]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter the template",
+                    "target": "Enter the template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "---\\n## 📅 {{{dateSaved}}}\\n{{{content}}}",
+                    "target": "---\\n## 📅 {{{dateSaved}}}\\n{{{content}}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "<small style=\"color: #999;\">{{{timestamp}}}</small>",
+                    "target": "<small style=\"color: #999;\">{{{timestamp}}}</small>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Leave empty to auto-detect from DN/PN",
+                    "target": "Leave empty to auto-detect from DN/PN"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "<!-- notehelper-links -->",
+                    "target": "<!-- notehelper-links -->"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "- {{{link}}}",
+                    "target": "- {{{link}}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "笔记同步助手/images/{{{date}}}",
+                    "target": "笔记同步助手/images/{{{date}}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入您的密钥",
+                    "target": "输入您的密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入频率（秒）",
+                    "target": "输入频率（秒）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "最后同步",
+                    "target": "最后同步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "日期格式：yyyy-MM-dd",
+                    "target": "日期格式：yyyy-MM-dd"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "# 📮 {{{date}}} 消息",
+                    "target": "# 📮 {{{date}}} 消息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入文件夹",
+                    "target": "输入文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "日期格式",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入附件文件夹",
+                    "target": "输入附件文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入文件名",
+                    "target": "输入文件名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "author: {{{author}}}\nsource: {{{siteName}}}\ntags: [\\u540C\\u6B65]",
+                    "target": "author: {{{author}}}\nsource: {{{siteName}}}\ntags: [\\u540C\\u6B65]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入模板",
+                    "target": "输入模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "留空自动读取 DN/PN 配置",
+                    "target": "留空自动读取 DN/PN 配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "同步助手_{{{date}}}",
+                    "target": "同步助手_{{{date}}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "企微消息_{{{date}}}",
+                    "target": "企微消息_{{{date}}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "<!-- notehelper-links -->",
+                    "target": "<!-- notehelper-links -->"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "已自动为你打开最新同步的笔记。",
+                    "target": "已自动为你打开最新同步的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "以后同步不会再自动打开笔记，你可以随时在左侧文件列表中查看所有已同步的笔记。",
+                    "target": "以后同步不会再自动打开笔记，你可以随时在左侧文件列表中查看所有已同步的笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "我知道了",
+                    "target": "我知道了"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Sample Title",
+                    "target": "Sample Title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "同步助手_2026-01-23",
+                    "target": "同步助手_2026-01-23"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"Search error\",s),s}return i},updates:async e=>{let{data:r,error:n}=await this.client.query(os.UpdatesSinceQuery,e).toPromise(),i=r?.updatesSince;if(n||!i||i.__typename===\"UpdatesSinceError\")",
+                    "target": "error(\"Search error\",s),s}return i},updates:async e=>{let{data:r,error:n}=await this.client.query(os.UpdatesSinceQuery,e).toPromise(),i=r?.updatesSince;if(n||!i||i.__typename===\"UpdatesSinceError\")"
+                },
+                {
+                    "source": "error(\"UpdatesSince error\",s),s}return i},delete:async e=>{let{data:r,error:n}=await this.client.mutation(os.DeleteMutation,{input:{articleID:e.id,bookmark:!1}}).toPromise(),i=r?.setBookmarkArticle;if(n||!i||i.__typename===\"SetBookmarkArticleError\")",
+                    "target": "error(\"UpdatesSince error\",s),s}return i},delete:async e=>{let{data:r,error:n}=await this.client.mutation(os.DeleteMutation,{input:{articleID:e.id,bookmark:!1}}).toPromise(),i=r?.setBookmarkArticle;if(n||!i||i.__typename===\"SetBookmarkArticleError\")"
+                },
+                {
+                    "source": "error(\"Delete error\",s),s}return{id:i.bookmarkedArticle.id}},saveByUrl:async e=>{let{data:r,error:n}=await this.client.mutation(os.saveByURLMutation,{input:{...e,source:e.source||\"API-Client\",clientRequestId:e.clientRequestId||\"\"}}).toPromise(),i=r?.saveUrl;if(n||!i||i.__typename===\"SaveError\")",
+                    "target": "error(\"Delete error\",s),s}return{id:i.bookmarkedArticle.id}},saveByUrl:async e=>{let{data:r,error:n}=await this.client.mutation(os.saveByURLMutation,{input:{...e,source:e.source||\"API-Client\",clientRequestId:e.clientRequestId||\"\"}}).toPromise(),i=r?.saveUrl;if(n||!i||i.__typename===\"SaveError\")"
+                },
+                {
+                    "source": "Notice(\"Failed to read the daily note template\")",
+                    "target": "Notice(\"Failed to read the daily note template\")"
+                },
+                {
+                    "source": "Notice(\"Unable to create new file.\")",
+                    "target": "Notice(\"Unable to create new file.\")"
+                },
+                {
+                    "source": "Notice(`${d(\"settings.article.count.currentLabel\")}: ${x}`)",
+                    "target": "Notice(`${d(\"settings.article.count.currentLabel\")}: ${x}`)"
+                },
+                {
+                    "source": "Notice(`${d(\"settings.article.count.currentLabel\")}: ${G.deletedCount}`)",
+                    "target": "Notice(`${d(\"settings.article.count.currentLabel\")}: ${G.deletedCount}`)"
+                },
+                {
+                    "source": "Notice(`${d(\"settings.image.retries.noticeMustBeNonNegative\")} (0-${_o})`)",
+                    "target": "Notice(`${d(\"settings.image.retries.noticeMustBeNonNegative\")} (0-${_o})`)"
+                },
+                {
+                    "source": "setText(`${d(\"settings.diary.linkTemplate.previewLabel\")}:\n${Ie}`)",
+                    "target": "setText(`${d(\"settings.diary.linkTemplate.previewLabel\")}:\n${Ie}`)"
+                },
+                {
+                    "source": "name:\"LINE FEED\"",
+                    "target": "name:\"LINE FEED\""
+                },
+                {
+                    "source": "name:\"LINE TABULATION\"",
+                    "target": "name:\"LINE TABULATION\""
+                },
+                {
+                    "source": "name:\"FORM FEED\"",
+                    "target": "name:\"FORM FEED\""
+                },
+                {
+                    "source": "name:\"CARRIAGE RETURN\"",
+                    "target": "name:\"CARRIAGE RETURN\""
+                },
+                {
+                    "source": "name:\"NEXT LINE\"",
+                    "target": "name:\"NEXT LINE\""
+                },
+                {
+                    "source": "name:\"NO-BREAK SPACE\"",
+                    "target": "name:\"NO-BREAK SPACE\""
+                },
+                {
+                    "source": "name:\"LINE SEPARATOR\"",
+                    "target": "name:\"LINE SEPARATOR\""
+                },
+                {
+                    "source": "name:\"PARAGRAPH SEPARATOR\"",
+                    "target": "name:\"PARAGRAPH SEPARATOR\""
+                },
+                {
+                    "source": "name:\"CHARACTER TABULATION\"",
+                    "target": "name:\"CHARACTER TABULATION\""
+                },
+                {
+                    "source": "name:\"SOFT HYPHEN\"",
+                    "target": "name:\"SOFT HYPHEN\""
+                },
+                {
+                    "source": "name:\"COMBINING GRAPHEME JOINER\"",
+                    "target": "name:\"COMBINING GRAPHEME JOINER\""
+                },
+                {
+                    "source": "name:\"ARABIC LETTER MARK\"",
+                    "target": "name:\"ARABIC LETTER MARK\""
+                },
+                {
+                    "source": "name:\"SYRIAC ABBREVIATION MARK\"",
+                    "target": "name:\"SYRIAC ABBREVIATION MARK\""
+                },
+                {
+                    "source": "name:\"HANGUL CHOSEONG FILLER\"",
+                    "target": "name:\"HANGUL CHOSEONG FILLER\""
+                },
+                {
+                    "source": "name:\"HANGUL JUNGSEONG FILLER\"",
+                    "target": "name:\"HANGUL JUNGSEONG FILLER\""
+                },
+                {
+                    "source": "name:\"OGHAM SPACE MARK\"",
+                    "target": "name:\"OGHAM SPACE MARK\""
+                },
+                {
+                    "source": "name:\"KHMER VOWEL INHERENT AQ\"",
+                    "target": "name:\"KHMER VOWEL INHERENT AQ\""
+                },
+                {
+                    "source": "name:\"KHMER VOWEL INHERENT AA\"",
+                    "target": "name:\"KHMER VOWEL INHERENT AA\""
+                },
+                {
+                    "source": "name:\"MONGOLIAN VOWEL SEPARATOR\"",
+                    "target": "name:\"MONGOLIAN VOWEL SEPARATOR\""
+                },
+                {
+                    "source": "name:\"EN QUAD\"",
+                    "target": "name:\"EN QUAD\""
+                },
+                {
+                    "source": "name:\"EM QUAD\"",
+                    "target": "name:\"EM QUAD\""
+                },
+                {
+                    "source": "name:\"EN SPACE\"",
+                    "target": "name:\"EN SPACE\""
+                },
+                {
+                    "source": "name:\"EM SPACE\"",
+                    "target": "name:\"EM SPACE\""
+                },
+                {
+                    "source": "name:\"THREE-PER-EM SPACE\"",
+                    "target": "name:\"THREE-PER-EM SPACE\""
+                },
+                {
+                    "source": "name:\"FOUR-PER-EM SPACE\"",
+                    "target": "name:\"FOUR-PER-EM SPACE\""
+                },
+                {
+                    "source": "name:\"SIX-PER-EM SPACE\"",
+                    "target": "name:\"SIX-PER-EM SPACE\""
+                },
+                {
+                    "source": "name:\"FIGURE SPACE\"",
+                    "target": "name:\"FIGURE SPACE\""
+                },
+                {
+                    "source": "name:\"PUNCTUATION SPACE\"",
+                    "target": "name:\"PUNCTUATION SPACE\""
+                },
+                {
+                    "source": "name:\"THIN SPACE\"",
+                    "target": "name:\"THIN SPACE\""
+                },
+                {
+                    "source": "name:\"HAIR SPACE\"",
+                    "target": "name:\"HAIR SPACE\""
+                },
+                {
+                    "source": "name:\"ZERO WIDTH SPACE\"",
+                    "target": "name:\"ZERO WIDTH SPACE\""
+                },
+                {
+                    "source": "name:\"ZERO WIDTH NON-JOINER\"",
+                    "target": "name:\"ZERO WIDTH NON-JOINER\""
+                },
+                {
+                    "source": "name:\"ZERO WIDTH\"",
+                    "target": "name:\"ZERO WIDTH\""
+                },
+                {
+                    "source": "name:\"LEFT-TO-RIGHT MARK\"",
+                    "target": "name:\"LEFT-TO-RIGHT MARK\""
+                },
+                {
+                    "source": "name:\"RIGHT-TO-LEFT MARK\"",
+                    "target": "name:\"RIGHT-TO-LEFT MARK\""
+                },
+                {
+                    "source": "name:\"NARROW NO-BREAK SPACE\"",
+                    "target": "name:\"NARROW NO-BREAK SPACE\""
+                },
+                {
+                    "source": "name:\"MEDIUM MATHEMATICAL SPACE\"",
+                    "target": "name:\"MEDIUM MATHEMATICAL SPACE\""
+                },
+                {
+                    "source": "name:\"WORD JOINER\"",
+                    "target": "name:\"WORD JOINER\""
+                },
+                {
+                    "source": "name:\"FUNCTION APPLICATION\"",
+                    "target": "name:\"FUNCTION APPLICATION\""
+                },
+                {
+                    "source": "name:\"INVISIBLE TIMES\"",
+                    "target": "name:\"INVISIBLE TIMES\""
+                },
+                {
+                    "source": "name:\"INVISIBLE SEPARATOR\"",
+                    "target": "name:\"INVISIBLE SEPARATOR\""
+                },
+                {
+                    "source": "name:\"INVISIBLE PLUS\"",
+                    "target": "name:\"INVISIBLE PLUS\""
+                },
+                {
+                    "source": "name:\"INHIBIT SYMMETRIC SWAPPING\"",
+                    "target": "name:\"INHIBIT SYMMETRIC SWAPPING\""
+                },
+                {
+                    "source": "name:\"ACTIVATE SYMMETRIC SWAPPING\"",
+                    "target": "name:\"ACTIVATE SYMMETRIC SWAPPING\""
+                },
+                {
+                    "source": "name:\"INHIBIT ARABIC FORM SHAPING\"",
+                    "target": "name:\"INHIBIT ARABIC FORM SHAPING\""
+                },
+                {
+                    "source": "name:\"ACTIVATE ARABIC FORM SHAPING\"",
+                    "target": "name:\"ACTIVATE ARABIC FORM SHAPING\""
+                },
+                {
+                    "source": "name:\"NATIONAL DIGIT SHAPES\"",
+                    "target": "name:\"NATIONAL DIGIT SHAPES\""
+                },
+                {
+                    "source": "name:\"NOMINAL DIGIT SHAPES\"",
+                    "target": "name:\"NOMINAL DIGIT SHAPES\""
+                },
+                {
+                    "source": "name:\"IDEOGRAPHIC SPACE\"",
+                    "target": "name:\"IDEOGRAPHIC SPACE\""
+                },
+                {
+                    "source": "name:\"BRAILLE PATTERN BLANK\"",
+                    "target": "name:\"BRAILLE PATTERN BLANK\""
+                },
+                {
+                    "source": "name:\"HANGUL FILLER\"",
+                    "target": "name:\"HANGUL FILLER\""
+                },
+                {
+                    "source": "name:\"ZERO WIDTH NO-BREAK SPACE\"",
+                    "target": "name:\"ZERO WIDTH NO-BREAK SPACE\""
+                },
+                {
+                    "source": "name:\"HALFWIDTH HANGUL FILLER\"",
+                    "target": "name:\"HALFWIDTH HANGUL FILLER\""
+                },
+                {
+                    "source": "name:\"KAITHI VOWEL SIGN I\"",
+                    "target": "name:\"KAITHI VOWEL SIGN I\""
+                },
+                {
+                    "source": "name:\"SHORTHAND FORMAT LETTER OVERLAP\"",
+                    "target": "name:\"SHORTHAND FORMAT LETTER OVERLAP\""
+                },
+                {
+                    "source": "name:\"SHORTHAND FORMAT CONTINUING OVERLAP\"",
+                    "target": "name:\"SHORTHAND FORMAT CONTINUING OVERLAP\""
+                },
+                {
+                    "source": "name:\"SHORTHAND FORMAT DOWN STEP\"",
+                    "target": "name:\"SHORTHAND FORMAT DOWN STEP\""
+                },
+                {
+                    "source": "name:\"SHORTHAND FORMAT UP STEP\"",
+                    "target": "name:\"SHORTHAND FORMAT UP STEP\""
+                },
+                {
+                    "source": "name:\"MUSICAL SYMBOL NULL NOTEHEAD\"",
+                    "target": "name:\"MUSICAL SYMBOL NULL NOTEHEAD\""
+                },
+                {
+                    "source": "name:\"MUSICAL SYMBOL BEGIN BEAM\"",
+                    "target": "name:\"MUSICAL SYMBOL BEGIN BEAM\""
+                },
+                {
+                    "source": "name:\"MUSICAL SYMBOL END BEAM\"",
+                    "target": "name:\"MUSICAL SYMBOL END BEAM\""
+                },
+                {
+                    "source": "name:\"MUSICAL SYMBOL BEGIN TIE\"",
+                    "target": "name:\"MUSICAL SYMBOL BEGIN TIE\""
+                },
+                {
+                    "source": "name:\"MUSICAL SYMBOL END TIE\"",
+                    "target": "name:\"MUSICAL SYMBOL END TIE\""
+                },
+                {
+                    "source": "name:\"MUSICAL SYMBOL BEGIN SLUR\"",
+                    "target": "name:\"MUSICAL SYMBOL BEGIN SLUR\""
+                },
+                {
+                    "source": "name:\"MUSICAL SYMBOL END SLUR\"",
+                    "target": "name:\"MUSICAL SYMBOL END SLUR\""
+                },
+                {
+                    "source": "name:\"MUSICAL SYMBOL BEGIN PHRASE\"",
+                    "target": "name:\"MUSICAL SYMBOL BEGIN PHRASE\""
+                },
+                {
+                    "source": "name:\"MUSICAL SYMBOL END PHRASE\"",
+                    "target": "name:\"MUSICAL SYMBOL END PHRASE\""
+                },
+                {
+                    "source": "description:\"Sample description\"",
+                    "target": "description:\"Sample description\""
+                },
+                {
+                    "source": "name:\"VIP center\"",
+                    "target": "name:\"VIP center\""
+                },
+                {
+                    "source": "name:\"Cloud space\"",
+                    "target": "name:\"Cloud space\""
+                },
+                {
+                    "source": "name:\"Path settings\"",
+                    "target": "name:\"Path settings\""
+                },
+                {
+                    "source": "name:\"Clear cloud space\"",
+                    "target": "name:\"Clear cloud space\""
+                },
+                {
+                    "source": "name:\"API Key\"",
+                    "target": "name:\"API Key\""
+                },
+                {
+                    "source": "name:\"Help & resources\"",
+                    "target": "name:\"Help & resources\""
+                },
+                {
+                    "source": "name:\"Debug mode\"",
+                    "target": "name:\"Debug mode\""
+                },
+                {
+                    "source": "name:\"Cloud space content count\"",
+                    "target": "name:\"Cloud space content count\""
+                },
+                {
+                    "source": "name:\"Sync on startup (this device)\"",
+                    "target": "name:\"Sync on startup (this device)\""
+                },
+                {
+                    "source": "name:\"Frequency (this device)\"",
+                    "target": "name:\"Frequency (this device)\""
+                },
+                {
+                    "source": "name:\"Last sync\"",
+                    "target": "name:\"Last sync\""
+                },
+                {
+                    "source": "name:\"Message merge mode\"",
+                    "target": "name:\"Message merge mode\""
+                },
+                {
+                    "source": "name:\"Message sort order\"",
+                    "target": "name:\"Message sort order\""
+                },
+                {
+                    "source": "name:\"Message folder\"",
+                    "target": "name:\"Message folder\""
+                },
+                {
+                    "source": "name:\"Message file name template\"",
+                    "target": "name:\"Message file name template\""
+                },
+                {
+                    "source": "name:\"Message file date format\"",
+                    "target": "name:\"Message file date format\""
+                },
+                {
+                    "source": "name:\"Merged file template\"",
+                    "target": "name:\"Merged file template\""
+                },
+                {
+                    "source": "name:\"Messages without id\"",
+                    "target": "name:\"Messages without id\""
+                },
+                {
+                    "source": "name:\"Article folder\"",
+                    "target": "name:\"Article folder\""
+                },
+                {
+                    "source": "name:\"Article folder date format\"",
+                    "target": "name:\"Article folder date format\""
+                },
+                {
+                    "source": "name:\"Attachment folder\"",
+                    "target": "name:\"Attachment folder\""
+                },
+                {
+                    "source": "name:\"Article filename\"",
+                    "target": "name:\"Article filename\""
+                },
+                {
+                    "source": "name:\"Article filename date format\"",
+                    "target": "name:\"Article filename date format\""
+                },
+                {
+                    "source": "name:\"Escape hashtags in content\"",
+                    "target": "name:\"Escape hashtags in content\""
+                },
+                {
+                    "source": "name:\"Interface language\"",
+                    "target": "name:\"Interface language\""
+                },
+                {
+                    "source": "name:\"Front matter\"",
+                    "target": "name:\"Front matter\""
+                },
+                {
+                    "source": "name:\"Note properties template\"",
+                    "target": "name:\"Note properties template\""
+                },
+                {
+                    "source": "name:\"Note properties without id\"",
+                    "target": "name:\"Note properties without id\""
+                },
+                {
+                    "source": "name:\"Article template\"",
+                    "target": "name:\"Article template\""
+                },
+                {
+                    "source": "name:\"Date saved format\"",
+                    "target": "name:\"Date saved format\""
+                },
+                {
+                    "source": "name:\"Assistant message template\"",
+                    "target": "name:\"Assistant message template\""
+                },
+                {
+                    "source": "name:\"Chat record time style\"",
+                    "target": "name:\"Chat record time style\""
+                },
+                {
+                    "source": "name:\"Available template variables\"",
+                    "target": "name:\"Available template variables\""
+                },
+                {
+                    "source": "name:\"Debug log\"",
+                    "target": "name:\"Debug log\""
+                },
+                {
+                    "source": "name:\"Export current configuration\"",
+                    "target": "name:\"Export current configuration\""
+                },
+                {
+                    "source": "name:\"Enable diary links\"",
+                    "target": "name:\"Enable diary links\""
+                },
+                {
+                    "source": "name:\"Auto-create diary\"",
+                    "target": "name:\"Auto-create diary\""
+                },
+                {
+                    "source": "name:\"Diary folder\"",
+                    "target": "name:\"Diary folder\""
+                },
+                {
+                    "source": "name:\"Diary date format\"",
+                    "target": "name:\"Diary date format\""
+                },
+                {
+                    "source": "name:\"Write position\"",
+                    "target": "name:\"Write position\""
+                },
+                {
+                    "source": "name:\"Anchor identifier\"",
+                    "target": "name:\"Anchor identifier\""
+                },
+                {
+                    "source": "name:\"Write order\"",
+                    "target": "name:\"Write order\""
+                },
+                {
+                    "source": "name:\"Link type\"",
+                    "target": "name:\"Link type\""
+                },
+                {
+                    "source": "name:\"Diary link template\"",
+                    "target": "name:\"Diary link template\""
+                },
+                {
+                    "source": "name:\"No id in diary\"",
+                    "target": "name:\"No id in diary\""
+                },
+                {
+                    "source": "name:\"Link max length\"",
+                    "target": "name:\"Link max length\""
+                },
+                {
+                    "source": "name:\"Image processing mode\"",
+                    "target": "name:\"Image processing mode\""
+                },
+                {
+                    "source": "name:\"Convert PNG to JPEG\"",
+                    "target": "name:\"Convert PNG to JPEG\""
+                },
+                {
+                    "source": "name:\"JPEG quality\"",
+                    "target": "name:\"JPEG quality\""
+                },
+                {
+                    "source": "name:\"Download retries\"",
+                    "target": "name:\"Download retries\""
+                },
+                {
+                    "source": "name:\"Image storage folder\"",
+                    "target": "name:\"Image storage folder\""
+                },
+                {
+                    "source": "name:\"Burn after reading\"",
+                    "target": "name:\"Burn after reading\""
+                },
+                {
+                    "source": "text:`${d(\"settings.article.count.currentLabel\")}: ${w}`",
+                    "target": "text:`${d(\"settings.article.count.currentLabel\")}: ${w}`"
+                },
+                {
+                    "source": "text:\"<!-- notehelper-links -->\"",
+                    "target": "text:\"<!-- notehelper-links -->\""
+                },
+                {
+                    "source": "text:`<!-- ${this.plugin.settings.diaryAnchor} -->`",
+                    "target": "text:`<!-- ${this.plugin.settings.diaryAnchor} -->`"
+                },
+                {
+                    "source": "text:`${d(\"versionCheck.versionLabel\")}: ${i}`",
+                    "target": "text:`${d(\"versionCheck.versionLabel\")}: ${i}`"
+                },
+                {
+                    "source": "text:`${d(\"versionCheck.foundNew\")} ${s}!`",
+                    "target": "text:`${d(\"versionCheck.foundNew\")} ${s}!`"
+                },
+                {
+                    "source": "textContent=`${d(\"vipRenewal.modal.currentLabel\")}${al(s,new Date)}`",
+                    "target": "textContent=`${d(\"vipRenewal.modal.currentLabel\")}${al(s,new Date)}`"
+                },
+                {
+                    "source": "name:\"Sync new changes\"",
+                    "target": "name:\"Sync new changes\""
+                }
+            ]
+        }
+    }
+}

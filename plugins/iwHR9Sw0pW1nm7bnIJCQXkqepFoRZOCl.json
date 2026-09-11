@@ -1,0 +1,60 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "auto-numbered-headings",
+        "version": "1.0.0",
+        "title": "Auto Numbered Headings",
+        "description": "Auto Numbered Headings Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable or disable automatic heading numbering",
+                    "target": "启用或禁用自动标题编号功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When on, the shallowest heading level in the note keeps a trailing dot (for example \"# 1. Title\"). Otherwise all numbers are written without a trailing dot.",
+                    "target": "开启时，笔记中最浅的标题级别会保留尾随点（例如“# 1. 标题”）。否则所有数字都将不带尾随点。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable auto-numbering",
+                    "target": "启用自动编号功能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Trailing dot on first level",
+                    "target": "第一级标题带尾随点"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Enable auto-numbering\")",
+                    "target": "setName(\"Enable auto-numbering\")"
+                },
+                {
+                    "source": "setDesc(\"Enable or disable automatic heading numbering\")",
+                    "target": "setDesc(\"Enable or disable automatic heading numbering\")"
+                },
+                {
+                    "source": "setName(\"Trailing dot on first level\")",
+                    "target": "setName(\"Trailing dot on first level\")"
+                },
+                {
+                    "source": "setDesc('When on, the shallowest heading level in the note keeps a trailing dot (for example \"# 1. Title\"). Otherwise all numbers are written without a trailing dot.')",
+                    "target": "setDesc('When on, the shallowest heading level in the note keeps a trailing dot (for example \"# 1. Title\"). Otherwise all numbers are written without a trailing dot.')"
+                }
+            ]
+        }
+    }
+}
