@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "smart-list-input",
+        "version": "1.0.0",
+        "title": "智能列表输入",
+        "description": "智能列表输入 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": [
+                {
+                    "source": "text : \"\"",
+                    "target": "text : \"\""
+                }
+            ]
+        }
+    }
+}

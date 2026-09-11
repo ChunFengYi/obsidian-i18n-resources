@@ -1,0 +1,109 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "first-timeline",
+        "version": "1.0.0",
+        "title": "时间线",
+        "description": "时间线 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.7.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "desc",
+                    "target": "desc"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "asc",
+                    "target": "asc"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error generating notes summary:",
+                    "target": "Error generating notes summary:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "timeline-add-event-line timeline-add-event-line-current",
+                    "target": "timeline-add-event-line timeline-add-event-line-current"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "蓝色",
+                    "target": "蓝色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "绿色",
+                    "target": "绿色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "紫色",
+                    "target": "紫色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "红色",
+                    "target": "红色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "橙色",
+                    "target": "橙色"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

@@ -1,0 +1,253 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "plugin-helper",
+        "version": "1.0.0",
+        "title": "插件说明书",
+        "description": "插件说明书 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开侧边栏",
+                    "target": "打开侧边栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开弹窗",
+                    "target": "打开弹窗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "开始翻译",
+                    "target": "开始翻译"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在左侧栏打开常驻面板，适合经常查阅",
+                    "target": "在左侧栏打开常驻面板，适合经常查阅"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "居中浮层，仅官方说明只读查阅，设置按钮在卡片右上角",
+                    "target": "居中浮层，仅官方说明只读查阅，设置按钮在卡片右上角"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "从 Obsidian 社区拉取官方英文说明，并自动翻译为中文（已手动修改的说明不会被覆盖）",
+                    "target": "从 Obsidian 社区拉取官方英文说明，并自动翻译为中文（已手动修改的说明不会被覆盖）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "插件说明书",
+                    "target": "插件说明书"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "打开插件一览（侧边栏）",
+                    "target": "打开插件一览（侧边栏）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "打开插件一览（弹窗）",
+                    "target": "打开插件一览（弹窗）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "刷新全部说明",
+                    "target": "刷新全部说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "（暂无官方说明）",
+                    "target": "（暂无官方说明）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "加载中…",
+                    "target": "加载中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "加载失败",
+                    "target": "加载失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "翻译中…",
+                    "target": "翻译中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "失败",
+                    "target": "失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在翻译插件说明…",
+                    "target": "正在翻译插件说明…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "刷新并翻译说明",
+                    "target": "刷新并翻译说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "plugin-helper-card plugin-helper-card-modal",
+                    "target": "plugin-helper-card plugin-helper-card-modal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开插件说明书（侧边栏）",
+                    "target": "打开插件说明书（侧边栏）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开插件说明书（弹窗）",
+                    "target": "打开插件说明书（弹窗）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "刷新插件说明翻译",
+                    "target": "刷新插件说明翻译"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "留空则使用自动翻译；点击「刷新翻译」可重新生成",
+                    "target": "留空则使用自动翻译；点击「刷新翻译」可重新生成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "搜索插件名或说明…",
+                    "target": "搜索插件名或说明…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "打开设置",
+                    "target": "打开设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "官方说明",
+                    "target": "官方说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "我的说明",
+                    "target": "我的说明"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "默认为自动翻译，可自行修改；修改不会影响上方官方原文与注释。",
+                    "target": "默认为自动翻译，可自行修改；修改不会影响上方官方原文与注释。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "打开插件设置",
+                    "target": "打开插件设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "恢复自动翻译",
+                    "target": "恢复自动翻译"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "插件说明书",
+                    "target": "插件说明书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "只读查阅：官方原文 + 中文注释。编辑「我的说明」请使用侧边栏。",
+                    "target": "只读查阅：官方原文 + 中文注释。编辑「我的说明」请使用侧边栏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "刷新翻译",
+                    "target": "刷新翻译"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "官方说明为原文并附中文注释（只读）；下方「我的说明」可编辑，修改不影响官方数据。",
+                    "target": "官方说明为原文并附中文注释（只读）；下方「我的说明」可编辑，修改不影响官方数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "侧边栏：官方说明 + 可编辑「我的说明」。弹窗：仅官方说明只读，设置按钮在卡片右上角。",
+                    "target": "侧边栏：官方说明 + 可编辑「我的说明」。弹窗：仅官方说明只读，设置按钮在卡片右上角。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "search",
+                    "target": "search"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

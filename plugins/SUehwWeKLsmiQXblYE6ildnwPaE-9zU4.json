@@ -1,0 +1,2150 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "regex-search",
+        "version": "1.0.0",
+        "title": "正则搜索",
+        "description": "正则搜索 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.3-beta",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "搜索中...",
+                    "target": "搜索中..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "正在搜索...",
+                    "target": "正在搜索..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "form",
+                    "target": "form"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "small",
+                    "target": "small"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "🗑️ 清空历史",
+                    "target": "🗑️ 清空历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "打开搜索时的默认正则表达式模式",
+                    "target": "打开搜索时的默认正则表达式模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认启用区分大小写搜索",
+                    "target": "默认启用区分大小写搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认启用多行模式（^ 和 $ 匹配行首行尾）",
+                    "target": "默认启用多行模式（^ 和 $ 匹配行首行尾）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "要搜索的文件扩展名（用逗号分隔）",
+                    "target": "要搜索的文件扩展名（用逗号分隔）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在搜索中包含隐藏文件（以 . 开头的文件）",
+                    "target": "在搜索中包含隐藏文件（以 . 开头的文件）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "要排除的文件路径模式（用逗号分隔，支持正则表达式）",
+                    "target": "要排除的文件路径模式（用逗号分隔，支持正则表达式）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在执行全库替换操作前显示确认对话框",
+                    "target": "在执行全库替换操作前显示确认对话框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "限制每个文件显示的最大搜索结果数量",
+                    "target": "限制每个文件显示的最大搜索结果数量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "保存和显示搜索历史记录",
+                    "target": "保存和显示搜索历史记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用内置的正则表达式库功能，可以保存和重复使用常用正则表达式",
+                    "target": "启用内置的正则表达式库功能，可以保存和重复使用常用正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在搜索和替换过程中显示进度指示器",
+                    "target": "在搜索和替换过程中显示进度指示器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "启用后会在开发者控制台显示状态转换日志",
+                    "target": "启用后会在开发者控制台显示状态转换日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "删除所有保存的搜索历史记录",
+                    "target": "删除所有保存的搜索历史记录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "⚙️ 基本设置",
+                    "target": "⚙️ 基本设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认搜索模式",
+                    "target": "默认搜索模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "区分大小写",
+                    "target": "区分大小写"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "多行模式",
+                    "target": "多行模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文件扩展名",
+                    "target": "文件扩展名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "🔧 高级设置",
+                    "target": "🔧 高级设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "包含隐藏文件",
+                    "target": "包含隐藏文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "排除模式",
+                    "target": "排除模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "确认替换",
+                    "target": "确认替换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "⚡ 性能设置",
+                    "target": "⚡ 性能设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "每个文件最大结果数",
+                    "target": "每个文件最大结果数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "🎨 用户体验设置",
+                    "target": "🎨 用户体验设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用搜索历史",
+                    "target": "启用搜索历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用正则表达式库",
+                    "target": "启用正则表达式库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用进度指示器",
+                    "target": "启用进度指示器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "调试模式",
+                    "target": "调试模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "清空搜索历史",
+                    "target": "清空搜索历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入默认正则表达式...",
+                    "target": "输入默认正则表达式..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "清空历史",
+                    "target": "清空历史"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有打开的文件",
+                    "target": "没有打开的文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "内置正则表达式库已重置！",
+                    "target": "内置正则表达式库已重置！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "搜索超时，请尝试更具体的搜索条件",
+                    "target": "搜索超时，请尝试更具体的搜索条件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "替换超时，请尝试更具体的搜索条件",
+                    "target": "替换超时，请尝试更具体的搜索条件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "操作已取消",
+                    "target": "操作已取消"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有搜索历史",
+                    "target": "没有搜索历史"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "搜索历史已清空",
+                    "target": "搜索历史已清空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入正则表达式",
+                    "target": "请输入正则表达式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已删除正则表达式",
+                    "target": "已删除正则表达式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正则表达式库已复制到剪贴板",
+                    "target": "正则表达式库已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "名称和正则表达式不能为空",
+                    "target": "名称和正则表达式不能为空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Pipeline 已删除",
+                    "target": "Pipeline 已删除"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Pipeline 已复制到剪贴板",
+                    "target": "Pipeline 已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入 Pipeline 名称",
+                    "target": "请输入 Pipeline 名称"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请至少添加一个阶段",
+                    "target": "请至少添加一个阶段"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入阶段名称",
+                    "target": "请输入阶段名称"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入正则表达式模式",
+                    "target": "请输入正则表达式模式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到匹配项",
+                    "target": "未找到匹配项"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入测试文本",
+                    "target": "请输入测试文本"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入 JSON 数据",
+                    "target": "请输入 JSON 数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cancelText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "regex-form-input regex-pattern-input",
+                    "target": "regex-form-input regex-pattern-input"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "setting-item-description regex-multiline-help",
+                    "target": "setting-item-description regex-multiline-help"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "confirm-button-confirm mod-cta",
+                    "target": "confirm-button-confirm mod-cta"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "confirmText",
+                    "source": "确定",
+                    "target": "确定"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "confirmText",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "confirmText",
+                    "source": "执行",
+                    "target": "执行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配标准格式的电子邮箱地址",
+                    "target": "匹配标准格式的电子邮箱地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配中国大陆11位手机号码",
+                    "target": "匹配中国大陆11位手机号码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配中国固定电话号码",
+                    "target": "匹配中国固定电话号码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配HTTP或HTTPS网址",
+                    "target": "匹配HTTP或HTTPS网址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配IPv4地址",
+                    "target": "匹配IPv4地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配域名",
+                    "target": "匹配域名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配YYYY-MM-DD格式的日期",
+                    "target": "匹配YYYY-MM-DD格式的日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配中文格式日期",
+                    "target": "匹配中文格式日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配24小时制时间格式",
+                    "target": "匹配24小时制时间格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配常见图片文件扩展名",
+                    "target": "匹配常见图片文件扩展名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配常见文档文件扩展名",
+                    "target": "匹配常见文档文件扩展名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配常见音视频文件扩展名",
+                    "target": "匹配常见音视频文件扩展名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配常见压缩文件扩展名",
+                    "target": "匹配常见压缩文件扩展名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配Markdown格式的链接 [文本](链接)",
+                    "target": "匹配Markdown格式的链接 [文本](链接)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配Markdown格式的图片 ![alt](url)",
+                    "target": "匹配Markdown格式的图片 ![alt](url)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配Markdown标题（# ## ### 等）",
+                    "target": "匹配Markdown标题（# ## ### 等）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配Markdown代码块",
+                    "target": "匹配Markdown代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配小数（包括负数）",
+                    "target": "匹配小数（包括负数）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配整数（包括负数）",
+                    "target": "匹配整数（包括负数）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "匹配十六进制颜色代码",
+                    "target": "匹配十六进制颜色代码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "文件过大，跳过搜索",
+                    "target": "文件过大，跳过搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "错误",
+                    "target": "错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "这将会重新添加所有最新的内置正则表达式，不会影响你自定义的内容。确定继续吗？",
+                    "target": "这将会重新添加所有最新的内置正则表达式，不会影响你自定义的内容。确定继续吗？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "电子邮箱",
+                    "target": "电子邮箱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "中国手机号",
+                    "target": "中国手机号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "中国固定电话",
+                    "target": "中国固定电话"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "网址链接",
+                    "target": "网址链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "IP地址",
+                    "target": "IP地址"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "域名",
+                    "target": "域名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ISO日期",
+                    "target": "ISO日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "中文日期",
+                    "target": "中文日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "24小时时间",
+                    "target": "24小时时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "图片文件",
+                    "target": "图片文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文档文件",
+                    "target": "文档文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "媒体文件",
+                    "target": "媒体文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "压缩文件",
+                    "target": "压缩文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown链接",
+                    "target": "Markdown链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown图片",
+                    "target": "Markdown图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown标题",
+                    "target": "Markdown标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown代码块",
+                    "target": "Markdown代码块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "小数",
+                    "target": "小数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "整数",
+                    "target": "整数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "十六进制颜色",
+                    "target": "十六进制颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开正则表达式搜索",
+                    "target": "打开正则表达式搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在当前文件中搜索",
+                    "target": "在当前文件中搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "快速正则表达式搜索",
+                    "target": "快速正则表达式搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "管理正则表达式库",
+                    "target": "管理正则表达式库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "管理正则表达式 Pipeline",
+                    "target": "管理正则表达式 Pipeline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "重置内置正则表达式库",
+                    "target": "重置内置正则表达式库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入搜索内容...",
+                    "target": "输入搜索内容..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入正则表达式...",
+                    "target": "输入正则表达式..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入替换内容...",
+                    "target": "输入替换内容..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入表达式名称...",
+                    "target": "输入表达式名称..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "g, i, m, s...",
+                    "target": "g, i, m, s..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "描述这个正则表达式的用途...",
+                    "target": "描述这个正则表达式的用途..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入分类名称...",
+                    "target": "输入分类名称..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "在这里粘贴正则表达式库的JSON数据...",
+                    "target": "在这里粘贴正则表达式库的JSON数据..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Pipeline 名称",
+                    "target": "Pipeline 名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Pipeline 描述",
+                    "target": "Pipeline 描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "分类（例如：文本处理、Markdown 优化）",
+                    "target": "分类（例如：文本处理、Markdown 优化）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "阶段名称",
+                    "target": "阶段名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "阶段描述",
+                    "target": "阶段描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "正则表达式模式",
+                    "target": "正则表达式模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "替换文本（支持 $1, $2 等捕获组）",
+                    "target": "替换文本（支持 $1, $2 等捕获组）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "gimsu",
+                    "target": "gimsu"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "在此输入测试文本，查看 Pipeline 的执行结果...",
+                    "target": "在此输入测试文本，查看 Pipeline 的执行结果..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "粘贴 Pipeline JSON 数据...",
+                    "target": "粘贴 Pipeline JSON 数据..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔍 快速搜索",
+                    "target": "🔍 快速搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "未找到匹配项",
+                    "target": "未找到匹配项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚡ 正则表达式：",
+                    "target": "⚡ 正则表达式："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✨ 替换为：",
+                    "target": "✨ 替换为："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔍 搜索",
+                    "target": "🔍 搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔄 替换",
+                    "target": "🔄 替换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "❌ 取消",
+                    "target": "❌ 取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🧹 清空结果",
+                    "target": "🧹 清空结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📚 历史",
+                    "target": "📚 历史"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📚 正则库",
+                    "target": "📚 正则库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✅ 替换完成！",
+                    "target": "✅ 替换完成！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "未找到匹配的内容",
+                    "target": "未找到匹配的内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📚 正则表达式库",
+                    "target": "📚 正则表达式库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "➕ 添加新表达式",
+                    "target": "➕ 添加新表达式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📥 导入",
+                    "target": "📥 导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📤 导出",
+                    "target": "📤 导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正则表达式库已禁用，请在设置中启用。",
+                    "target": "正则表达式库已禁用，请在设置中启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂无保存的正则表达式，点击\"添加新表达式\"开始创建。",
+                    "target": "暂无保存的正则表达式，点击\"添加新表达式\"开始创建。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "使用",
+                    "target": "使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "编辑",
+                    "target": "编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "名称：",
+                    "target": "名称："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正则表达式：",
+                    "target": "正则表达式："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "标志：",
+                    "target": "标志："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "描述：",
+                    "target": "描述："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "分类：",
+                    "target": "分类："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "导入正则表达式库",
+                    "target": "导入正则表达式库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "粘贴JSON数据：",
+                    "target": "粘贴JSON数据："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "导入",
+                    "target": "导入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💡 多行模式说明：",
+                    "target": "💡 多行模式说明："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "• ",
+                    "target": "• "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "单行模式",
+                    "target": "单行模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " 和 ",
+                    "target": " 和 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " 匹配整个文本的开始和结束",
+                    "target": " 匹配整个文本的开始和结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "多行模式",
+                    "target": "多行模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " 匹配每一行的开始和结束",
+                    "target": " 匹配每一行的开始和结束"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "例如：在多行模式下，",
+                    "target": "例如：在多行模式下，"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "^第",
+                    "target": "^第"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": " 可以匹配每一行开头的\"第\"字",
+                    "target": " 可以匹配每一行开头的\"第\"字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正则表达式 Pipeline 管理器",
+                    "target": "正则表达式 Pipeline 管理器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "➕ 新建 Pipeline",
+                    "target": "➕ 新建 Pipeline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "关闭",
+                    "target": "关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂无 Pipeline。点击上方\"➕ 新建 Pipeline\"创建您的第一个正则表达式处理流程。",
+                    "target": "暂无 Pipeline。点击上方\"➕ 新建 Pipeline\"创建您的第一个正则表达式处理流程。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "▶️ 执行",
+                    "target": "▶️ 执行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✏️ 编辑",
+                    "target": "✏️ 编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🗑️ 删除",
+                    "target": "🗑️ 删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pipeline 阶段",
+                    "target": "Pipeline 阶段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂无阶段，点击下方\"添加阶段\"按钮开始。",
+                    "target": "暂无阶段，点击下方\"添加阶段\"按钮开始。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✏️",
+                    "target": "✏️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🗑️",
+                    "target": "🗑️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "➕ 添加阶段",
+                    "target": "➕ 添加阶段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "💾 保存 Pipeline",
+                    "target": "💾 保存 Pipeline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "标志:",
+                    "target": "标志:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保存阶段",
+                    "target": "保存阶段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择执行范围",
+                    "target": "选择执行范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📚 整个 Vault",
+                    "target": "📚 整个 Vault"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📄 当前文件",
+                    "target": "📄 当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "👁️ 测试预览",
+                    "target": "👁️ 测试预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正在执行 Pipeline...",
+                    "target": "正在执行 Pipeline..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "执行完成",
+                    "target": "执行完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "错误:",
+                    "target": "错误:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "输入测试文本：",
+                    "target": "输入测试文本："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "▶️ 预览结果",
+                    "target": "▶️ 预览结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "原始文本:",
+                    "target": "原始文本:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "(无变化)",
+                    "target": "(无变化)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "最终结果:",
+                    "target": "最终结果:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "导入 Pipeline",
+                    "target": "导入 Pipeline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "重置内置正则表达式库",
+                    "target": "重置内置正则表达式库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "确认替换",
+                    "target": "确认替换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "确认删除",
+                    "target": "确认删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "确认执行",
+                    "target": "确认执行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "submit",
+                    "target": "submit"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "button",
+                    "target": "button"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"没有打开的文件\")",
+                    "target": "Notice(\"没有打开的文件\")"
+                },
+                {
+                    "source": "Notice(`已添加 ${t.length} 个新的内置正则表达式`)",
+                    "target": "Notice(`已添加 ${t.length} 个新的内置正则表达式`)"
+                },
+                {
+                    "source": "Notice(\"内置正则表达式库已重置！\")",
+                    "target": "Notice(\"内置正则表达式库已重置！\")"
+                },
+                {
+                    "source": "Notice(`成功导入 ${n.length} 个正则表达式`)",
+                    "target": "Notice(`成功导入 ${n.length} 个正则表达式`)"
+                },
+                {
+                    "source": "Notice(\"导入失败：\"+t.message),!1}}filterFiles(e){let t=new Set(this.settings.fileExtensions),s=this.settings.excludePatterns,n=[];return s.length>0&&(n=s.map(i=>{try{return new RegExp(i,\"i\")",
+                    "target": "Notice(\"导入失败：\"+t.message),!1}}filterFiles(e){let t=new Set(this.settings.fileExtensions),s=this.settings.excludePatterns,n=[];return s.length>0&&(n=s.map(i=>{try{return new RegExp(i,\"i\")"
+                },
+                {
+                    "source": "Notice(\"搜索超时，请尝试更具体的搜索条件\")",
+                    "target": "Notice(\"搜索超时，请尝试更具体的搜索条件\")"
+                },
+                {
+                    "source": "Notice(\"替换超时，请尝试更具体的搜索条件\")",
+                    "target": "Notice(\"替换超时，请尝试更具体的搜索条件\")"
+                },
+                {
+                    "source": "Notice(\"操作已取消\")",
+                    "target": "Notice(\"操作已取消\")"
+                },
+                {
+                    "source": "Notice(\"没有搜索历史\")",
+                    "target": "Notice(\"没有搜索历史\")"
+                },
+                {
+                    "source": "setTitle(\"清空历史\")",
+                    "target": "setTitle(\"清空历史\")"
+                },
+                {
+                    "source": "Notice(\"搜索历史已清空\")",
+                    "target": "Notice(\"搜索历史已清空\")"
+                },
+                {
+                    "source": "Notice(\"请输入正则表达式\")",
+                    "target": "Notice(\"请输入正则表达式\")"
+                },
+                {
+                    "source": "Notice(\"搜索出错：\"+p.message),this.transitionToState(\"error\")",
+                    "target": "Notice(\"搜索出错：\"+p.message),this.transitionToState(\"error\")"
+                },
+                {
+                    "source": "Notice(\"搜索出错：\"+p.message)}},\"performSearch\")",
+                    "target": "Notice(\"搜索出错：\"+p.message)}},\"performSearch\")"
+                },
+                {
+                    "source": "Notice(\"替换出错：\"+d.message),this.transitionToState(\"error\")",
+                    "target": "Notice(\"替换出错：\"+d.message),this.transitionToState(\"error\")"
+                },
+                {
+                    "source": "Notice(\"替换出错：\"+d.message)}},\"performReplace\")",
+                    "target": "Notice(\"替换出错：\"+d.message)}},\"performReplace\")"
+                },
+                {
+                    "source": "Notice(\"已删除正则表达式\")",
+                    "target": "Notice(\"已删除正则表达式\")"
+                },
+                {
+                    "source": "Notice(\"正则表达式库已复制到剪贴板\")",
+                    "target": "Notice(\"正则表达式库已复制到剪贴板\")"
+                },
+                {
+                    "source": "Notice(\"名称和正则表达式不能为空\")",
+                    "target": "Notice(\"名称和正则表达式不能为空\")"
+                },
+                {
+                    "source": "setName(\"⚙️ 基本设置\")",
+                    "target": "setName(\"⚙️ 基本设置\")"
+                },
+                {
+                    "source": "setName(\"默认搜索模式\")",
+                    "target": "setName(\"默认搜索模式\")"
+                },
+                {
+                    "source": "setDesc(\"打开搜索时的默认正则表达式模式\")",
+                    "target": "setDesc(\"打开搜索时的默认正则表达式模式\")"
+                },
+                {
+                    "source": "setPlaceholder(\"输入默认正则表达式...\")",
+                    "target": "setPlaceholder(\"输入默认正则表达式...\")"
+                },
+                {
+                    "source": "setName(\"区分大小写\")",
+                    "target": "setName(\"区分大小写\")"
+                },
+                {
+                    "source": "setDesc(\"默认启用区分大小写搜索\")",
+                    "target": "setDesc(\"默认启用区分大小写搜索\")"
+                },
+                {
+                    "source": "setName(\"多行模式\")",
+                    "target": "setName(\"多行模式\")"
+                },
+                {
+                    "source": "setDesc(\"默认启用多行模式（^ 和 $ 匹配行首行尾）\")",
+                    "target": "setDesc(\"默认启用多行模式（^ 和 $ 匹配行首行尾）\")"
+                },
+                {
+                    "source": "setName(\"文件扩展名\")",
+                    "target": "setName(\"文件扩展名\")"
+                },
+                {
+                    "source": "setDesc(\"要搜索的文件扩展名（用逗号分隔）\")",
+                    "target": "setDesc(\"要搜索的文件扩展名（用逗号分隔）\")"
+                },
+                {
+                    "source": "setName(\"🔧 高级设置\")",
+                    "target": "setName(\"🔧 高级设置\")"
+                },
+                {
+                    "source": "setName(\"包含隐藏文件\")",
+                    "target": "setName(\"包含隐藏文件\")"
+                },
+                {
+                    "source": "setDesc(\"在搜索中包含隐藏文件（以 . 开头的文件）\")",
+                    "target": "setDesc(\"在搜索中包含隐藏文件（以 . 开头的文件）\")"
+                },
+                {
+                    "source": "setName(\"排除模式\")",
+                    "target": "setName(\"排除模式\")"
+                },
+                {
+                    "source": "setDesc(\"要排除的文件路径模式（用逗号分隔，支持正则表达式）\")",
+                    "target": "setDesc(\"要排除的文件路径模式（用逗号分隔，支持正则表达式）\")"
+                },
+                {
+                    "source": "setName(\"确认替换\")",
+                    "target": "setName(\"确认替换\")"
+                },
+                {
+                    "source": "setDesc(\"在执行全库替换操作前显示确认对话框\")",
+                    "target": "setDesc(\"在执行全库替换操作前显示确认对话框\")"
+                },
+                {
+                    "source": "setName(\"⚡ 性能设置\")",
+                    "target": "setName(\"⚡ 性能设置\")"
+                },
+                {
+                    "source": "setName(\"每个文件最大结果数\")",
+                    "target": "setName(\"每个文件最大结果数\")"
+                },
+                {
+                    "source": "setDesc(\"限制每个文件显示的最大搜索结果数量\")",
+                    "target": "setDesc(\"限制每个文件显示的最大搜索结果数量\")"
+                },
+                {
+                    "source": "setName(\"🎨 用户体验设置\")",
+                    "target": "setName(\"🎨 用户体验设置\")"
+                },
+                {
+                    "source": "setName(\"启用搜索历史\")",
+                    "target": "setName(\"启用搜索历史\")"
+                },
+                {
+                    "source": "setDesc(\"保存和显示搜索历史记录\")",
+                    "target": "setDesc(\"保存和显示搜索历史记录\")"
+                },
+                {
+                    "source": "setName(\"启用正则表达式库\")",
+                    "target": "setName(\"启用正则表达式库\")"
+                },
+                {
+                    "source": "setDesc(\"启用内置的正则表达式库功能，可以保存和重复使用常用正则表达式\")",
+                    "target": "setDesc(\"启用内置的正则表达式库功能，可以保存和重复使用常用正则表达式\")"
+                },
+                {
+                    "source": "setName(\"启用进度指示器\")",
+                    "target": "setName(\"启用进度指示器\")"
+                },
+                {
+                    "source": "setDesc(\"在搜索和替换过程中显示进度指示器\")",
+                    "target": "setDesc(\"在搜索和替换过程中显示进度指示器\")"
+                },
+                {
+                    "source": "setName(\"调试模式\")",
+                    "target": "setName(\"调试模式\")"
+                },
+                {
+                    "source": "setDesc(\"启用后会在开发者控制台显示状态转换日志\")",
+                    "target": "setDesc(\"启用后会在开发者控制台显示状态转换日志\")"
+                },
+                {
+                    "source": "setName(\"清空搜索历史\")",
+                    "target": "setName(\"清空搜索历史\")"
+                },
+                {
+                    "source": "setDesc(\"删除所有保存的搜索历史记录\")",
+                    "target": "setDesc(\"删除所有保存的搜索历史记录\")"
+                },
+                {
+                    "source": "setButtonText(\"🗑️ 清空历史\")",
+                    "target": "setButtonText(\"🗑️ 清空历史\")"
+                },
+                {
+                    "source": "Notice(\"Pipeline 已删除\")",
+                    "target": "Notice(\"Pipeline 已删除\")"
+                },
+                {
+                    "source": "Notice(\"Pipeline 已复制到剪贴板\")",
+                    "target": "Notice(\"Pipeline 已复制到剪贴板\")"
+                },
+                {
+                    "source": "Notice(\"请输入 Pipeline 名称\")",
+                    "target": "Notice(\"请输入 Pipeline 名称\")"
+                },
+                {
+                    "source": "Notice(\"请至少添加一个阶段\")",
+                    "target": "Notice(\"请至少添加一个阶段\")"
+                },
+                {
+                    "source": "Notice(`Pipeline \"${p}\" 已保存`)",
+                    "target": "Notice(`Pipeline \"${p}\" 已保存`)"
+                },
+                {
+                    "source": "Notice(\"请输入阶段名称\")",
+                    "target": "Notice(\"请输入阶段名称\")"
+                },
+                {
+                    "source": "Notice(\"请输入正则表达式模式\")",
+                    "target": "Notice(\"请输入正则表达式模式\")"
+                },
+                {
+                    "source": "Notice(`Pipeline 执行完成，修改了 ${s.filesModified} 个文件`)",
+                    "target": "Notice(`Pipeline 执行完成，修改了 ${s.filesModified} 个文件`)"
+                },
+                {
+                    "source": "Notice(`Pipeline 执行完成，替换了 ${t.totalReplacements} 处`)",
+                    "target": "Notice(`Pipeline 执行完成，替换了 ${t.totalReplacements} 处`)"
+                },
+                {
+                    "source": "Notice(\"未找到匹配项\")",
+                    "target": "Notice(\"未找到匹配项\")"
+                },
+                {
+                    "source": "Notice(\"请输入测试文本\")",
+                    "target": "Notice(\"请输入测试文本\")"
+                },
+                {
+                    "source": "Notice(\"请输入 JSON 数据\")",
+                    "target": "Notice(\"请输入 JSON 数据\")"
+                },
+                {
+                    "source": "Notice(`成功导入 ${a} 个 Pipeline`)",
+                    "target": "Notice(`成功导入 ${a} 个 Pipeline`)"
+                },
+                {
+                    "source": "Notice(\"导入失败: \"+r.message)}}}onClose(){let{contentEl:e}=this;e.empty()}};y(q,\"RegexPipelineImportModal\")",
+                    "target": "Notice(\"导入失败: \"+r.message)}}}onClose(){let{contentEl:e}=this;e.empty()}};y(q,\"RegexPipelineImportModal\")"
+                },
+                {
+                    "source": "name:\"电子邮箱\"",
+                    "target": "name:\"电子邮箱\""
+                },
+                {
+                    "source": "description:\"匹配标准格式的电子邮箱地址\"",
+                    "target": "description:\"匹配标准格式的电子邮箱地址\""
+                },
+                {
+                    "source": "name:\"中国手机号\"",
+                    "target": "name:\"中国手机号\""
+                },
+                {
+                    "source": "description:\"匹配中国大陆11位手机号码\"",
+                    "target": "description:\"匹配中国大陆11位手机号码\""
+                },
+                {
+                    "source": "name:\"中国固定电话\"",
+                    "target": "name:\"中国固定电话\""
+                },
+                {
+                    "source": "description:\"匹配中国固定电话号码\"",
+                    "target": "description:\"匹配中国固定电话号码\""
+                },
+                {
+                    "source": "name:\"网址链接\"",
+                    "target": "name:\"网址链接\""
+                },
+                {
+                    "source": "description:\"匹配HTTP或HTTPS网址\"",
+                    "target": "description:\"匹配HTTP或HTTPS网址\""
+                },
+                {
+                    "source": "name:\"IP地址\"",
+                    "target": "name:\"IP地址\""
+                },
+                {
+                    "source": "description:\"匹配IPv4地址\"",
+                    "target": "description:\"匹配IPv4地址\""
+                },
+                {
+                    "source": "name:\"域名\"",
+                    "target": "name:\"域名\""
+                },
+                {
+                    "source": "description:\"匹配域名\"",
+                    "target": "description:\"匹配域名\""
+                },
+                {
+                    "source": "name:\"ISO日期\"",
+                    "target": "name:\"ISO日期\""
+                },
+                {
+                    "source": "description:\"匹配YYYY-MM-DD格式的日期\"",
+                    "target": "description:\"匹配YYYY-MM-DD格式的日期\""
+                },
+                {
+                    "source": "name:\"中文日期\"",
+                    "target": "name:\"中文日期\""
+                },
+                {
+                    "source": "description:\"匹配中文格式日期\"",
+                    "target": "description:\"匹配中文格式日期\""
+                },
+                {
+                    "source": "name:\"图片文件\"",
+                    "target": "name:\"图片文件\""
+                },
+                {
+                    "source": "description:\"匹配常见图片文件扩展名\"",
+                    "target": "description:\"匹配常见图片文件扩展名\""
+                },
+                {
+                    "source": "name:\"文档文件\"",
+                    "target": "name:\"文档文件\""
+                },
+                {
+                    "source": "description:\"匹配常见文档文件扩展名\"",
+                    "target": "description:\"匹配常见文档文件扩展名\""
+                },
+                {
+                    "source": "name:\"媒体文件\"",
+                    "target": "name:\"媒体文件\""
+                },
+                {
+                    "source": "description:\"匹配常见音视频文件扩展名\"",
+                    "target": "description:\"匹配常见音视频文件扩展名\""
+                },
+                {
+                    "source": "name:\"压缩文件\"",
+                    "target": "name:\"压缩文件\""
+                },
+                {
+                    "source": "description:\"匹配常见压缩文件扩展名\"",
+                    "target": "description:\"匹配常见压缩文件扩展名\""
+                },
+                {
+                    "source": "name:\"Markdown链接\"",
+                    "target": "name:\"Markdown链接\""
+                },
+                {
+                    "source": "description:\"匹配Markdown格式的链接 [文本](链接)\"",
+                    "target": "description:\"匹配Markdown格式的链接 [文本](链接)\""
+                },
+                {
+                    "source": "name:\"Markdown图片\"",
+                    "target": "name:\"Markdown图片\""
+                },
+                {
+                    "source": "description:\"匹配Markdown格式的图片 ![alt](url)\"",
+                    "target": "description:\"匹配Markdown格式的图片 ![alt](url)\""
+                },
+                {
+                    "source": "name:\"Markdown标题\"",
+                    "target": "name:\"Markdown标题\""
+                },
+                {
+                    "source": "description:\"匹配Markdown标题（# ## ### 等）\"",
+                    "target": "description:\"匹配Markdown标题（# ## ### 等）\""
+                },
+                {
+                    "source": "name:\"Markdown代码块\"",
+                    "target": "name:\"Markdown代码块\""
+                },
+                {
+                    "source": "description:\"匹配Markdown代码块\"",
+                    "target": "description:\"匹配Markdown代码块\""
+                },
+                {
+                    "source": "name:\"小数\"",
+                    "target": "name:\"小数\""
+                },
+                {
+                    "source": "description:\"匹配小数（包括负数）\"",
+                    "target": "description:\"匹配小数（包括负数）\""
+                },
+                {
+                    "source": "name:\"整数\"",
+                    "target": "name:\"整数\""
+                },
+                {
+                    "source": "description:\"匹配整数（包括负数）\"",
+                    "target": "description:\"匹配整数（包括负数）\""
+                },
+                {
+                    "source": "name:\"十六进制颜色\"",
+                    "target": "name:\"十六进制颜色\""
+                },
+                {
+                    "source": "description:\"匹配十六进制颜色代码\"",
+                    "target": "description:\"匹配十六进制颜色代码\""
+                },
+                {
+                    "source": "name:\"打开正则表达式搜索\"",
+                    "target": "name:\"打开正则表达式搜索\""
+                },
+                {
+                    "source": "name:\"在当前文件中搜索\"",
+                    "target": "name:\"在当前文件中搜索\""
+                },
+                {
+                    "source": "name:\"快速正则表达式搜索\"",
+                    "target": "name:\"快速正则表达式搜索\""
+                },
+                {
+                    "source": "name:\"管理正则表达式库\"",
+                    "target": "name:\"管理正则表达式库\""
+                },
+                {
+                    "source": "name:\"管理正则表达式 Pipeline\"",
+                    "target": "name:\"管理正则表达式 Pipeline\""
+                },
+                {
+                    "source": "name:\"重置内置正则表达式库\"",
+                    "target": "name:\"重置内置正则表达式库\""
+                },
+                {
+                    "source": "text:\"🔍 快速搜索\"",
+                    "target": "text:\"🔍 快速搜索\""
+                },
+                {
+                    "source": "text:\"未找到匹配项\"",
+                    "target": "text:\"未找到匹配项\""
+                },
+                {
+                    "source": "text:`第${n.line}行: `",
+                    "target": "text:`第${n.line}行: `"
+                },
+                {
+                    "source": "text:\"⚡ 正则表达式：\"",
+                    "target": "text:\"⚡ 正则表达式：\""
+                },
+                {
+                    "source": "text:\"✨ 替换为：\"",
+                    "target": "text:\"✨ 替换为：\""
+                },
+                {
+                    "source": "text:\"🔍 搜索\"",
+                    "target": "text:\"🔍 搜索\""
+                },
+                {
+                    "source": "text:\"🔄 替换\"",
+                    "target": "text:\"🔄 替换\""
+                },
+                {
+                    "source": "text:\"❌ 取消\"",
+                    "target": "text:\"❌ 取消\""
+                },
+                {
+                    "source": "text:\"🧹 清空结果\"",
+                    "target": "text:\"🧹 清空结果\""
+                },
+                {
+                    "source": "text:\"📚 历史\"",
+                    "target": "text:\"📚 历史\""
+                },
+                {
+                    "source": "text:\"📚 正则库\"",
+                    "target": "text:\"📚 正则库\""
+                },
+                {
+                    "source": "textContent=\"搜索中...\"",
+                    "target": "textContent=\"搜索中...\""
+                },
+                {
+                    "source": "textContent=\"正在搜索...\"",
+                    "target": "textContent=\"正在搜索...\""
+                },
+                {
+                    "source": "textContent=`已搜索 ${b.current}/${b.total} 个文件，找到 ${E} 个匹配项`",
+                    "target": "textContent=`已搜索 ${b.current}/${b.total} 个文件，找到 ${E} 个匹配项`"
+                },
+                {
+                    "source": "textContent=`找到 ${E} 个匹配项，分布在 ${v} 个文件中`",
+                    "target": "textContent=`找到 ${E} 个匹配项，分布在 ${v} 个文件中`"
+                },
+                {
+                    "source": "text:\"✅ 替换完成！\"",
+                    "target": "text:\"✅ 替换完成！\""
+                },
+                {
+                    "source": "text:`共替换 ${e} 处，涉及 ${t} 个文件`",
+                    "target": "text:`共替换 ${e} 处，涉及 ${t} 个文件`"
+                },
+                {
+                    "source": "text:\"未找到匹配的内容\"",
+                    "target": "text:\"未找到匹配的内容\""
+                },
+                {
+                    "source": "text:`找到 ${s} 个匹配项，分布在 ${e.length} 个文件中`",
+                    "target": "text:`找到 ${s} 个匹配项，分布在 ${e.length} 个文件中`"
+                },
+                {
+                    "source": "text:` - 错误：${e.error}`",
+                    "target": "text:` - 错误：${e.error}`"
+                },
+                {
+                    "source": "text:` (${e.totalMatches} 个匹配项)`",
+                    "target": "text:` (${e.totalMatches} 个匹配项)`"
+                },
+                {
+                    "source": "text:`第 ${r.line} 行，第 ${r.column} 列`",
+                    "target": "text:`第 ${r.line} 行，第 ${r.column} 列`"
+                },
+                {
+                    "source": "text:\"📚 正则表达式库\"",
+                    "target": "text:\"📚 正则表达式库\""
+                },
+                {
+                    "source": "text:\"➕ 添加新表达式\"",
+                    "target": "text:\"➕ 添加新表达式\""
+                },
+                {
+                    "source": "text:\"📥 导入\"",
+                    "target": "text:\"📥 导入\""
+                },
+                {
+                    "source": "text:\"📤 导出\"",
+                    "target": "text:\"📤 导出\""
+                },
+                {
+                    "source": "text:\"正则表达式库已禁用，请在设置中启用。\"",
+                    "target": "text:\"正则表达式库已禁用，请在设置中启用。\""
+                },
+                {
+                    "source": "text:'暂无保存的正则表达式，点击\"添加新表达式\"开始创建。'",
+                    "target": "text:'暂无保存的正则表达式，点击\"添加新表达式\"开始创建。'"
+                },
+                {
+                    "source": "text:\"使用\"",
+                    "target": "text:\"使用\""
+                },
+                {
+                    "source": "text:\"编辑\"",
+                    "target": "text:\"编辑\""
+                },
+                {
+                    "source": "text:\"删除\"",
+                    "target": "text:\"删除\""
+                },
+                {
+                    "source": "text:\"名称：\"",
+                    "target": "text:\"名称：\""
+                },
+                {
+                    "source": "text:\"正则表达式：\"",
+                    "target": "text:\"正则表达式：\""
+                },
+                {
+                    "source": "text:\"标志：\"",
+                    "target": "text:\"标志：\""
+                },
+                {
+                    "source": "text:\"描述：\"",
+                    "target": "text:\"描述：\""
+                },
+                {
+                    "source": "text:\"分类：\"",
+                    "target": "text:\"分类：\""
+                },
+                {
+                    "source": "text:\"保存\"",
+                    "target": "text:\"保存\""
+                },
+                {
+                    "source": "text:\"取消\"",
+                    "target": "text:\"取消\""
+                },
+                {
+                    "source": "text:\"导入正则表达式库\"",
+                    "target": "text:\"导入正则表达式库\""
+                },
+                {
+                    "source": "text:\"粘贴JSON数据：\"",
+                    "target": "text:\"粘贴JSON数据：\""
+                },
+                {
+                    "source": "text:\"导入\"",
+                    "target": "text:\"导入\""
+                },
+                {
+                    "source": "text:\"💡 多行模式说明：\"",
+                    "target": "text:\"💡 多行模式说明：\""
+                },
+                {
+                    "source": "text:\"• \"",
+                    "target": "text:\"• \""
+                },
+                {
+                    "source": "text:\"单行模式\"",
+                    "target": "text:\"单行模式\""
+                },
+                {
+                    "source": "text:\"：\"",
+                    "target": "text:\"：\""
+                },
+                {
+                    "source": "text:\" 和 \"",
+                    "target": "text:\" 和 \""
+                },
+                {
+                    "source": "text:\" 匹配整个文本的开始和结束\"",
+                    "target": "text:\" 匹配整个文本的开始和结束\""
+                },
+                {
+                    "source": "text:\"多行模式\"",
+                    "target": "text:\"多行模式\""
+                },
+                {
+                    "source": "text:\" 匹配每一行的开始和结束\"",
+                    "target": "text:\" 匹配每一行的开始和结束\""
+                },
+                {
+                    "source": "text:\"例如：在多行模式下，\"",
+                    "target": "text:\"例如：在多行模式下，\""
+                },
+                {
+                    "source": "text:\"^第\"",
+                    "target": "text:\"^第\""
+                },
+                {
+                    "source": "text:' 可以匹配每一行开头的\"第\"字'",
+                    "target": "text:' 可以匹配每一行开头的\"第\"字'"
+                },
+                {
+                    "source": "text:\"正则表达式 Pipeline 管理器\"",
+                    "target": "text:\"正则表达式 Pipeline 管理器\""
+                },
+                {
+                    "source": "text:\"➕ 新建 Pipeline\"",
+                    "target": "text:\"➕ 新建 Pipeline\""
+                },
+                {
+                    "source": "text:\"关闭\"",
+                    "target": "text:\"关闭\""
+                },
+                {
+                    "source": "text:'暂无 Pipeline。点击上方\"➕ 新建 Pipeline\"创建您的第一个正则表达式处理流程。'",
+                    "target": "text:'暂无 Pipeline。点击上方\"➕ 新建 Pipeline\"创建您的第一个正则表达式处理流程。'"
+                },
+                {
+                    "source": "text:`${i.stages.length} 个阶段 | 使用次数: ${i.usage}`",
+                    "target": "text:`${i.stages.length} 个阶段 | 使用次数: ${i.usage}`"
+                },
+                {
+                    "source": "text:\"▶️ 执行\"",
+                    "target": "text:\"▶️ 执行\""
+                },
+                {
+                    "source": "text:\"✏️ 编辑\"",
+                    "target": "text:\"✏️ 编辑\""
+                },
+                {
+                    "source": "text:\"🗑️ 删除\"",
+                    "target": "text:\"🗑️ 删除\""
+                },
+                {
+                    "source": "text:\"Pipeline 阶段\"",
+                    "target": "text:\"Pipeline 阶段\""
+                },
+                {
+                    "source": "text:'暂无阶段，点击下方\"添加阶段\"按钮开始。'",
+                    "target": "text:'暂无阶段，点击下方\"添加阶段\"按钮开始。'"
+                },
+                {
+                    "source": "text:`阶段 ${d+1}`",
+                    "target": "text:`阶段 ${d+1}`"
+                },
+                {
+                    "source": "text:\"↑\"",
+                    "target": "text:\"↑\""
+                },
+                {
+                    "source": "text:\"↓\"",
+                    "target": "text:\"↓\""
+                },
+                {
+                    "source": "text:\"✏️\"",
+                    "target": "text:\"✏️\""
+                },
+                {
+                    "source": "text:\"🗑️\"",
+                    "target": "text:\"🗑️\""
+                },
+                {
+                    "source": "text:`/${p.pattern}/${p.flags} → ${p.replacement}`",
+                    "target": "text:`/${p.pattern}/${p.flags} → ${p.replacement}`"
+                },
+                {
+                    "source": "text:\"➕ 添加阶段\"",
+                    "target": "text:\"➕ 添加阶段\""
+                },
+                {
+                    "source": "text:\"💾 保存 Pipeline\"",
+                    "target": "text:\"💾 保存 Pipeline\""
+                },
+                {
+                    "source": "text:\"标志:\"",
+                    "target": "text:\"标志:\""
+                },
+                {
+                    "source": "text:\"保存阶段\"",
+                    "target": "text:\"保存阶段\""
+                },
+                {
+                    "source": "text:`执行 Pipeline: ${this.pipeline.name}`",
+                    "target": "text:`执行 Pipeline: ${this.pipeline.name}`"
+                },
+                {
+                    "source": "text:\"选择执行范围\"",
+                    "target": "text:\"选择执行范围\""
+                },
+                {
+                    "source": "text:\"📚 整个 Vault\"",
+                    "target": "text:\"📚 整个 Vault\""
+                },
+                {
+                    "source": "text:\"📄 当前文件\"",
+                    "target": "text:\"📄 当前文件\""
+                },
+                {
+                    "source": "text:\"👁️ 测试预览\"",
+                    "target": "text:\"👁️ 测试预览\""
+                },
+                {
+                    "source": "text:\"正在执行 Pipeline...\"",
+                    "target": "text:\"正在执行 Pipeline...\""
+                },
+                {
+                    "source": "text:`处理中: ${i.current}/${i.total}`",
+                    "target": "text:`处理中: ${i.current}/${i.total}`"
+                },
+                {
+                    "source": "text:\"执行完成\"",
+                    "target": "text:\"执行完成\""
+                },
+                {
+                    "source": "text:`修改了 ${s.filesModified} 个文件`",
+                    "target": "text:`修改了 ${s.filesModified} 个文件`"
+                },
+                {
+                    "source": "text:`总替换次数: ${s.totalReplacements}`",
+                    "target": "text:`总替换次数: ${s.totalReplacements}`"
+                },
+                {
+                    "source": "text:`耗时: ${s.processingTime}ms`",
+                    "target": "text:`耗时: ${s.processingTime}ms`"
+                },
+                {
+                    "source": "text:\"错误:\"",
+                    "target": "text:\"错误:\""
+                },
+                {
+                    "source": "text:`Pipeline 预览: ${this.pipeline.name}`",
+                    "target": "text:`Pipeline 预览: ${this.pipeline.name}`"
+                },
+                {
+                    "source": "text:\"输入测试文本：\"",
+                    "target": "text:\"输入测试文本：\""
+                },
+                {
+                    "source": "text:\"▶️ 预览结果\"",
+                    "target": "text:\"▶️ 预览结果\""
+                },
+                {
+                    "source": "text:\"原始文本:\"",
+                    "target": "text:\"原始文本:\""
+                },
+                {
+                    "source": "text:`阶段 ${g+1}: ${o.name}`",
+                    "target": "text:`阶段 ${g+1}: ${o.name}`"
+                },
+                {
+                    "source": "text:`模式: /${o.pattern}/${o.flags}`",
+                    "target": "text:`模式: /${o.pattern}/${o.flags}`"
+                },
+                {
+                    "source": "text:`替换: ${o.replacement}`",
+                    "target": "text:`替换: ${o.replacement}`"
+                },
+                {
+                    "source": "text:\"(无变化)\"",
+                    "target": "text:\"(无变化)\""
+                },
+                {
+                    "source": "text:`错误: ${x.message}`",
+                    "target": "text:`错误: ${x.message}`"
+                },
+                {
+                    "source": "text:\"最终结果:\"",
+                    "target": "text:\"最终结果:\""
+                },
+                {
+                    "source": "text:\"导入 Pipeline\"",
+                    "target": "text:\"导入 Pipeline\""
+                }
+            ]
+        }
+    }
+}
