@@ -1,0 +1,3262 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "templater-obsidian",
+        "version": "1.0.0",
+        "title": "模板",
+        "description": "模板 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.25.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "clickable-icon mobile-option-setting-item-option-icon",
+                    "target": "clickable-icon mobile-option-setting-item-option-icon"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ol",
+                    "target": "ol"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Templater Error:",
+                    "target": "Templater 出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to parse summary section",
+                    "target": "无法解析摘要部分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "我已了解风险，启用",
+                    "target": "我已了解风险，启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "启用",
+                    "target": "启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "完成",
+                    "target": "完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "提交",
+                    "target": "提交"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于匹配的正则表达式。会针对相对于知识库根目录的完整文件路径（含扩展名）进行测试。",
+                    "target": "用于匹配的正则表达式。会针对相对于知识库根目录的完整文件路径（含扩展名）进行测试。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "匹配成功后应用的模板。",
+                    "target": "匹配成功后应用的模板。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "要匹配的文件夹。包含该文件夹的所有子文件夹。",
+                    "target": "要匹配的文件夹。包含该文件夹的所有子文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请输入路径，例如 meta/templates",
+                    "target": "请输入路径，例如 meta/templates"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "添加一条命令，将该模板插入到当前活动文件中。",
+                    "target": "添加一条命令，将该模板插入到当前活动文件中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "添加一条命令，从该模板创建新笔记。",
+                    "target": "添加一条命令，从该模板创建新笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文件正则表达式",
+                    "target": "文件正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "模板",
+                    "target": "模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文件夹",
+                    "target": "文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "函数名称",
+                    "target": "函数名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "系统命令",
+                    "target": "系统命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "插入命令",
+                    "target": "插入命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "创建命令",
+                    "target": "创建命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "文件正则表达式",
+                    "target": "文件正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "模板",
+                    "target": "模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "文件夹",
+                    "target": "文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "函数名称",
+                    "target": "函数名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "系统命令",
+                    "target": "系统命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入模板名称搜索...",
+                    "target": "输入模板名称搜索..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "在此输入文本",
+                    "target": "在此输入文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "文件正则模板",
+                    "target": "文件正则模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "文件夹模板",
+                    "target": "文件夹模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "添加排除项",
+                    "target": "添加排除项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "添加启动模板",
+                    "target": "添加启动模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "用户函数",
+                    "target": "用户函数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "模板快捷键",
+                    "target": "模板快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "从模板创建新笔记",
+                    "target": "从模板创建新笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "打开用户脚本文件夹",
+                    "target": "打开用户脚本文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "`WebAssembly.instantiateStreaming` failed because your server does not serve wasm with `application/wasm` MIME type. Falling back to `WebAssembly.instantiate` which is slower. Original error:\n",
+                    "target": "`WebAssembly.instantiateStreaming` 失败，因为您的服务器不提供 `application/wasm` MIME 类型。正在回退到 `WebAssembly.instantiate`，这将较慢。原始错误：\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Templater：Vim 用户未能进入插入模式。",
+                    "target": "Templater：Vim 用户未能进入插入模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Since Acorn 8.0.0, options.ecmaVersion is required.\nDefaulting to 2020, but this will stop working in the future.",
+                    "target": "自 Acorn 8.0.0 版本起，需要 options.ecmaVersion。默认为 2020，但将来将停止工作。\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "此文件夹中的文件将作为模板可用。",
+                    "target": "此文件夹中的文件将作为模板可用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "从模板创建新笔记时，跳过重命名提示并立即移动光标到笔记主体。",
+                    "target": "从模板创建新笔记时，跳过重命名提示并立即移动光标到笔记主体。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在编辑模式下为 Templater 命令添加语法高亮。",
+                    "target": "在编辑模式下为 Templater 命令添加语法高亮。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在移动设备的编辑模式下为 Templater 命令添加语法高亮。请谨慎开启：此功能可能会在移动平台上破坏实时预览。",
+                    "target": "在移动设备的编辑模式下为 Templater 命令添加语法高亮。请谨慎开启：此功能可能会在移动平台上破坏实时预览。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Templater 启动时运行一次的模板。这类模板不输出任何内容，常用于设置事件钩子。",
+                    "target": "Templater 启动时运行一次的模板。这类模板不输出任何内容，常用于设置事件钩子。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "在这些文件夹中创建的新文件永远不会触发 Templater。",
+                    "target": "在这些文件夹中创建的新文件永远不会触发 Templater。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "设置用户脚本智能提示的渲染方式。注意：若脚本中没有对应的值，将不会渲染。",
+                    "target": "设置用户脚本智能提示的渲染方式。注意：若脚本中没有对应的值，将不会渲染。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "系统命令的最长执行时间（秒）。",
+                    "target": "系统命令的最长执行时间（秒）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Template file path (relative to vault root or templates folder)",
+                    "target": "模板文件路径（相对于保险库根目录或模板文件夹）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Output file path (relative to vault root)",
+                    "target": "输出文件路径（相对于保险库根目录）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Open the created file in the UI",
+                    "target": "在 UI 中打开创建的文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This module exposes the app instance. Prefer to use this over the global app instance.",
+                    "target": "此模块公开了应用程序实例。建议使用此实例而不是全局应用程序实例。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This module exposes custom made scripts, written by yourself within the script file folder location",
+                    "target": "此模块公开了自定义脚本，这些脚本由您在脚本文件文件夹位置编写。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This module exposes Templater's running configuration.\n\nThis is mostly useful when writing scripts requiring some context information.\n",
+                    "target": "此模块公开了 Templater 的运行配置。\n\n这在编写需要某些上下文信息的脚本时非常有用。\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The `TFile` object representing the template file.",
+                    "target": "表示模板文件的 `TFile` 对象。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The `TFile` object representing the target file where the template will be inserted.",
+                    "target": "表示将要插入模板的目标文件的 `TFile` 对象。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The `RunMode`, representing the way Templater was launched (Create new from template, Append to active file, ...).",
+                    "target": "表示 Templater 启动的方式（从模板创建新文件、追加到活动文件等）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The active file (if existing) when launching Templater.",
+                    "target": "启动 Templater 时存在的活动文件（如果有的话）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This module contains every internal function related to dates.",
+                    "target": "包含与日期相关的所有内部函数的模块。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the date.",
+                    "target": "检索日期。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The format for the date. Defaults to `\"YYYY-MM-DD\"`. Refer to the [Momentjs format reference](https://momentjs.com/docs/#/displaying/format/).",
+                    "target": "日期的格式。默认为 `\"YYYY-MM-DD\"`。请参阅 [Momentjs 格式参考](https://momentjs.com/docs/#/displaying/format/)。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Duration to offset the date from. If a number is provided, duration will be added to the date in days. You can also specify the offset as a string using the ISO 8601 format.",
+                    "target": "从日期中偏移的持续时间。如果提供了数字，则持续时间将以天为单位添加到日期。您也可以使用 ISO 8601 格式指定偏移量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The date to use instead of today's date, e.g. set this to the note's title.",
+                    "target": "使用而不是今天的日期的日期，例如将此设置为笔记的标题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The format for the reference date. Refer to the [Momentjs format reference](https://momentjs.com/docs/#/displaying/format/).",
+                    "target": "参考日期的格式。请参阅 [Momentjs 格式参考](https://momentjs.com/docs/#/displaying/format/)。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves tomorrow's date.",
+                    "target": "检索明天的日期。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves yesterday's date.",
+                    "target": "获取昨天的日期。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Week day number. If the locale assigns Monday as the first day of the week, `0` will be Monday, `-7` will be last week's day.",
+                    "target": "周几编号。如果地区将星期一设为一周的第一天，`0` 将是星期一，`-7` 将是上周的同一天。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The reference date to use instead of today, e.g. set this to the note's title.",
+                    "target": "要使用的参考日期，而不是今天，例如设置为笔记的标题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "这个模块包含了所有与文件相关的内部函数。",
+                    "target": "这个模块包含了所有与文件相关的内部函数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Templater 执行时文件的字符串内容。操作这个字符串*不会*更新当前文件。",
+                    "target": "Templater 执行时文件的字符串内容。操作这个字符串*不会*更新当前文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "创建一个使用指定模板或具有指定内容的新文件。",
+                    "target": "创建一个使用指定模板或具有指定内容的新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "要么是用来创建新文件内容的模板，要么就是文件内容的字符串。如果是要使用的模板，你可以用 `tp.file.find_tfile(TEMPLATENAME)` 来获取它。",
+                    "target": "要么是用来创建新文件内容的模板，要么就是文件内容的字符串。如果是要使用的模板，你可以用 `tp.file.find_tfile(TEMPLATENAME)` 来获取它。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "新文件的文件名，默认是 \"未命名\"。",
+                    "target": "新文件的文件名，默认是 \"未命名\"。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "是否打开新创建的文件。警告：如果你使用这个选项，由于命令是异步执行的，文件可能会先被打开，然后其他命令会被追加到那个新文件中，而不是之前的文件。",
+                    "target": "是否打开新创建的文件。警告：如果你使用这个选项，由于命令是异步执行的，文件可能会先被打开，然后其他命令会被追加到那个新文件中，而不是之前的文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "放新文件的文件夹，默认为 Obsidian 的默认位置。如果你想让文件出现在不同的文件夹里，可以用 `\"PATH/TO/FOLDERNAME\"` 或 `tp.app.vault.getAbstractFileByPath(\"PATH/TO/FOLDERNAME\")` 指定。",
+                    "target": "放置新文件的文件夹，默认为 Obsidian 的默认位置。如果你想让文件出现在不同的文件夹里，可以用 `\"PATH/TO/FOLDERNAME\"` 或 `tp.app.vault.getAbstractFileByPath(\"PATH/TO/FOLDERNAME\")` 指定。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the current file's creation date.",
+                    "target": "获取当前文件的创建日期。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The format for the date. Defaults to `\"YYYY-MM-DD HH:mm\"`. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).",
+                    "target": "日期的格式。默认为 `\"YYYY-MM-DD HH:mm\"`。请参阅[格式参考](https://momentjs.com/docs/#/displaying/format/)。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sets the cursor to this location after the template has been inserted. \n\nYou can navigate between the different cursors using the configured hotkey in Obsidian settings.\n",
+                    "target": "在模板插入后，将光标设置到该位置。\n\n您可以使用 Obsidian 设置中的配置热键在不同的光标之间导航。\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The order of the different cursors jump, e.g. it will jump from 1 to 2 to 3, and so on.\nIf you specify multiple tp.file.cursor with the same order, the editor will switch to multi-cursor.\nThe order can be any number, including a decimal one, so you can insert a new jump between two existing ones without renumbering them, e.g. 1.5 jumps after 1 and before 2.\n",
+                    "target": "不同光标的跳转顺序，例如，它将从 1 跳转到 2，然后是 3，依此类推。\n如果指定多个 tp.file.cursor 且顺序相同，编辑器将切换到多光标。\n顺序可以是任何数字，包括小数，因此您可以在两个现有跳转之间插入新的跳转，而无需重新编号，例如 1.5 跳转到 1 之后和 2 之前。\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Appends some content after the active cursor in the file.",
+                    "target": "在文件中的活动光标之后追加一些内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The content to append after the active cursor.",
+                    "target": "要追加到活动光标之后的内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Check to see if a file exists by it's file path. The full path to the file, relative to the Vault and containing the extension, must be provided.",
+                    "target": "通过文件路径检查文件是否存在。必须提供相对于保险库的完整路径，包括扩展名。\n"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The full file path of the file we want to check existence for.",
+                    "target": "我们想要检查其存在性的文件的完整文件路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Search for a file and returns its `TFile` instance.",
+                    "target": "搜索文件并返回其 `TFile` 实例。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The filename we want to search and resolve as a `TFile`.",
+                    "target": "我们想要搜索并解析为 `TFile` 的文件名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the file's folder name.",
+                    "target": "检索文件的文件夹名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If set to `true`, returns the vault-absolute path of the folder. If `false`, only returns the basename of the folder (the last part). Defaults to `false`.",
+                    "target": "如果设置为 `true`，则返回文件夹的 vault 绝对路径。如果为 `false`，则只返回文件夹的基本名称（最后一部分）。默认为 `false`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Includes the file's link content. Templates in the included content will be resolved.",
+                    "target": "包含文件的链接内容。包含内容中的模板将被解析。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The link to the file to include, e.g. `\"[[MyFile]]\"`, or a TFile object. Also supports sections or blocks inclusions.",
+                    "target": "要包含的文件的链接，例如 `\"[[MyFile]]\"`，或一个 TFile 对象。也支持章节或块包含。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the file's last modification date.",
+                    "target": "检索文件的最后修改日期。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Moves the file to the desired vault location.",
+                    "target": "将文件移动到所需的 vault 位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The new vault relative path of the file, without the file extension. Note: the new path needs to include the folder and the filename, e.g. `\"/Notes/MyNote\"`.",
+                    "target": "文件的新 vault 相对路径，不包括文件扩展名。注意：新路径需要包括文件夹和文件名，例如 `\"/Notes/MyNote\"`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The file to move, defaults to the current file.",
+                    "target": "要移动的文件，默认为当前文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the file's absolute path on the system.",
+                    "target": "检索文件在系统上的绝对路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If set to `true`, only retrieves the vault's relative path.",
+                    "target": "如果设置为 `true`，则只检索 vault 的相对路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Renames the file (keeps the same file extension).",
+                    "target": "重命名文件（保留相同的文件扩展名）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The new file title.",
+                    "target": "新的文件标题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the active file's text selection.",
+                    "target": "检索活动文件的文本选择。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the file's tags (array of string).",
+                    "target": "检索文件的标签（字符串数组）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the file's title.",
+                    "target": "检索文件的标题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This modules exposes all the frontmatter variables of a file as variables.",
+                    "target": "此模块将文件的所有frontmatter变量暴露为变量。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This module exposes hooks that allow you to execute code when a Templater event occurs.",
+                    "target": "此模块暴露了在Templater事件发生时执行代码的钩子。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hooks into when all actively running templates have finished executing. Most of the time this will be a single template, unless you are using `tp.file.include` or `tp.file.create_new`.\n\nMultiple invokations of this method will have their callback functions run in parallel.",
+                    "target": "在所有活动模板执行完毕时挂钩。大多数情况下这将是单个模板，除非你使用 `tp.file.include` 或 `tp.file.create_new`。\n\n此方法的多次调用将并行运行其回调函数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Callback function that will be executed when all actively running templates have finished executing.",
+                    "target": "当所有活动模板执行完毕时将执行的回调函数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This module exposes all the functions and classes from the Obsidian API.",
+                    "target": "此模块暴露了来自Obsidian API的所有函数和类。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This module contains system related functions.",
+                    "target": "此模块包含系统相关功能。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves the clipboard's content.",
+                    "target": "检索剪贴板的内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Spawns a prompt modal and returns the user's input.",
+                    "target": "弹出一个提示模态框并返回用户的输入。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text placed above the input field.",
+                    "target": "放置在输入字段上方的文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A default value for the input field.",
+                    "target": "输入字段的默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Throws an error if the prompt is canceled, instead of returning a `null` value.",
+                    "target": "如果提示被取消，则抛出错误，而不是返回一个 `null` 值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If set to `true`, the input field will be a multiline textarea. Defaults to `false`.",
+                    "target": "如果设置为 `true`，则输入字段将是一个多行文本区域。默认为 `false`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If set to `true`, the default value shown when the modal opens is selected, so typing replaces it. Defaults to `false`.",
+                    "target": "如果设置为 `true`，则在模态框打开时显示的默认值将被选中，因此键入将替换它。默认为 `false`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Spawns a suggester prompt and returns the user's chosen item.",
+                    "target": "弹出一个建议提示框并返回用户选择的项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Array of strings representing the text that will be displayed for each item in the suggester prompt. This can also be a function that maps an item to its text representation.",
+                    "target": "表示建议提示框中每个项目显示的文本的字符串数组。这也可以是一个将项目映射到其文本表示的函数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Array containing the values of each item in the correct order.",
+                    "target": "包含每个项目值的数组，按正确顺序排列。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Placeholder string of the prompt.",
+                    "target": "提示框的占位符字符串。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Limit the number of items rendered at once (useful to improve performance when displaying large lists).",
+                    "target": "限制一次渲染的项目数量（在显示大量列表时，这有助于提高性能）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Default value to initialize the suggester with.",
+                    "target": "初始化建议器时的默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Spawns a suggester prompt that supports selecting multiple items and returns the user's chosen items.",
+                    "target": "生成一个支持选择多个项目的建议器提示框，并返回用户选择的项目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Text placed at the top of the modal.",
+                    "target": "放置在模态框顶部的文本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Default values to initialize the suggester with.",
+                    "target": "初始化建议器时的默认值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "This modules contains every internal function related to the web (making web requests).",
+                    "target": "此模块包含与网络相关的所有内部函数（进行网络请求）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Retrieves and parses a daily quote as a callout. Without arguments it uses the language configured in Obsidian (via `getLanguage()`), falling back to English. English quotes come from `https://github.com/Zachatoo/quotes-database` and Spanish quotes from `https://github.com/wulflo/frases-inventario`.",
+                    "target": "检索并解析每日名言作为提示。如果没有参数，它使用Obsidian中配置的语言（通过`getLanguage()`），如果没有为该语言注册数据库，则回退到英语。英语名言来自`https://github.com/Zachatoo/quotes-database`，西班牙语名言来自`https://github.com/wulflo/frases-inventario`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional language code (e.g. `\"en\"`, `\"es\"`) selecting the quotes database. Defaults to Obsidian's display language, falling back to English when no database is registered for that language.",
+                    "target": "可选的语言代码（例如`\"en\"`，`\"es\"`）选择引用数据库。默认为Obsidian的显示语言，如果没有为该语言注册数据库，则回退到英语。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Gets a random image from `https://unsplash.com/`.",
+                    "target": "从 `https://unsplash.com/` 获取随机图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Image size in the format `<width>x<height>`.",
+                    "target": "图片大小格式为 `<width>x<height>`。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Limits selection to photos matching a search term. Multiple search terms can be passed separated by a comma.",
+                    "target": "限制选择匹配搜索词的图片。可以传递多个搜索词，用逗号分隔。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Optional argument to include the specified size in the image link markdown. Defaults to false.",
+                    "target": "可选参数，用于在图片链接的 markdown 中包含指定的尺寸。默认为 false。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Makes a HTTP request to the specified URL. Optionally, you can specify a path to extract specific data from the response.",
+                    "target": "向指定的 URL 发送 HTTP 请求。可选地，您可以指定一个路径以从响应中提取特定数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The URL to which the HTTP request will be made.",
+                    "target": "将要发送 HTTP 请求的 URL。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "A path within the response JSON to extract specific data.",
+                    "target": "响应 JSON 中的路径，用于提取特定数据。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "语法高亮",
+                    "target": "语法高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "文件创建",
+                    "target": "文件创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "启动模板",
+                    "target": "启动模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "用户脚本",
+                    "target": "用户脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heading",
+                    "source": "用户系统命令",
+                    "target": "用户系统命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "内部变量和函数",
+                    "target": "内部变量和函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "模板文件夹位置",
+                    "target": "模板文件夹位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "模板快捷键",
+                    "target": "模板快捷键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "未设置模板文件夹。请在上一页设置模板文件夹位置。",
+                    "target": "未设置模板文件夹。请在上一页设置模板文件夹位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动跳转到光标位置",
+                    "target": "自动跳转到光标位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "创建笔记后跳转到笔记内容",
+                    "target": "创建笔记后跳转到笔记内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "桌面端语法高亮",
+                    "target": "桌面端语法高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "移动端语法高亮",
+                    "target": "移动端语法高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用启动模板",
+                    "target": "启用启动模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启动模板",
+                    "target": "启动模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "新建文件时触发 Templater",
+                    "target": "新建文件时触发 Templater"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "排除的文件夹",
+                    "target": "排除的文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "模板匹配模式",
+                    "target": "模板匹配模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文件夹模板",
+                    "target": "文件夹模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "文件正则模板",
+                    "target": "文件正则模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加模板快捷键",
+                    "target": "添加模板快捷键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加文件夹",
+                    "target": "添加文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加文件夹模板",
+                    "target": "添加文件夹模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加文件正则模板",
+                    "target": "添加文件正则模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加启动模板",
+                    "target": "添加启动模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "用户脚本文件夹",
+                    "target": "用户脚本文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "用户脚本智能提示",
+                    "target": "用户脚本智能提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "用户脚本",
+                    "target": "用户脚本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "启用用户系统命令函数",
+                    "target": "启用用户系统命令函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "超时时间",
+                    "target": "超时时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Shell 可执行文件路径",
+                    "target": "Shell 可执行文件路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "用户系统命令函数",
+                    "target": "用户系统命令函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "添加用户函数",
+                    "target": "添加用户函数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开插入模板对话框",
+                    "target": "打开插入模板对话框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "替换当前文件中的模板",
+                    "target": "替换当前文件中的模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "跳转到下一个光标位置",
+                    "target": "跳转到下一个光标位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "从模板创建新笔记",
+                    "target": "从模板创建新笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "app",
+                    "target": "app"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "user",
+                    "target": "user"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "config",
+                    "target": "config"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "date",
+                    "target": "date"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "now",
+                    "target": "now"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "format",
+                    "target": "format"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "offset",
+                    "target": "偏移量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "reference",
+                    "target": "引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date now",
+                    "target": "当前日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date now with format",
+                    "target": "当前日期（带格式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Last week",
+                    "target": "上周"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next week",
+                    "target": "下周"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Last month",
+                    "target": "上个月"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next year",
+                    "target": "下一年"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File's title date + 1 day (tomorrow)",
+                    "target": "文件标题日期 + 1 天（明天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File's title date - 1 day (yesterday)",
+                    "target": "文件标题日期 - 1 天（昨天）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "tomorrow",
+                    "target": "明天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date tomorrow",
+                    "target": "日期 明天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date tomorrow with format",
+                    "target": "日期 明天（带格式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "yesterday",
+                    "target": "昨天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date yesterday",
+                    "target": "日期 昨天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date yesterday with format",
+                    "target": "日期 昨天（带格式）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "weekday",
+                    "target": "星期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "This week's Monday",
+                    "target": "本周周一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next Monday",
+                    "target": "下周一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File's title Monday",
+                    "target": "文件标题 周一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File's title previous Monday",
+                    "target": "上周一文件的标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "当前日期",
+                    "target": "当前日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "从笔记标题获取本月开始日期",
+                    "target": "从笔记标题获取本月的起始日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "从笔记标题获取本月结束日期",
+                    "target": "从笔记标题获取本月的结束日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "file",
+                    "target": "file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "content",
+                    "target": "content"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "获取文件内容",
+                    "target": "获取文件内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "template",
+                    "target": "template"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "filename",
+                    "target": "filename"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "folder",
+                    "target": "folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation",
+                    "target": "文件创建名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation with template",
+                    "target": "使用模板创建文件名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation and open created note",
+                    "target": "创建文件并打开创建的笔记名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation in current folder",
+                    "target": "在当前文件夹中创建文件名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation in specified folder with string path",
+                    "target": "在指定文件夹中使用字符串路径创建文件名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation in specified folder with TFolder",
+                    "target": "在指定文件夹中使用 TFolder 创建文件名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation and append link to current note",
+                    "target": "创建文件并附加链接到当前笔记名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation date",
+                    "target": "文件创建日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File creation date with format",
+                    "target": "按格式创建文件日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cursor",
+                    "target": "光标名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "order",
+                    "target": "order"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File cursor",
+                    "target": "文件光标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File multi-cursor",
+                    "target": "文件多光标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File cursor with a decimal order",
+                    "target": "带小数序号的文件光标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File cursor append",
+                    "target": "文件光标追加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "exists",
+                    "target": "存在"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "filepath",
+                    "target": "文件路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File existence",
+                    "target": "文件存在"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File existence of current file",
+                    "target": "当前文件存在"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File find TFile",
+                    "target": "文件查找TFile"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "absolute",
+                    "target": "绝对"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File folder (Folder)",
+                    "target": "文件文件夹（文件夹）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File folder with vault-absolute path (Path/To/Folder)",
+                    "target": "具有 vault-absolute 路径的文件文件夹（路径/到/文件夹）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "include",
+                    "target": "包含"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File include",
+                    "target": "文件包含"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File include TFile",
+                    "target": "文件包含 TFile"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File include section",
+                    "target": "文件包含部分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File include block",
+                    "target": "文件包含块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File last modified date",
+                    "target": "文件最后修改日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File last modified date with format",
+                    "target": "带格式的文件最后修改日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "move",
+                    "target": "移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File move",
+                    "target": "文件移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File move and rename",
+                    "target": "文件移动并重命名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "path",
+                    "target": "路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "relative",
+                    "target": "相对路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File path",
+                    "target": "文件路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File relative path (relative to vault root)",
+                    "target": "文件相对路径（相对于库根）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "rename",
+                    "target": "重命名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File rename",
+                    "target": "文件重命名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File append a 2 to the file name",
+                    "target": "文件名后追加2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "selection",
+                    "target": "选择项名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File selection",
+                    "target": "文件选择名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "tags",
+                    "target": "标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File tags",
+                    "target": "文件标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "title",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File title",
+                    "target": "文件标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Strip the Zettelkasten ID of title (if space separated)",
+                    "target": "从标题中去除Zettelkasten ID（如果以空格分隔）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "frontmatter",
+                    "target": "frontmatter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "hooks",
+                    "target": "hooks"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "obsidian",
+                    "target": "obsidian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "system",
+                    "target": "system"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "clipboard",
+                    "target": "剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clipboard",
+                    "target": "剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "prompt",
+                    "target": "提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "multiline",
+                    "target": "多行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prompt",
+                    "target": "提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prompt with default value",
+                    "target": "带默认值的提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Multiline prompt",
+                    "target": "多行提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Prompt with pre-selected default value",
+                    "target": "预选默认值的提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reuse output from prompt",
+                    "target": "重用提示输出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "suggester",
+                    "target": "suggester"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "items",
+                    "target": "items"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "placeholder",
+                    "target": "placeholder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "limit",
+                    "target": "limit"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suggester",
+                    "target": "Suggester"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suggester with mapping function (same as above example)",
+                    "target": "Suggester with mapping function (same as above example)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suggester for files",
+                    "target": "Suggester for files"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Suggester for tags",
+                    "target": "Suggester for tags"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reuse value from suggester",
+                    "target": "Reuse value from suggester"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Default value for the suggester",
+                    "target": "Default value for the suggester"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Multi-suggester with mapping function (same as above example)",
+                    "target": "具有映射功能的多个建议器（与上述示例相同）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Multi-suggester for files",
+                    "target": "文件多个建议器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Multi-suggester for tags",
+                    "target": "标签多个建议器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reuse value from multi-suggester",
+                    "target": "从多个建议器中重用值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "web",
+                    "target": "web"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "language",
+                    "target": "语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Daily quote",
+                    "target": "每日引言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Daily quote in Spanish",
+                    "target": "西班牙语的每日引言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "size",
+                    "target": "大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "query",
+                    "target": "查询"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Random picture",
+                    "target": "随机图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Random picture with size",
+                    "target": "随机图片（带大小）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Random picture with size and query",
+                    "target": "随机图片（带大小和查询）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "request",
+                    "target": "请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "url",
+                    "target": "URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Simple request",
+                    "target": "简单请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Request with path",
+                    "target": "带路径的请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "javascript",
+                    "target": "JavaScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Templater 错误",
+                    "target": "Templater 错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "请查看控制台获取更多信息",
+                    "target": "请查看控制台获取更多信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "仅当你信任此知识库当前及未来的所有内容（包括你日后可能从他人处下载、复制或同步的文件）时，才启用此功能。",
+                    "target": "仅当你信任此知识库当前及未来的所有内容（包括你日后可能从他人处下载、复制或同步的文件）时，才启用此功能。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "此设置仅保存在当前设备上，请在每台使用此知识库的设备上单独启用。",
+                    "target": "此设置仅保存在当前设备上，请在每台使用此知识库的设备上单独启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "<% tp.user.file_name() %>",
+                    "target": "<% tp.user.file_name() %>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文档",
+                    "target": "文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "命令",
+                    "target": "命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "快捷键",
+                    "target": "快捷键"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "此设置仅保存在当前设备上，需要在每台设备上单独启用。",
+                    "target": "此设置仅保存在当前设备上，需要在每台设备上单独启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "无：不自动应用模板。Templater 仍会监听新文件创建事件，并替换新文件内容中所有识别到的命令。",
+                    "target": "无：不自动应用模板。Templater 仍会监听新文件创建事件，并替换新文件内容中所有识别到的命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文件夹模板：根据文件夹结构自动应用模板。",
+                    "target": "文件夹模板：根据文件夹结构自动应用模板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文件正则模板：根据文件名正则表达式模式自动应用模板。",
+                    "target": "文件正则模板：根据文件名正则表达式模式自动应用模板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Parameter list:",
+                    "target": "参数列表："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "启用启动模板",
+                    "target": "启用启动模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "创建新文件时触发模板程序",
+                    "target": "创建新文件时触发模板程序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "启用用户系统命令功能",
+                    "target": "启用用户系统命令功能"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "如果您设置的启动模板包含未知/不安全内容，这可能会很危险。确保每个启动模板的内容安全。",
+                    "target": "如果您设置的启动模板包含未知/不安全内容，这可能会很危险。确保每个启动模板的内容安全。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "如果您在创建时创建包含未知/不安全内容的新文件，这可能会很危险。确保每个新文件的内容在创建时都安全。",
+                    "target": "如果您在创建时创建包含未知/不安全内容的新文件，这可能会很危险。确保每个新文件的内容在创建时都安全。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "执行来自不受信任来源的任意系统命令可能是危险的。仅运行您理解的、来自可信来源的系统命令。",
+                    "target": "执行来自不受信任来源的任意系统命令可能是危险的。仅运行您理解的、来自可信来源的系统命令。"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"\", 8e3),\n    r = createFragment((i) => {\n      (i.createEl(\"b\", { text: \"Templater 错误\" }),\n        i.createSpan({ text: \":\" }),\n        i.createEl(\"br\")",
+                    "target": "Notice(\"\", 8e3),\n    r = createFragment((i) => {\n      (i.createEl(\"b\", { text: \"Templater 错误\" }),\n        i.createSpan({ text: \":\" }),\n        i.createEl(\"br\")"
+                },
+                {
+                    "source": "error(\"Failed to parse summary section\")",
+                    "target": "error(\"Failed to parse summary section\")"
+                },
+                {
+                    "source": "setButtonText(\"我已了解风险，启用\")",
+                    "target": "setButtonText(\"我已了解风险，启用\")"
+                },
+                {
+                    "source": "setButtonText(\"启用\")",
+                    "target": "setButtonText(\"启用\")"
+                },
+                {
+                    "source": "setTitle(\"文件正则模板\")",
+                    "target": "setTitle(\"文件正则模板\")"
+                },
+                {
+                    "source": "setName(\"文件正则表达式\")",
+                    "target": "setName(\"文件正则表达式\")"
+                },
+                {
+                    "source": "setDesc(\n          \"用于匹配的正则表达式。会针对相对于知识库根目录的完整文件路径（含扩展名）进行测试。\",\n        )\n        .addText((n) => {\n          n.setPlaceholder(\"文件正则表达式\")",
+                    "target": "setDesc(\n          \"用于匹配的正则表达式。会针对相对于知识库根目录的完整文件路径（含扩展名）进行测试。\",\n        )\n        .addText((n) => {\n          n.setPlaceholder(\"文件正则表达式\")"
+                },
+                {
+                    "source": "setName(\"模板\")",
+                    "target": "setName(\"模板\")"
+                },
+                {
+                    "source": "setDesc(\"匹配成功后应用的模板。\")",
+                    "target": "setDesc(\"匹配成功后应用的模板。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"模板\")",
+                    "target": "setPlaceholder(\"模板\")"
+                },
+                {
+                    "source": "setButtonText(\"完成\")",
+                    "target": "setButtonText(\"完成\")"
+                },
+                {
+                    "source": "setButtonText(\"取消\")",
+                    "target": "setButtonText(\"取消\")"
+                },
+                {
+                    "source": "setTitle(\"文件夹模板\")",
+                    "target": "setTitle(\"文件夹模板\")"
+                },
+                {
+                    "source": "setName(\"文件夹\")",
+                    "target": "setName(\"文件夹\")"
+                },
+                {
+                    "source": "setDesc(\"要匹配的文件夹。包含该文件夹的所有子文件夹。\")",
+                    "target": "setDesc(\"要匹配的文件夹。包含该文件夹的所有子文件夹。\")"
+                },
+                {
+                    "source": "setPlaceholder(\"文件夹\")",
+                    "target": "setPlaceholder(\"文件夹\")"
+                },
+                {
+                    "source": "setTitle(\"添加排除项\")",
+                    "target": "setTitle(\"添加排除项\")"
+                },
+                {
+                    "source": "setDesc(\"请输入路径，例如 meta/templates\")",
+                    "target": "setDesc(\"请输入路径，例如 meta/templates\")"
+                },
+                {
+                    "source": "setTitle(\"添加启动模板\")",
+                    "target": "setTitle(\"添加启动模板\")"
+                },
+                {
+                    "source": "setDesc(\"请输入模板路径，例如 meta/templates/daily.md\")",
+                    "target": "setDesc(\"请输入模板路径，例如 meta/templates/daily.md\")"
+                },
+                {
+                    "source": "setTitle(\"用户函数\")",
+                    "target": "setTitle(\"用户函数\")"
+                },
+                {
+                    "source": "setName(\"函数名称\")",
+                    "target": "setName(\"函数名称\")"
+                },
+                {
+                    "source": "setPlaceholder(\"函数名称\")",
+                    "target": "setPlaceholder(\"函数名称\")"
+                },
+                {
+                    "source": "setName(\"系统命令\")",
+                    "target": "setName(\"系统命令\")"
+                },
+                {
+                    "source": "setPlaceholder(\"系统命令\")",
+                    "target": "setPlaceholder(\"系统命令\")"
+                },
+                {
+                    "source": "setTitle(\"模板快捷键\")",
+                    "target": "setTitle(\"模板快捷键\")"
+                },
+                {
+                    "source": "setName(\"插入命令\")",
+                    "target": "setName(\"插入命令\")"
+                },
+                {
+                    "source": "setDesc(\n          \"添加一条命令，将该模板插入到当前活动文件中。\",\n        )\n        .addToggle((n) => {\n          n.setValue(this.insert_enabled).onChange((a) => {\n            this.insert_enabled = a;\n          });\n        });\n    (new Tt.Setting(t)\n      .setName(\"创建命令\")",
+                    "target": "setDesc(\n          \"添加一条命令，将该模板插入到当前活动文件中。\",\n        )\n        .addToggle((n) => {\n          n.setValue(this.insert_enabled).onChange((a) => {\n            this.insert_enabled = a;\n          });\n        });\n    (new Tt.Setting(t)\n      .setName(\"创建命令\")"
+                },
+                {
+                    "source": "setDesc(\"添加一条命令，从该模板创建新笔记。\")",
+                    "target": "setDesc(\"添加一条命令，从该模板创建新笔记。\")"
+                },
+                {
+                    "source": "setTooltip(\"打开用户脚本文件夹\")",
+                    "target": "setTooltip(\"打开用户脚本文件夹\")"
+                },
+                {
+                    "source": "setPlaceholder(\"输入模板名称搜索...\")",
+                    "target": "setPlaceholder(\"输入模板名称搜索...\")"
+                },
+                {
+                    "source": "setButtonText(\"提交\")",
+                    "target": "setButtonText(\"提交\")"
+                },
+                {
+                    "source": "setPlaceholder(\"在此输入文本\")",
+                    "target": "setPlaceholder(\"在此输入文本\")"
+                },
+                {
+                    "source": "setButtonText(\"保存\")",
+                    "target": "setButtonText(\"保存\")"
+                },
+                {
+                    "source": "setTitle(\"从模板创建新笔记\")",
+                    "target": "setTitle(\"从模板创建新笔记\")"
+                },
+                {
+                    "source": "Notice(\n          \"Templater：以下设置已重置，因为它们现在是设备本地设置：\" +\n            i.join(\", \")",
+                    "target": "Notice(\n          \"Templater：以下设置已重置，因为它们现在是设备本地设置：\" +\n            i.join(\", \")"
+                },
+                {
+                    "source": "name: \" + i);\n      for (var n = 0, a = r; n < a.length; n++) {\n        var s = a[n];\n        if (!e._nodeKindRegExp.test(s.docNodeKind))\n          throw new Error(\n            \"",
+                    "target": "name: \" + i);\n      for (var n = 0, a = r; n < a.length; n++) {\n        var s = a[n];\n        if (!e._nodeKindRegExp.test(s.docNodeKind))\n          throw new Error(\n            \""
+                },
+                {
+                    "source": "name: \" +\n                m\n              : \"",
+                    "target": "name: \" +\n                m\n              : \""
+                },
+                {
+                    "source": "name: \",\n          s,\n        );\n      var c = this._tryReadSpacingAndNewlines(t);\n      if (t.peekTokenKind() !== f.GreaterThan) {\n        var l = this._createFailureForToken(\n          t,\n          w.HtmlTagMissingGreaterThan,\n          'Expecting a closing \"",
+                    "target": "name: \",\n          s,\n        );\n      var c = this._tryReadSpacingAndNewlines(t);\n      if (t.peekTokenKind() !== f.GreaterThan) {\n        var l = this._createFailureForToken(\n          t,\n          w.HtmlTagMissingGreaterThan,\n          'Expecting a closing \""
+                },
+                {
+                    "source": "text: \"Templater 错误\"",
+                    "target": "text: \"Templater 错误\""
+                },
+                {
+                    "source": "text: \":\"",
+                    "target": "text: \":\""
+                },
+                {
+                    "source": "text: \"请查看控制台获取更多信息\"",
+                    "target": "text: \"请查看控制台获取更多信息\""
+                },
+                {
+                    "source": "text: \"仅当你信任此知识库当前及未来的所有内容（包括你日后可能从他人处下载、复制或同步的文件）时，才启用此功能。\"",
+                    "target": "text: \"仅当你信任此知识库当前及未来的所有内容（包括你日后可能从他人处下载、复制或同步的文件）时，才启用此功能。\""
+                },
+                {
+                    "source": "text: \"此设置仅保存在当前设备上，请在每台使用此知识库的设备上单独启用。\"",
+                    "target": "text: \"此设置仅保存在当前设备上，请在每台使用此知识库的设备上单独启用。\""
+                },
+                {
+                    "source": "text: \"<% tp.user.file_name() %>\"",
+                    "target": "text: \"<% tp.user.file_name() %>\""
+                },
+                {
+                    "source": "name: \"内部变量和函数\"",
+                    "target": "name: \"内部变量和函数\""
+                },
+                {
+                    "source": "text: \"文档\"",
+                    "target": "text: \"文档\""
+                },
+                {
+                    "source": "name: \"模板文件夹位置\"",
+                    "target": "name: \"模板文件夹位置\""
+                },
+                {
+                    "source": "name: \"模板快捷键\"",
+                    "target": "name: \"模板快捷键\""
+                },
+                {
+                    "source": "text: \"命令\"",
+                    "target": "text: \"命令\""
+                },
+                {
+                    "source": "text: \"快捷键\"",
+                    "target": "text: \"快捷键\""
+                },
+                {
+                    "source": "name: \"未设置模板文件夹。请在上一页设置模板文件夹位置。\"",
+                    "target": "name: \"未设置模板文件夹。请在上一页设置模板文件夹位置。\""
+                },
+                {
+                    "source": "name: \"自动跳转到光标位置\"",
+                    "target": "name: \"自动跳转到光标位置\""
+                },
+                {
+                    "source": "text: \"tp.file.cursor\"",
+                    "target": "text: \"tp.file.cursor\""
+                },
+                {
+                    "source": "name: \"创建笔记后跳转到笔记内容\"",
+                    "target": "name: \"创建笔记后跳转到笔记内容\""
+                },
+                {
+                    "source": "name: \"桌面端语法高亮\"",
+                    "target": "name: \"桌面端语法高亮\""
+                },
+                {
+                    "source": "name: \"移动端语法高亮\"",
+                    "target": "name: \"移动端语法高亮\""
+                },
+                {
+                    "source": "name: \"启用启动模板\"",
+                    "target": "name: \"启用启动模板\""
+                },
+                {
+                    "source": "text: \"此设置仅保存在当前设备上，需要在每台设备上单独启用。\"",
+                    "target": "text: \"此设置仅保存在当前设备上，需要在每台设备上单独启用。\""
+                },
+                {
+                    "source": "name: \"启动模板\"",
+                    "target": "name: \"启动模板\""
+                },
+                {
+                    "source": "text: \"无：不自动应用模板。Templater 仍会监听新文件创建事件，并替换新文件内容中所有识别到的命令。\"",
+                    "target": "text: \"无：不自动应用模板。Templater 仍会监听新文件创建事件，并替换新文件内容中所有识别到的命令。\""
+                },
+                {
+                    "source": "text: \"文件夹模板：根据文件夹结构自动应用模板。\"",
+                    "target": "text: \"文件夹模板：根据文件夹结构自动应用模板。\""
+                },
+                {
+                    "source": "text: \"文件正则模板：根据文件名正则表达式模式自动应用模板。\"",
+                    "target": "text: \"文件正则模板：根据文件名正则表达式模式自动应用模板。\""
+                },
+                {
+                    "source": "text: \"/\"",
+                    "target": "text: \"/\""
+                },
+                {
+                    "source": "text: \".*\"",
+                    "target": "text: \".*\""
+                },
+                {
+                    "source": "name: \"新建文件时触发 Templater\"",
+                    "target": "name: \"新建文件时触发 Templater\""
+                },
+                {
+                    "source": "name: \"排除的文件夹\"",
+                    "target": "name: \"排除的文件夹\""
+                },
+                {
+                    "source": "name: \"模板匹配模式\"",
+                    "target": "name: \"模板匹配模式\""
+                },
+                {
+                    "source": "name: \"文件夹模板\"",
+                    "target": "name: \"文件夹模板\""
+                },
+                {
+                    "source": "name: \"文件正则模板\"",
+                    "target": "name: \"文件正则模板\""
+                },
+                {
+                    "source": "name: \"添加模板快捷键\"",
+                    "target": "name: \"添加模板快捷键\""
+                },
+                {
+                    "source": "name: \"添加文件夹\"",
+                    "target": "name: \"添加文件夹\""
+                },
+                {
+                    "source": "name: \"添加文件夹模板\"",
+                    "target": "name: \"添加文件夹模板\""
+                },
+                {
+                    "source": "name: \"添加文件正则模板\"",
+                    "target": "name: \"添加文件正则模板\""
+                },
+                {
+                    "source": "name: \"添加启动模板\"",
+                    "target": "name: \"添加启动模板\""
+                },
+                {
+                    "source": "name: \"用户脚本文件夹\"",
+                    "target": "name: \"用户脚本文件夹\""
+                },
+                {
+                    "source": "name: \"用户脚本智能提示\"",
+                    "target": "name: \"用户脚本智能提示\""
+                },
+                {
+                    "source": "name: \"用户脚本\"",
+                    "target": "name: \"用户脚本\""
+                },
+                {
+                    "source": "name: \"启用用户系统命令函数\"",
+                    "target": "name: \"启用用户系统命令函数\""
+                },
+                {
+                    "source": "name: \"超时时间\"",
+                    "target": "name: \"超时时间\""
+                },
+                {
+                    "source": "name: \"Shell 可执行文件路径\"",
+                    "target": "name: \"Shell 可执行文件路径\""
+                },
+                {
+                    "source": "name: \"用户系统命令函数\"",
+                    "target": "name: \"用户系统命令函数\""
+                },
+                {
+                    "source": "name: \"添加用户函数\"",
+                    "target": "name: \"添加用户函数\""
+                },
+                {
+                    "source": "name: \"\"",
+                    "target": "name: \"\""
+                },
+                {
+                    "source": "name = \"date\"",
+                    "target": "name = \"date\""
+                },
+                {
+                    "source": "name = \"file\"",
+                    "target": "name = \"file\""
+                },
+                {
+                    "source": "name = \"web\"",
+                    "target": "name = \"web\""
+                },
+                {
+                    "source": "name = \"hooks\"",
+                    "target": "name = \"hooks\""
+                },
+                {
+                    "source": "name = \"frontmatter\"",
+                    "target": "name = \"frontmatter\""
+                },
+                {
+                    "source": "name = \"system\"",
+                    "target": "name = \"system\""
+                },
+                {
+                    "source": "name = \"config\"",
+                    "target": "name = \"config\""
+                },
+                {
+                    "source": "name: \"all\"",
+                    "target": "name: \"all\""
+                },
+                {
+                    "source": "name: \"打开插入模板对话框\"",
+                    "target": "name: \"打开插入模板对话框\""
+                },
+                {
+                    "source": "name: \"替换当前文件中的模板\"",
+                    "target": "name: \"替换当前文件中的模板\""
+                },
+                {
+                    "source": "name: \"跳转到下一个光标位置\"",
+                    "target": "name: \"跳转到下一个光标位置\""
+                },
+                {
+                    "source": "name: \"从模板创建新笔记\"",
+                    "target": "name: \"从模板创建新笔记\""
+                },
+                {
+                    "source": "name: `插入 ${a}`",
+                    "target": "name: `插入 ${a}`"
+                },
+                {
+                    "source": "name: `创建 ${a}`",
+                    "target": "name: `创建 ${a}`"
+                },
+                {
+                    "source": "description:\n            \"Template file path (relative to vault root or templates folder)\"",
+                    "target": "description:\n            \"Template file path (relative to vault root or templates folder)\""
+                },
+                {
+                    "source": "description: \"Output file path (relative to vault root)\"",
+                    "target": "description: \"Output file path (relative to vault root)\""
+                },
+                {
+                    "source": "description: \"Open the created file in the UI\"",
+                    "target": "description: \"Open the created file in the UI\""
+                },
+                {
+                    "source": "text: \"\"",
+                    "target": "text: \"\""
+                },
+                {
+                    "source": "name = \"import\"",
+                    "target": "name = \"import\""
+                },
+                {
+                    "source": "name = \"new\"",
+                    "target": "name = \"new\""
+                },
+                {
+                    "source": "name: \"app\"",
+                    "target": "name: \"app\""
+                },
+                {
+                    "source": "description:\n        \"This module exposes the app instance. Prefer to use this over the global app instance.\"",
+                    "target": "description:\n        \"This module exposes the app instance. Prefer to use this over the global app instance.\""
+                },
+                {
+                    "source": "name: \"user\"",
+                    "target": "name: \"user\""
+                },
+                {
+                    "source": "description:\n        \"This module exposes custom made scripts, written by yourself within the script file folder location\"",
+                    "target": "description:\n        \"This module exposes custom made scripts, written by yourself within the script file folder location\""
+                },
+                {
+                    "source": "name: \"config\"",
+                    "target": "name: \"config\""
+                },
+                {
+                    "source": "description: `This module exposes Templater's running configuration.\n\nThis is mostly useful when writing scripts requiring some context information.\n`",
+                    "target": "description: `This module exposes Templater's running configuration.\n\nThis is mostly useful when writing scripts requiring some context information.\n`"
+                },
+                {
+                    "source": "name: \"template_file\"",
+                    "target": "name: \"template_file\""
+                },
+                {
+                    "source": "description: \"The `TFile` object representing the template file.\"",
+                    "target": "description: \"The `TFile` object representing the template file.\""
+                },
+                {
+                    "source": "name: \"target_file\"",
+                    "target": "name: \"target_file\""
+                },
+                {
+                    "source": "description:\n            \"The `TFile` object representing the target file where the template will be inserted.\"",
+                    "target": "description:\n            \"The `TFile` object representing the target file where the template will be inserted.\""
+                },
+                {
+                    "source": "name: \"run_mode\"",
+                    "target": "name: \"run_mode\""
+                },
+                {
+                    "source": "description:\n            \"The `RunMode`, representing the way Templater was launched (Create new from template, Append to active file, ...).\"",
+                    "target": "description:\n            \"The `RunMode`, representing the way Templater was launched (Create new from template, Append to active file, ...).\""
+                },
+                {
+                    "source": "name: \"active_file\"",
+                    "target": "name: \"active_file\""
+                },
+                {
+                    "source": "description:\n            \"The active file (if existing) when launching Templater.\"",
+                    "target": "description:\n            \"The active file (if existing) when launching Templater.\""
+                },
+                {
+                    "source": "name: \"date\"",
+                    "target": "name: \"date\""
+                },
+                {
+                    "source": "description:\n        \"This module contains every internal function related to dates.\"",
+                    "target": "description:\n        \"This module contains every internal function related to dates.\""
+                },
+                {
+                    "source": "name: \"now\"",
+                    "target": "name: \"now\""
+                },
+                {
+                    "source": "description: \"Retrieves the date.\"",
+                    "target": "description: \"Retrieves the date.\""
+                },
+                {
+                    "source": "name: \"format\"",
+                    "target": "name: \"format\""
+                },
+                {
+                    "source": "description:\n                'The format for the date. Defaults to `\"YYYY-MM-DD\"`. Refer to the [Momentjs format reference](https://momentjs.com/docs/#/displaying/format/).'",
+                    "target": "description:\n                'The format for the date. Defaults to `\"YYYY-MM-DD\"`. Refer to the [Momentjs format reference](https://momentjs.com/docs/#/displaying/format/).'"
+                },
+                {
+                    "source": "name: \"offset\"",
+                    "target": "name: \"offset\""
+                },
+                {
+                    "source": "description:\n                \"Duration to offset the date from. If a number is provided, duration will be added to the date in days. You can also specify the offset as a string using the ISO 8601 format.\"",
+                    "target": "description:\n                \"Duration to offset the date from. If a number is provided, duration will be added to the date in days. You can also specify the offset as a string using the ISO 8601 format.\""
+                },
+                {
+                    "source": "name: \"reference\"",
+                    "target": "name: \"reference\""
+                },
+                {
+                    "source": "description:\n                \"The date to use instead of today's date, e.g. set this to the note's title.\"",
+                    "target": "description:\n                \"The date to use instead of today's date, e.g. set this to the note's title.\""
+                },
+                {
+                    "source": "name: \"reference_format\"",
+                    "target": "name: \"reference_format\""
+                },
+                {
+                    "source": "description:\n                \"The format for the reference date. Refer to the [Momentjs format reference](https://momentjs.com/docs/#/displaying/format/).\"",
+                    "target": "description:\n                \"The format for the reference date. Refer to the [Momentjs format reference](https://momentjs.com/docs/#/displaying/format/).\""
+                },
+                {
+                    "source": "name: \"Date now\"",
+                    "target": "name: \"Date now\""
+                },
+                {
+                    "source": "name: \"Date now with format\"",
+                    "target": "name: \"Date now with format\""
+                },
+                {
+                    "source": "name: \"Last week\"",
+                    "target": "name: \"Last week\""
+                },
+                {
+                    "source": "name: \"Next week\"",
+                    "target": "name: \"Next week\""
+                },
+                {
+                    "source": "name: \"Last month\"",
+                    "target": "name: \"Last month\""
+                },
+                {
+                    "source": "name: \"Next year\"",
+                    "target": "name: \"Next year\""
+                },
+                {
+                    "source": "name: \"File's title date + 1 day (tomorrow)\"",
+                    "target": "name: \"File's title date + 1 day (tomorrow)\""
+                },
+                {
+                    "source": "name: \"File's title date - 1 day (yesterday)\"",
+                    "target": "name: \"File's title date - 1 day (yesterday)\""
+                },
+                {
+                    "source": "name: \"tomorrow\"",
+                    "target": "name: \"tomorrow\""
+                },
+                {
+                    "source": "description: \"Retrieves tomorrow's date.\"",
+                    "target": "description: \"Retrieves tomorrow's date.\""
+                },
+                {
+                    "source": "name: \"Date tomorrow\"",
+                    "target": "name: \"Date tomorrow\""
+                },
+                {
+                    "source": "name: \"Date tomorrow with format\"",
+                    "target": "name: \"Date tomorrow with format\""
+                },
+                {
+                    "source": "name: \"yesterday\"",
+                    "target": "name: \"yesterday\""
+                },
+                {
+                    "source": "description: \"Retrieves yesterday's date.\"",
+                    "target": "description: \"Retrieves yesterday's date.\""
+                },
+                {
+                    "source": "name: \"Date yesterday\"",
+                    "target": "name: \"Date yesterday\""
+                },
+                {
+                    "source": "name: \"Date yesterday with format\"",
+                    "target": "name: \"Date yesterday with format\""
+                },
+                {
+                    "source": "name: \"weekday\"",
+                    "target": "name: \"weekday\""
+                },
+                {
+                    "source": "description: \"\"",
+                    "target": "description: \"\""
+                },
+                {
+                    "source": "description:\n                \"Week day number. If the locale assigns Monday as the first day of the week, `0` will be Monday, `-7` will be last week's day.\"",
+                    "target": "description:\n                \"Week day number. If the locale assigns Monday as the first day of the week, `0` will be Monday, `-7` will be last week's day.\""
+                },
+                {
+                    "source": "description:\n                \"The reference date to use instead of today, e.g. set this to the note's title.\"",
+                    "target": "description:\n                \"The reference date to use instead of today, e.g. set this to the note's title.\""
+                },
+                {
+                    "source": "name: \"This week's Monday\"",
+                    "target": "name: \"This week's Monday\""
+                },
+                {
+                    "source": "name: \"Next Monday\"",
+                    "target": "name: \"Next Monday\""
+                },
+                {
+                    "source": "name: \"File's title Monday\"",
+                    "target": "name: \"File's title Monday\""
+                },
+                {
+                    "source": "name: \"File's title previous Monday\"",
+                    "target": "name: \"File's title previous Monday\""
+                },
+                {
+                    "source": "name: \"当前日期\"",
+                    "target": "name: \"当前日期\""
+                },
+                {
+                    "source": "name: \"从笔记标题获取本月开始日期\"",
+                    "target": "name: \"从笔记标题获取本月开始日期\""
+                },
+                {
+                    "source": "name: \"从笔记标题获取本月结束日期\"",
+                    "target": "name: \"从笔记标题获取本月结束日期\""
+                },
+                {
+                    "source": "name: \"file\"",
+                    "target": "name: \"file\""
+                },
+                {
+                    "source": "description:\n        \"这个模块包含了所有与文件相关的内部函数。\"",
+                    "target": "description:\n        \"这个模块包含了所有与文件相关的内部函数。\""
+                },
+                {
+                    "source": "name: \"content\"",
+                    "target": "name: \"content\""
+                },
+                {
+                    "source": "description:\n            \"Templater 执行时文件的字符串内容。操作这个字符串*不会*更新当前文件。\"",
+                    "target": "description:\n            \"Templater 执行时文件的字符串内容。操作这个字符串*不会*更新当前文件。\""
+                },
+                {
+                    "source": "name: \"获取文件内容\"",
+                    "target": "name: \"获取文件内容\""
+                },
+                {
+                    "source": "name: \"create_new\"",
+                    "target": "name: \"create_new\""
+                },
+                {
+                    "source": "description:\n            \"创建一个使用指定模板或具有指定内容的新文件。\"",
+                    "target": "description:\n            \"创建一个使用指定模板或具有指定内容的新文件。\""
+                },
+                {
+                    "source": "name: \"template\"",
+                    "target": "name: \"template\""
+                },
+                {
+                    "source": "description:\n                \"要么是用来创建新文件内容的模板，要么就是文件内容的字符串。如果是要使用的模板，你可以用 `tp.file.find_tfile(TEMPLATENAME)` 来获取它。\"",
+                    "target": "description:\n                \"要么是用来创建新文件内容的模板，要么就是文件内容的字符串。如果是要使用的模板，你可以用 `tp.file.find_tfile(TEMPLATENAME)` 来获取它。\""
+                },
+                {
+                    "source": "name: \"filename\"",
+                    "target": "name: \"filename\""
+                },
+                {
+                    "source": "description:\n                '新文件的文件名，默认是 \"未命名\"。'",
+                    "target": "description:\n                '新文件的文件名，默认是 \"未命名\"。'"
+                },
+                {
+                    "source": "name: \"open_new\"",
+                    "target": "name: \"open_new\""
+                },
+                {
+                    "source": "description:\n                \"是否打开新创建的文件。警告：如果你使用这个选项，由于命令是异步执行的，文件可能会先被打开，然后其他命令会被追加到那个新文件中，而不是之前的文件。\"",
+                    "target": "description:\n                \"是否打开新创建的文件。警告：如果你使用这个选项，由于命令是异步执行的，文件可能会先被打开，然后其他命令会被追加到那个新文件中，而不是之前的文件。\""
+                },
+                {
+                    "source": "name: \"folder\"",
+                    "target": "name: \"folder\""
+                },
+                {
+                    "source": "description:\n                '放新文件的文件夹，默认为 Obsidian 的默认位置。如果你想让文件出现在不同的文件夹里，可以用 `\"PATH/TO/FOLDERNAME\"` 或 `tp.app.vault.getAbstractFileByPath(\"PATH/TO/FOLDERNAME\")` 指定。'",
+                    "target": "description:\n                '放新文件的文件夹，默认为 Obsidian 的默认位置。如果你想让文件出现在不同的文件夹里，可以用 `\"PATH/TO/FOLDERNAME\"` 或 `tp.app.vault.getAbstractFileByPath(\"PATH/TO/FOLDERNAME\")` 指定。'"
+                },
+                {
+                    "source": "name: \"File creation\"",
+                    "target": "name: \"File creation\""
+                },
+                {
+                    "source": "name: \"File creation with template\"",
+                    "target": "name: \"File creation with template\""
+                },
+                {
+                    "source": "name: \"File creation and open created note\"",
+                    "target": "name: \"File creation and open created note\""
+                },
+                {
+                    "source": "name: \"File creation in current folder\"",
+                    "target": "name: \"File creation in current folder\""
+                },
+                {
+                    "source": "name: \"File creation in specified folder with string path\"",
+                    "target": "name: \"File creation in specified folder with string path\""
+                },
+                {
+                    "source": "name: \"File creation in specified folder with TFolder\"",
+                    "target": "name: \"File creation in specified folder with TFolder\""
+                },
+                {
+                    "source": "name: \"File creation and append link to current note\"",
+                    "target": "name: \"File creation and append link to current note\""
+                },
+                {
+                    "source": "name: \"creation_date\"",
+                    "target": "name: \"creation_date\""
+                },
+                {
+                    "source": "description: \"Retrieves the current file's creation date.\"",
+                    "target": "description: \"Retrieves the current file's creation date.\""
+                },
+                {
+                    "source": "description:\n                'The format for the date. Defaults to `\"YYYY-MM-DD HH:mm\"`. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).'",
+                    "target": "description:\n                'The format for the date. Defaults to `\"YYYY-MM-DD HH:mm\"`. Refer to [format reference](https://momentjs.com/docs/#/displaying/format/).'"
+                },
+                {
+                    "source": "name: \"File creation date\"",
+                    "target": "name: \"File creation date\""
+                },
+                {
+                    "source": "name: \"File creation date with format\"",
+                    "target": "name: \"File creation date with format\""
+                },
+                {
+                    "source": "name: \"cursor\"",
+                    "target": "name: \"cursor\""
+                },
+                {
+                    "source": "description: `Sets the cursor to this location after the template has been inserted. \n\nYou can navigate between the different cursors using the configured hotkey in Obsidian settings.\n`",
+                    "target": "description: `Sets the cursor to this location after the template has been inserted. \n\nYou can navigate between the different cursors using the configured hotkey in Obsidian settings.\n`"
+                },
+                {
+                    "source": "name: \"order\"",
+                    "target": "name: \"order\""
+                },
+                {
+                    "source": "name: \"File cursor\"",
+                    "target": "name: \"File cursor\""
+                },
+                {
+                    "source": "name: \"File multi-cursor\"",
+                    "target": "name: \"File multi-cursor\""
+                },
+                {
+                    "source": "name: \"File cursor with a decimal order\"",
+                    "target": "name: \"File cursor with a decimal order\""
+                },
+                {
+                    "source": "name: \"cursor_append\"",
+                    "target": "name: \"cursor_append\""
+                },
+                {
+                    "source": "description:\n            \"Appends some content after the active cursor in the file.\"",
+                    "target": "description:\n            \"Appends some content after the active cursor in the file.\""
+                },
+                {
+                    "source": "description: \"The content to append after the active cursor.\"",
+                    "target": "description: \"The content to append after the active cursor.\""
+                },
+                {
+                    "source": "name: \"File cursor append\"",
+                    "target": "name: \"File cursor append\""
+                },
+                {
+                    "source": "name: \"exists\"",
+                    "target": "name: \"exists\""
+                },
+                {
+                    "source": "description:\n            \"Check to see if a file exists by it's file path. The full path to the file, relative to the Vault and containing the extension, must be provided.\"",
+                    "target": "description:\n            \"Check to see if a file exists by it's file path. The full path to the file, relative to the Vault and containing the extension, must be provided.\""
+                },
+                {
+                    "source": "name: \"filepath\"",
+                    "target": "name: \"filepath\""
+                },
+                {
+                    "source": "description:\n                \"The full file path of the file we want to check existence for.\"",
+                    "target": "description:\n                \"The full file path of the file we want to check existence for.\""
+                },
+                {
+                    "source": "name: \"File existence\"",
+                    "target": "name: \"File existence\""
+                },
+                {
+                    "source": "name: \"File existence of current file\"",
+                    "target": "name: \"File existence of current file\""
+                },
+                {
+                    "source": "name: \"find_tfile\"",
+                    "target": "name: \"find_tfile\""
+                },
+                {
+                    "source": "description: \"Search for a file and returns its `TFile` instance.\"",
+                    "target": "description: \"Search for a file and returns its `TFile` instance.\""
+                },
+                {
+                    "source": "description:\n                \"The filename we want to search and resolve as a `TFile`.\"",
+                    "target": "description:\n                \"The filename we want to search and resolve as a `TFile`.\""
+                },
+                {
+                    "source": "name: \"File find TFile\"",
+                    "target": "name: \"File find TFile\""
+                },
+                {
+                    "source": "description: \"Retrieves the file's folder name.\"",
+                    "target": "description: \"Retrieves the file's folder name.\""
+                },
+                {
+                    "source": "name: \"absolute\"",
+                    "target": "name: \"absolute\""
+                },
+                {
+                    "source": "description:\n                \"If set to `true`, returns the vault-absolute path of the folder. If `false`, only returns the basename of the folder (the last part). Defaults to `false`.\"",
+                    "target": "description:\n                \"If set to `true`, returns the vault-absolute path of the folder. If `false`, only returns the basename of the folder (the last part). Defaults to `false`.\""
+                },
+                {
+                    "source": "name: \"File folder (Folder)\"",
+                    "target": "name: \"File folder (Folder)\""
+                },
+                {
+                    "source": "name: \"File folder with vault-absolute path (Path/To/Folder)\"",
+                    "target": "name: \"File folder with vault-absolute path (Path/To/Folder)\""
+                },
+                {
+                    "source": "name: \"include\"",
+                    "target": "name: \"include\""
+                },
+                {
+                    "source": "description:\n            \"Includes the file's link content. Templates in the included content will be resolved.\"",
+                    "target": "description:\n            \"Includes the file's link content. Templates in the included content will be resolved.\""
+                },
+                {
+                    "source": "name: \"include_link\"",
+                    "target": "name: \"include_link\""
+                },
+                {
+                    "source": "description:\n                'The link to the file to include, e.g. `\"[[MyFile]]\"`, or a TFile object. Also supports sections or blocks inclusions.'",
+                    "target": "description:\n                'The link to the file to include, e.g. `\"[[MyFile]]\"`, or a TFile object. Also supports sections or blocks inclusions.'"
+                },
+                {
+                    "source": "name: \"File include\"",
+                    "target": "name: \"File include\""
+                },
+                {
+                    "source": "name: \"File include TFile\"",
+                    "target": "name: \"File include TFile\""
+                },
+                {
+                    "source": "name: \"File include section\"",
+                    "target": "name: \"File include section\""
+                },
+                {
+                    "source": "name: \"File include block\"",
+                    "target": "name: \"File include block\""
+                },
+                {
+                    "source": "name: \"last_modified_date\"",
+                    "target": "name: \"last_modified_date\""
+                },
+                {
+                    "source": "description: \"Retrieves the file's last modification date.\"",
+                    "target": "description: \"Retrieves the file's last modification date.\""
+                },
+                {
+                    "source": "name: \"File last modified date\"",
+                    "target": "name: \"File last modified date\""
+                },
+                {
+                    "source": "name: \"File last modified date with format\"",
+                    "target": "name: \"File last modified date with format\""
+                },
+                {
+                    "source": "name: \"move\"",
+                    "target": "name: \"move\""
+                },
+                {
+                    "source": "description: \"Moves the file to the desired vault location.\"",
+                    "target": "description: \"Moves the file to the desired vault location.\""
+                },
+                {
+                    "source": "name: \"new_path\"",
+                    "target": "name: \"new_path\""
+                },
+                {
+                    "source": "description:\n                'The new vault relative path of the file, without the file extension. Note: the new path needs to include the folder and the filename, e.g. `\"/Notes/MyNote\"`.'",
+                    "target": "description:\n                'The new vault relative path of the file, without the file extension. Note: the new path needs to include the folder and the filename, e.g. `\"/Notes/MyNote\"`.'"
+                },
+                {
+                    "source": "name: \"file_to_move\"",
+                    "target": "name: \"file_to_move\""
+                },
+                {
+                    "source": "description: \"The file to move, defaults to the current file.\"",
+                    "target": "description: \"The file to move, defaults to the current file.\""
+                },
+                {
+                    "source": "name: \"File move\"",
+                    "target": "name: \"File move\""
+                },
+                {
+                    "source": "name: \"File move and rename\"",
+                    "target": "name: \"File move and rename\""
+                },
+                {
+                    "source": "name: \"path\"",
+                    "target": "name: \"path\""
+                },
+                {
+                    "source": "description: \"Retrieves the file's absolute path on the system.\"",
+                    "target": "description: \"Retrieves the file's absolute path on the system.\""
+                },
+                {
+                    "source": "name: \"relative\"",
+                    "target": "name: \"relative\""
+                },
+                {
+                    "source": "description:\n                \"If set to `true`, only retrieves the vault's relative path.\"",
+                    "target": "description:\n                \"If set to `true`, only retrieves the vault's relative path.\""
+                },
+                {
+                    "source": "name: \"File path\"",
+                    "target": "name: \"File path\""
+                },
+                {
+                    "source": "name: \"File relative path (relative to vault root)\"",
+                    "target": "name: \"File relative path (relative to vault root)\""
+                },
+                {
+                    "source": "name: \"rename\"",
+                    "target": "name: \"rename\""
+                },
+                {
+                    "source": "description: \"Renames the file (keeps the same file extension).\"",
+                    "target": "description: \"Renames the file (keeps the same file extension).\""
+                },
+                {
+                    "source": "name: \"new_title\"",
+                    "target": "name: \"new_title\""
+                },
+                {
+                    "source": "description: \"The new file title.\"",
+                    "target": "description: \"The new file title.\""
+                },
+                {
+                    "source": "name: \"File rename\"",
+                    "target": "name: \"File rename\""
+                },
+                {
+                    "source": "name: \"selection\"",
+                    "target": "name: \"selection\""
+                },
+                {
+                    "source": "description: \"Retrieves the active file's text selection.\"",
+                    "target": "description: \"Retrieves the active file's text selection.\""
+                },
+                {
+                    "source": "name: \"File selection\"",
+                    "target": "name: \"File selection\""
+                },
+                {
+                    "source": "name: \"tags\"",
+                    "target": "name: \"tags\""
+                },
+                {
+                    "source": "description: \"Retrieves the file's tags (array of string).\"",
+                    "target": "description: \"Retrieves the file's tags (array of string).\""
+                },
+                {
+                    "source": "name: \"File tags\"",
+                    "target": "name: \"File tags\""
+                },
+                {
+                    "source": "name: \"title\"",
+                    "target": "name: \"title\""
+                },
+                {
+                    "source": "description: \"Retrieves the file's title.\"",
+                    "target": "description: \"Retrieves the file's title.\""
+                },
+                {
+                    "source": "name: \"File title\"",
+                    "target": "name: \"File title\""
+                },
+                {
+                    "source": "name: \"Strip the Zettelkasten ID of title (if space separated)\"",
+                    "target": "name: \"Strip the Zettelkasten ID of title (if space separated)\""
+                },
+                {
+                    "source": "name: \"frontmatter\"",
+                    "target": "name: \"frontmatter\""
+                },
+                {
+                    "source": "description:\n        \"This modules exposes all the frontmatter variables of a file as variables.\"",
+                    "target": "description:\n        \"This modules exposes all the frontmatter variables of a file as variables.\""
+                },
+                {
+                    "source": "name: \"hooks\"",
+                    "target": "name: \"hooks\""
+                },
+                {
+                    "source": "description:\n        \"This module exposes hooks that allow you to execute code when a Templater event occurs.\"",
+                    "target": "description:\n        \"This module exposes hooks that allow you to execute code when a Templater event occurs.\""
+                },
+                {
+                    "source": "name: \"on_all_templates_executed\"",
+                    "target": "name: \"on_all_templates_executed\""
+                },
+                {
+                    "source": "name: \"callback_function\"",
+                    "target": "name: \"callback_function\""
+                },
+                {
+                    "source": "description:\n                \"Callback function that will be executed when all actively running templates have finished executing.\"",
+                    "target": "description:\n                \"Callback function that will be executed when all actively running templates have finished executing.\""
+                },
+                {
+                    "source": "name: \"obsidian\"",
+                    "target": "name: \"obsidian\""
+                },
+                {
+                    "source": "description:\n        \"This module exposes all the functions and classes from the Obsidian API.\"",
+                    "target": "description:\n        \"This module exposes all the functions and classes from the Obsidian API.\""
+                },
+                {
+                    "source": "name: \"system\"",
+                    "target": "name: \"system\""
+                },
+                {
+                    "source": "description: \"This module contains system related functions.\"",
+                    "target": "description: \"This module contains system related functions.\""
+                },
+                {
+                    "source": "name: \"clipboard\"",
+                    "target": "name: \"clipboard\""
+                },
+                {
+                    "source": "description: \"Retrieves the clipboard's content.\"",
+                    "target": "description: \"Retrieves the clipboard's content.\""
+                },
+                {
+                    "source": "name: \"Clipboard\"",
+                    "target": "name: \"Clipboard\""
+                },
+                {
+                    "source": "name: \"prompt\"",
+                    "target": "name: \"prompt\""
+                },
+                {
+                    "source": "description: \"Spawns a prompt modal and returns the user's input.\"",
+                    "target": "description: \"Spawns a prompt modal and returns the user's input.\""
+                },
+                {
+                    "source": "name: \"prompt_text\"",
+                    "target": "name: \"prompt_text\""
+                },
+                {
+                    "source": "description: \"Text placed above the input field.\"",
+                    "target": "description: \"Text placed above the input field.\""
+                },
+                {
+                    "source": "name: \"default_value\"",
+                    "target": "name: \"default_value\""
+                },
+                {
+                    "source": "description: \"A default value for the input field.\"",
+                    "target": "description: \"A default value for the input field.\""
+                },
+                {
+                    "source": "name: \"throw_on_cancel\"",
+                    "target": "name: \"throw_on_cancel\""
+                },
+                {
+                    "source": "description:\n                \"Throws an error if the prompt is canceled, instead of returning a `null` value.\"",
+                    "target": "description:\n                \"Throws an error if the prompt is canceled, instead of returning a `null` value.\""
+                },
+                {
+                    "source": "name: \"multiline\"",
+                    "target": "name: \"multiline\""
+                },
+                {
+                    "source": "description:\n                \"If set to `true`, the input field will be a multiline textarea. Defaults to `false`.\"",
+                    "target": "description:\n                \"If set to `true`, the input field will be a multiline textarea. Defaults to `false`.\""
+                },
+                {
+                    "source": "name: \"select_default_value\"",
+                    "target": "name: \"select_default_value\""
+                },
+                {
+                    "source": "description:\n                \"If set to `true`, the default value shown when the modal opens is selected, so typing replaces it. Defaults to `false`.\"",
+                    "target": "description:\n                \"If set to `true`, the default value shown when the modal opens is selected, so typing replaces it. Defaults to `false`.\""
+                },
+                {
+                    "source": "name: \"Prompt\"",
+                    "target": "name: \"Prompt\""
+                },
+                {
+                    "source": "name: \"Prompt with default value\"",
+                    "target": "name: \"Prompt with default value\""
+                },
+                {
+                    "source": "name: \"Multiline prompt\"",
+                    "target": "name: \"Multiline prompt\""
+                },
+                {
+                    "source": "name: \"Prompt with pre-selected default value\"",
+                    "target": "name: \"Prompt with pre-selected default value\""
+                },
+                {
+                    "source": "name: \"Reuse output from prompt\"",
+                    "target": "name: \"Reuse output from prompt\""
+                },
+                {
+                    "source": "name: \"suggester\"",
+                    "target": "name: \"suggester\""
+                },
+                {
+                    "source": "description:\n            \"Spawns a suggester prompt and returns the user's chosen item.\"",
+                    "target": "description:\n            \"Spawns a suggester prompt and returns the user's chosen item.\""
+                },
+                {
+                    "source": "name: \"text_items\"",
+                    "target": "name: \"text_items\""
+                },
+                {
+                    "source": "description:\n                \"Array of strings representing the text that will be displayed for each item in the suggester prompt. This can also be a function that maps an item to its text representation.\"",
+                    "target": "description:\n                \"Array of strings representing the text that will be displayed for each item in the suggester prompt. This can also be a function that maps an item to its text representation.\""
+                },
+                {
+                    "source": "name: \"items\"",
+                    "target": "name: \"items\""
+                },
+                {
+                    "source": "description:\n                \"Array containing the values of each item in the correct order.\"",
+                    "target": "description:\n                \"Array containing the values of each item in the correct order.\""
+                },
+                {
+                    "source": "name: \"placeholder\"",
+                    "target": "name: \"placeholder\""
+                },
+                {
+                    "source": "description: \"Placeholder string of the prompt.\"",
+                    "target": "description: \"Placeholder string of the prompt.\""
+                },
+                {
+                    "source": "name: \"limit\"",
+                    "target": "name: \"limit\""
+                },
+                {
+                    "source": "description:\n                \"Limit the number of items rendered at once (useful to improve performance when displaying large lists).\"",
+                    "target": "description:\n                \"Limit the number of items rendered at once (useful to improve performance when displaying large lists).\""
+                },
+                {
+                    "source": "description: \"Default value to initialize the suggester with.\"",
+                    "target": "description: \"Default value to initialize the suggester with.\""
+                },
+                {
+                    "source": "name: \"Suggester\"",
+                    "target": "name: \"Suggester\""
+                },
+                {
+                    "source": "name: \"Suggester with mapping function (same as above example)\"",
+                    "target": "name: \"Suggester with mapping function (same as above example)\""
+                },
+                {
+                    "source": "name: \"Suggester for files\"",
+                    "target": "name: \"Suggester for files\""
+                },
+                {
+                    "source": "name: \"Suggester for tags\"",
+                    "target": "name: \"Suggester for tags\""
+                },
+                {
+                    "source": "name: \"Reuse value from suggester\"",
+                    "target": "name: \"Reuse value from suggester\""
+                },
+                {
+                    "source": "name: \"Default value for the suggester\"",
+                    "target": "name: \"Default value for the suggester\""
+                },
+                {
+                    "source": "name: \"multi_suggester\"",
+                    "target": "name: \"multi_suggester\""
+                },
+                {
+                    "source": "description:\n            \"Spawns a suggester prompt that supports selecting multiple items and returns the user's chosen items.\"",
+                    "target": "description:\n            \"Spawns a suggester prompt that supports selecting multiple items and returns the user's chosen items.\""
+                },
+                {
+                    "source": "description: \"Text placed at the top of the modal.\"",
+                    "target": "description: \"Text placed at the top of the modal.\""
+                },
+                {
+                    "source": "name: \"default_values\"",
+                    "target": "name: \"default_values\""
+                },
+                {
+                    "source": "description: \"Default values to initialize the suggester with.\"",
+                    "target": "description: \"Default values to initialize the suggester with.\""
+                },
+                {
+                    "source": "name: \"Multi-suggester\"",
+                    "target": "name: \"Multi-suggester\""
+                },
+                {
+                    "source": "name: \"Multi-suggester with mapping function (same as above example)\"",
+                    "target": "name: \"Multi-suggester with mapping function (same as above example)\""
+                },
+                {
+                    "source": "name: \"Multi-suggester for files\"",
+                    "target": "name: \"Multi-suggester for files\""
+                },
+                {
+                    "source": "name: \"Multi-suggester for tags\"",
+                    "target": "name: \"Multi-suggester for tags\""
+                },
+                {
+                    "source": "name: \"Reuse value from multi-suggester\"",
+                    "target": "name: \"Reuse value from multi-suggester\""
+                },
+                {
+                    "source": "name: \"web\"",
+                    "target": "name: \"web\""
+                },
+                {
+                    "source": "description:\n        \"This modules contains every internal function related to the web (making web requests).\"",
+                    "target": "description:\n        \"This modules contains every internal function related to the web (making web requests).\""
+                },
+                {
+                    "source": "name: \"daily_quote\"",
+                    "target": "name: \"daily_quote\""
+                },
+                {
+                    "source": "name: \"language\"",
+                    "target": "name: \"language\""
+                },
+                {
+                    "source": "name: \"Daily quote\"",
+                    "target": "name: \"Daily quote\""
+                },
+                {
+                    "source": "name: \"Daily quote in Spanish\"",
+                    "target": "name: \"Daily quote in Spanish\""
+                },
+                {
+                    "source": "name: \"random_picture\"",
+                    "target": "name: \"random_picture\""
+                },
+                {
+                    "source": "description: \"Gets a random image from `https://unsplash.com/`.\"",
+                    "target": "description: \"Gets a random image from `https://unsplash.com/`.\""
+                },
+                {
+                    "source": "name: \"size\"",
+                    "target": "name: \"size\""
+                },
+                {
+                    "source": "description: \"Image size in the format `<width>x<height>`.\"",
+                    "target": "description: \"Image size in the format `<width>x<height>`.\""
+                },
+                {
+                    "source": "name: \"query\"",
+                    "target": "name: \"query\""
+                },
+                {
+                    "source": "description:\n                \"Limits selection to photos matching a search term. Multiple search terms can be passed separated by a comma.\"",
+                    "target": "description:\n                \"Limits selection to photos matching a search term. Multiple search terms can be passed separated by a comma.\""
+                },
+                {
+                    "source": "name: \"include_size\"",
+                    "target": "name: \"include_size\""
+                },
+                {
+                    "source": "description:\n                \"Optional argument to include the specified size in the image link markdown. Defaults to false.\"",
+                    "target": "description:\n                \"Optional argument to include the specified size in the image link markdown. Defaults to false.\""
+                },
+                {
+                    "source": "name: \"Random picture\"",
+                    "target": "name: \"Random picture\""
+                },
+                {
+                    "source": "name: \"Random picture with size\"",
+                    "target": "name: \"Random picture with size\""
+                },
+                {
+                    "source": "name: \"Random picture with size and query\"",
+                    "target": "name: \"Random picture with size and query\""
+                },
+                {
+                    "source": "name: \"request\"",
+                    "target": "name: \"request\""
+                },
+                {
+                    "source": "description:\n            \"Makes a HTTP request to the specified URL. Optionally, you can specify a path to extract specific data from the response.\"",
+                    "target": "description:\n            \"Makes a HTTP request to the specified URL. Optionally, you can specify a path to extract specific data from the response.\""
+                },
+                {
+                    "source": "name: \"url\"",
+                    "target": "name: \"url\""
+                },
+                {
+                    "source": "description: \"The URL to which the HTTP request will be made.\"",
+                    "target": "description: \"The URL to which the HTTP request will be made.\""
+                },
+                {
+                    "source": "description:\n                \"A path within the response JSON to extract specific data.\"",
+                    "target": "description:\n                \"A path within the response JSON to extract specific data.\""
+                },
+                {
+                    "source": "name: \"Simple request\"",
+                    "target": "name: \"Simple request\""
+                },
+                {
+                    "source": "name: \"Request with path\"",
+                    "target": "name: \"Request with path\""
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "text: \"Parameter list:\"",
+                    "target": "text: \"Parameter list:\""
+                },
+                {
+                    "source": "name: \"javascript\"",
+                    "target": "name: \"javascript\""
+                }
+            ]
+        }
+    }
+}

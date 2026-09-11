@@ -1,0 +1,1008 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "local-gpt",
+        "version": "1.0.0",
+        "title": "Local GPT",
+        "description": "Local GPT Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "4.2.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Hi",
+                    "target": "Hi"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to fetch community actions",
+                    "target": "Failed to fetch community actions"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load community actions",
+                    "target": "Failed to load community actions"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to read Action Palette history:",
+                    "target": "Failed to read Action Palette history:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save Action Palette history:",
+                    "target": "Failed to save Action Palette history:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error selecting provider:",
+                    "target": "Error selecting provider:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error selecting model:",
+                    "target": "Error selecting model:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error selecting creativity:",
+                    "target": "Error selecting creativity:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error selecting system prompt:",
+                    "target": "Error selecting system prompt:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error showing provider dropdown:",
+                    "target": "Error showing provider dropdown:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error showing model dropdown:",
+                    "target": "Error showing model dropdown:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error showing creativity dropdown:",
+                    "target": "Error showing creativity dropdown:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error showing system dropdown:",
+                    "target": "Error showing system dropdown:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to migrate Action Palette system prompt selection:",
+                    "target": "Failed to migrate Action Palette system prompt selection:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to clean up legacy Action Palette system prompt selection:",
+                    "target": "Failed to clean up legacy Action Palette system prompt selection:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching models:",
+                    "target": "Error fetching models:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error extracting text from PDF",
+                    "target": "Error extracting text from PDF"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in searchDocuments:",
+                    "target": "Error in searchDocuments:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing RAG:",
+                    "target": "Error processing RAG:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error checking for updates:",
+                    "target": "Error checking for updates:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "TODO: Support non-isolated groups.",
+                    "target": "TODO: Support non-isolated groups."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Optional content group not defined.",
+                    "target": "Optional content group not defined."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "The worker has been disabled.",
+                    "target": "The worker has been disabled."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Starting RAG processing",
+                    "target": "Starting RAG processing"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Passed contextLimit for context",
+                    "target": "Passed contextLimit for context"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Total length of context",
+                    "target": "Total length of context"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "font-weight: bold;",
+                    "target": "font-weight: bold;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "color: #FF4500; font-weight: bold; font-size: 1.2em;",
+                    "target": "color: #FF4500; font-weight: bold; font-size: 1.2em;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Edit",
+                    "target": "编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount",
+                    "target": "%c[svelte] lifecycle_double_unmount\n%cTried to unmount a component that was not mounted\nhttps://svelte.dev/e/lifecycle_double_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount",
+                    "target": "%c[svelte] state_proxy_unmount\n%cTried to unmount a state proxy, rather than a component\nhttps://svelte.dev/e/state_proxy_unmount"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "%c[svelte] svelte_boundary_reset_noop\n%cA \\`<svelte:boundary>\\` \\`reset\\` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop",
+                    "target": "%c[svelte] svelte_boundary_reset_noop\n%cA \\`<svelte:boundary>\\` \\`reset\\` function only resets the boundary the first time it is called\nhttps://svelte.dev/e/svelte_boundary_reset_noop"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to hydrate: ",
+                    "target": "Failed to hydrate: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "getPdfFilenameFromUrl: ignore \"data:\"-URL for performance reasons.",
+                    "target": "getPdfFilenameFromUrl: ignore \"data:\"-URL for performance reasons."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Load test font never loaded.",
+                    "target": "Load test font never loaded."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "LoopbackPort - cannot use an `aborted` signal.",
+                    "target": "LoopbackPort - cannot use an `aborted` signal."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "#createUrl: ignore \"data:\"-URL for performance reasons.",
+                    "target": "#createUrl: ignore \"data:\"-URL for performance reasons."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cannot polyfill `DOMMatrix`, rendering may be broken.",
+                    "target": "Cannot polyfill `DOMMatrix`, rendering may be broken."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cannot polyfill `ImageData`, rendering may be broken.",
+                    "target": "Cannot polyfill `ImageData`, rendering may be broken."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cannot polyfill `Path2D`, rendering may be broken.",
+                    "target": "Cannot polyfill `Path2D`, rendering may be broken."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Knockout groups not supported.",
+                    "target": "Knockout groups not supported."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dependent image isn't ready yet",
+                    "target": "Dependent image isn't ready yet"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Missing or invalid \"Content-Range\" header.",
+                    "target": "Missing or invalid \"Content-Range\" header."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Ignoring additional textDivs for performance reasons.",
+                    "target": "Ignoring additional textDivs for performance reasons."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Enable the `dom.textMetrics.fontBoundingBox.enabled` preference in `about:config` to improve TextLayer rendering.",
+                    "target": "Enable the `dom.textMetrics.fontBoundingBox.enabled` preference in `about:config` to improve TextLayer rendering."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Setting up fake worker.",
+                    "target": "Setting up fake worker."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "saveDocument called while `annotationStorage` is empty, please use the getData-method instead.",
+                    "target": "saveDocument called while `annotationStorage` is empty, please use the getData-method instead."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unimplemented border style: beveled",
+                    "target": "Unimplemented border style: beveled"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unimplemented border style: inset",
+                    "target": "Unimplemented border style: inset"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "_bindResetFormAction - \"resetForm\" action not supported, ensure that the \\`fieldObjects\\` parameter is provided.",
+                    "target": "_bindResetFormAction - \"resetForm\" action not supported, ensure that the \\`fieldObjects\\` parameter is provided."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "RAG retrieval is not supported by the selected provider; skipping context retrieval",
+                    "target": "RAG retrieval is not supported by the selected provider; skipping context retrieval"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "\\u{1F389} LocalGPT can finally use\ncontext from links!\nCheck the Settings!",
+                    "target": "\\u{1F389} LocalGPT can finally use\ncontext from links!\nCheck the Settings!"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "local-gpt-community-actions-status local-gpt-action-community-status local-gpt-is-installed",
+                    "target": "local-gpt-community-actions-status local-gpt-action-community-status local-gpt-is-installed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Nutzen Sie / für Befehle, @ für Dateien",
+                    "target": "Nutzen Sie / für Befehle, @ für Dateien"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Use / for commands, @ for files",
+                    "target": "Use / for commands, @ for files"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Use / para comandos, @ para archivos",
+                    "target": "Use / para comandos, @ para archivos"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Utilisez / pour les commandes, @ pour les fichiers",
+                    "target": "Utilisez / pour les commandes, @ pour les fichiers"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Usa / per i comandi, @ per i file",
+                    "target": "Usa / per i comandi, @ per i file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "コマンドには /、ファイルには @ を使用",
+                    "target": "コマンドには /、ファイルには @ を使用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "명령어는 /, 파일은 @ 사용",
+                    "target": "명령어는 /, 파일은 @ 사용"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Gebruik / voor commando's, @ voor bestanden",
+                    "target": "Gebruik / voor commando's, @ voor bestanden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Use / para comandos, @ para arquivos",
+                    "target": "Use / para comandos, @ para arquivos"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "Используйте / для команд, @ для файлов",
+                    "target": "Используйте / для команд, @ для файлов"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "hint",
+                    "source": "使用 / 输入命令，@ 引用文件",
+                    "target": "使用 / 输入命令，@ 引用文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Denke",
+                    "target": "Denke"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Thinking",
+                    "target": "Thinking"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Pensando",
+                    "target": "Pensando"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Réflexion",
+                    "target": "Réflexion"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "思考中",
+                    "target": "思考中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "생각 중",
+                    "target": "생각 중"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Denken",
+                    "target": "Denken"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Думаю",
+                    "target": "Думаю"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🪄 General help",
+                    "target": "🪄 General help"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "✍️ Continue writing",
+                    "target": "✍️ Continue writing"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🍭 Summarize",
+                    "target": "🍭 Summarize"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "📖 Fix spelling and grammar",
+                    "target": "📖 Fix spelling and grammar"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "✅ Find action items",
+                    "target": "✅ Find action items"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "🧠 New System Prompt",
+                    "target": "🧠 New System Prompt"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Aktionspalette",
+                    "target": "Aktionspalette"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Action Palette",
+                    "target": "Action Palette"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paleta de acciones",
+                    "target": "Paleta de acciones"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Palette d'actions",
+                    "target": "Palette d'actions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Tavolozza azioni",
+                    "target": "Tavolozza azioni"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "アクションパレット",
+                    "target": "アクションパレット"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "액션 팔레트",
+                    "target": "액션 팔레트"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Actiepalet",
+                    "target": "Actiepalet"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paleta de ações",
+                    "target": "Paleta de ações"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Палитра действий",
+                    "target": "Палитра действий"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "动作面板",
+                    "target": "动作面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Name: ",
+                    "target": "Name: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "filter",
+                    "target": "filter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "choose",
+                    "target": "choose"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "start",
+                    "target": "start"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "clone",
+                    "target": "clone"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "change",
+                    "target": "change"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "unchoose",
+                    "target": "unchoose"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "add",
+                    "target": "add"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "remove",
+                    "target": "remove"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "sort",
+                    "target": "sort"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "update",
+                    "target": "update"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "end",
+                    "target": "end"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "separator",
+                    "target": "separator"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "provider",
+                    "target": "provider"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "model",
+                    "target": "model"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "creativity",
+                    "target": "creativity"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "system",
+                    "target": "system"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ResetForm",
+                    "target": "ResetForm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Keystroke",
+                    "target": "Keystroke"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Ihr Prompt... | Enter: senden, Esc: abbrechen",
+                    "target": "Ihr Prompt... | Enter: senden, Esc: abbrechen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Your prompt... | Enter: send, Esc: cancel",
+                    "target": "Your prompt... | Enter: send, Esc: cancel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Tu instrucción... | Enter: enviar, Esc: cancelar",
+                    "target": "Tu instrucción... | Enter: enviar, Esc: cancelar"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Votre invite... | Entrée : envoyer, Échap : annuler",
+                    "target": "Votre invite... | Entrée : envoyer, Échap : annuler"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Il tuo prompt... | Enter: invia, Esc: annulla",
+                    "target": "Il tuo prompt... | Enter: invia, Esc: annulla"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "プロンプトを入力... | Enter: 送信, Esc: キャンセル",
+                    "target": "プロンプトを入力... | Enter: 送信, Esc: キャンセル"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "프롬프트 입력... | Enter: 전송, Esc: 취소",
+                    "target": "프롬프트 입력... | Enter: 전송, Esc: 취소"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Jouw prompt... | Enter: verzenden, Esc: annuleren",
+                    "target": "Jouw prompt... | Enter: verzenden, Esc: annuleren"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Seu prompt... | Enter: enviar, Esc: cancelar",
+                    "target": "Seu prompt... | Enter: enviar, Esc: cancelar"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Ваш промпт... | Enter: отправить, Esc: отмена",
+                    "target": "Ваш промпт... | Enter: отправить, Esc: отмена"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "您的提示... | Enter: 发送, Esc: 取消",
+                    "target": "您的提示... | Enter: 发送, Esc: 取消"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(`AI Providers compatibility check failed: ${error}`)",
+                    "target": "error(`AI Providers compatibility check failed: ${error}`)"
+                },
+                {
+                    "source": "error(\n          `GitHub API responded with ${response.status} on page ${page}`\n        )",
+                    "target": "error(\n          `GitHub API responded with ${response.status} on page ${page}`\n        )"
+                },
+                {
+                    "source": "error(\"Failed to load community actions\", error);\n    communityActionsLoaded = true;\n    setCommunityActionsStatusMessage(\"\")",
+                    "target": "error(\"Failed to load community actions\", error);\n    communityActionsLoaded = true;\n    setCommunityActionsStatusMessage(\"\")"
+                },
+                {
+                    "source": "error(\"created at\")",
+                    "target": "error(\"created at\")"
+                },
+                {
+                    "source": "error(\"updated at\")",
+                    "target": "error(\"updated at\")"
+                },
+                {
+                    "source": "error(\"traced at\")",
+                    "target": "error(\"traced at\")"
+                },
+                {
+                    "source": "error(\"Error showing system dropdown:\", error);\n  }\n  context.commit();\n}\nfunction applyProviderFilter(context) {\n  if (!context.state.allProviders.length) return;\n  const query = context.getCommandQuery(\"provider\")",
+                    "target": "error(\"Error showing system dropdown:\", error);\n  }\n  context.commit();\n}\nfunction applyProviderFilter(context) {\n  if (!context.state.allProviders.length) return;\n  const query = context.getCommandQuery(\"provider\")"
+                },
+                {
+                    "source": "setText(` `)",
+                    "target": "setText(` `)"
+                },
+                {
+                    "source": "log(\"Deprecated API usage: \" + details);\n}\nvar _regex;\nvar PDFDateString = class {\n  static toDateObject(input) {\n    if (input instanceof Date) {\n      return input;\n    }\n    if (!input || typeof input !== \"string\")",
+                    "target": "log(\"Deprecated API usage: \" + details);\n}\nvar _regex;\nvar PDFDateString = class {\n  static toDateObject(input) {\n    if (input instanceof Date) {\n      return input;\n    }\n    if (!input || typeof input !== \"string\")"
+                },
+                {
+                    "source": "log(\"getPageIndex\",[i])}catch(o){it(`_getPageIndex -- not a valid page reference: \"${o}\".`)}if(a.has(\"Kids\")",
+                    "target": "log(\"getPageIndex\",[i])}catch(o){it(`_getPageIndex -- not a valid page reference: \"${o}\".`)}if(a.has(\"Kids\")"
+                },
+                {
+                    "source": "error(\"Error in searchDocuments:\", error);\n    }\n    return \"\";\n  }\n}\nfunction isRetrieveNotImplementedError(error) {\n  if (!error || typeof error !== \"object\")",
+                    "target": "error(\"Error in searchDocuments:\", error);\n    }\n    return \"\";\n  }\n}\nfunction isRetrieveNotImplementedError(error) {\n  if (!error || typeof error !== \"object\")"
+                },
+                {
+                    "source": "name: \"Aktionspalette\"",
+                    "target": "name: \"Aktionspalette\""
+                },
+                {
+                    "source": "name: \"Action Palette\"",
+                    "target": "name: \"Action Palette\""
+                },
+                {
+                    "source": "name: \"Paleta de acciones\"",
+                    "target": "name: \"Paleta de acciones\""
+                },
+                {
+                    "source": "name: \"Palette d'actions\"",
+                    "target": "name: \"Palette d'actions\""
+                },
+                {
+                    "source": "name: \"Tavolozza azioni\"",
+                    "target": "name: \"Tavolozza azioni\""
+                },
+                {
+                    "source": "name: \"Actiepalet\"",
+                    "target": "name: \"Actiepalet\""
+                },
+                {
+                    "source": "name: \"Name: \"",
+                    "target": "name: \"Name: \""
+                },
+                {
+                    "source": "text: `${label}: `",
+                    "target": "text: `${label}: `"
+                },
+                {
+                    "source": "name : \"\"",
+                    "target": "name : \"\""
+                },
+                {
+                    "source": "name: \"filter\"",
+                    "target": "name: \"filter\""
+                },
+                {
+                    "source": "name: \"choose\"",
+                    "target": "name: \"choose\""
+                },
+                {
+                    "source": "name: \"start\"",
+                    "target": "name: \"start\""
+                },
+                {
+                    "source": "name: \"clone\"",
+                    "target": "name: \"clone\""
+                },
+                {
+                    "source": "name: \"change\"",
+                    "target": "name: \"change\""
+                },
+                {
+                    "source": "name: \"unchoose\"",
+                    "target": "name: \"unchoose\""
+                },
+                {
+                    "source": "name: \"add\"",
+                    "target": "name: \"add\""
+                },
+                {
+                    "source": "name: \"remove\"",
+                    "target": "name: \"remove\""
+                },
+                {
+                    "source": "name: \"sort\"",
+                    "target": "name: \"sort\""
+                },
+                {
+                    "source": "name: \"update\"",
+                    "target": "name: \"update\""
+                },
+                {
+                    "source": "name: \"end\"",
+                    "target": "name: \"end\""
+                },
+                {
+                    "source": "name: \"\"",
+                    "target": "name: \"\""
+                },
+                {
+                    "source": "name: \"separator\"",
+                    "target": "name: \"separator\""
+                },
+                {
+                    "source": "textContent = \"\"",
+                    "target": "textContent = \"\""
+                },
+                {
+                    "source": "name = \"Svelte error\"",
+                    "target": "name = \"Svelte error\""
+                },
+                {
+                    "source": "name: \"provider\"",
+                    "target": "name: \"provider\""
+                },
+                {
+                    "source": "name: \"model\"",
+                    "target": "name: \"model\""
+                },
+                {
+                    "source": "name: \"creativity\"",
+                    "target": "name: \"creativity\""
+                },
+                {
+                    "source": "name: \"system\"",
+                    "target": "name: \"system\""
+                },
+                {
+                    "source": "textContent: \"\"",
+                    "target": "textContent: \"\""
+                },
+                {
+                    "source": "name = \"[\"",
+                    "target": "name = \"[\""
+                },
+                {
+                    "source": "name = \"get \"",
+                    "target": "name = \"get \""
+                },
+                {
+                    "source": "name = \"set \"",
+                    "target": "name = \"set \""
+                },
+                {
+                    "source": "name = `${attributes.name}-${intent}`",
+                    "target": "name = `${attributes.name}-${intent}`"
+                },
+                {
+                    "source": "name = \"document.pdf\"",
+                    "target": "name = \"document.pdf\""
+                },
+                {
+                    "source": "text: \"pdfjs-editor-remove-freetext-button\"",
+                    "target": "text: \"pdfjs-editor-remove-freetext-button\""
+                },
+                {
+                    "source": "textContent = \"Hi\"",
+                    "target": "textContent = \"Hi\""
+                },
+                {
+                    "source": "textContent = \"X\"",
+                    "target": "textContent = \"X\""
+                },
+                {
+                    "source": "name = \"GetMetadata\"",
+                    "target": "name = \"GetMetadata\""
+                },
+                {
+                    "source": "text: \"pdfjs-editor-color-picker-free-text-input\"",
+                    "target": "text: \"pdfjs-editor-color-picker-free-text-input\""
+                },
+                {
+                    "source": "name: \"ResetForm\"",
+                    "target": "name: \"ResetForm\""
+                },
+                {
+                    "source": "name: \"Keystroke\"",
+                    "target": "name: \"Keystroke\""
+                },
+                {
+                    "source": "name: \"div\"",
+                    "target": "name: \"div\""
+                },
+                {
+                    "source": "name: \"p\"",
+                    "target": "name: \"p\""
+                },
+                {
+                    "source": "name: \"span\"",
+                    "target": "name: \"span\""
+                },
+                {
+                    "source": "name: \"freeTextEditor\"",
+                    "target": "name: \"freeTextEditor\""
+                },
+                {
+                    "source": "name: \"highlightEditor\"",
+                    "target": "name: \"highlightEditor\""
+                },
+                {
+                    "source": "name: \"inkEditor\"",
+                    "target": "name: \"inkEditor\""
+                },
+                {
+                    "source": "name: \"signatureEditor\"",
+                    "target": "name: \"signatureEditor\""
+                },
+                {
+                    "source": "description: \"\"",
+                    "target": "description: \"\""
+                },
+                {
+                    "source": "name: \"stampEditor\"",
+                    "target": "name: \"stampEditor\""
+                },
+                {
+                    "source": "name: \"altText\"",
+                    "target": "name: \"altText\""
+                },
+                {
+                    "source": "name: \"+t);if(!e)throw new Error(\"",
+                    "target": "name: \"+t);if(!e)throw new Error(\""
+                },
+                {
+                    "source": "page: \"${d}\"",
+                    "target": "page: \"${d}\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "heading-view",
+        "version": "1.0.0",
+        "title": "Heading View",
+        "description": "Heading View Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": []
+        }
+    }
+}

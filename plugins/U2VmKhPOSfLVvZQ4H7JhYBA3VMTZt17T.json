@@ -1,0 +1,562 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "chinese-novel-assistant",
+        "version": "1.0.0",
+        "title": "小说写作助手",
+        "description": "小说写作助手 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.11",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "all",
+                    "target": "all"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "first",
+                    "target": "first"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "double",
+                    "target": "double"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "dotted",
+                    "target": "dotted"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "dashed",
+                    "target": "dashed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "solid",
+                    "target": "solid"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "none",
+                    "target": "none"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "bold",
+                    "target": "bold"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "normal",
+                    "target": "normal"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "italic",
+                    "target": "italic"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "创建按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "创建输入框"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "创建图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "canvas",
+                    "target": "创建画布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to create novel library structure.",
+                    "target": "[Chinese Novel Assistant] 创建小说库结构失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to load sticky notes.",
+                    "target": "[Chinese Novel Assistant] 加载便签失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to load sticky note file.",
+                    "target": "[Chinese Novel Assistant] 加载便签文件失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to save sticky note.",
+                    "target": "[Chinese Novel Assistant] 保存便签失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to delete sticky note.",
+                    "target": "[Chinese Novel Assistant] 删除便签失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to create sticky note.",
+                    "target": "[Chinese Novel Assistant] 创建便签失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to remap sticky note color.",
+                    "target": "[Chinese Novel Assistant] 无法重置粘性笔记颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to load annotations.",
+                    "target": "[Chinese Novel Assistant] 无法加载注释。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to load annotation file.",
+                    "target": "[Chinese Novel Assistant] 无法加载注释文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to save annotation.",
+                    "target": "[Chinese Novel Assistant] 无法保存注释。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to delete annotation.",
+                    "target": "[Chinese Novel Assistant] 无法删除注释。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to notify annotation locate flash listener.",
+                    "target": "[Chinese Novel Assistant] 无法通知注释定位闪光监听器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to notify annotation created listener.",
+                    "target": "[Chinese Novel Assistant] 无法通知注释创建监听器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to create annotation.",
+                    "target": "[Chinese Novel Assistant] 无法创建注释。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to map annotation anchors.",
+                    "target": "[Chinese Novel Assistant] 无法映射注释锚点。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to persist annotation anchors.",
+                    "target": "[Chinese Novel Assistant] 无法持久化注释锚点。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to load annotation anchors.",
+                    "target": "[Chinese Novel Assistant] 加载注释锚点失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to migrate annotation file.",
+                    "target": "[Chinese Novel Assistant] 迁移注释文件失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to delete annotation file.",
+                    "target": "[Chinese Novel Assistant] 删除注释文件失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to reload annotation anchors.",
+                    "target": "[Chinese Novel Assistant] 重新加载注释锚点失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to load timeline cards.",
+                    "target": "[Chinese Novel Assistant] 加载时间线卡片失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to load timeline file.",
+                    "target": "[Chinese Novel Assistant] 加载时间线文件失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to save timeline card.",
+                    "target": "[Chinese Novel Assistant] 保存时间线卡片失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to delete timeline card.",
+                    "target": "[Chinese Novel Assistant] 删除时间线卡片失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to reorder timeline cards.",
+                    "target": "[Chinese Novel Assistant] 重新排序时间线卡片失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to create timeline card.",
+                    "target": "[Chinese Novel Assistant] 创建时间线卡片失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to insert timeline card.",
+                    "target": "[Chinese Novel Assistant] 插入时间线卡片失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to delete floating sticky note.",
+                    "target": "[Chinese Novel Assistant] 删除浮动便签失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to save floating sticky note.",
+                    "target": "[Chinese Novel Assistant] 保存浮动便签失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to create annotation via command.",
+                    "target": "[Chinese Novel Assistant] 通过命令创建批注失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to create next chapter file.",
+                    "target": "[Chinese Novel Assistant] 创建下一章文件失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to parse proofread dictionary file.",
+                    "target": "[Chinese Novel Assistant] 解析校对字典文件失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to rebuild proofread dictionary cache.",
+                    "target": "[Chinese Novel Assistant] 重建校对字典缓存失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Novel Assistant] Failed to read snippet file.",
+                    "target": "[Chinese Novel Assistant] 读取片段文件失败。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "annotation",
+                    "source": "批注库",
+                    "target": "批注库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "mod-cta cna-text-input-modal__button",
+                    "target": "mod-cta cna-text-input-modal__button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-sticky-note-card__time-pin is-hidden",
+                    "target": "cna-sticky-note-card__time-pin is-hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-sticky-note-card__action-button cna-sticky-note-card__action-button--float",
+                    "target": "cna-sticky-note-card__action-button cna-sticky-note-card__action-button--float"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-sticky-note-card__surface cna-sticky-note-card__surface-display markdown-rendered",
+                    "target": "cna-sticky-note-card__surface cna-sticky-note-card__surface-display markdown-rendered"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-sticky-note-card__surface cna-sticky-note-card__surface-editor cna-sticky-note-card__tags-editor",
+                    "target": "cna-sticky-note-card__surface cna-sticky-note-card__surface-editor cna-sticky-note-card__tags-editor"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-tab-list cna-tab-list--search",
+                    "target": "cna-tab-list cna-tab-list--search"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-tab-panel cna-tab-panel--search",
+                    "target": "cna-tab-panel cna-tab-panel--search"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-annotation-card__title cna-annotation-card__title-display",
+                    "target": "cna-annotation-card__title cna-annotation-card__title-display"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-annotation-card__surface cna-annotation-card__surface-display markdown-rendered cna-annotation-card__content-display",
+                    "target": "cna-annotation-card__surface cna-annotation-card__surface-display markdown-rendered cna-annotation-card__content-display"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-right-sidebar-guidebook__toggle-button cna-right-sidebar-guidebook__toggle-button--placeholder",
+                    "target": "cna-right-sidebar-guidebook__toggle-button cna-right-sidebar-guidebook__toggle-button--placeholder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-right-sidebar-annotation__sort-button cna-annotation-filter-button",
+                    "target": "cna-right-sidebar-annotation__sort-button cna-annotation-filter-button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-timeline-row__time-editor-wrap is-hidden",
+                    "target": "cna-timeline-row__time-editor-wrap is-hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-timeline-card__title cna-timeline-card__title-display",
+                    "target": "cna-timeline-card__title cna-timeline-card__title-display"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-timeline-card__title-editor-wrap is-hidden",
+                    "target": "cna-timeline-card__title-editor-wrap is-hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-timeline-card__title-editor is-hidden",
+                    "target": "cna-timeline-card__title-editor is-hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-timeline-card__surface cna-timeline-card__surface-display markdown-rendered cna-timeline-card__content-display",
+                    "target": "cna-timeline-card__surface cna-timeline-card__surface-display markdown-rendered cna-timeline-card__content-display"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-right-sidebar-timeline__sort-button cna-timeline-filter-button",
+                    "target": "cna-right-sidebar-timeline__sort-button cna-timeline-filter-button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-guidebook-tree__branch cna-guidebook-tree__branch--file",
+                    "target": "cna-guidebook-tree__branch cna-guidebook-tree__branch--file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-guidebook-tree__branch cna-guidebook-tree__branch--h1",
+                    "target": "cna-guidebook-tree__branch cna-guidebook-tree__branch--h1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-guidebook-tree__row cna-guidebook-tree__row--h2",
+                    "target": "cna-guidebook-tree__row cna-guidebook-tree__row--h2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cna-guidebook-tree__row-toggle cna-guidebook-tree__row-toggle--placeholder",
+                    "target": "cna-guidebook-tree__row-toggle cna-guidebook-tree__row-toggle--placeholder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "menu cna-text-menu-category-panel",
+                    "target": "menu cna-text-menu-category-panel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "search",
+                    "target": "search"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to create novel library structure.\",g),new et.Notice(n.t(\"settings.global.novel_library.create_subdirs_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to create novel library structure.\",g),new et.Notice(n.t(\"settings.global.novel_library.create_subdirs_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to load sticky notes.\",f),new Kn.Notice(o.t(\"feature.sticky_note.notice.load_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to load sticky notes.\",f),new Kn.Notice(o.t(\"feature.sticky_note.notice.load_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to load sticky note file.\",m)}},g=async w=>{try{await t.saveCard(w)}catch(f){if(n)return;console.error(\"[Chinese Novel Assistant] Failed to save sticky note.\",f),new Kn.Notice(o.t(\"feature.sticky_note.notice.save_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to load sticky note file.\",m)}},g=async w=>{try{await t.saveCard(w)}catch(f){if(n)return;console.error(\"[Chinese Novel Assistant] Failed to save sticky note.\",f),new Kn.Notice(o.t(\"feature.sticky_note.notice.save_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to delete sticky note.\",f),new Kn.Notice(o.t(\"feature.sticky_note.notice.delete_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to delete sticky note.\",f),new Kn.Notice(o.t(\"feature.sticky_note.notice.delete_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to create sticky note.\",C),new me.Notice(e.t(\"command.sticky_note.create.failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to create sticky note.\",C),new me.Notice(e.t(\"command.sticky_note.create.failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to load annotations.\",v),new Jt.Notice(o.t(\"feature.annotation.notice.load_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to load annotations.\",v),new Jt.Notice(o.t(\"feature.annotation.notice.load_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to load annotation file.\",x),new Jt.Notice(o.t(\"feature.annotation.notice.load_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to load annotation file.\",x),new Jt.Notice(o.t(\"feature.annotation.notice.load_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to save annotation.\",v),new Jt.Notice(o.t(\"feature.annotation.notice.save_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to save annotation.\",v),new Jt.Notice(o.t(\"feature.annotation.notice.save_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to delete annotation.\",v),new Jt.Notice(o.t(\"feature.annotation.notice.delete_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to delete annotation.\",v),new Jt.Notice(o.t(\"feature.annotation.notice.delete_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to create annotation.\",i),new Ie.Notice(this.ctx.t(\"feature.annotation.notice.create_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to create annotation.\",i),new Ie.Notice(this.ctx.t(\"feature.annotation.notice.create_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to load timeline cards.\",A),new st.Notice(o.t(\"feature.timeline.notice.load_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to load timeline cards.\",A),new st.Notice(o.t(\"feature.timeline.notice.load_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to load timeline file.\",G),new st.Notice(o.t(\"feature.timeline.notice.load_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to load timeline file.\",G),new st.Notice(o.t(\"feature.timeline.notice.load_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to save timeline card.\",A),new st.Notice(o.t(\"feature.timeline.notice.save_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to save timeline card.\",A),new st.Notice(o.t(\"feature.timeline.notice.save_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to delete timeline card.\",A),new st.Notice(o.t(\"feature.timeline.notice.delete_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to delete timeline card.\",A),new st.Notice(o.t(\"feature.timeline.notice.delete_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to reorder timeline cards.\",X),n||(new st.Notice(o.t(\"feature.timeline.notice.reorder_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to reorder timeline cards.\",X),n||(new st.Notice(o.t(\"feature.timeline.notice.reorder_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to create timeline card.\",A),new st.Notice(o.t(\"feature.timeline.notice.create_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to create timeline card.\",A),new st.Notice(o.t(\"feature.timeline.notice.create_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to insert timeline card.\",G),new st.Notice(o.t(\"feature.timeline.notice.create_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to insert timeline card.\",G),new st.Notice(o.t(\"feature.timeline.notice.create_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to delete floating sticky note.\",t),new lt.Notice(this.ctx.t(\"feature.sticky_note.notice.delete_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to delete floating sticky note.\",t),new lt.Notice(this.ctx.t(\"feature.sticky_note.notice.delete_failed\")"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to save floating sticky note.\",t),new lt.Notice(this.ctx.t(\"feature.sticky_note.notice.save_failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to save floating sticky note.\",t),new lt.Notice(this.ctx.t(\"feature.sticky_note.notice.save_failed\")"
+                },
+                {
+                    "source": "setText(`${d}${e} / ${a}${e}`)",
+                    "target": "setText(`${d}${e} / ${a}${e}`)"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to create annotation via command.\",s),new qe.Notice(o.t(\"command.annotation.create.failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to create annotation via command.\",s),new qe.Notice(o.t(\"command.annotation.create.failed\")"
+                },
+                {
+                    "source": "Notice(`${o.t(\"command.proofread.fix_punctuation_errors.done\")} ${s}`)",
+                    "target": "Notice(`${o.t(\"command.proofread.fix_punctuation_errors.done\")} ${s}`)"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to rebuild proofread dictionary cache.\",a),new Qe.Notice(o.t(\"command.proofread.fix_proofread_dict_errors.failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to rebuild proofread dictionary cache.\",a),new Qe.Notice(o.t(\"command.proofread.fix_proofread_dict_errors.failed\")"
+                },
+                {
+                    "source": "Notice(`${o.t(\"command.proofread.fix_proofread_dict_errors.done\")} ${r.replacedCount}`)",
+                    "target": "Notice(`${o.t(\"command.proofread.fix_proofread_dict_errors.done\")} ${r.replacedCount}`)"
+                },
+                {
+                    "source": "Notice(`${o.t(\"command.sticky_note.create.done\")} ${s.basename}`)",
+                    "target": "Notice(`${o.t(\"command.sticky_note.create.done\")} ${s.basename}`)"
+                },
+                {
+                    "source": "error(\"[Chinese Novel Assistant] Failed to create sticky note.\",i),new gn.Notice(o.t(\"command.sticky_note.create.failed\")",
+                    "target": "error(\"[Chinese Novel Assistant] Failed to create sticky note.\",i),new gn.Notice(o.t(\"command.sticky_note.create.failed\")"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,462 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "deepl-translate-selection",
+        "version": "1.0.0",
+        "title": "DeepL Translate Selection",
+        "description": "DeepL Translate Selection Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "deepseek",
+                    "target": "deepseek"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "DeepSeek / OpenAI compatible",
+                    "target": "DeepSeek / OpenAI compatible"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "deepl",
+                    "target": "deepl"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "DeepL",
+                    "target": "DeepL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Quality optimized",
+                    "target": "Quality optimized"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "English",
+                    "target": "English"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ZH",
+                    "target": "ZH"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Chinese",
+                    "target": "Chinese"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the translation engine to use.",
+                    "target": "Choose the translation engine to use."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Stored in this vault's plugin data. Keys ending in :fx use the free endpoint automatically.",
+                    "target": "Stored in this vault's plugin data. Keys ending in :fx use the free endpoint automatically."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pinned to quality_optimized for v1.",
+                    "target": "Pinned to quality_optimized for v1."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Your DeepSeek or OpenAI-compatible API key.",
+                    "target": "Your DeepSeek or OpenAI-compatible API key."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Model identifier (e.g. deepseek-v4-flash, gpt-4o).",
+                    "target": "Model identifier (e.g. deepseek-v4-flash, gpt-4o)."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Lower values produce more consistent translations (0.0–2.0). Recommended: 0.3.",
+                    "target": "Lower values produce more consistent translations (0.0–2.0). Recommended: 0.3."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "DeepSeek or any OpenAI-compatible endpoint.",
+                    "target": "DeepSeek or any OpenAI-compatible endpoint."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Override the built-in translation prompt. Use {{targetLang}} as a placeholder for the target language. Leave empty to use the default.",
+                    "target": "Override the built-in translation prompt. Use {{targetLang}} as a placeholder for the target language. Leave empty to use the default."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How long to wait before failing the request.",
+                    "target": "How long to wait before failing the request."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Used when the source language cannot be detected automatically.",
+                    "target": "Used when the source language cannot be detected automatically."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Translation provider",
+                    "target": "Translation provider"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "DeepL",
+                    "target": "DeepL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key",
+                    "target": "API key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model type",
+                    "target": "Model type"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "DeepSeek / OpenAI compatible",
+                    "target": "DeepSeek / OpenAI compatible"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model",
+                    "target": "Model"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Temperature",
+                    "target": "Temperature"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API base URL",
+                    "target": "API base URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom system prompt",
+                    "target": "Custom system prompt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Common",
+                    "target": "Common"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Request timeout (ms)",
+                    "target": "Request timeout (ms)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fallback target language",
+                    "target": "Fallback target language"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Paste your DeepL API key",
+                    "target": "Paste your DeepL API key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Paste your API key",
+                    "target": "Paste your API key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Leave empty to use the built-in prompt",
+                    "target": "Leave empty to use the built-in prompt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Translate",
+                    "target": "Translate"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Translation ready.",
+                    "target": "Translation ready."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Translate",
+                    "target": "Translate"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select some text first.",
+                    "target": "Select some text first."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "API key is not configured.",
+                    "target": "API key is not configured."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Inserted translation below the selection.",
+                    "target": "Inserted translation below the selection."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Replaced the selected text with the translation.",
+                    "target": "Replaced the selected text with the translation."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Translation copied to clipboard.",
+                    "target": "Translation copied to clipboard."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not copy the translation to the clipboard.",
+                    "target": "Could not copy the translation to the clipboard."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translate selection",
+                    "target": "Translate selection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Insert below",
+                    "target": "Insert below"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Replace selection",
+                    "target": "Replace selection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Copy",
+                    "target": "Copy"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel",
+                    "target": "Cancel"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Select some text first.\")",
+                    "target": "Notice(\"Select some text first.\")"
+                },
+                {
+                    "source": "Notice(\"API key is not configured.\")",
+                    "target": "Notice(\"API key is not configured.\")"
+                },
+                {
+                    "source": "setText(\"Translation ready.\")",
+                    "target": "setText(\"Translation ready.\")"
+                },
+                {
+                    "source": "Notice(\"Inserted translation below the selection.\")",
+                    "target": "Notice(\"Inserted translation below the selection.\")"
+                },
+                {
+                    "source": "Notice(\"Replaced the selected text with the translation.\")",
+                    "target": "Notice(\"Replaced the selected text with the translation.\")"
+                },
+                {
+                    "source": "Notice(\"Translation copied to clipboard.\")",
+                    "target": "Notice(\"Translation copied to clipboard.\")"
+                },
+                {
+                    "source": "Notice(\"Could not copy the translation to the clipboard.\")",
+                    "target": "Notice(\"Could not copy the translation to the clipboard.\")"
+                },
+                {
+                    "source": "setName(\"Translation provider\")",
+                    "target": "setName(\"Translation provider\")"
+                },
+                {
+                    "source": "setDesc(\"Choose the translation engine to use.\")",
+                    "target": "setDesc(\"Choose the translation engine to use.\")"
+                },
+                {
+                    "source": "setName(\"API key\")",
+                    "target": "setName(\"API key\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Stored in this vault's plugin data. Keys ending in :fx use the free endpoint automatically.\"\n    )",
+                    "target": "setDesc(\n      \"Stored in this vault's plugin data. Keys ending in :fx use the free endpoint automatically.\"\n    )"
+                },
+                {
+                    "source": "setPlaceholder(\"Paste your DeepL API key\")",
+                    "target": "setPlaceholder(\"Paste your DeepL API key\")"
+                },
+                {
+                    "source": "setName(\"Model type\")",
+                    "target": "setName(\"Model type\")"
+                },
+                {
+                    "source": "setDesc(\"Pinned to quality_optimized for v1.\")",
+                    "target": "setDesc(\"Pinned to quality_optimized for v1.\")"
+                },
+                {
+                    "source": "setName(\"DeepSeek / OpenAI compatible\")",
+                    "target": "setName(\"DeepSeek / OpenAI compatible\")"
+                },
+                {
+                    "source": "setDesc(\"Your DeepSeek or OpenAI-compatible API key.\")",
+                    "target": "setDesc(\"Your DeepSeek or OpenAI-compatible API key.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Paste your API key\")",
+                    "target": "setPlaceholder(\"Paste your API key\")"
+                },
+                {
+                    "source": "setDesc(\"Model identifier (e.g. deepseek-v4-flash, gpt-4o).\")",
+                    "target": "setDesc(\"Model identifier (e.g. deepseek-v4-flash, gpt-4o).\")"
+                },
+                {
+                    "source": "setName(\"API base URL\")",
+                    "target": "setName(\"API base URL\")"
+                },
+                {
+                    "source": "setDesc(\"DeepSeek or any OpenAI-compatible endpoint.\")",
+                    "target": "setDesc(\"DeepSeek or any OpenAI-compatible endpoint.\")"
+                },
+                {
+                    "source": "setName(\"Custom system prompt\")",
+                    "target": "setName(\"Custom system prompt\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Override the built-in translation prompt. Use {{targetLang}} as a placeholder for the target language. Leave empty to use the default.\"\n    )",
+                    "target": "setDesc(\n      \"Override the built-in translation prompt. Use {{targetLang}} as a placeholder for the target language. Leave empty to use the default.\"\n    )"
+                },
+                {
+                    "source": "setPlaceholder(\"Leave empty to use the built-in prompt\")",
+                    "target": "setPlaceholder(\"Leave empty to use the built-in prompt\")"
+                },
+                {
+                    "source": "setName(\"Request timeout (ms)\")",
+                    "target": "setName(\"Request timeout (ms)\")"
+                },
+                {
+                    "source": "setDesc(\"How long to wait before failing the request.\")",
+                    "target": "setDesc(\"How long to wait before failing the request.\")"
+                },
+                {
+                    "source": "setName(\"Fallback target language\")",
+                    "target": "setName(\"Fallback target language\")"
+                },
+                {
+                    "source": "setDesc(\"Used when the source language cannot be detected automatically.\")",
+                    "target": "setDesc(\"Used when the source language cannot be detected automatically.\")"
+                },
+                {
+                    "source": "name = \"DeepLError\"",
+                    "target": "name = \"DeepLError\""
+                },
+                {
+                    "source": "name: \"Translate selection\"",
+                    "target": "name: \"Translate selection\""
+                },
+                {
+                    "source": "text : \"\"",
+                    "target": "text : \"\""
+                },
+                {
+                    "source": "text =\", JSON.stringify(this._snap.text.slice(0, 80)));\n  }\n  onOpen() {\n    this.modalEl.addClass(\"",
+                    "target": "text =\", JSON.stringify(this._snap.text.slice(0, 80)));\n  }\n  onOpen() {\n    this.modalEl.addClass(\""
+                },
+                {
+                    "source": "text =\", JSON.stringify(this._snap.text.slice(0, 80)));\n    const providerLabel = this.plugin.getProviderLabel();\n    this.sourceTextArea = this.createTextAreaField(\"",
+                    "target": "text =\", JSON.stringify(this._snap.text.slice(0, 80)));\n    const providerLabel = this.plugin.getProviderLabel();\n    this.sourceTextArea = this.createTextAreaField(\""
+                },
+                {
+                    "source": "text: `Sending text to ${providerLabel}...`",
+                    "target": "text: `Sending text to ${providerLabel}...`"
+                },
+                {
+                    "source": "text: \"Insert below\"",
+                    "target": "text: \"Insert below\""
+                },
+                {
+                    "source": "text: \"Replace selection\"",
+                    "target": "text: \"Replace selection\""
+                },
+                {
+                    "source": "text: \"Copy\"",
+                    "target": "text: \"Copy\""
+                },
+                {
+                    "source": "text: \"Cancel\"",
+                    "target": "text: \"Cancel\""
+                }
+            ]
+        }
+    }
+}

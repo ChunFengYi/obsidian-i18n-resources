@@ -1,0 +1,222 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "plugin-setting-renamer",
+        "version": "1.0.0",
+        "title": "Setting Renamer",
+        "description": "Setting Renamer Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "创建分类",
+                    "target": "创建分类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "返回列表",
+                    "target": "返回列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "创建一个新的分类模块以归纳插件（不可与原生分类同名）",
+                    "target": "创建一个新的分类模块以归纳插件（不可与原生分类同名）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "提示：已在其他分类中的插件会自动隐藏。",
+                    "target": "提示：已在其他分类中的插件会自动隐藏。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "点击眼睛隐藏/显示，中间改图标，右侧改名称。可分类管理。",
+                    "target": "点击眼睛隐藏/显示，中间改图标，右侧改名称。可分类管理。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "分类名称",
+                    "target": "分类名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "修改名称",
+                    "target": "修改名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "勾选要加入此分类的插件",
+                    "target": "勾选要加入此分类的插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "⚙️ 插件名称与图标自定义",
+                    "target": "⚙️ 插件名称与图标自定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "搜索图标 (输入英文, 如 'star', 'settings')...",
+                    "target": "搜索图标 (输入英文, 如 'star', 'settings')..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入分类名称...",
+                    "target": "输入分类名称..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入想显示的...",
+                    "target": "输入想显示的..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "📁 管理插件分类",
+                    "target": "📁 管理插件分类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "修改分类名称",
+                    "target": "修改分类名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "管理分类内的插件",
+                    "target": "管理分类内的插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "删除该分类（插件将被移回原列表）",
+                    "target": "删除该分类（插件将被移回原列表）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "跳转到该面板设置",
+                    "target": "跳转到该面板设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "防呆保护：不允许隐藏本插件自身",
+                    "target": "防呆保护：不允许隐藏本插件自身"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "隐藏面板",
+                    "target": "隐藏面板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "取消隐藏",
+                    "target": "取消隐藏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "更改侧边栏图标",
+                    "target": "更改侧边栏图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "管理插件分类",
+                    "target": "管理插件分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "🔍 搜索 插件名 / 自定义名 / ID...",
+                    "target": "🔍 搜索 插件名 / 自定义名 / ID..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔄 恢复默认 (核心插件恢复原版 / 第三方不显示图标)",
+                    "target": "🔄 恢复默认 (核心插件恢复原版 / 第三方不显示图标)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✨ 新建分类",
+                    "target": "✨ 新建分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📂 现有分类 (上下拖动可排序)",
+                    "target": "📂 现有分类 (上下拖动可排序)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前没有自定义分类。上方创建后，分类会显示在此处。",
+                    "target": "当前没有自定义分类。上方创建后，分类会显示在此处。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "没有可用的插件了，其他插件都已被分配完毕。",
+                    "target": "没有可用的插件了，其他插件都已被分配完毕。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "search",
+                    "target": "search"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setDesc(`ID: ${pluginId}`)",
+                    "target": "setDesc(`ID: ${pluginId}`)"
+                }
+            ]
+        }
+    }
+}

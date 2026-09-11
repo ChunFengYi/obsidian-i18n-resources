@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "chinese-converter",
+        "version": "1.0.0",
+        "title": "简繁转换",
+        "description": "简繁转换 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请在笔记编辑视图下点击此按钮。",
+                    "target": "请在笔记编辑视图下点击此按钮。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert simplified to traditional (简体转繁体)",
+                    "target": "Convert simplified to traditional (简体转繁体)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Convert traditional to simplified (繁体转简体)",
+                    "target": "Convert traditional to simplified (繁体转简体)"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
