@@ -1,0 +1,2436 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "easy-bookkeeping",
+        "version": "1.0.0",
+        "title": "轻松记账",
+        "description": "轻松记账 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.10",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "自定义图表",
+                    "target": "自定义图表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "details",
+                    "target": "details"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "table",
+                    "target": "table"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "colgroup",
+                    "target": "colgroup"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "col",
+                    "target": "col"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "tr",
+                    "target": "tr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "thead",
+                    "target": "thead"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "th",
+                    "target": "th"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "tbody",
+                    "target": "tbody"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "td",
+                    "target": "td"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "iframe",
+                    "target": "iframe"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "记第一笔",
+                    "target": "记第一笔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "导入CSV文件",
+                    "target": "导入CSV文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "添加图表",
+                    "target": "添加图表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "完成",
+                    "target": "完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存预算",
+                    "target": "保存预算"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "添加",
+                    "target": "添加"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "清除本月校准",
+                    "target": "清除本月校准"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存账户与余额",
+                    "target": "保存账户与余额"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "应用修改",
+                    "target": "应用修改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "批量删除",
+                    "target": "批量删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "管理语言包",
+                    "target": "管理语言包"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "新增字段",
+                    "target": "新增字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "恢复默认列宽",
+                    "target": "恢复默认列宽"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "还原默认",
+                    "target": "还原默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开赞助面板",
+                    "target": "打开赞助面板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开反馈面板",
+                    "target": "打开反馈面板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开GitHub",
+                    "target": "打开GitHub"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开B站",
+                    "target": "打开B站"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开GitHub Issues",
+                    "target": "打开GitHub Issues"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "内置",
+                    "target": "内置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "仅删除配置",
+                    "target": "仅删除配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "删除并清理历史账目",
+                    "target": "删除并清理历史账目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "恢复默认",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "选择文件夹",
+                    "target": "选择文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "开始转换",
+                    "target": "开始转换"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "关闭",
+                    "target": "关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "以后再说",
+                    "target": "以后再说"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "转换现有文件",
+                    "target": "转换现有文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "清理旧字段并导入",
+                    "target": "清理旧字段并导入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "导出",
+                    "target": "导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "重命名",
+                    "target": "重命名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消重命名",
+                    "target": "取消重命名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "新建标签",
+                    "target": "新建标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "返回标签管理",
+                    "target": "返回标签管理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "仅移除标签",
+                    "target": "仅移除标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "删除相关账目",
+                    "target": "删除相关账目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "图表管理",
+                    "target": "图表管理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "删除图表",
+                    "target": "删除图表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "每行填写“分类=金额”，可使用“总预算=3000”",
+                    "target": "每行填写“分类=金额”，可使用“总预算=3000”"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅批量改为转账时使用",
+                    "target": "仅批量改为转账时使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "桌面版为全程键盘记账；手机版为完整表单记账。",
+                    "target": "桌面版为全程键盘记账；手机版为完整表单记账。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "关闭后，新建或修改账目时不允许与同日账目使用相同内容。",
+                    "target": "关闭后，新建或修改账目时不允许与同日账目使用相同内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "关闭后，新建或修改账目时内容不允许使用纯数字。",
+                    "target": "关闭后，新建或修改账目时内容不允许使用纯数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后，若金额留空则按0保存。",
+                    "target": "开启后，若金额留空则按0保存。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "内容型可以自由输入；分类型从预设中选择。",
+                    "target": "内容型可以自由输入；分类型从预设中选择。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "可设置为0-15秒，只能设置为整数。",
+                    "target": "可设置为0-15秒，只能设置为整数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅修改符号，不转换金额。",
+                    "target": "仅修改符号，不转换金额。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于仪表盘的月份选择。",
+                    "target": "用于仪表盘的月份选择。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于账目明细、汇总和图表提示。",
+                    "target": "用于账目明细、汇总和图表提示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "每行只能填写一个选项，第一行为默认录入值。",
+                    "target": "每行只能填写一个选项，第一行为默认录入值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "勾选后，CSV会包含内置字段开关、录入顺序，以及自定义字段的类型、预设选项和启用状态。",
+                    "target": "勾选后，CSV会包含内置字段开关、录入顺序，以及自定义字段的类型、预设选项和启用状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "预算项目",
+                    "target": "预算项目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图表标题",
+                    "target": "图表标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图表类型",
+                    "target": "图表类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图表宽度",
+                    "target": "图表宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "统计指标",
+                    "target": "统计指标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图表样式",
+                    "target": "图表样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "标签统计指标",
+                    "target": "标签统计指标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "标签排序",
+                    "target": "标签排序"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "日历统计指标",
+                    "target": "日历统计指标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "新增账户",
+                    "target": "新增账户"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "日期",
+                    "target": "日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "类型",
+                    "target": "类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "必要性",
+                    "target": "必要性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "账户",
+                    "target": "账户"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "转入账户",
+                    "target": "转入账户"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "分类",
+                    "target": "分类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "标签操作",
+                    "target": "标签操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "标签",
+                    "target": "标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "插件语言",
+                    "target": "插件语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "语言包管理",
+                    "target": "语言包管理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "退出后是否保存界面",
+                    "target": "退出后是否保存界面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "返回顶部按钮",
+                    "target": "返回顶部按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "记账方式",
+                    "target": "记账方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "桌面版连续记账",
+                    "target": "桌面版连续记账"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "手机版连续记账",
+                    "target": "手机版连续记账"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "手机版保存后打开仪表盘",
+                    "target": "手机版保存后打开仪表盘"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "允许内容重复",
+                    "target": "允许内容重复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "允许内容为纯数字",
+                    "target": "允许内容为纯数字"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "允许金额为空",
+                    "target": "允许金额为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "新增录入字段",
+                    "target": "新增录入字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "恢复默认列宽",
+                    "target": "恢复默认列宽"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用行内编辑",
+                    "target": "启用行内编辑"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "删除前二次确认",
+                    "target": "删除前二次确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "撤销删除时间",
+                    "target": "撤销删除时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示编辑按钮",
+                    "target": "显示编辑按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示打开Markdown按钮",
+                    "target": "显示打开Markdown按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示删除按钮",
+                    "target": "显示删除按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "货币符号",
+                    "target": "货币符号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "金额分位方式",
+                    "target": "金额分位方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "年月格式",
+                    "target": "年月格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "账目日期格式",
+                    "target": "账目日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "时间格式",
+                    "target": "时间格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "每周起始日",
+                    "target": "每周起始日"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "把算式写入备注",
+                    "target": "把算式写入备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "赞助与支持",
+                    "target": "赞助与支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "问题反馈",
+                    "target": "问题反馈"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字段名称",
+                    "target": "字段名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字段类型",
+                    "target": "字段类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "预设选项",
+                    "target": "预设选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "作者GitHub主页",
+                    "target": "作者GitHub主页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "作者B站主页",
+                    "target": "作者B站主页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认录入值",
+                    "target": "默认录入值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "分类板块",
+                    "target": "分类板块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "时间",
+                    "target": "时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "内容",
+                    "target": "内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "金额",
+                    "target": "金额"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "备注",
+                    "target": "备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "附件",
+                    "target": "附件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "来源",
+                    "target": "来源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "旧版账目位置",
+                    "target": "旧版账目位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用CSV附带的录入字段配置",
+                    "target": "启用CSV附带的录入字段配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "导出范围",
+                    "target": "导出范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "起始日期（含）",
+                    "target": "起始日期（含）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "结束日期（含）",
+                    "target": "结束日期（含）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "附带录入字段配置",
+                    "target": "附带录入字段配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "导出位置",
+                    "target": "导出位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "仓库内导出路径",
+                    "target": "仓库内导出路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文件名",
+                    "target": "文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图表内容",
+                    "target": "图表内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "编号",
+                    "target": "编号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "账户名称",
+                    "target": "账户名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "多个标签用空格分隔",
+                    "target": "多个标签用空格分隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "点击后按下快捷键",
+                    "target": "点击后按下快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "可以留空",
+                    "target": "可以留空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入日期",
+                    "target": "请输入日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入金额或算式",
+                    "target": "请输入金额或算式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入备注，可以留空",
+                    "target": "请输入备注，可以留空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "#标签1 #标签2",
+                    "target": "#标签1 #标签2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "余额必须是最多保留2位小数的数字，可以为负数",
+                    "target": "余额必须是最多保留2位小数的数字，可以为负数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "账户编号不能为空或重复",
+                    "target": "账户编号不能为空或重复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "请选择真实存在的有效日期",
+                    "target": "请选择真实存在的有效日期"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "选择标签操作后必须填写至少一个有效标签",
+                    "target": "选择标签操作后必须填写至少一个有效标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "请至少选择一项修改内容",
+                    "target": "请至少选择一项修改内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "字段名称不能为空",
+                    "target": "字段名称不能为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "字段名称不能与其他自定义字段重复",
+                    "target": "字段名称不能与其他自定义字段重复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "字段名称不能与内置Markdown属性重复",
+                    "target": "字段名称不能与内置Markdown属性重复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "分类型字段至少需要一个预设选项",
+                    "target": "分类型字段至少需要一个预设选项"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "正在清除原有账目的自定义录入字段…",
+                    "target": "正在清除原有账目的自定义录入字段…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "仪表盘图表配置",
+                    "target": "仪表盘图表配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "顶部按钮配置",
+                    "target": "顶部按钮配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "修改预算",
+                    "target": "修改预算"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "自定义图表",
+                    "target": "自定义图表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "账户与月初余额",
+                    "target": "账户与月初余额"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "批量删除账目",
+                    "target": "批量删除账目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "删除账目",
+                    "target": "删除账目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "语言包管理",
+                    "target": "语言包管理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "删除录入字段",
+                    "target": "删除录入字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "预设不存在",
+                    "target": "预设不存在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "转换旧版账目",
+                    "target": "转换旧版账目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "正在转换旧版账目",
+                    "target": "正在转换旧版账目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "同步现有账目的算式格式？",
+                    "target": "同步现有账目的算式格式？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "导入CSV账目",
+                    "target": "导入CSV账目"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "启用CSV录入字段配置",
+                    "target": "启用CSV录入字段配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "导出CSV文件",
+                    "target": "导出CSV文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "标签批量管理",
+                    "target": "标签批量管理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "删除标签",
+                    "target": "删除标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "年度统计",
+                    "target": "年度统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "年度图表管理",
+                    "target": "年度图表管理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "配置年度图表",
+                    "target": "配置年度图表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "配置仪表盘图表",
+                    "target": "配置仪表盘图表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "上移",
+                    "target": "上移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "下移",
+                    "target": "下移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "删除账户配置",
+                    "target": "删除账户配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "重置",
+                    "target": "重置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "配置",
+                    "target": "配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "12h",
+                    "source": "12小时制（06:30 PM）",
+                    "target": "12小时制（06:30 PM）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "24h",
+                    "source": "24小时制（18:30）",
+                    "target": "24小时制（18:30）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "account",
+                    "source": "账户余额",
+                    "target": "账户余额"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "add",
+                    "source": "增加标签",
+                    "target": "增加标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "amountAsc",
+                    "source": "金额从低到高",
+                    "target": "金额从低到高"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "amountDesc",
+                    "source": "金额从高到低",
+                    "target": "金额从高到低"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "area",
+                    "source": "面积图",
+                    "target": "面积图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "返回仪表盘顶部",
+                    "target": "返回仪表盘顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "选择仪表盘月份",
+                    "target": "选择仪表盘月份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "更多仪表盘操作",
+                    "target": "更多仪表盘操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "筛选账目",
+                    "target": "筛选账目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "账目分页",
+                    "target": "账目分页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "选择全部筛选结果",
+                    "target": "选择全部筛选结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "金额数值",
+                    "target": "金额数值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "添加标签",
+                    "target": "添加标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "新增标签",
+                    "target": "新增标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "选择附件",
+                    "target": "选择附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "打开Easy Bookkeeping GitHub主页",
+                    "target": "打开Easy Bookkeeping GitHub主页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "切换表头显示",
+                    "target": "切换表头显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "切换行内编辑",
+                    "target": "切换行内编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "新预设名称",
+                    "target": "新预设名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "录入编号",
+                    "target": "录入编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "预设名称",
+                    "target": "预设名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "类型名称",
+                    "target": "类型名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "计入方式",
+                    "target": "计入方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "删除类型",
+                    "target": "删除类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "必要性名称",
+                    "target": "必要性名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "删除必要性",
+                    "target": "删除必要性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "分类名称",
+                    "target": "分类名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "删除分类",
+                    "target": "删除分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "账户名称",
+                    "target": "账户名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "删除账户",
+                    "target": "删除账户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "保存重命名",
+                    "target": "保存重命名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "新建标签",
+                    "target": "新建标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "统计年份",
+                    "target": "统计年份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "auto",
+                    "source": "自动识别设备",
+                    "target": "自动识别设备"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "balance",
+                    "source": "每日余额",
+                    "target": "每日余额"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "bar",
+                    "source": "柱状图",
+                    "target": "柱状图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "budget",
+                    "source": "预算进度",
+                    "target": "预算进度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "calendar",
+                    "source": "日历收支图",
+                    "target": "日历收支图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon bookkeeping-panel-quick-action",
+                    "target": "clickable-icon bookkeeping-panel-quick-action"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon bookkeeping-panel-menu",
+                    "target": "clickable-icon bookkeeping-panel-menu"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-trend-axis bookkeeping-trend-dates",
+                    "target": "bookkeeping-trend-axis bookkeeping-trend-dates"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-filter-clear mod-warning",
+                    "target": "bookkeeping-filter-clear mod-warning"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-cross-month-filter bookkeeping-cross-month-filter-main",
+                    "target": "bookkeeping-cross-month-filter bookkeeping-cross-month-filter-main"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-filter-grid bookkeeping-filter-range-grid",
+                    "target": "bookkeeping-filter-grid bookkeeping-filter-range-grid"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-filter-field bookkeeping-value-filter-field",
+                    "target": "bookkeeping-filter-field bookkeeping-value-filter-field"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-multi-filter-option bookkeeping-filter-select-all",
+                    "target": "bookkeeping-multi-filter-option bookkeeping-filter-select-all"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-money-filter-input bookkeeping-range-input-wrap",
+                    "target": "bookkeeping-money-filter-input bookkeeping-range-input-wrap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon bookkeeping-range-clear",
+                    "target": "clickable-icon bookkeeping-range-clear"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-empty bookkeeping-empty-large",
+                    "target": "bookkeeping-empty bookkeeping-empty-large"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-cell-ellipsis bookkeeping-user-text",
+                    "target": "bookkeeping-cell-ellipsis bookkeeping-user-text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-inline-value bookkeeping-date-cell",
+                    "target": "bookkeeping-inline-value bookkeeping-date-cell"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-inline-value bookkeeping-cell-ellipsis",
+                    "target": "bookkeeping-inline-value bookkeeping-cell-ellipsis"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon mod-warning",
+                    "target": "clickable-icon mod-warning"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-modal-actions bookkeeping-balance-actions",
+                    "target": "bookkeeping-modal-actions bookkeeping-balance-actions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-attachment-chip is-pending",
+                    "target": "bookkeeping-attachment-chip is-pending"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-config-table-header bookkeeping-column-config-header",
+                    "target": "bookkeeping-config-table-header bookkeeping-column-config-header"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon bookkeeping-field-eye",
+                    "target": "clickable-icon bookkeeping-field-eye"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon mod-warning bookkeeping-field-delete",
+                    "target": "clickable-icon mod-warning bookkeeping-field-delete"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "setting-item-description mod-warning",
+                    "target": "setting-item-description mod-warning"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-tag-manager-name bookkeeping-user-text",
+                    "target": "bookkeeping-tag-manager-name bookkeeping-user-text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon bookkeeping-tag-save-rename",
+                    "target": "clickable-icon bookkeeping-tag-save-rename"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-chart-manager-row bookkeeping-annual-manager-row",
+                    "target": "bookkeeping-chart-manager-row bookkeeping-annual-manager-row"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-modal-actions bookkeeping-annual-manager-footer",
+                    "target": "bookkeeping-modal-actions bookkeeping-annual-manager-footer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "bookkeeping-modal-actions bookkeeping-annual-chart-settings-actions",
+                    "target": "bookkeeping-modal-actions bookkeeping-annual-chart-settings-actions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "count",
+                    "source": "标签账目数量",
+                    "target": "标签账目数量"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "current",
+                    "source": "保持当前筛选",
+                    "target": "保持当前筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desktop",
+                    "source": "桌面版",
+                    "target": "桌面版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Le nom {value} ne peut pas être vide",
+                    "target": "Le nom {value} ne peut pas être vide"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Название {value} не может быть пустым",
+                    "target": "Название {value} не может быть пустым"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "El nombre de {value} no puede estar vacío",
+                    "target": "El nombre de {value} no puede estar vacío"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "لا يمكن أن يكون اسم {value} فارغاً",
+                    "target": "لا يمكن أن يكون اسم {value} فارغاً"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "{value}名は空にできません",
+                    "target": "{value}名は空にできません"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "{value} 이름은 비워 둘 수 없습니다",
+                    "target": "{value} 이름은 비워 둘 수 없습니다"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Der Name für {value} darf nicht leer sein",
+                    "target": "Der Name für {value} darf nicht leer sein"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "O nome de {value} não pode estar vazio",
+                    "target": "O nome de {value} não pode estar vazio"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "نام {value} نمی‌تواند خالی باشد",
+                    "target": "نام {value} نمی‌تواند خالی باشد"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "expense",
+                    "source": "每日支出",
+                    "target": "每日支出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "expense",
+                    "source": "标签支出金额",
+                    "target": "标签支出金额"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "expense",
+                    "source": "支出分类",
+                    "target": "支出分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "friday",
+                    "source": "周五",
+                    "target": "周五"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "full",
+                    "source": "通栏",
+                    "target": "通栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "half",
+                    "source": "半宽",
+                    "target": "半宽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "income",
+                    "source": "每日收入",
+                    "target": "每日收入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "income",
+                    "source": "标签收入金额",
+                    "target": "标签收入金额"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "income",
+                    "source": "收入分类",
+                    "target": "收入分类"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "导出CSV文件",
+                    "target": "导出CSV文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "导入CSV文件",
+                    "target": "导入CSV文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "年度统计",
+                    "target": "年度统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "重新扫描",
+                    "target": "重新扫描"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "标签批量管理",
+                    "target": "标签批量管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "插件设置",
+                    "target": "插件设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "line",
+                    "source": "折线图",
+                    "target": "折线图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "mobile",
+                    "source": "手机版",
+                    "target": "手机版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "monday",
+                    "source": "周一",
+                    "target": "周一"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "monthly",
+                    "source": "保持当月界面",
+                    "target": "保持当月界面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认账户",
+                    "target": "默认账户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nom",
+                    "target": "Nom"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Название",
+                    "target": "Название"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nombre",
+                    "target": "Nombre"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "الاسم",
+                    "target": "الاسم"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "名前",
+                    "target": "名前"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "이름",
+                    "target": "이름"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Name",
+                    "target": "Name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nome",
+                    "target": "Nome"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "نام",
+                    "target": "نام"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "nameAsc",
+                    "source": "标签名正序",
+                    "target": "标签名正序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "nameDesc",
+                    "source": "标签名倒序",
+                    "target": "标签名倒序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "net",
+                    "source": "每日结余",
+                    "target": "每日结余"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "net",
+                    "source": "标签结余金额",
+                    "target": "标签结余金额"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "none",
+                    "source": "不保持",
+                    "target": "不保持"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "none",
+                    "source": "不使用分隔符（10000）",
+                    "target": "不使用分隔符（10000）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "pie",
+                    "source": "饼状图",
+                    "target": "饼状图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "搜索内容、备注、标签或自定义字段",
+                    "target": "搜索内容、备注、标签或自定义字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "可使用空格分隔多个关键词",
+                    "target": "可使用空格分隔多个关键词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "可以留空",
+                    "target": "可以留空"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "标签",
+                    "target": "标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "新预设名称",
+                    "target": "新预设名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "编号",
+                    "target": "编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "新建标签",
+                    "target": "新建标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "prop",
+                    "source": "不修改",
+                    "target": "不修改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "remove",
+                    "source": "删除标签",
+                    "target": "删除标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "replace",
+                    "source": "替换全部标签",
+                    "target": "替换全部标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "saturday",
+                    "source": "周六",
+                    "target": "周六"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "select",
+                    "source": "分类型",
+                    "target": "分类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "sunday",
+                    "source": "周日",
+                    "target": "周日"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tag",
+                    "source": "标签汇总",
+                    "target": "标签汇总"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "返回顶部",
+                    "target": "返回顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "记账仪表盘",
+                    "target": "记账仪表盘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "开始建立你的第一笔账目",
+                    "target": "开始建立你的第一笔账目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "没有符合条件的账目",
+                    "target": "没有符合条件的账目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "支出",
+                    "target": "支出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "收入",
+                    "target": "收入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "合计",
+                    "target": "合计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "尚未设置预算",
+                    "target": "尚未设置预算"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "账目明细",
+                    "target": "账目明细"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "清空筛选",
+                    "target": "清空筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "筛选",
+                    "target": "筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "基础筛选",
+                    "target": "基础筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "跨月筛选全部账目",
+                    "target": "跨月筛选全部账目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "范围筛选",
+                    "target": "范围筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "金额范围",
+                    "target": "金额范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "日期范围",
+                    "target": "日期范围"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "全选",
+                    "target": "全选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "清除筛选",
+                    "target": "清除筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "确认",
+                    "target": "确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "批量修改",
+                    "target": "批量修改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "批量删除",
+                    "target": "批量删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消选择",
+                    "target": "取消选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "未启用任何账目明细列，请在插件设置中选择。",
+                    "target": "未启用任何账目明细列，请在插件设置中选择。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "本月收支会在这些月初余额上加减，得到月末余额；没有单独校准的下个月会自动继承本月月末余额。",
+                    "target": "本月收支会在这些月初余额上加减，得到月末余额；没有单独校准的下个月会自动继承本月月末余额。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保持“不修改”的字段不会改变。可一次修改多个字段。",
+                    "target": "保持“不修改”的字段不会改变。可一次修改多个字段。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "拖动文件到此处，或点击选择文件",
+                    "target": "拖动文件到此处，或点击选择文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "拖动左侧滑块调整顺序；右侧眼睛控制是否显示，铅笔控制能否行内编辑。",
+                    "target": "拖动左侧滑块调整顺序；右侧眼睛控制是否显示，铅笔控制能否行内编辑。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "表头名称",
+                    "target": "表头名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "显示 / 编辑",
+                    "target": "显示 / 编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Easy Bookkeeping",
+                    "target": "Easy Bookkeeping"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "作者：北漠海",
+                    "target": "作者：北漠海"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "版本号：2.0.10",
+                    "target": "版本号：2.0.10"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "更新日期：2026-08-30",
+                    "target": "更新日期：2026-08-30"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "本项目基于 MIT License 开源",
+                    "target": "本项目基于 MIT License 开源"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "内容型",
+                    "target": "内容型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "内容型可以自由输入；分类型从预设中选择。",
+                    "target": "内容型可以自由输入；分类型从预设中选择。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "该分类型字段已被删除或改为内容型。",
+                    "target": "该分类型字段已被删除或改为内容型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "名称",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "编号",
+                    "target": "编号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "添加",
+                    "target": "添加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "计入方式",
+                    "target": "计入方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "转换前建议备份！",
+                    "target": "转换前建议备份！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "准备扫描…（0%）",
+                    "target": "准备扫描…（0%）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择“以后再说”只影响新建或再次编辑的账目。",
+                    "target": "选择“以后再说”只影响新建或再次编辑的账目。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "准备转换…（0%）",
+                    "target": "准备转换…（0%）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "必须包含日期和金额。无法导入的行会生成带原因的失败报告。",
+                    "target": "必须包含日期和金额。无法导入的行会生成带原因的失败报告。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "CSV元数据与当前仓库预设不一致",
+                    "target": "CSV元数据与当前仓库预设不一致"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "继续后会把未知类型、必要性、分类和账户转换为当前仪表盘的对应默认值。是否继续导入？",
+                    "target": "继续后会把未知类型、必要性、分类和账户转换为当前仪表盘的对应默认值。是否继续导入？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正在读取CSV…（0%）",
+                    "target": "正在读取CSV…（0%）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "所有原有账目中的旧自定义属性会被永久删除；CSV中多余且不属于附带配置的字段也不会写入。",
+                    "target": "所有原有账目中的旧自定义属性会被永久删除；CSV中多余且不属于附带配置的字段也不会写入。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "尚无可管理的附加标签",
+                    "target": "尚无可管理的附加标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "准备修改…",
+                    "target": "准备修改…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "准备删除账目…",
+                    "target": "准备删除账目…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "“仅移除标签”会保留账目；“删除相关账目”会把所有包含该标签的账目移入系统回收站。",
+                    "target": "“仅移除标签”会保留账目；“删除相关账目”会把所有包含该标签的账目移入系统回收站。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "尚未显示年度图表，可点击上方“图表管理”添加。",
+                    "target": "尚未显示年度图表，可点击上方“图表管理”添加。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "thousand",
+                    "source": "国际千位分组（10,000）",
+                    "target": "国际千位分组（10,000）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "thursday",
+                    "source": "周四",
+                    "target": "周四"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "内容",
+                    "target": "内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "每日结余趋势",
+                    "target": "每日结余趋势"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "日历收支",
+                    "target": "日历收支"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "支出分类占比",
+                    "target": "支出分类占比"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标签汇总",
+                    "target": "标签汇总"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "预算进度",
+                    "target": "预算进度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "账户余额",
+                    "target": "账户余额"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "月份结余趋势",
+                    "target": "月份结余趋势"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "拖动排序",
+                    "target": "拖动排序"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "筛选账目",
+                    "target": "筛选账目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "修改日期",
+                    "target": "修改日期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "修改金额（收支符号保持不变）",
+                    "target": "修改金额（收支符号保持不变）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "符号不可修改",
+                    "target": "符号不可修改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "添加标签",
+                    "target": "添加标签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "自定义趋势图",
+                    "target": "自定义趋势图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "trend",
+                    "source": "趋势图",
+                    "target": "趋势图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tuesday",
+                    "source": "周二",
+                    "target": "周二"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "month",
+                    "target": "month"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "search",
+                    "target": "search"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "date",
+                    "target": "date"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "file",
+                    "target": "file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "wan",
+                    "source": "中文万位分组（1,0000）",
+                    "target": "中文万位分组（1,0000）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "wednesday",
+                    "source": "周三",
+                    "target": "周三"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(`${o+1}. ${s.name}`)",
+                    "target": "setName(`${o+1}. ${s.name}`)"
+                },
+                {
+                    "source": "search=`${E} ${a(E)}`",
+                    "target": "search=`${E} ${a(E)}`"
+                },
+                {
+                    "source": "text:`${s+1}/${i.length} ${this.stepTitle(this.step)}`",
+                    "target": "text:`${s+1}/${i.length} ${this.stepTitle(this.step)}`"
+                },
+                {
+                    "source": "text:\"Easy Bookkeeping\"",
+                    "target": "text:\"Easy Bookkeeping\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,1164 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "chinese-plugin-market",
+        "version": "1.0.0",
+        "title": "插件搜索",
+        "description": "插件搜索 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.47.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "（使用本地缓存）",
+                    "target": "（使用本地缓存）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "已安装",
+                    "target": "已安装"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "中文生态",
+                    "target": "中文生态"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "竹林中国系列",
+                    "target": "竹林中国系列"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "progress",
+                    "target": "progress"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "details",
+                    "target": "details"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Plugin Market] 智能混合翻译：异常",
+                    "target": "[Chinese Plugin Market] 智能混合翻译：异常"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Plugin Market] 延迟初始化失败：",
+                    "target": "[Chinese Plugin Market] 延迟初始化失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Chinese Plugin Market] TM 增量重扫失败（不影响已灌入译名）：",
+                    "target": "[Chinese Plugin Market] TM 增量重扫失败（不影响已灌入译名）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "prompt",
+                    "source": "Input: ",
+                    "target": "Input: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "在此粘贴密钥",
+                    "target": "在此粘贴密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "AI · Enter 触发",
+                    "target": "AI · Enter 触发"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "配置 AI · Enter",
+                    "target": "配置 AI · Enter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "本地",
+                    "target": "本地"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "下载模型中",
+                    "target": "下载模型中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] MyMemory 额度已耗尽（429/配额），今日内不再调用 MyMemory，未译插件将走其他来源或原文兜底（跨天自动恢复）。",
+                    "target": "[Chinese Plugin Market] MyMemory 额度已耗尽（429/配额），今日内不再调用 MyMemory，未译插件将走其他来源或原文兜底（跨天自动恢复）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] Google 翻译触发限流，今日内不再调用 Google，未译插件将走 MyMemory / 原文兜底（跨天自动恢复）。",
+                    "target": "[Chinese Plugin Market] Google 翻译触发限流，今日内不再调用 Google，未译插件将走 MyMemory / 原文兜底（跨天自动恢复）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Baidu] 翻译请求失败：",
+                    "target": "[Baidu] 翻译请求失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Baidu] 翻译结果为空",
+                    "target": "[Baidu] 翻译结果为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] embedding worker 运行期错误（保留 worker 供重试）：",
+                    "target": "[Chinese Plugin Market] embedding worker 运行期错误（保留 worker 供重试）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 向量召回失败，降级到纯关键词：",
+                    "target": "[Chinese Plugin Market] 向量召回失败，降级到纯关键词："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 本地语义：向量召回失败，降级关键词+标题：",
+                    "target": "[Chinese Plugin Market] 本地语义：向量召回失败，降级关键词+标题："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] AI 对比失败:",
+                    "target": "[Chinese Plugin Market] AI 对比失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] AI 精排失败，降级到本地召回排序（向量∪关键词）：",
+                    "target": "[Chinese Plugin Market] AI 精排失败，降级到本地召回排序（向量∪关键词）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 百度翻译失败:",
+                    "target": "[Chinese Plugin Market] 百度翻译失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 腾讯翻译（免费）README 分段失败:",
+                    "target": "[Chinese Plugin Market] 腾讯翻译（免费）README 分段失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 百度翻译 README 分段失败:",
+                    "target": "[Chinese Plugin Market] 百度翻译 README 分段失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 保存趋势历史失败：",
+                    "target": "[Chinese Plugin Market] 保存趋势历史失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 读取趋势历史失败，将重新累积：",
+                    "target": "[Chinese Plugin Market] 读取趋势历史失败，将重新累积："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 保存插件列表缓存失败：",
+                    "target": "[Chinese Plugin Market] 保存插件列表缓存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 保存 stats 缓存失败：",
+                    "target": "[Chinese Plugin Market] 保存 stats 缓存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 读取 stats 缓存失败：",
+                    "target": "[Chinese Plugin Market] 读取 stats 缓存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 保存翻译缓存失败：",
+                    "target": "[Chinese Plugin Market] 保存翻译缓存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 读取翻译缓存失败：",
+                    "target": "[Chinese Plugin Market] 读取翻译缓存失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 读取种子译名库失败，已跳过：",
+                    "target": "[Chinese Plugin Market] 读取种子译名库失败，已跳过："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 保存收藏失败：",
+                    "target": "[Chinese Plugin Market] 保存收藏失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 读取收藏失败，将重置为空：",
+                    "target": "[Chinese Plugin Market] 读取收藏失败，将重置为空："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 保存 credentials 失败：",
+                    "target": "[Chinese Plugin Market] 保存 credentials 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 读取 credentials 失败：",
+                    "target": "[Chinese Plugin Market] 读取 credentials 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 搜索时数据加载失败：",
+                    "target": "[Chinese Plugin Market] 搜索时数据加载失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 异步刷新 stats 失败：",
+                    "target": "[Chinese Plugin Market] 异步刷新 stats 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 网络不可用，已从本地缓存恢复插件列表（%d 个）。",
+                    "target": "[Chinese Plugin Market] 网络不可用，已从本地缓存恢复插件列表（%d 个）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 重试数据加载失败：",
+                    "target": "[Chinese Plugin Market] 重试数据加载失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 拉取 stats 失败，复用缓存/旧值：",
+                    "target": "[Chinese Plugin Market] 拉取 stats 失败，复用缓存/旧值："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 读取已安装插件失败：",
+                    "target": "[Chinese Plugin Market] 读取已安装插件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 检测可更新插件失败：",
+                    "target": "[Chinese Plugin Market] 检测可更新插件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] manifest.json 缺少必要字段：",
+                    "target": "[Chinese Plugin Market] manifest.json 缺少必要字段："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 下载 manifest.json 失败：",
+                    "target": "[Chinese Plugin Market] 下载 manifest.json 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 创建插件目录失败：",
+                    "target": "[Chinese Plugin Market] 创建插件目录失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 写入 manifest.json 失败：",
+                    "target": "[Chinese Plugin Market] 写入 manifest.json 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 写入 main.js 失败：",
+                    "target": "[Chinese Plugin Market] 写入 main.js 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 写入 styles.css 失败：",
+                    "target": "[Chinese Plugin Market] 写入 styles.css 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] loadManifests 失败：",
+                    "target": "[Chinese Plugin Market] loadManifests 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] enablePlugin(AndSave) 调用异常（继续手动维护）：",
+                    "target": "[Chinese Plugin Market] enablePlugin(AndSave) 调用异常（继续手动维护）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] disablePlugin(AndSave) 调用异常（继续手动维护）：",
+                    "target": "[Chinese Plugin Market] disablePlugin(AndSave) 调用异常（继续手动维护）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 同步 community-plugins.json 失败：",
+                    "target": "[Chinese Plugin Market] 同步 community-plugins.json 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 持久化 enabledPlugins 失败：",
+                    "target": "[Chinese Plugin Market] 持久化 enabledPlugins 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 持久化禁用状态失败：",
+                    "target": "[Chinese Plugin Market] 持久化禁用状态失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 卸载前 disablePlugin 失败：",
+                    "target": "[Chinese Plugin Market] 卸载前 disablePlugin 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 删除插件目录失败：",
+                    "target": "[Chinese Plugin Market] 删除插件目录失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 卸载后 loadManifests 失败（降级继续）：",
+                    "target": "[Chinese Plugin Market] 卸载后 loadManifests 失败（降级继续）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] disablePluginAndSave(id) 失败：",
+                    "target": "[Chinese Plugin Market] disablePluginAndSave(id) 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] disablePlugin(id) 失败：",
+                    "target": "[Chinese Plugin Market] disablePlugin(id) 失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 跳转社区市场失败：",
+                    "target": "[Chinese Plugin Market] 跳转社区市场失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 安装超时（60s）兜底清除 installing 状态：",
+                    "target": "[Chinese Plugin Market] 安装超时（60s）兜底清除 installing 状态："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 凭据变更后重试翻译失败：",
+                    "target": "[Chinese Plugin Market] 凭据变更后重试翻译失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 初始化数据加载失败：",
+                    "target": "[Chinese Plugin Market] 初始化数据加载失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] fs.watch 启动失败，降级轮询：",
+                    "target": "[Chinese Plugin Market] fs.watch 启动失败，降级轮询："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] data.json 解析失败，已回退空白状态（原文件可能损坏）：",
+                    "target": "[Chinese Plugin Market] data.json 解析失败，已回退空白状态（原文件可能损坏）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] tmApprovedReady 兜底超时（30s）：视图已降级继续，vault 译名可能未回灌。",
+                    "target": "[Chinese Plugin Market] tmApprovedReady 兜底超时（30s）：视图已降级继续，vault 译名可能未回灌。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 后台加载分类索引失败：",
+                    "target": "[Chinese Plugin Market] 后台加载分类索引失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 后台加载上线日期失败：",
+                    "target": "[Chinese Plugin Market] 后台加载上线日期失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 后台加载中文生态清单失败：",
+                    "target": "[Chinese Plugin Market] 后台加载中文生态清单失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 后台加载竹林系列清单失败：",
+                    "target": "[Chinese Plugin Market] 后台加载竹林系列清单失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 卸载时落盘失败：",
+                    "target": "[Chinese Plugin Market] 卸载时落盘失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 译名迁移到独立文件失败（不影响本次启动，下个 reload 会重试）：",
+                    "target": "[Chinese Plugin Market] 译名迁移到独立文件失败（不影响本次启动，下个 reload 会重试）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 加载分类索引失败，已跳过：",
+                    "target": "[Chinese Plugin Market] 加载分类索引失败，已跳过："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 加载插件上线日期失败，已跳过：",
+                    "target": "[Chinese Plugin Market] 加载插件上线日期失败，已跳过："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 加载中文生态清单失败，已跳过：",
+                    "target": "[Chinese Plugin Market] 加载中文生态清单失败，已跳过："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 加载竹林系列清单失败，已跳过：",
+                    "target": "[Chinese Plugin Market] 加载竹林系列清单失败，已跳过："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 读取推荐清单失败，回退内置清单：",
+                    "target": "[Chinese Plugin Market] 读取推荐清单失败，回退内置清单："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 写入 TM 笔记失败，已保留待重试：",
+                    "target": "[Chinese Plugin Market] 写入 TM 笔记失败，已保留待重试："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 删除 TM 笔记失败，已保留待重试：",
+                    "target": "[Chinese Plugin Market] 删除 TM 笔记失败，已保留待重试："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 读取 TM 快照失败，将全量重扫：",
+                    "target": "[Chinese Plugin Market] 读取 TM 快照失败，将全量重扫："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 写入 TM 快照失败（不影响翻译，下次全量重扫）：",
+                    "target": "[Chinese Plugin Market] 写入 TM 快照失败（不影响翻译，下次全量重扫）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] SQLite WASM 缺失（sql-wasm.wasm 未随插件分发），向量库禁用，回退内存索引。",
+                    "target": "[Chinese Plugin Market] SQLite WASM 缺失（sql-wasm.wasm 未随插件分发），向量库禁用，回退内存索引。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 初始化 SQLite 向量库失败，回退内存索引（本地语义搜索将降级；这是 Obsidian 沙箱无法加载 sql.js 所致，非同步遗漏）：",
+                    "target": "[Chinese Plugin Market] 初始化 SQLite 向量库失败，回退内存索引（本地语义搜索将降级；这是 Obsidian 沙箱无法加载 sql.js 所致，非同步遗漏）："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 预建本地索引：暂无插件数据（需先打开插件市场视图加载列表）。",
+                    "target": "[Chinese Plugin Market] 预建本地索引：暂无插件数据（需先打开插件市场视图加载列表）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 预建本地向量索引失败：",
+                    "target": "[Chinese Plugin Market] 预建本地向量索引失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 读取旧版向量索引失败，将重建：",
+                    "target": "[Chinese Plugin Market] 读取旧版向量索引失败，将重建："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 加载向量索引失败，将重建：",
+                    "target": "[Chinese Plugin Market] 加载向量索引失败，将重建："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Chinese Plugin Market] 保存向量索引失败：",
+                    "target": "[Chinese Plugin Market] 保存向量索引失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先打开插件搜索视图",
+                    "target": "请先打开插件搜索视图"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "scrollViewport 不存在",
+                    "target": "scrollViewport 不存在"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "滚动诊断已开启，滚动列表看控制台 [scroll-debug]",
+                    "target": "滚动诊断已开启，滚动列表看控制台 [scroll-debug]"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "滚动诊断已关闭",
+                    "target": "滚动诊断已关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "清除搜索",
+                    "target": "清除搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "切换启用组合",
+                    "target": "切换启用组合"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "展开高级筛选",
+                    "target": "展开高级筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "更多操作",
+                    "target": "更多操作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "排序方式",
+                    "target": "排序方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "重置所有筛选条件",
+                    "target": "重置所有筛选条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "回到顶部",
+                    "target": "回到顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "一键置底",
+                    "target": "一键置底"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-meta-chip pt-meta-chip--author",
+                    "target": "pt-meta-chip pt-meta-chip--author"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-card-desc pt-card-desc--clamped",
+                    "target": "pt-card-desc pt-card-desc--clamped"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-detail-btn pt-detail-btn--enabled",
+                    "target": "pt-detail-btn pt-detail-btn--enabled"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-detail-btn mod-cta",
+                    "target": "pt-detail-btn mod-cta"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-detail-section-head pt-detail-section-head--readme",
+                    "target": "pt-detail-section-head pt-detail-section-head--readme"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-detail-btn pt-detail-btn--insight",
+                    "target": "pt-detail-btn pt-detail-btn--insight"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-detail-btn pt-detail-btn--sys-translate",
+                    "target": "pt-detail-btn pt-detail-btn--sys-translate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-detail-btn pt-detail-btn--sys-translate pt-detail-btn--caret",
+                    "target": "pt-detail-btn pt-detail-btn--sys-translate pt-detail-btn--caret"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-detail-similar pt-detail-similar-rail",
+                    "target": "pt-detail-similar pt-detail-similar-rail"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-filter pt-facet-chip",
+                    "target": "pt-filter pt-facet-chip"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-filter pt-facet-more",
+                    "target": "pt-filter pt-facet-more"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-guide-chip pt-error-retry",
+                    "target": "pt-guide-chip pt-error-retry"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-guide-chip pt-error-guide",
+                    "target": "pt-guide-chip pt-error-guide"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-empty pt-ai-loading-state",
+                    "target": "pt-empty pt-ai-loading-state"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-guide-chip pt-empty-clear",
+                    "target": "pt-guide-chip pt-empty-clear"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-guide-chip pt-guide-chip--bridge",
+                    "target": "pt-guide-chip pt-guide-chip--bridge"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-list-spacer pt-list-spacer-top",
+                    "target": "pt-list-spacer pt-list-spacer-top"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-list-spacer pt-list-spacer-bottom",
+                    "target": "pt-list-spacer pt-list-spacer-bottom"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-mode-select pt-search-mode",
+                    "target": "pt-mode-select pt-search-mode"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-ai-badge pt-ai-off",
+                    "target": "pt-ai-badge pt-ai-off"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-toggle-filters pt-toggle-filters--text",
+                    "target": "pt-toggle-filters pt-toggle-filters--text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-icon-btn pt-open-settings",
+                    "target": "pt-icon-btn pt-open-settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-sort-menu-item pt-sort-menu-item--fav",
+                    "target": "pt-sort-menu-item pt-sort-menu-item--fav"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-filter pt-toggle-eco",
+                    "target": "pt-filter pt-toggle-eco"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-filter pt-toggle-series",
+                    "target": "pt-filter pt-toggle-series"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-toolbar-reset pt-toolbar-reset--inline",
+                    "target": "pt-toolbar-reset pt-toolbar-reset--inline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-mode-guidance pt-mode-guidance--in-list",
+                    "target": "pt-mode-guidance pt-mode-guidance--in-list"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-empty pt-search-guide",
+                    "target": "pt-empty pt-search-guide"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-empty pt-ai-pending",
+                    "target": "pt-empty pt-ai-pending"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-empty pt-ai-config-guide",
+                    "target": "pt-empty pt-ai-config-guide"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-empty pt-loading",
+                    "target": "pt-empty pt-loading"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-list pt-list-viewport",
+                    "target": "pt-list pt-list-viewport"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-compare-card-status pt-compare-card-status--installed",
+                    "target": "pt-compare-card-status pt-compare-card-status--installed"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-compare-card-status pt-compare-card-status--install",
+                    "target": "pt-compare-card-status pt-compare-card-status--install"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-compare-sec pt-compare-ai",
+                    "target": "pt-compare-sec pt-compare-ai"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "你好",
+                    "target": "你好"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "desc",
+                    "target": "desc"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "desc",
+                    "target": "desc"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "已安装",
+                    "target": "已安装"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "已启动",
+                    "target": "已启动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "已安装未启动",
+                    "target": "已安装未启动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "已收藏",
+                    "target": "已收藏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "未收藏",
+                    "target": "未收藏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "请求超时，请检查网络后重试",
+                    "target": "请求超时，请检查网络后重试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "无法解析域名（DNS 失败），请检查网络连接",
+                    "target": "无法解析域名（DNS 失败），请检查网络连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "无法访问 GitHub，可能是网络受限。建议切换到 jsDelivr 镜像后重试",
+                    "target": "无法访问 GitHub，可能是网络受限。建议切换到 jsDelivr 镜像后重试"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "数据解析失败（返回内容不是合法 JSON）",
+                    "target": "数据解析失败（返回内容不是合法 JSON）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "name",
+                    "target": "name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "羽鳞君",
+                    "target": "羽鳞君"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RavenHogWarts",
+                    "target": "RavenHogWarts"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "vran",
+                    "target": "vran"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "诊断滚动布局（开发者）",
+                    "target": "诊断滚动布局（开发者）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "开启滚动实时诊断（开发者）",
+                    "target": "开启滚动实时诊断（开发者）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "关闭滚动实时诊断（开发者）",
+                    "target": "关闭滚动实时诊断（开发者）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AI",
+                    "target": "AI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "筛选",
+                    "target": "筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "★ 收藏优先",
+                    "target": "★ 收藏优先"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "筛选与统计",
+                    "target": "筛选与统计"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "翻译",
+                    "target": "翻译"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "安装",
+                    "target": "安装"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "收藏",
+                    "target": "收藏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "生态",
+                    "target": "生态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "中文生态",
+                    "target": "中文生态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "系列",
+                    "target": "系列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "竹林中国系列",
+                    "target": "竹林中国系列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "上线",
+                    "target": "上线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "更新",
+                    "target": "更新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "打开设置",
+                    "target": "打开设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "GitHub",
+                    "target": "GitHub"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "标题",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "清除",
+                    "target": "清除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "重置筛选",
+                    "target": "重置筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "回到顶部",
+                    "target": "回到顶部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "一键置底",
+                    "target": "一键置底"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "name=\"transformers.js (worker)\"",
+                    "target": "name=\"transformers.js (worker)\""
+                },
+                {
+                    "source": "name:`${e.name} ${s?.translatedName||\"\"}`",
+                    "target": "name:`${e.name} ${s?.translatedName||\"\"}`"
+                },
+                {
+                    "source": "description:`${e.description} ${s?.translatedDesc||\"\"}`",
+                    "target": "description:`${e.description} ${s?.translatedDesc||\"\"}`"
+                },
+                {
+                    "source": "text:\" \"",
+                    "target": "text:\" \""
+                },
+                {
+                    "source": "text:`${d(\"detail.author\")}: ${x.info.author||d(\"compare.unknown\")}`",
+                    "target": "text:`${d(\"detail.author\")}: ${x.info.author||d(\"compare.unknown\")}`"
+                },
+                {
+                    "source": "text:`${d(\"compare.category\")}: ${x.tag.category}`",
+                    "target": "text:`${d(\"compare.category\")}: ${x.tag.category}`"
+                },
+                {
+                    "source": "text:`${d(\"compare.downloads\")}: ${qe(Z)}`",
+                    "target": "text:`${d(\"compare.downloads\")}: ${qe(Z)}`"
+                }
+            ]
+        }
+    }
+}

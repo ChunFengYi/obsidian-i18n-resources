@@ -1,0 +1,1032 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "note-to-public",
+        "version": "1.0.0",
+        "title": "Note to Public",
+        "description": "Note to Public Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n            <span class=\"preview-toolbar-title\">\\u53D1\\u5E03\\u9884\\u89C8</span>\n            <div class=\"preview-toolbar-actions\">\n                <button class=\"copy-html-btn\" title=\"\\u590D\\u5236\\u4E3A\\u5BCC\\u6587\\u672C\\uFF08base64 \\u56FE\\u7247\\uFF09\">\n                    <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                        <rect x=\"9\" y=\"9\" width=\"13\" height=\"13\" rx=\"2\" ry=\"2\"></rect>\n                        <path d=\"M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1\"></path>\n                    </svg>\n                    \\u590D\\u5236\\u5BCC\\u6587\\u672C\n                </button>\n                <button class=\"copy-md-btn\" title=\"\\u590D\\u5236\\u4E3A Markdown\">\n                    <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                        <path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"></path>\n                        <polyline points=\"14 2 14 8 20 8\"></polyline>\n                        <line x1=\"16\" y1=\"13\" x2=\"8\" y2=\"13\"></line>\n                        <line x1=\"16\" y1=\"17\" x2=\"8\" y2=\"17\"></line>\n                    </svg>\n                    \\u590D\\u5236 Markdown\n                </button>\n            </div>",
+                    "target": "\n            <span class=\"preview-toolbar-title\">\\u53D1\\u5E03\\u9884\\u89C8</span>\n            <div class=\"preview-toolbar-actions\">\n                <button class=\"copy-html-btn\" title=\"\\u590D\\u5236\\u4E3A\\u5BCC\\u6587\\u672C\\uFF08base64 \\u56FE\\u7247\\uFF09\">\n                    <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                        <rect x=\"9\" y=\"9\" width=\"13\" height=\"13\" rx=\"2\" ry=\"2\"></rect>\n                        <path d=\"M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1\"></path>\n                    </svg>\n                    \\u590D\\u5236\\u5BCC\\u6587\\u672C\n                </button>\n                <button class=\"copy-md-btn\" title=\"\\u590D\\u5236\\u4E3A Markdown\">\n                    <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                        <path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"></path>\n                        <polyline points=\"14 2 14 8 20 8\"></polyline>\n                        <line x1=\"16\" y1=\"13\" x2=\"8\" y2=\"13\"></line>\n                        <line x1=\"16\" y1=\"17\" x2=\"8\" y2=\"17\"></line>\n                    </svg>\n                    \\u590D\\u5236 Markdown\n                </button>\n            </div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"color:var(--text-error);padding:16px;text-align:center;background:var(--background-secondary);border-radius:8px;\">Mermaid \\u6E32\\u67D3\\u5931\\u8D25</div>",
+                    "target": "<div style=\"color:var(--text-error);padding:16px;text-align:center;background:var(--background-secondary);border-radius:8px;\">Mermaid \\u6E32\\u67D3\\u5931\\u8D25</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<span class=\"footer-hint\">\\u{1F4A1} \\u4F7F\\u7528\\u300C\\u53D1\\u5E03\\u5230\\u5FAE\\u4FE1\\u516C\\u4F17\\u53F7\\u300D\\u547D\\u4EE4\\u53D1\\u5E03</span>",
+                    "target": "<span class=\"footer-hint\">\\u{1F4A1} \\u4F7F\\u7528\\u300C\\u53D1\\u5E03\\u5230\\u5FAE\\u4FE1\\u516C\\u4F17\\u53F7\\u300D\\u547D\\u4EE4\\u53D1\\u5E03</span>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "请选择封面图（必选）",
+                    "target": "请选择封面图（必选）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "点击图片选中，然后点击「确认」按钮",
+                    "target": "点击图片选中，然后点击「确认」按钮"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "\n            .note-to-public-preview { display:flex;flex-direction:column;height:100%;overflow:hidden;font-size:16px;line-height:1.6;color:var(--text-normal); }\n            .preview-toolbar { display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:var(--background-secondary);border-bottom:1px solid var(--background-modifier-border);flex-shrink:0; }\n            .preview-toolbar-title { font-weight:600;font-size:14px; }\n            .preview-toolbar-actions { display:flex;gap:8px; }\n            .copy-html-btn,.copy-md-btn { display:flex;align-items:center;gap:6px;padding:6px 12px;background:var(--interactive-accent);color:var(--text-on-accent);border:none;border-radius:6px;font-size:12px;cursor:pointer; }\n            .copy-html-btn:hover,.copy-md-btn:hover { opacity:0.9; }\n            .preview-scroll-area { flex:1;overflow-y:auto;overflow-x:hidden;padding:20px; }\n            .preview-header { margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--background-modifier-border); }\n            .preview-title { margin:0 0 12px 0;font-size:24px;font-weight:600;line-height:1.3; }\n            .preview-meta-row { display:flex;gap:16px;margin-bottom:8px;color:var(--text-muted);font-size:13px; }\n            .preview-author { display:flex;align-items:center;gap:4px; }\n            .preview-digest { margin-top:12px;padding:12px;background:var(--background-secondary);border-radius:6px;font-size:14px;color:var(--text-muted);line-height:1.5; }\n            .preview-stats { margin-top:12px;padding:8px 12px;background:var(--background-primary-alt);border-radius:6px;font-size:12px;color:var(--text-accent); }\n            .preview-content { margin-top:20px; }\n            .preview-content h1,.preview-content h2,.preview-content h3,.preview-content h4,.preview-content h5,.preview-content h6 { margin:24px 0 16px;font-weight:600;line-height:1.4;color:var(--text-normal); }\n            .preview-content h1 { font-size:24px; } .preview-content h2 { font-size:22px; } .preview-content h3 { font-size:20px; }\n            .preview-content p { margin:16px 0; }\n            .preview-content strong { font-weight:600; }\n            .preview-content a { color:var(--text-accent);text-decoration:none; }\n            .preview-content ul,.preview-content ol { margin:16px 0;padding-left:24px; }\n            .preview-content li { margin:8px 0; }\n            .preview-content blockquote { margin:16px 0;padding:12px 16px;border-left:4px solid var(--text-accent);background:var(--background-secondary);border-radius:0 6px 6px 0; }\n            .preview-content blockquote p { margin:0; }\n            .preview-content pre { margin:16px 0;padding:16px;background:var(--background-secondary-alt);border-radius:8px;overflow-x:auto;border:1px solid var(--background-modifier-border); }\n            .preview-content code { font-family:\"SF Mono\",Monaco,Consolas,\"Courier New\",monospace;font-size:14px;line-height:1.6; }\n            .preview-content :not(pre)>code { background:var(--background-secondary-alt);padding:2px 6px;border-radius:3px;font-size:0.9em; }\n            .preview-content pre code { display:block;background:none;padding:0;white-space:pre;word-wrap:normal;overflow-x:auto; }\n            .preview-content .hljs-keyword { color:#c586c0;font-weight:bold; }\n            .preview-content .hljs-string { color:#ce9178; }\n            .preview-content .hljs-number { color:#b5cea8; }\n            .preview-content .hljs-comment { color:#6a9955;font-style:italic; }\n            .preview-content .hljs-function { color:#dcdcaa; }\n            .preview-content .hljs-variable { color:#9cdcfe; }\n            .preview-content .mermaid-container { margin:16px 0;padding:16px;background:var(--background-secondary);border-radius:8px; }\n            .preview-content .mermaid-container svg { max-width:100%;height:auto; }\n            .preview-content .image-placeholder-preview { display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;margin:16px 0;background:var(--background-secondary);border:2px dashed var(--background-modifier-border);border-radius:8px;color:var(--text-muted);text-align:center; }\n            .preview-content .image-placeholder-preview .placeholder-icon { font-size:24px;margin-bottom:8px; }\n            .preview-content .image-placeholder-preview .placeholder-text { font-size:13px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }\n            .preview-empty { display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:60px;text-align:center;color:var(--text-muted); }\n            .preview-empty-icon { font-size:48px;margin-bottom:16px; }\n            .preview-empty h4 { margin:0 0 8px 0;color:var(--text-normal); }\n            .preview-empty-hint { font-size:13px;opacity:0.7; }\n            .preview-error { color:var(--text-error);padding:20px;text-align:center; }\n            .preview-footer { margin-top:32px;padding-top:16px;border-top:1px solid var(--background-modifier-border);text-align:center; }\n            .preview-footer .footer-hint { font-size:12px;color:var(--text-muted); }\n        ",
+                    "target": "\n            .note-to-public-preview { display:flex;flex-direction:column;height:100%;overflow:hidden;font-size:16px;line-height:1.6;color:var(--text-normal); }\n            .preview-toolbar { display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:var(--background-secondary);border-bottom:1px solid var(--background-modifier-border);flex-shrink:0; }\n            .preview-toolbar-title { font-weight:600;font-size:14px; }\n            .preview-toolbar-actions { display:flex;gap:8px; }\n            .copy-html-btn,.copy-md-btn { display:flex;align-items:center;gap:6px;padding:6px 12px;background:var(--interactive-accent);color:var(--text-on-accent);border:none;border-radius:6px;font-size:12px;cursor:pointer; }\n            .copy-html-btn:hover,.copy-md-btn:hover { opacity:0.9; }\n            .preview-scroll-area { flex:1;overflow-y:auto;overflow-x:hidden;padding:20px; }\n            .preview-header { margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--background-modifier-border); }\n            .preview-title { margin:0 0 12px 0;font-size:24px;font-weight:600;line-height:1.3; }\n            .preview-meta-row { display:flex;gap:16px;margin-bottom:8px;color:var(--text-muted);font-size:13px; }\n            .preview-author { display:flex;align-items:center;gap:4px; }\n            .preview-digest { margin-top:12px;padding:12px;background:var(--background-secondary);border-radius:6px;font-size:14px;color:var(--text-muted);line-height:1.5; }\n            .preview-stats { margin-top:12px;padding:8px 12px;background:var(--background-primary-alt);border-radius:6px;font-size:12px;color:var(--text-accent); }\n            .preview-content { margin-top:20px; }\n            .preview-content h1,.preview-content h2,.preview-content h3,.preview-content h4,.preview-content h5,.preview-content h6 { margin:24px 0 16px;font-weight:600;line-height:1.4;color:var(--text-normal); }\n            .preview-content h1 { font-size:24px; } .preview-content h2 { font-size:22px; } .preview-content h3 { font-size:20px; }\n            .preview-content p { margin:16px 0; }\n            .preview-content strong { font-weight:600; }\n            .preview-content a { color:var(--text-accent);text-decoration:none; }\n            .preview-content ul,.preview-content ol { margin:16px 0;padding-left:24px; }\n            .preview-content li { margin:8px 0; }\n            .preview-content blockquote { margin:16px 0;padding:12px 16px;border-left:4px solid var(--text-accent);background:var(--background-secondary);border-radius:0 6px 6px 0; }\n            .preview-content blockquote p { margin:0; }\n            .preview-content pre { margin:16px 0;padding:16px;background:var(--background-secondary-alt);border-radius:8px;overflow-x:auto;border:1px solid var(--background-modifier-border); }\n            .preview-content code { font-family:\"SF Mono\",Monaco,Consolas,\"Courier New\",monospace;font-size:14px;line-height:1.6; }\n            .preview-content :not(pre)>code { background:var(--background-secondary-alt);padding:2px 6px;border-radius:3px;font-size:0.9em; }\n            .preview-content pre code { display:block;background:none;padding:0;white-space:pre;word-wrap:normal;overflow-x:auto; }\n            .preview-content .hljs-keyword { color:#c586c0;font-weight:bold; }\n            .preview-content .hljs-string { color:#ce9178; }\n            .preview-content .hljs-number { color:#b5cea8; }\n            .preview-content .hljs-comment { color:#6a9955;font-style:italic; }\n            .preview-content .hljs-function { color:#dcdcaa; }\n            .preview-content .hljs-variable { color:#9cdcfe; }\n            .preview-content .mermaid-container { margin:16px 0;padding:16px;background:var(--background-secondary);border-radius:8px; }\n            .preview-content .mermaid-container svg { max-width:100%;height:auto; }\n            .preview-content .image-placeholder-preview { display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;margin:16px 0;background:var(--background-secondary);border:2px dashed var(--background-modifier-border);border-radius:8px;color:var(--text-muted);text-align:center; }\n            .preview-content .image-placeholder-preview .placeholder-icon { font-size:24px;margin-bottom:8px; }\n            .preview-content .image-placeholder-preview .placeholder-text { font-size:13px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }\n            .preview-empty { display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:60px;text-align:center;color:var(--text-muted); }\n            .preview-empty-icon { font-size:48px;margin-bottom:16px; }\n            .preview-empty h4 { margin:0 0 8px 0;color:var(--text-normal); }\n            .preview-empty-hint { font-size:13px;opacity:0.7; }\n            .preview-error { color:var(--text-error);padding:20px;text-align:center; }\n            .preview-footer { margin-top:32px;padding-top:16px;border-top:1px solid var(--background-modifier-border);text-align:center; }\n            .preview-footer .footer-hint { font-size:12px;color:var(--text-muted); }\n        "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "overflow",
+                    "target": "overflow"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解析 Frontmatter 失败:",
+                    "target": "解析 Frontmatter 失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Mermaid 渲染失败:",
+                    "target": "Mermaid 渲染失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Juice inline error:",
+                    "target": "Juice inline error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Mermaid:",
+                    "target": "Mermaid:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[NoteToPublic] 复制失败:",
+                    "target": "[NoteToPublic] 复制失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "复制失败:",
+                    "target": "复制失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "预览失败:",
+                    "target": "预览失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "SVG load error:",
+                    "target": "SVG load error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "封面图上传失败:",
+                    "target": "封面图上传失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "保存 AppSecret 失败:",
+                    "target": "保存 AppSecret 失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Element previously highlighted. To highlight again, first unset `dataset.highlighted`.",
+                    "target": "Element previously highlighted. To highlight again, first unset `dataset.highlighted`."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[NoteToPublic] ClipboardItem 写入成功",
+                    "target": "[NoteToPublic] ClipboardItem 写入成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Note to Public 插件已加载",
+                    "target": "Note to Public 插件已加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Note to Public 插件已卸载",
+                    "target": "Note to Public 插件已卸载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "选择本地图片",
+                    "target": "选择本地图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "素材库选择",
+                    "target": "素材库选择"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "文章标题（必填）",
+                    "target": "文章标题（必填）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "文章作者",
+                    "target": "文章作者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "最多120字符，留空自动生成",
+                    "target": "最多120字符，留空自动生成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "阅读原文链接（可选）",
+                    "target": "阅读原文链接（可选）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "必选：选择本地图片或从素材库选择",
+                    "target": "必选：选择本地图片或从素材库选择"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后直接发布，否则仅保存为草稿",
+                    "target": "开启后直接发布，否则仅保存为草稿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "微信公众号的 AppID",
+                    "target": "微信公众号的 AppID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "加密存储到 Obsidian SecretStorage（设置后在 设置 → 安全 → 密钥存储 中管理）",
+                    "target": "加密存储到 Obsidian SecretStorage（设置后在 设置 → 安全 → 密钥存储 中管理）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "发布文章的默认作者名称",
+                    "target": "发布文章的默认作者名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后默认直接发布文章，否则仅保存为草稿",
+                    "target": "开启后默认直接发布文章，否则仅保存为草稿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "标题",
+                    "target": "标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "作者",
+                    "target": "作者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "摘要",
+                    "target": "摘要"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "原文链接",
+                    "target": "原文链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "封面图",
+                    "target": "封面图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "立即发布",
+                    "target": "立即发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AppID",
+                    "target": "AppID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AppSecret",
+                    "target": "AppSecret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认作者",
+                    "target": "默认作者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认自动发布",
+                    "target": "默认自动发布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入标题",
+                    "target": "输入标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入作者",
+                    "target": "输入作者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "输入摘要",
+                    "target": "输入摘要"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "已配置（点击修改）",
+                    "target": "已配置（点击修改）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入 AppSecret",
+                    "target": "请输入 AppSecret"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "作者名称",
+                    "target": "作者名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "发布到微信公众号",
+                    "target": "发布到微信公众号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "选择素材库图片",
+                    "target": "选择素材库图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "发布中...",
+                    "target": "发布中..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "👁️ 打开发布预览",
+                    "target": "👁️ 打开发布预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "📤 发布到微信公众号",
+                    "target": "📤 发布到微信公众号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "One of your code blocks includes unescaped HTML. This is a potentially serious security risk.",
+                    "target": "One of your code blocks includes unescaped HTML. This is a potentially serious security risk."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The element with unescaped HTML:",
+                    "target": "The element with unescaped HTML:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[NoteToPublic] PNG 验证: 无效",
+                    "target": "[NoteToPublic] PNG 验证: 无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[NoteToPublic] 读取剪贴板验证失败:",
+                    "target": "[NoteToPublic] 读取剪贴板验证失败:"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "标题不能为空",
+                    "target": "标题不能为空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先选择封面图",
+                    "target": "请先选择封面图"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先配置 AppID 和 AppSecret",
+                    "target": "请先配置 AppID 和 AppSecret"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请选择一张图片",
+                    "target": "请选择一张图片"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已复制 Markdown 到剪贴板",
+                    "target": "已复制 Markdown 到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已复制富文本到剪贴板",
+                    "target": "已复制富文本到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "复制失败",
+                    "target": "复制失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先打开一个 Markdown 文件",
+                    "target": "请先打开一个 Markdown 文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先在设置中配置微信公众号的 AppID",
+                    "target": "请先在设置中配置微信公众号的 AppID"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先在设置中配置 AppSecret",
+                    "target": "请先在设置中配置 AppSecret"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "封面图文件不存在",
+                    "target": "封面图文件不存在"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "封面图上传失败",
+                    "target": "封面图上传失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "草稿已保存，请前往微信公众号后台发布",
+                    "target": "草稿已保存，请前往微信公众号后台发布"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "AppSecret 已加密保存",
+                    "target": "AppSecret 已加密保存"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "保存 AppSecret 失败",
+                    "target": "保存 AppSecret 失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "ℹ️ 信息",
+                    "target": "ℹ️ 信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "shebang",
+                    "target": "shebang"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unexpected block-seq-ind on same line with key",
+                    "target": "Unexpected block-seq-ind on same line with key"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "请先上传封面图",
+                    "target": "请先上传封面图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "文章已成功发布到微信公众号",
+                    "target": "文章已成功发布到微信公众号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "草稿已保存到微信公众号，请前往后台发布",
+                    "target": "草稿已保存到微信公众号，请前往后台发布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "scope",
+                    "target": "scope"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "actuate",
+                    "target": "actuate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "arcrole",
+                    "target": "arcrole"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "href",
+                    "target": "href"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "role",
+                    "target": "role"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "show",
+                    "target": "show"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "title",
+                    "target": "title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "type",
+                    "target": "type"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "lang",
+                    "target": "lang"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "space",
+                    "target": "space"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "xmlns",
+                    "target": "xmlns"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "xlink",
+                    "target": "xlink"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "import",
+                    "target": "import"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "charset",
+                    "target": "charset"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "namespace",
+                    "target": "namespace"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Plain text",
+                    "target": "Plain text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "JavaScript",
+                    "target": "JavaScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "TypeScript",
+                    "target": "TypeScript"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Python",
+                    "target": "Python"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Java",
+                    "target": "Java"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bash",
+                    "target": "Bash"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "HTML, XML",
+                    "target": "HTML, XML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "style",
+                    "target": "style"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "script",
+                    "target": "script"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SQL",
+                    "target": "SQL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CSS",
+                    "target": "CSS"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown",
+                    "target": "Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rust",
+                    "target": "Rust"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Go",
+                    "target": "Go"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Shell Session",
+                    "target": "Shell Session"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开发布预览",
+                    "target": "打开发布预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "发布到微信公众号",
+                    "target": "发布到微信公众号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "✅ 成功",
+                    "target": "✅ 成功"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "发布",
+                    "target": "发布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "上一页",
+                    "target": "上一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "加载中...",
+                    "target": "加载中..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "下一页",
+                    "target": "下一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "确认",
+                    "target": "确认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "素材库为空，请先上传图片",
+                    "target": "素材库为空，请先上传图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "👁️",
+                    "target": "👁️"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "点击 Markdown 文件查看发布预览",
+                    "target": "点击 Markdown 文件查看发布预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "预览将显示文章在微信中的渲染效果",
+                    "target": "预览将显示文章在微信中的渲染效果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note to Public 设置",
+                    "target": "Note to Public 设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "微信公众号",
+                    "target": "微信公众号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "提示：获取 AppID 和 AppSecret 请到微信公众平台 → 设置与开发 → 基本配置",
+                    "target": "提示：获取 AppID 和 AppSecret 请到微信公众平台 → 设置与开发 → 基本配置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AppSecret 已加密存储，可在 Obsidian 设置 → 安全 → 密钥存储 中查看",
+                    "target": "AppSecret 已加密存储，可在 Obsidian 设置 → 安全 → 密钥存储 中查看"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "⚠️ 警告",
+                    "target": "⚠️ 警告"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(`[NoteToPublic] PNG blob: ${pngBlob.size} bytes, type=${pngBlob.type}`)",
+                    "target": "log(`[NoteToPublic] PNG blob: ${pngBlob.size} bytes, type=${pngBlob.type}`)"
+                },
+                {
+                    "source": "error(\"SVG load error:\", e);\n              reject(new Error(\"SVG image load failed\")",
+                    "target": "error(\"SVG load error:\", e);\n              reject(new Error(\"SVG image load failed\")"
+                },
+                {
+                    "source": "name = \"*\"",
+                    "target": "name = \"*\""
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "link: \":any-link:not(:visited)\"",
+                    "target": "link: \":any-link:not(:visited)\""
+                },
+                {
+                    "source": "text: \"input:is(:not([type!='']), [type=text])\"",
+                    "target": "text: \"input:is(:not([type!='']), [type=text])\""
+                },
+                {
+                    "source": "name: \"scope\"",
+                    "target": "name: \"scope\""
+                },
+                {
+                    "source": "search = `${context} ${search}`",
+                    "target": "search = `${context} ${search}`"
+                },
+                {
+                    "source": "name: \"\"",
+                    "target": "name: \"\""
+                },
+                {
+                    "source": "name: \"actuate\"",
+                    "target": "name: \"actuate\""
+                },
+                {
+                    "source": "name: \"arcrole\"",
+                    "target": "name: \"arcrole\""
+                },
+                {
+                    "source": "name: \"href\"",
+                    "target": "name: \"href\""
+                },
+                {
+                    "source": "name: \"role\"",
+                    "target": "name: \"role\""
+                },
+                {
+                    "source": "name: \"show\"",
+                    "target": "name: \"show\""
+                },
+                {
+                    "source": "name: \"title\"",
+                    "target": "name: \"title\""
+                },
+                {
+                    "source": "name: \"type\"",
+                    "target": "name: \"type\""
+                },
+                {
+                    "source": "name: \"lang\"",
+                    "target": "name: \"lang\""
+                },
+                {
+                    "source": "name: \"space\"",
+                    "target": "name: \"space\""
+                },
+                {
+                    "source": "name: \"xmlns\"",
+                    "target": "name: \"xmlns\""
+                },
+                {
+                    "source": "name: \"xlink\"",
+                    "target": "name: \"xlink\""
+                },
+                {
+                    "source": "name: \"-webkit-keyframes\"",
+                    "target": "name: \"-webkit-keyframes\""
+                },
+                {
+                    "source": "name: \"-moz-keyframes\"",
+                    "target": "name: \"-moz-keyframes\""
+                },
+                {
+                    "source": "name: \"-ms-keyframes\"",
+                    "target": "name: \"-ms-keyframes\""
+                },
+                {
+                    "source": "name: \"-o-keyframes\"",
+                    "target": "name: \"-o-keyframes\""
+                },
+                {
+                    "source": "name: \"import\"",
+                    "target": "name: \"import\""
+                },
+                {
+                    "source": "name: \"charset\"",
+                    "target": "name: \"charset\""
+                },
+                {
+                    "source": "name: \"namespace\"",
+                    "target": "name: \"namespace\""
+                },
+                {
+                    "source": "name: \"-moz-document\"",
+                    "target": "name: \"-moz-document\""
+                },
+                {
+                    "source": "name : \"\"",
+                    "target": "name : \"\""
+                },
+                {
+                    "source": "name = \"img\"",
+                    "target": "name = \"img\""
+                },
+                {
+                    "source": "name = \"[a-zA-Z_:][a-zA-Z0-9:._-]*\"",
+                    "target": "name = \"[a-zA-Z_:][a-zA-Z0-9:._-]*\""
+                },
+                {
+                    "source": "name = '[\\\\-;:&=\\\\+\\\\$,\\\\.a-zA-Z0-9_][\\\\-;:&=\\\\+\\\\$,\\\\\"\\\\.a-zA-Z0-9_]*'",
+                    "target": "name = '[\\\\-;:&=\\\\+\\\\$,\\\\.a-zA-Z0-9_][\\\\-;:&=\\\\+\\\\$,\\\\\"\\\\.a-zA-Z0-9_]*'"
+                },
+                {
+                    "source": "name = \"HTMLInjectionError\"",
+                    "target": "name = \"HTMLInjectionError\""
+                },
+                {
+                    "source": "name: \"Plain text\"",
+                    "target": "name: \"Plain text\""
+                },
+                {
+                    "source": "name: \"JavaScript\"",
+                    "target": "name: \"JavaScript\""
+                },
+                {
+                    "source": "name: \"TypeScript\"",
+                    "target": "name: \"TypeScript\""
+                },
+                {
+                    "source": "name: \"Python\"",
+                    "target": "name: \"Python\""
+                },
+                {
+                    "source": "name: \"Java\"",
+                    "target": "name: \"Java\""
+                },
+                {
+                    "source": "name: \"C++\"",
+                    "target": "name: \"C++\""
+                },
+                {
+                    "source": "name: \"C\"",
+                    "target": "name: \"C\""
+                },
+                {
+                    "source": "name: \"Bash\"",
+                    "target": "name: \"Bash\""
+                },
+                {
+                    "source": "name: \"JSON\"",
+                    "target": "name: \"JSON\""
+                },
+                {
+                    "source": "name: \"YAML\"",
+                    "target": "name: \"YAML\""
+                },
+                {
+                    "source": "name: \"HTML, XML\"",
+                    "target": "name: \"HTML, XML\""
+                },
+                {
+                    "source": "name: \"style\"",
+                    "target": "name: \"style\""
+                },
+                {
+                    "source": "name: \"script\"",
+                    "target": "name: \"script\""
+                },
+                {
+                    "source": "name: \"SQL\"",
+                    "target": "name: \"SQL\""
+                },
+                {
+                    "source": "name: \"CSS\"",
+                    "target": "name: \"CSS\""
+                },
+                {
+                    "source": "name: \"Markdown\"",
+                    "target": "name: \"Markdown\""
+                },
+                {
+                    "source": "name: \"Rust\"",
+                    "target": "name: \"Rust\""
+                },
+                {
+                    "source": "name: \"Go\"",
+                    "target": "name: \"Go\""
+                },
+                {
+                    "source": "name: \"Shell Session\"",
+                    "target": "name: \"Shell Session\""
+                },
+                {
+                    "source": "name = `${prefix}${i}`",
+                    "target": "name = `${prefix}${i}`"
+                },
+                {
+                    "source": "name = \"image.png\"",
+                    "target": "name = \"image.png\""
+                },
+                {
+                    "source": "name = \"thumb.jpg\"",
+                    "target": "name = \"thumb.jpg\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,588 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "rednote",
+        "version": "1.0.0",
+        "title": "RedNote",
+        "description": "RedNote Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Others",
+                    "target": "Others"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "details",
+                    "target": "details"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Remove",
+                    "target": "Remove"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add category",
+                    "target": "Add category"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Base folder where notes will be saved (e.g., 'RedNote'). Leave empty for vault root.",
+                    "target": "Base folder where notes will be saved (e.g., 'RedNote'). Leave empty for vault root."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, notes will be saved in a subfolder (e.g., category or custom path) under the default folder.",
+                    "target": "If enabled, notes will be saved in a subfolder (e.g., category or custom path) under the default folder."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default setting: if enabled, images will be downloaded locally. Can be overridden per import. (Note: Video download is currently not supported; video posts will fallback to cover image or keep the remote link.)",
+                    "target": "Default setting: if enabled, images will be downloaded locally. Can be overridden per import. (Note: Video download is currently not supported; video posts will fallback to cover image or keep the remote link.)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, parsed hashtags will be written to the standard 'tags' YAML frontmatter list.",
+                    "target": "If enabled, parsed hashtags will be written to the standard 'tags' YAML frontmatter list."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, parsed hashtags will be written to a custom 'rednote_tags' YAML frontmatter list.",
+                    "target": "If enabled, parsed hashtags will be written to a custom 'rednote_tags' YAML frontmatter list."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the YAML frontmatter properties template. Available placeholders: {{title}}, {{content}}, {{media}}, {{source}}, {{date}}, {{category}}.",
+                    "target": "Customize the YAML frontmatter properties template. Available placeholders: {{title}}, {{content}}, {{media}}, {{source}}, {{date}}, {{category}}."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the Markdown note body template. Available placeholders: {{title}}, {{content}}, {{media}}.",
+                    "target": "Customize the Markdown note body template. Available placeholders: {{title}}, {{content}}, {{media}}."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the name of the note file",
+                    "target": "Customize the name of the note file"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the content of the note",
+                    "target": "Customize the content of the note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the Markdown template layout for this import",
+                    "target": "Customize the Markdown template layout for this import"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated list of RedNote tags",
+                    "target": "Comma-separated list of RedNote tags"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the subfolder category",
+                    "target": "Select the subfolder category"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle saving notes in a subfolder for this import",
+                    "target": "Toggle saving notes in a subfolder for this import"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Customize the subfolder name under the default folder",
+                    "target": "Customize the subfolder name under the default folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Check to save attachments to local media folder. (Note: Video download is currently not supported; video posts will fallback to cover image.)",
+                    "target": "Check to save attachments to local media folder. (Note: Video download is currently not supported; video posts will fallback to cover image.)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default folder",
+                    "target": "Default folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable subfolder",
+                    "target": "Enable subfolder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download media",
+                    "target": "Download media"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Write tags to Obsidian tags",
+                    "target": "Write tags to Obsidian tags"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Write tags to properties",
+                    "target": "Write tags to properties"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note properties template",
+                    "target": "Note properties template"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note body template",
+                    "target": "Note body template"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Categories",
+                    "target": "Categories"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Title",
+                    "target": "Title"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Content",
+                    "target": "Content"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note Template",
+                    "target": "Note Template"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "RedNote Tags",
+                    "target": "RedNote Tags"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Category",
+                    "target": "Category"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Subfolder",
+                    "target": "Subfolder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Attachments",
+                    "target": "Attachments"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "RedNote",
+                    "target": "RedNote"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move up",
+                    "target": "Move up"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move down",
+                    "target": "Move down"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Video URL not found; using cover image as fallback.",
+                    "target": "Video URL not found; using cover image as fallback."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Missing 'url' parameter in protocol link.",
+                    "target": "Missing 'url' parameter in protocol link."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No valid RedNote URL found in the parameter.",
+                    "target": "No valid RedNote URL found in the parameter."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Importing RedNote content via protocol link...",
+                    "target": "Importing RedNote content via protocol link..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No valid RedNote/Xiaohongshu URL found in the text.",
+                    "target": "No valid RedNote/Xiaohongshu URL found in the text."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fetching RedNote note details...",
+                    "target": "Fetching RedNote note details..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Saving note...",
+                    "target": "Saving note..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "xhs-submit-button mod-cta",
+                    "target": "xhs-submit-button mod-cta"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "import",
+                    "target": "import"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Import note",
+                    "target": "Import note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "e.g., Paste the RedNote shared link here...",
+                    "target": "e.g., Paste the RedNote shared link here..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advanced Options",
+                    "target": "Advanced Options"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Add, edit, or remove categories for organizing notes. Use Up/Down arrows to reorder.",
+                    "target": "Add, edit, or remove categories for organizing notes. Use Up/Down arrows to reorder."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Import RedNote Note",
+                    "target": "Import RedNote Note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Paste the share text or URL below:",
+                    "target": "Paste the share text or URL below:"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Fetch Content",
+                    "target": "Fetch Content"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Review RedNote Note Details",
+                    "target": "Review RedNote Note Details"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel",
+                    "target": "Cancel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm & Save",
+                    "target": "Confirm & Save"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Default folder\")",
+                    "target": "setName(\"Default folder\")"
+                },
+                {
+                    "source": "setDesc(\"Base folder where notes will be saved (e.g., 'RedNote'). Leave empty for vault root.\")",
+                    "target": "setDesc(\"Base folder where notes will be saved (e.g., 'RedNote'). Leave empty for vault root.\")"
+                },
+                {
+                    "source": "setName(\"Enable subfolder\")",
+                    "target": "setName(\"Enable subfolder\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, notes will be saved in a subfolder (e.g., category or custom path) under the default folder.\")",
+                    "target": "setDesc(\"If enabled, notes will be saved in a subfolder (e.g., category or custom path) under the default folder.\")"
+                },
+                {
+                    "source": "setName(\"Download media\")",
+                    "target": "setName(\"Download media\")"
+                },
+                {
+                    "source": "setDesc(\"Default setting: if enabled, images will be downloaded locally. Can be overridden per import. (Note: Video download is currently not supported; video posts will fallback to cover image or keep the remote link.)\")",
+                    "target": "setDesc(\"Default setting: if enabled, images will be downloaded locally. Can be overridden per import. (Note: Video download is currently not supported; video posts will fallback to cover image or keep the remote link.)\")"
+                },
+                {
+                    "source": "setName(\"Write tags to Obsidian tags\")",
+                    "target": "setName(\"Write tags to Obsidian tags\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, parsed hashtags will be written to the standard 'tags' YAML frontmatter list.\")",
+                    "target": "setDesc(\"If enabled, parsed hashtags will be written to the standard 'tags' YAML frontmatter list.\")"
+                },
+                {
+                    "source": "setName(\"Write tags to properties\")",
+                    "target": "setName(\"Write tags to properties\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, parsed hashtags will be written to a custom 'rednote_tags' YAML frontmatter list.\")",
+                    "target": "setDesc(\"If enabled, parsed hashtags will be written to a custom 'rednote_tags' YAML frontmatter list.\")"
+                },
+                {
+                    "source": "setName(\"Note properties template\")",
+                    "target": "setName(\"Note properties template\")"
+                },
+                {
+                    "source": "setDesc(\"Customize the YAML frontmatter properties template. Available placeholders: {{title}}, {{content}}, {{media}}, {{source}}, {{date}}, {{category}}.\")",
+                    "target": "setDesc(\"Customize the YAML frontmatter properties template. Available placeholders: {{title}}, {{content}}, {{media}}, {{source}}, {{date}}, {{category}}.\")"
+                },
+                {
+                    "source": "setName(\"Note body template\")",
+                    "target": "setName(\"Note body template\")"
+                },
+                {
+                    "source": "setDesc(\"Customize the Markdown note body template. Available placeholders: {{title}}, {{content}}, {{media}}.\")",
+                    "target": "setDesc(\"Customize the Markdown note body template. Available placeholders: {{title}}, {{content}}, {{media}}.\")"
+                },
+                {
+                    "source": "setName(`Category ${a+1}`)",
+                    "target": "setName(`Category ${a+1}`)"
+                },
+                {
+                    "source": "setTooltip(\"Move up\")",
+                    "target": "setTooltip(\"Move up\")"
+                },
+                {
+                    "source": "setTooltip(\"Move down\")",
+                    "target": "setTooltip(\"Move down\")"
+                },
+                {
+                    "source": "setButtonText(\"Add category\")",
+                    "target": "setButtonText(\"Add category\")"
+                },
+                {
+                    "source": "setDesc(\"Customize the name of the note file\")",
+                    "target": "setDesc(\"Customize the name of the note file\")"
+                },
+                {
+                    "source": "setDesc(\"Customize the content of the note\")",
+                    "target": "setDesc(\"Customize the content of the note\")"
+                },
+                {
+                    "source": "setName(\"Note Template\")",
+                    "target": "setName(\"Note Template\")"
+                },
+                {
+                    "source": "setDesc(\"Customize the Markdown template layout for this import\")",
+                    "target": "setDesc(\"Customize the Markdown template layout for this import\")"
+                },
+                {
+                    "source": "setName(\"RedNote Tags\")",
+                    "target": "setName(\"RedNote Tags\")"
+                },
+                {
+                    "source": "setDesc(\"Comma-separated list of RedNote tags\")",
+                    "target": "setDesc(\"Comma-separated list of RedNote tags\")"
+                },
+                {
+                    "source": "setDesc(\"Select the subfolder category\")",
+                    "target": "setDesc(\"Select the subfolder category\")"
+                },
+                {
+                    "source": "setDesc(\"Toggle saving notes in a subfolder for this import\")",
+                    "target": "setDesc(\"Toggle saving notes in a subfolder for this import\")"
+                },
+                {
+                    "source": "setDesc(\"Customize the subfolder name under the default folder\")",
+                    "target": "setDesc(\"Customize the subfolder name under the default folder\")"
+                },
+                {
+                    "source": "setDesc(\"Check to save attachments to local media folder. (Note: Video download is currently not supported; video posts will fallback to cover image.)\")",
+                    "target": "setDesc(\"Check to save attachments to local media folder. (Note: Video download is currently not supported; video posts will fallback to cover image.)\")"
+                },
+                {
+                    "source": "log(`Failed to parse images: ${o}`)",
+                    "target": "log(`Failed to parse images: ${o}`)"
+                },
+                {
+                    "source": "log(`Failed to parse video URL: ${s}`)",
+                    "target": "log(`Failed to parse video URL: ${s}`)"
+                },
+                {
+                    "source": "log(`Failed to parse content from JSON: ${n}`)",
+                    "target": "log(`Failed to parse content from JSON: ${n}`)"
+                },
+                {
+                    "source": "log(`Failed to determine note type: ${o}`)",
+                    "target": "log(`Failed to determine note type: ${o}`)"
+                },
+                {
+                    "source": "log(`Failed to download media from ${i}: ${o}`)",
+                    "target": "log(`Failed to download media from ${i}: ${o}`)"
+                },
+                {
+                    "source": "Notice(`Failed to download media: ${o}`)",
+                    "target": "Notice(`Failed to download media: ${o}`)"
+                },
+                {
+                    "source": "Notice(\"Video URL not found; using cover image as fallback.\")",
+                    "target": "Notice(\"Video URL not found; using cover image as fallback.\")"
+                },
+                {
+                    "source": "Notice(`Imported RedNote note as ${y}`)",
+                    "target": "Notice(`Imported RedNote note as ${y}`)"
+                },
+                {
+                    "source": "log(`Failed to save note: ${n.message}`)",
+                    "target": "log(`Failed to save note: ${n.message}`)"
+                },
+                {
+                    "source": "Notice(`Failed to save note: ${n.message}`)",
+                    "target": "Notice(`Failed to save note: ${n.message}`)"
+                },
+                {
+                    "source": "Notice(\"Missing 'url' parameter in protocol link.\")",
+                    "target": "Notice(\"Missing 'url' parameter in protocol link.\")"
+                },
+                {
+                    "source": "Notice(\"No valid RedNote URL found in the parameter.\")",
+                    "target": "Notice(\"No valid RedNote URL found in the parameter.\")"
+                },
+                {
+                    "source": "Notice(\"Importing RedNote content via protocol link...\")",
+                    "target": "Notice(\"Importing RedNote content via protocol link...\")"
+                },
+                {
+                    "source": "Notice(\"No valid RedNote/Xiaohongshu URL found in the text.\")",
+                    "target": "Notice(\"No valid RedNote/Xiaohongshu URL found in the text.\")"
+                },
+                {
+                    "source": "Notice(\"Fetching RedNote note details...\",0);try{let o=await this.importer.fetchNoteData(t);s.hide();let n=await this.promptForConfirmation(o);n&&(new u.Notice(\"Saving note...\")",
+                    "target": "Notice(\"Fetching RedNote note details...\",0);try{let o=await this.importer.fetchNoteData(t);s.hide();let n=await this.promptForConfirmation(o);n&&(new u.Notice(\"Saving note...\")"
+                },
+                {
+                    "source": "Notice(`Failed to fetch note data: ${o.message}`)",
+                    "target": "Notice(`Failed to fetch note data: ${o.message}`)"
+                },
+                {
+                    "source": "text:\"Advanced Options\"",
+                    "target": "text:\"Advanced Options\""
+                },
+                {
+                    "source": "text:\"Add, edit, or remove categories for organizing notes. Use Up/Down arrows to reorder.\"",
+                    "target": "text:\"Add, edit, or remove categories for organizing notes. Use Up/Down arrows to reorder.\""
+                },
+                {
+                    "source": "text:\"Import RedNote Note\"",
+                    "target": "text:\"Import RedNote Note\""
+                },
+                {
+                    "source": "text:\"Paste the share text or URL below:\"",
+                    "target": "text:\"Paste the share text or URL below:\""
+                },
+                {
+                    "source": "text:\"Fetch Content\"",
+                    "target": "text:\"Fetch Content\""
+                },
+                {
+                    "source": "text:\"Review RedNote Note Details\"",
+                    "target": "text:\"Review RedNote Note Details\""
+                },
+                {
+                    "source": "text:\"Confirm & Save\"",
+                    "target": "text:\"Confirm & Save\""
+                },
+                {
+                    "source": "name:\"Import note\"",
+                    "target": "name:\"Import note\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "quick-capture",
+        "version": "1.0.0",
+        "title": "Quick Capture",
+        "description": "Quick Capture Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "部署到 Cloudflare",
+                    "target": "部署到 Cloudflare"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "查看教程",
+                    "target": "查看教程"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "测试",
+                    "target": "测试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "同步",
+                    "target": "同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开教程",
+                    "target": "打开教程"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "首次使用请部署到自己的 Cloudflare 账号。Cloudflare 会提供免费地址，不需要域名。",
+                    "target": "首次使用请部署到自己的 Cloudflare 账号。Cloudflare 会提供免费地址，不需要域名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Cloudflare 部署完成后获得的 workers.dev 地址，不要填写末尾斜杠。",
+                    "target": "Cloudflare 部署完成后获得的 workers.dev 地址，不要填写末尾斜杠。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "部署时生成的 CLIENT_TOKEN，只保存在当前知识库。",
+                    "target": "部署时生成的 CLIENT_TOKEN，只保存在当前知识库。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "部署时生成的 SYNC_ENCRYPTION_KEY，用于解密队列内容。",
+                    "target": "部署时生成的 SYNC_ENCRYPTION_KEY，用于解密队列内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "每天的内容会追加到该目录下的 YYYY-MM-DD.md 表格。",
+                    "target": "每天的内容会追加到该目录下的 YYYY-MM-DD.md 表格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "建议开启。Obsidian 运行时后台无感同步，离线内容恢复后自动补齐。",
+                    "target": "建议开启。Obsidian 运行时后台无感同步，离线内容恢复后自动补齐。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "单位为秒，最短 3 秒。",
+                    "target": "单位为秒，最短 3 秒。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅用于检查和保底，日常无需点击。",
+                    "target": "仅用于检查和保底，日常无需点击。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "支持 iPhone 和 Android，手机不需要安装 Obsidian。",
+                    "target": "支持 iPhone 和 Android，手机不需要安装 Obsidian。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "1. 连接服务",
+                    "target": "1. 连接服务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "部署个人接收服务",
+                    "target": "部署个人接收服务"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "服务地址",
+                    "target": "服务地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "客户端令牌",
+                    "target": "客户端令牌"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步加密密钥",
+                    "target": "同步加密密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "检查连接",
+                    "target": "检查连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "2. 保存与同步",
+                    "target": "2. 保存与同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "收集目录",
+                    "target": "收集目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动同步",
+                    "target": "自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步间隔",
+                    "target": "同步间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "立即同步",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "3. 配置手机",
+                    "target": "3. 配置手机"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "手机配置教程",
+                    "target": "手机配置教程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "立即同步收集内容",
+                    "target": "立即同步收集内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "把 iPhone 或 Android 分享的文字和链接安全地收集到当前知识库。电脑离线时内容会暂存在你自己的 Cloudflare 队列中。",
+                    "target": "把 iPhone 或 Android 分享的文字和链接安全地收集到当前知识库。电脑离线时内容会暂存在你自己的 Cloudflare 队列中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "完成连接测试后，按照项目教程安装 iPhone 快捷指令或 Android 分享配置。手机只需要服务地址和 MOBILE_CAPTURE_TOKEN。",
+                    "target": "完成连接测试后，按照项目教程安装 iPhone 快捷指令或 Android 分享配置。手机只需要服务地址和 MOBILE_CAPTURE_TOKEN。"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

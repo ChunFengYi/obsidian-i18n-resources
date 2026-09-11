@@ -1,0 +1,286 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "floating-text-overlay",
+        "version": "1.0.0",
+        "title": "Floating Text Overlay",
+        "description": "Floating Text Overlay Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.7.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Floating text",
+                    "target": "浮动文本"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Linked",
+                    "target": "已链接"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Unlinked",
+                    "target": "未链接"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Preview Markdown",
+                    "target": "预览 Markdown"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Back to edit",
+                    "target": "返回编辑"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Label options",
+                    "target": "标签选项"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Color",
+                    "target": "颜色"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Transparency",
+                    "target": "透明度"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Drag to move",
+                    "target": "拖动以移动"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "This label is not linked to note text.",
+                    "target": "此标签未链接到笔记文本。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Delete this text box",
+                    "target": "删除此文本框"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Show rendered Markdown",
+                    "target": "显示渲染的Markdown"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Drag to resize",
+                    "target": "拖动以调整大小"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Select text in the active Markdown editor first.",
+                    "target": "首先在活动Markdown编辑器中选择文本。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Choose label color",
+                    "target": "选择标签颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Floating Text Overlay could not expose the focused label to Editing Toolbar.",
+                    "target": "浮动文本覆盖无法将焦点标签暴露给编辑工具栏。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select text in the floating label before changing its font colour.",
+                    "target": "在更改字体颜色之前，请先在浮动标签中选择文本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select text in the floating label before changing its highlight colour.",
+                    "target": "在更改高亮颜色之前，请先在浮动标签中选择文本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open a Markdown note before adding a floating text box.",
+                    "target": "在添加浮动文本框之前，请先打开Markdown笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No Markdown note is active.",
+                    "target": "没有Markdown笔记处于活动状态。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This note has no floating text boxes.",
+                    "target": "此笔记没有浮动文本框。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "All floating text boxes were deleted.",
+                    "target": "所有浮动文本框已被删除。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Keep this note active, select text in the editor, then link the label.",
+                    "target": "保持此笔记处于活动状态，在编辑器中选择文本，然后链接标签。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Label linked to the selected text.",
+                    "target": "标签已链接到所选文本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Select non-empty text in the Markdown editor before linking this label.",
+                    "target": "在链接此标签之前，在Markdown编辑器中选择非空文本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Text link removed from this label.",
+                    "target": "从此标签中移除了文本链接。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This label is not linked to note text.",
+                    "target": "此标签未链接到笔记文本。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open this note in the Markdown editor before locating the linked text.",
+                    "target": "在定位链接文本之前，在Markdown编辑器中打开此笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The linked text could not be found. The text may have been deleted or changed.",
+                    "target": "找不到链接文本。文本可能已被删除或更改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add floating text box",
+                    "target": "添加浮动文本框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Remove all floating text boxes in current note",
+                    "target": "移除当前笔记中所有浮动文本框的名称"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Select text in the floating label before changing its font colour.\")",
+                    "target": "Notice(\"Select text in the floating label before changing its font colour.\")"
+                },
+                {
+                    "source": "Notice(\"Select text in the floating label before changing its highlight colour.\")",
+                    "target": "Notice(\"Select text in the floating label before changing its highlight colour.\")"
+                },
+                {
+                    "source": "Notice(\"Open a Markdown note before adding a floating text box.\")",
+                    "target": "Notice(\"Open a Markdown note before adding a floating text box.\")"
+                },
+                {
+                    "source": "Notice(\"No Markdown note is active.\")",
+                    "target": "Notice(\"No Markdown note is active.\")"
+                },
+                {
+                    "source": "Notice(\"This note has no floating text boxes.\")",
+                    "target": "Notice(\"This note has no floating text boxes.\")"
+                },
+                {
+                    "source": "Notice(\"All floating text boxes were deleted.\")",
+                    "target": "Notice(\"All floating text boxes were deleted.\")"
+                },
+                {
+                    "source": "Notice(\"Keep this note active, select text in the editor, then link the label.\")",
+                    "target": "Notice(\"Keep this note active, select text in the editor, then link the label.\")"
+                },
+                {
+                    "source": "Notice(\"Label linked to the selected text.\")",
+                    "target": "Notice(\"Label linked to the selected text.\")"
+                },
+                {
+                    "source": "Notice(\"Select non-empty text in the Markdown editor before linking this label.\")",
+                    "target": "Notice(\"Select non-empty text in the Markdown editor before linking this label.\")"
+                },
+                {
+                    "source": "Notice(\"Text link removed from this label.\")",
+                    "target": "Notice(\"Text link removed from this label.\")"
+                },
+                {
+                    "source": "Notice(\"This label is not linked to note text.\")",
+                    "target": "Notice(\"This label is not linked to note text.\")"
+                },
+                {
+                    "source": "Notice(\"Open this note in the Markdown editor before locating the linked text.\")",
+                    "target": "Notice(\"Open this note in the Markdown editor before locating the linked text.\")"
+                },
+                {
+                    "source": "Notice(\"The linked text could not be found. The text may have been deleted or changed.\")",
+                    "target": "Notice(\"The linked text could not be found. The text may have been deleted or changed.\")"
+                },
+                {
+                    "source": "name:\"Add floating text box\"",
+                    "target": "name:\"Add floating text box\""
+                },
+                {
+                    "source": "name:\"Remove all floating text boxes in current note\"",
+                    "target": "name:\"Remove all floating text boxes in current note\""
+                },
+                {
+                    "source": "textContent=\"Floating text\"",
+                    "target": "textContent=\"Floating text\""
+                },
+                {
+                    "source": "textContent=\"Preview Markdown\"",
+                    "target": "textContent=\"Preview Markdown\""
+                },
+                {
+                    "source": "textContent=\"Back to edit\"",
+                    "target": "textContent=\"Back to edit\""
+                },
+                {
+                    "source": "textContent=\"Label options\"",
+                    "target": "textContent=\"Label options\""
+                },
+                {
+                    "source": "textContent=`Linked text: ${this.truncate(n.anchor.text,76)}`",
+                    "target": "textContent=`Linked text: ${this.truncate(n.anchor.text,76)}`"
+                }
+            ]
+        }
+    }
+}

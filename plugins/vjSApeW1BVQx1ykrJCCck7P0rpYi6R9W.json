@@ -1,0 +1,3142 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "chinese-writing-layout",
+        "version": "1.0.0",
+        "title": "中文写作布局",
+        "description": "中文写作布局 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "排版正文时保护 Markdown 标记、链接目标和代码内容",
+                    "target": "排版正文时保护 Markdown 标记、链接目标和代码内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "folder",
+                    "target": "folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "当前文件夹整稿",
+                    "target": "当前文件夹整稿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "current",
+                    "target": "current"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "当前笔记",
+                    "target": "当前笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "png",
+                    "target": "png"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "长图（.png）",
+                    "target": "长图（.png）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "docx",
+                    "target": "docx"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Word 文档（.docx）",
+                    "target": "Word 文档（.docx）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "md",
+                    "target": "md"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Markdown（.md）",
+                    "target": "Markdown（.md）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "txt",
+                    "target": "txt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "纯文本（.txt）",
+                    "target": "纯文本（.txt）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "professional",
+                    "target": "professional"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "专业版（右侧写作工坊）",
+                    "target": "专业版（右侧写作工坊）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "simple",
+                    "target": "simple"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "简洁版",
+                    "target": "简洁版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "custom",
+                    "target": "custom"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "自定义",
+                    "target": "自定义"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "theme",
+                    "target": "theme"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "跟随系统皮肤",
+                    "target": "跟随系统皮肤"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "不使用图片",
+                    "target": "不使用图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "正文字符数",
+                    "target": "正文字符数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "creative",
+                    "target": "creative"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "创作字数",
+                    "target": "创作字数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "CSS Class（兼容）",
+                    "target": "CSS Class（兼容）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "filename",
+                    "target": "filename"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "文件名",
+                    "target": "文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "tag",
+                    "target": "tag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "标签",
+                    "target": "标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "文件夹",
+                    "target": "文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "选择文件夹",
+                    "target": "选择文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Vault 根目录",
+                    "target": "Vault 根目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "选择标签",
+                    "target": "选择标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "default",
+                    "target": "default"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "推荐写作版式",
+                    "target": "推荐写作版式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "obsidian",
+                    "target": "obsidian"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "跟随 Obsidian",
+                    "target": "跟随 Obsidian"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "当前自定义设置",
+                    "target": "当前自定义设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "details",
+                    "target": "details"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "fieldset",
+                    "target": "fieldset"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "legend",
+                    "target": "legend"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：长图导出失败",
+                    "target": "中文写作排版：长图导出失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：准备导出内容失败",
+                    "target": "中文写作排版：准备导出内容失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：预检长图失败",
+                    "target": "中文写作排版：预检长图失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：导出操作失败",
+                    "target": "中文写作排版：导出操作失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：阅读模式读取正文失败",
+                    "target": "中文写作排版：阅读模式读取正文失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：阅读模式渲染正文失败",
+                    "target": "中文写作排版：阅读模式渲染正文失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：导入字体失败",
+                    "target": "中文写作排版：导入字体失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：保存字体信息失败",
+                    "target": "中文写作排版：保存字体信息失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：重命名字体失败",
+                    "target": "中文写作排版：重命名字体失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：删除字体文件失败",
+                    "target": "中文写作排版：删除字体文件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：保存删除字体后的设置失败",
+                    "target": "中文写作排版：保存删除字体后的设置失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：工作台订阅回调失败",
+                    "target": "中文写作排版：工作台订阅回调失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：工作区规则订阅回调失败",
+                    "target": "中文写作排版：工作区规则订阅回调失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：复制导出内容失败",
+                    "target": "中文写作排版：复制导出内容失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：导出失败",
+                    "target": "中文写作排版：导出失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：打开本地保存对话框失败",
+                    "target": "中文写作排版：打开本地保存对话框失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：打开本地导出文件夹失败",
+                    "target": "中文写作排版：打开本地导出文件夹失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "中文写作排版：快捷一键排版失败",
+                    "target": "中文写作排版：快捷一键排版失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开",
+                    "target": "打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "确认删除",
+                    "target": "确认删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "应用",
+                    "target": "应用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开排版设置",
+                    "target": "打开排版设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "恢复默认",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "添加规则",
+                    "target": "添加规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存模板",
+                    "target": "保存模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "下一步",
+                    "target": "下一步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "确认覆盖",
+                    "target": "确认覆盖"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "整稿会合并当前笔记所在文件夹中的 Markdown，并按文件名自然排序。",
+                    "target": "整稿会合并当前笔记所在文件夹中的 Markdown，并按文件名自然排序。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Markdown 保留原始语法；长图会按安全高度自动分图。",
+                    "target": "Markdown 保留原始语法；长图会按安全高度自动分图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "整稿导出时，用每个文件名分隔不同文章。",
+                    "target": "整稿导出时，用每个文件名分隔不同文章。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在正文前生成独立标题页。",
+                    "target": "在正文前生成独立标题页。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在页眉显示导出作品名称。",
+                    "target": "在页眉显示导出作品名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在页脚中央显示页码。",
+                    "target": "在页脚中央显示页码。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "例如：投稿版、纯净正文、个人阅读版",
+                    "target": "例如：投稿版、纯净正文、个人阅读版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "只修改插件内显示名称，不会改动字体文件。",
+                    "target": "只修改插件内显示名称，不会改动字体文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "这里填写的是优先字体；当前设备未安装时会自动回退。",
+                    "target": "这里填写的是优先字体；当前设备未安装时会自动回退。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "独立于当前 Obsidian 主题的阅读背景。",
+                    "target": "独立于当前 Obsidian 主题的阅读背景。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "标题默认跟随阅读字体。",
+                    "target": "标题默认跟随阅读字体。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "简洁版仅保留左侧一键写作模式；专业版使用右侧写作工坊。",
+                    "target": "简洁版仅保留左侧一键写作模式；专业版使用右侧写作工坊。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在 Obsidian 左侧图标栏显示魔法棒按钮，点击后直接使用当前默认方案排版。",
+                    "target": "在 Obsidian 左侧图标栏显示魔法棒按钮，点击后直接使用当前默认方案排版。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "跟随系统皮肤时使用 Obsidian 当前主题的重点色；也可以改为自定义颜色。",
+                    "target": "跟随系统皮肤时使用 Obsidian 当前主题的重点色；也可以改为自定义颜色。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于右侧写作工坊的按钮、图标、焦点与选中状态。",
+                    "target": "用于右侧写作工坊的按钮、图标、焦点与选中状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "让段落左右边缘尽量整齐。",
+                    "target": "让段落左右边缘尽量整齐。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅影响写作模式笔记的正文区域。",
+                    "target": "仅影响写作模式笔记的正文区域。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "从当前 Obsidian 库中的图片选择；选择后会自动启用“自定义图片”主题。",
+                    "target": "从当前 Obsidian 库中的图片选择；选择后会自动启用“自定义图片”主题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "打开默认排版规则、顺序和 Markdown 处理选项。",
+                    "target": "打开默认排版规则、顺序和 Markdown 处理选项。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅在手动把当前笔记从关闭切换为开启时执行；自动规则和打开笔记不会触发。",
+                    "target": "仅在手动把当前笔记从关闭切换为开启时执行；自动规则和打开笔记不会触发。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "进入写作模式时自动启用；关闭写作模式后恢复自动前的手动状态。",
+                    "target": "进入写作模式时自动启用；关闭写作模式后恢复自动前的手动状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "30% 靠上，50% 居中，70% 靠下。",
+                    "target": "30% 靠上，50% 居中，70% 靠下。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后，在写作工坊中切换打字机模式会同步作用于所有文章；关闭后仅作用于当前文章。",
+                    "target": "开启后，在写作工坊中切换打字机模式会同步作用于所有文章；关闭后仅作用于当前文章。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "使用柔和背景标出光标所在行，不修改正文。",
+                    "target": "使用柔和背景标出光标所在行，不修改正文。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用下划线提示半角标点、成对符号、重复标点和手工段首空格。",
+                    "target": "用下划线提示半角标点、成对符号、重复标点和手工段首空格。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "创作字数会忽略 Markdown 标记；正文字符数只排除 YAML 和空白。",
+                    "target": "创作字数会忽略 Markdown 标记；正文字符数只排除 YAML 和空白。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "按所选统计口径显示当前笔记字数和提示数量。",
+                    "target": "按所选统计口径显示当前笔记字数和提示数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "恢复后可以继续按需配置，不会影响笔记内容。",
+                    "target": "恢复后可以继续按需配置，不会影响笔记内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "没有单篇开关或自动规则命中时，使用这个全局默认值。",
+                    "target": "没有单篇开关或自动规则命中时，使用这个全局默认值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "全局写作模式使用的版式；自动规则可以为匹配的笔记指定另一套模板。",
+                    "target": "全局写作模式使用的版式；自动规则可以为匹配的笔记指定另一套模板。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "新规则默认匹配文件夹及其子文件夹，并自动开启写作模式。",
+                    "target": "新规则默认匹配文件夹及其子文件夹，并自动开启写作模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "带有这个 cssclasses 值的旧笔记仍可进入写作模式。",
+                    "target": "带有这个 cssclasses 值的旧笔记仍可进入写作模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "例如：舒适写作、宽屏校稿、夜间阅读",
+                    "target": "例如：舒适写作、宽屏校稿、夜间阅读"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "导出范围",
+                    "target": "导出范围"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文件格式",
+                    "target": "文件格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "加入文件标题",
+                    "target": "加入文件标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "移除 Markdown 语法",
+                    "target": "移除 Markdown 语法"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "导出后打开文件夹",
+                    "target": "导出后打开文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "图片分辨率",
+                    "target": "图片分辨率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "标题页",
+                    "target": "标题页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "页眉",
+                    "target": "页眉"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "页码",
+                    "target": "页码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "方案名称",
+                    "target": "方案名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示名称",
+                    "target": "显示名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用系统字体名称",
+                    "target": "使用系统字体名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "阅读背景",
+                    "target": "阅读背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "阅读字体",
+                    "target": "阅读字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "中文写作排版",
+                    "target": "中文写作排版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "界面模式",
+                    "target": "界面模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示一键排版 Ribbon 按钮",
+                    "target": "显示一键排版 Ribbon 按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "界面重点色",
+                    "target": "界面重点色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自定义重点色",
+                    "target": "自定义重点色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "两端对齐",
+                    "target": "两端对齐"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "纸张主题",
+                    "target": "纸张主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自定义纸张图片",
+                    "target": "自定义纸张图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认一键排版方案",
+                    "target": "默认一键排版方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "手动开启写作模式时自动一键排版",
+                    "target": "手动开启写作模式时自动一键排版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "开启写作模式时自动启用",
+                    "target": "开启写作模式时自动启用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "光标位置",
+                    "target": "光标位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "工作台打字机作用于所有文章",
+                    "target": "工作台打字机作用于所有文章"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "高亮当前行",
+                    "target": "高亮当前行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "中文标点提示",
+                    "target": "中文标点提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "字数统计口径",
+                    "target": "字数统计口径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "状态栏统计",
+                    "target": "状态栏统计"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "恢复全部插件设置",
+                    "target": "恢复全部插件设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认开启写作模式",
+                    "target": "默认开启写作模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认模板",
+                    "target": "默认模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "添加规则",
+                    "target": "添加规则"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "保存当前版式为模板",
+                    "target": "保存当前版式为模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "旧笔记激活类名",
+                    "target": "旧笔记激活类名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "模板名称",
+                    "target": "模板名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "目标模板",
+                    "target": "目标模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：霞鹜文楷",
+                    "target": "例如：霞鹜文楷"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：PingFang SC",
+                    "target": "例如：PingFang SC"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：小说正文",
+                    "target": "例如：小说正文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "我的版式",
+                    "target": "我的版式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "开始导出",
+                    "target": "开始导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "正在处理…",
+                    "target": "正在处理…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "开始批量排版",
+                    "target": "开始批量排版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "导出内容预览",
+                    "target": "导出内容预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "长图分图预览",
+                    "target": "长图分图预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "导出作品",
+                    "target": "导出作品"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "批量一键排版",
+                    "target": "批量一键排版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "确认批量排版",
+                    "target": "确认批量排版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "批量排版完成",
+                    "target": "批量排版完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "已执行撤回",
+                    "target": "已执行撤回"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "保存排版方案",
+                    "target": "保存排版方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "一键排版",
+                    "target": "一键排版"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "选择阅读方式",
+                    "target": "选择阅读方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "重命名字体",
+                    "target": "重命名字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "删除字体",
+                    "target": "删除字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "阅读设置",
+                    "target": "阅读设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "保存版式模板",
+                    "target": "保存版式模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "覆盖已有版式模板",
+                    "target": "覆盖已有版式模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "确认覆盖版式模板",
+                    "target": "确认覆盖版式模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "中文写作：一键排版…",
+                    "target": "中文写作：一键排版…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "移除多余空格",
+                    "target": "移除多余空格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "合并多余空行",
+                    "target": "合并多余空行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "段落之间增加空行",
+                    "target": "段落之间增加空行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "选择阅读字体",
+                    "target": "选择阅读字体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "是否自动开启写作模式",
+                    "target": "是否自动开启写作模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "中文写作排版：部分旧字体文件迁移失败",
+                    "target": "中文写作排版：部分旧字体文件迁移失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "中文写作排版：旧字体目录迁移失败",
+                    "target": "中文写作排版：旧字体目录迁移失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "所选范围没有可用的导出正文",
+                    "target": "所选范围没有可用的导出正文"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "准备导出内容失败，请重试",
+                    "target": "准备导出内容失败，请重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "所选范围没有可用的长图正文",
+                    "target": "所选范围没有可用的长图正文"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "长图分图预检失败，请降低分辨率后重试",
+                    "target": "长图分图预检失败，请降低分辨率后重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "导出失败，请重试",
+                    "target": "导出失败，请重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先选择至少一篇 Markdown 文档",
+                    "target": "请先选择至少一篇 Markdown 文档"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "部分旧字体未能迁移；字体仍会从旧位置加载，请备份后重试",
+                    "target": "部分旧字体未能迁移；字体仍会从旧位置加载，请备份后重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "旧字体目录暂未迁移；字体仍会从旧位置加载",
+                    "target": "旧字体目录暂未迁移；字体仍会从旧位置加载"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请选择 .ttf、.otf、.woff 或 .woff2 字体文件",
+                    "target": "请选择 .ttf、.otf、.woff 或 .woff2 字体文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "字体导入失败，请确认文件可读且格式正确",
+                    "target": "字体导入失败，请确认文件可读且格式正确"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "字体信息保存失败，未完成导入",
+                    "target": "字体信息保存失败，未完成导入"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "字体显示名称不能为空",
+                    "target": "字体显示名称不能为空"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "字体重命名失败",
+                    "target": "字体重命名失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "字体文件删除失败，未修改字体设置",
+                    "target": "字体文件删除失败，未修改字体设置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "字体删除失败，已尽量恢复原设置",
+                    "target": "字体删除失败，已尽量恢复原设置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法取消这次版式修改，当前设置可能需要重新打开面板",
+                    "target": "无法取消这次版式修改，当前设置可能需要重新打开面板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已撤回版式修改",
+                    "target": "已撤回版式修改"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "版式撤回失败，当前设置未改变",
+                    "target": "版式撤回失败，当前设置未改变"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已恢复版式修改",
+                    "target": "已恢复版式修改"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "版式恢复失败，当前设置未改变",
+                    "target": "版式恢复失败，当前设置未改变"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法恢复这条版式历史记录",
+                    "target": "无法恢复这条版式历史记录"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先打开一篇 Markdown 笔记",
+                    "target": "请先打开一篇 Markdown 笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前笔记已在跟随自动规则",
+                    "target": "当前笔记已在跟随自动规则"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前笔记已恢复跟随自动规则",
+                    "target": "当前笔记已恢复跟随自动规则"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前版本的 Obsidian 无法打开查找替换",
+                    "target": "当前版本的 Obsidian 无法打开查找替换"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请先在“设置 → 核心插件”中启用“文件恢复”。",
+                    "target": "请先在“设置 → 核心插件”中启用“文件恢复”。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已开启写作模式（简洁版）",
+                    "target": "已开启写作模式（简洁版）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "写作模式保持开启，已进入专业版",
+                    "target": "写作模式保持开启，已进入专业版"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已关闭写作模式，并回到简洁版",
+                    "target": "已关闭写作模式，并回到简洁版"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "复制失败，请重试",
+                    "target": "复制失败，请重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "所选范围没有可导出的正文",
+                    "target": "所选范围没有可导出的正文"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前设备暂不支持直接保存到本地，请在桌面端导出",
+                    "target": "当前设备暂不支持直接保存到本地，请在桌面端导出"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已取消导出",
+                    "target": "已取消导出"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "无法打开本地保存对话框，请重试",
+                    "target": "无法打开本地保存对话框，请重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "还没有本地导出记录，请先导出一份文件",
+                    "target": "还没有本地导出记录，请先导出一份文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前设备暂不支持打开本地导出文件夹",
+                    "target": "当前设备暂不支持打开本地导出文件夹"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已应用跟随 Obsidian：正文保持 Obsidian 当前排版",
+                    "target": "已应用跟随 Obsidian：正文保持 Obsidian 当前排版"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已应用推荐写作版式",
+                    "target": "已应用推荐写作版式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前没有可恢复的上次选择模板",
+                    "target": "当前没有可恢复的上次选择模板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "排版失败，请重试",
+                    "target": "排版失败，请重试"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已保存一键排版设置",
+                    "target": "已保存一键排版设置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "文本已经符合所选排版规则",
+                    "target": "文本已经符合所选排版规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "导出内容预览",
+                    "target": "导出内容预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "预览长图分图",
+                    "target": "预览长图分图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "打开当前文件所在文件夹",
+                    "target": "打开当前文件所在文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "选择字体文件",
+                    "target": "选择字体文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "阅读正文",
+                    "target": "阅读正文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "撤回版式修改",
+                    "target": "撤回版式修改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "恢复版式修改",
+                    "target": "恢复版式修改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "启用标题居中",
+                    "target": "启用标题居中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "版式模板",
+                    "target": "版式模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "使用当前默认方案一键排版",
+                    "target": "使用当前默认方案一键排版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "撤回上一步编辑",
+                    "target": "撤回上一步编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "设置一键排版方案",
+                    "target": "设置一键排版方案"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "退出专注模式",
+                    "target": "退出专注模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-format-chip-list cw-format-batch-scope-chips",
+                    "target": "cw-format-chip-list cw-format-batch-scope-chips"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-format-footer cw-format-batch-footer",
+                    "target": "cw-format-footer cw-format-batch-footer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "dropdown cw-format-batch-folder-select",
+                    "target": "dropdown cw-format-batch-folder-select"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "dropdown cw-format-batch-tag-select",
+                    "target": "dropdown cw-format-batch-tag-select"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-format-section cw-format-preset-section",
+                    "target": "cw-format-section cw-format-preset-section"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-format-section cw-format-rules-section",
+                    "target": "cw-format-section cw-format-rules-section"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-format-section cw-format-markdown-section",
+                    "target": "cw-format-section cw-format-markdown-section"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-format-chip-list cw-format-preset-chips",
+                    "target": "cw-format-chip-list cw-format-preset-chips"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-format-check-option cw-format-markdown-protection",
+                    "target": "cw-format-check-option cw-format-markdown-protection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-format-repair-title cw-format-markdown-mode-label",
+                    "target": "cw-format-repair-title cw-format-markdown-mode-label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-format-chip-list cw-format-markdown-modes",
+                    "target": "cw-format-chip-list cw-format-markdown-modes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-font-choice-list cw-font-quick-list",
+                    "target": "cw-font-choice-list cw-font-quick-list"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-font-source-header cw-font-user-header",
+                    "target": "cw-font-source-header cw-font-user-header"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-font-source-section cw-font-system-section",
+                    "target": "cw-font-source-section cw-font-system-section"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-settings-rule-row cw-settings-rule-match",
+                    "target": "cw-settings-rule-row cw-settings-rule-match"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-settings-rule-controls cw-settings-rule-match-controls",
+                    "target": "cw-settings-rule-controls cw-settings-rule-match-controls"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-settings-rule-row cw-settings-rule-action",
+                    "target": "cw-settings-rule-row cw-settings-rule-action"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-settings-rule-controls cw-settings-rule-action-controls",
+                    "target": "cw-settings-rule-controls cw-settings-rule-action-controls"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-panel-help cw-panel-layout-help",
+                    "target": "cw-panel-help cw-panel-layout-help"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-panel-help cw-panel-obsidian-baseline",
+                    "target": "cw-panel-help cw-panel-obsidian-baseline"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-panel-control-row cw-panel-select-row",
+                    "target": "cw-panel-control-row cw-panel-select-row"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-panel-font-help cw-panel-heading-centering",
+                    "target": "cw-panel-font-help cw-panel-heading-centering"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-panel-compact-row cw-panel-heading-toggle",
+                    "target": "cw-panel-compact-row cw-panel-heading-toggle"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cw-panel-control-row cw-panel-color-row",
+                    "target": "cw-panel-control-row cw-panel-color-row"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "标准图片文件较小。",
+                    "target": "标准图片文件较小。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "高清适合大多数阅读和分享场景。",
+                    "target": "高清适合大多数阅读和分享场景。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "超清更清晰，但内存占用和分图数量更高。",
+                    "target": "超清更清晰，但内存占用和分图数量更高。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "清理正文行首的半角空格、全角空格和制表符。",
+                    "target": "清理正文行首的半角空格、全角空格和制表符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "清理每行末尾不可见的空格和制表符。",
+                    "target": "清理每行末尾不可见的空格和制表符。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "删除整篇正文最前面和最后面的多余空行。",
+                    "target": "删除整篇正文最前面和最后面的多余空行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "连续空行最多保留一个。",
+                    "target": "连续空行最多保留一个。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "在相邻正文段之间插入空行，不处理列表、标题和代码。",
+                    "target": "在相邻正文段之间插入空行，不处理列表、标题和代码。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "生成紧凑正文；不会删除 YAML 和代码块内部的空行。",
+                    "target": "生成紧凑正文；不会删除 YAML 和代码块内部的空行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "正文中的连续空格合并为一个。",
+                    "target": "正文中的连续空格合并为一个。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "例如“这 是 正文”和“你好 ，世界”会被正确合并。",
+                    "target": "例如“这 是 正文”和“你好 ，世界”会被正确合并。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "例如“使用Obsidian写作”会变为“使用 Obsidian 写作”。",
+                    "target": "例如“使用Obsidian写作”会变为“使用 Obsidian 写作”。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "例如“使用 Obsidian 写作”会变为“使用Obsidian写作”。",
+                    "target": "例如“使用 Obsidian 写作”会变为“使用Obsidian写作”。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "只处理正文，代码、YAML 和行内代码保持原样。",
+                    "target": "只处理正文，代码、YAML 和行内代码保持原样。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "将正文段首统一为两个全角空格，适合不支持视觉缩进的投稿平台。",
+                    "target": "将正文段首统一为两个全角空格，适合不支持视觉缩进的投稿平台。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "写作模式已有视觉缩进，正文中无需保留段首空格。",
+                    "target": "写作模式已有视觉缩进，正文中无需保留段首空格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "仅转换紧邻中文的逗号、句号、问号、叹号、冒号和分号。",
+                    "target": "仅转换紧邻中文的逗号、句号、问号、叹号、冒号和分号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "将中文全角逗号、句号、问号等转换为半角形式。",
+                    "target": "将中文全角逗号、句号、问号等转换为半角形式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "把成对的直双引号和直单引号修正为中文弯引号。",
+                    "target": "把成对的直双引号和直单引号修正为中文弯引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "将“”‘’转换为「」『』。",
+                    "target": "将“”‘’转换为「」『』。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "将「」『』转换为“”‘’。",
+                    "target": "将「」『』转换为“”‘’。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "将三个以上连续句点或省略号统一为“……”。",
+                    "target": "将三个以上连续句点或省略号统一为“……”。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "跟随 Obsidian",
+                    "target": "跟随 Obsidian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "暖色纸张",
+                    "target": "暖色纸张"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "柔和米白",
+                    "target": "柔和米白"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "复古书页",
+                    "target": "复古书页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "浅粉纸张",
+                    "target": "浅粉纸张"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "青绿纸张",
+                    "target": "青绿纸张"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "雾蓝纸张",
+                    "target": "雾蓝纸张"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "深色纸张",
+                    "target": "深色纸张"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "自定义图片",
+                    "target": "自定义图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "标准 · 1080px",
+                    "target": "标准 · 1080px"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "高清 · 1440px",
+                    "target": "高清 · 1440px"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "超清 · 2160px",
+                    "target": "超清 · 2160px"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "去掉行首空白字符",
+                    "target": "去掉行首空白字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "去掉行尾空白字符",
+                    "target": "去掉行尾空白字符"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "去掉文首与文末空行",
+                    "target": "去掉文首与文末空行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "合并多个连续空行",
+                    "target": "合并多个连续空行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "确保段落之间有一个空行",
+                    "target": "确保段落之间有一个空行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "移除所有正文空行",
+                    "target": "移除所有正文空行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "合并多个连续空格",
+                    "target": "合并多个连续空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "移除中文字符之间的空格",
+                    "target": "移除中文字符之间的空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "在中文与英文数字之间加空格",
+                    "target": "在中文与英文数字之间加空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "移除中文与英文数字之间的空格",
+                    "target": "移除中文与英文数字之间的空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "移除正文中的所有空格",
+                    "target": "移除正文中的所有空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "段首加入 2 个全角空格",
+                    "target": "段首加入 2 个全角空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "移除手工段首空格",
+                    "target": "移除手工段首空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "常用半角标点转为全角",
+                    "target": "常用半角标点转为全角"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "常用全角标点转为半角",
+                    "target": "常用全角标点转为半角"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "直引号修正为中文引号",
+                    "target": "直引号修正为中文引号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "中文弯引号转直角引号",
+                    "target": "中文弯引号转直角引号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "直角引号转中文弯引号",
+                    "target": "直角引号转中文弯引号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "省略号规范化",
+                    "target": "省略号规范化"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "空白",
+                    "target": "空白"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "空行",
+                    "target": "空行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "空格",
+                    "target": "空格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "段首",
+                    "target": "段首"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "标点",
+                    "target": "标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "引号",
+                    "target": "引号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "小说整洁（推荐）",
+                    "target": "小说整洁（推荐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "紧凑正文",
+                    "target": "紧凑正文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "中文标点整理",
+                    "target": "中文标点整理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "手动选择文档",
+                    "target": "手动选择文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "按文件夹",
+                    "target": "按文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "按 Tag",
+                    "target": "按 Tag"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "不处理",
+                    "target": "不处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "修复 Markdown",
+                    "target": "修复 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "移除 Markdown",
+                    "target": "移除 Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "粗体",
+                    "target": "粗体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "斜体",
+                    "target": "斜体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "删除线",
+                    "target": "删除线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Markdown 链接",
+                    "target": "Markdown 链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Obsidian 双链",
+                    "target": "Obsidian 双链"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "列表",
+                    "target": "列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "引用",
+                    "target": "引用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "标题",
+                    "target": "标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "纸白",
+                    "target": "纸白"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "暖白",
+                    "target": "暖白"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "雾灰",
+                    "target": "雾灰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "深色",
+                    "target": "深色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "宋体",
+                    "target": "宋体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "黑体",
+                    "target": "黑体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "楷体",
+                    "target": "楷体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "仿宋",
+                    "target": "仿宋"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "字号",
+                    "target": "字号"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "行距",
+                    "target": "行距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "字距",
+                    "target": "字距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "段距",
+                    "target": "段距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "缩进",
+                    "target": "缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "正文宽度",
+                    "target": "正文宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "左间距",
+                    "target": "左间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "右间距",
+                    "target": "右间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "中文语境中可能误用了半角标点",
+                    "target": "中文语境中可能误用了半角标点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "段首包含手工空格；写作模式已经提供视觉缩进",
+                    "target": "段首包含手工空格；写作模式已经提供视觉缩进"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "部分超长段落会在行间切分。",
+                    "target": "部分超长段落会在行间切分。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换当前笔记的写作模式",
+                    "target": "切换当前笔记的写作模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "当前笔记恢复跟随自动规则",
+                    "target": "当前笔记恢复跟随自动规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换写作纸张主题",
+                    "target": "切换写作纸张主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开写作排版面板",
+                    "target": "打开写作排版面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开桌面阅读",
+                    "target": "打开桌面阅读"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开手机预览",
+                    "target": "打开手机预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换简洁版与专业版",
+                    "target": "切换简洁版与专业版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换打字机模式",
+                    "target": "切换打字机模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "切换专注模式",
+                    "target": "切换专注模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "将当前笔记导出为纯文本",
+                    "target": "将当前笔记导出为纯文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开作品导出面板",
+                    "target": "打开作品导出面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开最近的本地导出文件夹",
+                    "target": "打开最近的本地导出文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开一键排版",
+                    "target": "打开一键排版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "移除多余空格（选区或整篇）",
+                    "target": "移除多余空格（选区或整篇）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "合并多余空行（选区或整篇）",
+                    "target": "合并多余空行（选区或整篇）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在正文段落之间增加空行（选区或整篇）",
+                    "target": "在正文段落之间增加空行（选区或整篇）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "搜索文件名或路径…",
+                    "target": "搜索文件名或路径…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例如：Chapter *",
+                    "target": "例如：Chapter *"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例如：scene-romance",
+                    "target": "例如：scene-romance"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "内容较长，预览仅显示前 200,000 个字符；复制和导出仍包含全文。",
+                    "target": "内容较长，预览仅显示前 200,000 个字符；复制和导出仍包含全文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "返回导出设置",
+                    "target": "返回导出设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "复制全文",
+                    "target": "复制全文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "返回",
+                    "target": "返回"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "开始导出",
+                    "target": "开始导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "导出会生成新文件，不会修改原笔记。",
+                    "target": "导出会生成新文件，不会修改原笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "长图设置",
+                    "target": "长图设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "预览分图",
+                    "target": "预览分图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前文件",
+                    "target": "当前文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "预览内容",
+                    "target": "预览内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Word 排版",
+                    "target": "Word 排版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择要处理的 Markdown 文档。执行前会再次展示方案、数量和文件列表。",
+                    "target": "选择要处理的 Markdown 文档。执行前会再次展示方案、数量和文件列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "手动选择文档",
+                    "target": "手动选择文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "没有匹配的 Markdown 文档。",
+                    "target": "没有匹配的 Markdown 文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "按文件夹",
+                    "target": "按文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "明确选择是否包含子文件夹；不会在后台静默扩展处理范围。",
+                    "target": "明确选择是否包含子文件夹；不会在后台静默扩展处理范围。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "包含子文件夹",
+                    "target": "包含子文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "按 Tag",
+                    "target": "按 Tag"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前 Vault 中没有可用 Tag。",
+                    "target": "当前 Vault 中没有可用 Tag。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择一个 Tag…",
+                    "target": "选择一个 Tag…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "处理会直接修改这些文件；完成后只能撤回最近一次批量排版。",
+                    "target": "处理会直接修改这些文件；完成后只能撤回最近一次批量排版。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "查看未处理文档",
+                    "target": "查看未处理文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "在这里设置一键排版的默认规则；保存后不会立即修改正文，请使用工作台或 Ribbon 的一键排版按钮执行。",
+                    "target": "在这里设置一键排版的默认规则；保存后不会立即修改正文，请使用工作台或 Ribbon 的一键排版按钮执行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "排版方案",
+                    "target": "排版方案"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "内置方案可直接使用；自定义方案会保存规则、顺序和 Markdown 设置。",
+                    "target": "内置方案可直接使用；自定义方案会保存规则、顺序和 Markdown 设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "方案管理",
+                    "target": "方案管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "执行规则",
+                    "target": "执行规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "使用箭头调整已启用与未启用规则的执行顺序；平时不会显示这些控件。",
+                    "target": "使用箭头调整已启用与未启用规则的执行顺序；平时不会显示这些控件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Markdown",
+                    "target": "Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保护 Markdown 语法",
+                    "target": "保护 Markdown 语法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "处理方式",
+                    "target": "处理方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "修复内容",
+                    "target": "修复内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "仅尝试修复常见且可以较可靠判断的 Markdown 标记，不保证所有异常 Markdown 都能完全恢复。",
+                    "target": "仅尝试修复常见且可以较可靠判断的 Markdown 标记，不保证所有异常 Markdown 都能完全恢复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择一种读者视角，原 Markdown 编辑页会保持打开。",
+                    "target": "选择一种读者视角，原 Markdown 编辑页会保持打开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择后立即应用。插件只保存当前字体引用，不会扫描电脑上的全部字体。",
+                    "target": "选择后立即应用。插件只保存当前字体引用，不会扫描电脑上的全部字体。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "完成",
+                    "target": "完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "快捷字体",
+                    "target": "快捷字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "使用当前设备已安装的常见字体",
+                    "target": "使用当前设备已安装的常见字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "我的字体",
+                    "target": "我的字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "独立保存，不受插件更新影响",
+                    "target": "独立保存，不受插件更新影响"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "+ 导入字体",
+                    "target": "+ 导入字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "还没有导入字体，点击右上角“+ 导入字体”。",
+                    "target": "还没有导入字体，点击右上角“+ 导入字体”。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "系统字体",
+                    "target": "系统字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "高级选项",
+                    "target": "高级选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "中文写作预览 Aa",
+                    "target": "中文写作预览 Aa"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "如何添加字体？",
+                    "target": "如何添加字体？"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "查看已安装字体名称：在系统字体设置或字体列表中找到字体族名称。",
+                    "target": "查看已安装字体名称：在系统字体设置或字体列表中找到字体族名称。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "导入字体文件：点击“+ 导入字体”，选择 .ttf、.otf、.woff 或 .woff2 文件。",
+                    "target": "导入字体文件：点击“+ 导入字体”，选择 .ttf、.otf、.woff 或 .woff2 文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "快捷字体会随设备变化；如果需要跨设备保持一致，请在当前设备导入自己的字体文件。导入后会立即选中并应用。",
+                    "target": "快捷字体会随设备变化；如果需要跨设备保持一致，请在当前设备导入自己的字体文件。导入后会立即选中并应用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "阅读设置只影响读者视角，不会改变写作版式。调整后立即应用。",
+                    "target": "阅读设置只影响读者视角，不会改变写作版式。调整后立即应用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "手机预览",
+                    "target": "手机预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂时无法读取这篇笔记。",
+                    "target": "暂时无法读取这篇笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂时无法渲染这篇笔记。",
+                    "target": "暂时无法渲染这篇笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "“写作模式”只为当前笔记开启写作显示，字号、行距与缩进通过右侧“版式微调”调整；“一键排版”才会按所选规则整理 Markdown 原文，并可立即撤销。",
+                    "target": "“写作模式”只为当前笔记开启写作显示，字号、行距与缩进通过右侧“版式微调”调整；“一键排版”才会按所选规则整理 Markdown 原文，并可立即撤销。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "更多字体设置",
+                    "target": "更多字体设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "以上三项就是特殊格式字体，可以分别设置。选择器中的“跟随正文”会随正文字体一起变化。",
+                    "target": "以上三项就是特殊格式字体，可以分别设置。选择器中的“跟随正文”会随正文字体一起变化。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "让正在输入的一行停留在指定高度，只改变编辑视图，不会修改正文。",
+                    "target": "让正在输入的一行停留在指定高度，只改变编辑视图，不会修改正文。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "恢复版式、写作辅助、排版方案和界面模式，并删除自定义模板。",
+                    "target": "恢复版式、写作辅助、排版方案和界面模式，并删除自定义模板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "按顺序匹配，第一条命中的规则生效。",
+                    "target": "按顺序匹配，第一条命中的规则生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "还没有自动套用规则。点击“添加规则”开始创建。",
+                    "target": "还没有自动套用规则。点击“添加规则”开始创建。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择匹配条件后，这条规则才会生效。",
+                    "target": "选择匹配条件后，这条规则才会生效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "匹配条件",
+                    "target": "匹配条件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "basename（不含 .md）整串匹配，* 表示任意字符，忽略英文大小写",
+                    "target": "basename（不含 .md）整串匹配，* 表示任意字符，忽略英文大小写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "高级兼容语境，匹配旧笔记中的 CSS Class",
+                    "target": "高级兼容语境，匹配旧笔记中的 CSS Class"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "套用动作",
+                    "target": "套用动作"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "自动开启写作模式",
+                    "target": "自动开启写作模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "CSS Classes 兼容设置",
+                    "target": "CSS Classes 兼容设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "仅为旧笔记兼容：activationClass 仍可作为旧版写作模式激活来源；新规则请使用上方 CSS Class（兼容）类型。",
+                    "target": "仅为旧笔记兼容：activationClass 仍可作为旧版写作模式激活来源；新规则请使用上方 CSS Class（兼容）类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "选择要用当前版式覆盖的自定义模板。下一步还会再次确认。",
+                    "target": "选择要用当前版式覆盖的自定义模板。下一步还会再次确认。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "WRITING STUDIO",
+                    "target": "WRITING STUDIO"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "写作工坊",
+                    "target": "写作工坊"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "中文小说排版与校对",
+                    "target": "中文小说排版与校对"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "请先打开一篇 Markdown 笔记。",
+                    "target": "请先打开一篇 Markdown 笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前笔记",
+                    "target": "当前笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "恢复跟随自动规则",
+                    "target": "恢复跟随自动规则"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "版式微调",
+                    "target": "版式微调"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "只改变显示",
+                    "target": "只改变显示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "写作模式开启后生效；这里的设置不会改写 Markdown 正文，并可保存为自定义模板。",
+                    "target": "写作模式开启后生效；这里的设置不会改写 Markdown 正文，并可保存为自定义模板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "此笔记使用独立版式",
+                    "target": "此笔记使用独立版式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "纸张",
+                    "target": "纸张"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "背景图片",
+                    "target": "背景图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "不使用图片",
+                    "target": "不使用图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "写作辅助",
+                    "target": "写作辅助"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "标题居中",
+                    "target": "标题居中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "只在写作模式下生效；展开后可选择需要居中的 Markdown 标题级别。",
+                    "target": "只在写作模式下生效；展开后可选择需要居中的 Markdown 标题级别。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "启用标题居中",
+                    "target": "启用标题居中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "居中标题级别",
+                    "target": "居中标题级别"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "恢复上次选择的模板",
+                    "target": "恢复上次选择的模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "操作界面",
+                    "target": "操作界面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "重点色",
+                    "target": "重点色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "跟随系统皮肤",
+                    "target": "跟随系统皮肤"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "自定义",
+                    "target": "自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "自定义颜色",
+                    "target": "自定义颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "版式模板",
+                    "target": "版式模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "跟随 Obsidian（已微调）",
+                    "target": "跟随 Obsidian（已微调）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "推荐写作版式",
+                    "target": "推荐写作版式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前自定义设置",
+                    "target": "当前自定义设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "另存",
+                    "target": "另存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "覆盖",
+                    "target": "覆盖"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保存修改",
+                    "target": "保存修改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "删除",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "字体",
+                    "target": "字体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "引用对应 > 段落，粗体对应 **文字**，斜体对应 *文字*。三项可以分别设置；字体窗口也提供手动字体列表与安装说明。",
+                    "target": "引用对应 > 段落，粗体对应 **文字**，斜体对应 *文字*。三项可以分别设置；字体窗口也提供手动字体列表与安装说明。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "快捷工具",
+                    "target": "快捷工具"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "先启用写作模式",
+                    "target": "先启用写作模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "光标位置",
+                    "target": "光标位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "高亮当前行",
+                    "target": "高亮当前行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "一键排版",
+                    "target": "一键排版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "使用当前默认方案，支持撤销",
+                    "target": "使用当前默认方案，支持撤销"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前笔记提示",
+                    "target": "当前笔记提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前笔记尚未启用写作模式；提示列表可查看，但正文中不会显示下划线。",
+                    "target": "当前笔记尚未启用写作模式；提示列表可查看，但正文中不会显示下划线。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂未发现问题。",
+                    "target": "暂未发现问题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "退出专注",
+                    "target": "退出专注"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "只测量分图，不生成图片",
+                    "target": "只测量分图，不生成图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "打开当前文件所在文件夹",
+                    "target": "打开当前文件所在文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "导入 .ttf、.otf、.woff 或 .woff2 字体文件",
+                    "target": "导入 .ttf、.otf、.woff 或 .woff2 字体文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "basename，不含 .md；整串匹配，* 表示任意字符，忽略英文大小写",
+                    "target": "basename，不含 .md；整串匹配，* 表示任意字符，忽略英文大小写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "高级兼容：匹配旧笔记中的 CSS Class",
+                    "target": "高级兼容：匹配旧笔记中的 CSS Class"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "点击前往版式微调",
+                    "target": "点击前往版式微调"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "撤回版式修改",
+                    "target": "撤回版式修改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "恢复版式修改",
+                    "target": "恢复版式修改"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "另存为新模板",
+                    "target": "另存为新模板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "使用当前默认方案一键排版",
+                    "target": "使用当前默认方案一键排版"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "撤回上一步编辑",
+                    "target": "撤回上一步编辑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "设置一键排版方案",
+                    "target": "设置一键排版方案"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "退出专注模式（Esc）",
+                    "target": "退出专注模式（Esc）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "选择本地导出位置",
+                    "target": "选择本地导出位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "search",
+                    "target": "search"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "file",
+                    "target": "file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "color",
+                    "target": "color"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "range",
+                    "target": "range"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "theme",
+                    "target": "theme"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "custom",
+                    "target": "custom"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "obsidian",
+                    "target": "obsidian"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "default",
+                    "target": "default"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setText(`${this.currentPage} / ${this.totalPages}`)",
+                    "target": "setText(`${this.currentPage} / ${this.totalPages}`)"
+                },
+                {
+                    "source": "setText(`${g} ${i[u]}`)",
+                    "target": "setText(`${g} ${i[u]}`)"
+                },
+                {
+                    "source": "setText(`${m} ${r}`)",
+                    "target": "setText(`${m} ${r}`)"
+                },
+                {
+                    "source": "setText(`${a.value} ${t.unit}`)",
+                    "target": "setText(`${a.value} ${t.unit}`)"
+                },
+                {
+                    "source": "text:\"WRITING STUDIO\"",
+                    "target": "text:\"WRITING STUDIO\""
+                }
+            ]
+        }
+    }
+}

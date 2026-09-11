@@ -1,0 +1,238 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "quick-zh",
+        "version": "1.0.0",
+        "title": "中文翻译",
+        "description": "中文翻译 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "llm",
+                    "target": "llm"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "LLM（OpenAI 兼容）",
+                    "target": "LLM（OpenAI 兼容）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "deepl",
+                    "target": "deepl"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "DeepL",
+                    "target": "DeepL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "google",
+                    "target": "google"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Google（免费）",
+                    "target": "Google（免费）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Google 免费免配置；DeepL/LLM 质量更好，需要 Key",
+                    "target": "Google 免费免配置；DeepL/LLM 质量更好，需要 Key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启后生成的中文笔记文件名也用中文标题",
+                    "target": "开启后生成的中文笔记文件名也用中文标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认 zh-CN 简体中文",
+                    "target": "默认 zh-CN 简体中文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "付费版打开（用 api.deepl.com）",
+                    "target": "付费版打开（用 api.deepl.com）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "OpenAI 兼容，如 https://api.openai.com/v1",
+                    "target": "OpenAI 兼容，如 https://api.openai.com/v1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "同时翻译的分段数，默认 2，范围 1–6",
+                    "target": "同时翻译的分段数，默认 2，范围 1–6"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "翻译引擎",
+                    "target": "翻译引擎"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "翻译文件名（= 笔记大标题）",
+                    "target": "翻译文件名（= 笔记大标题）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "目标语言",
+                    "target": "目标语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "DeepL API Key",
+                    "target": "DeepL API Key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "DeepL Pro 账户",
+                    "target": "DeepL Pro 账户"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Endpoint",
+                    "target": "Endpoint"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API Key"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "模型",
+                    "target": "模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "并发数",
+                    "target": "并发数"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "没有打开的笔记",
+                    "target": "没有打开的笔记"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "翻译中…",
+                    "target": "翻译中…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "你是翻译引擎。把用户内容翻译成简体中文，保留 Markdown 结构（链接、图片、加粗、列表、代码块原样保留），只输出译文，不要解释、不要加引号。",
+                    "target": "你是翻译引擎。把用户内容翻译成简体中文，保留 Markdown 结构（链接、图片、加粗、列表、代码块原样保留），只输出译文，不要解释、不要加引号。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "翻译当前笔记 → 中文",
+                    "target": "翻译当前笔记 → 中文"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice('没有打开的笔记')",
+                    "target": "Notice('没有打开的笔记')"
+                },
+                {
+                    "source": "Notice('已生成: ' + newPath.split('/')",
+                    "target": "Notice('已生成: ' + newPath.split('/')"
+                },
+                {
+                    "source": "Notice('翻译失败 (' + s.provider + ')",
+                    "target": "Notice('翻译失败 (' + s.provider + ')"
+                },
+                {
+                    "source": "setDesc('Google 免费免配置；DeepL/LLM 质量更好，需要 Key')",
+                    "target": "setDesc('Google 免费免配置；DeepL/LLM 质量更好，需要 Key')"
+                },
+                {
+                    "source": "setName('翻译文件名（= 笔记大标题）')",
+                    "target": "setName('翻译文件名（= 笔记大标题）')"
+                },
+                {
+                    "source": "setDesc('开启后生成的中文笔记文件名也用中文标题')",
+                    "target": "setDesc('开启后生成的中文笔记文件名也用中文标题')"
+                },
+                {
+                    "source": "setName('目标语言')",
+                    "target": "setName('目标语言')"
+                },
+                {
+                    "source": "setDesc('默认 zh-CN 简体中文')",
+                    "target": "setDesc('默认 zh-CN 简体中文')"
+                },
+                {
+                    "source": "setName('DeepL API Key')",
+                    "target": "setName('DeepL API Key')"
+                },
+                {
+                    "source": "setName('DeepL Pro 账户')",
+                    "target": "setName('DeepL Pro 账户')"
+                },
+                {
+                    "source": "setDesc('付费版打开（用 api.deepl.com）')",
+                    "target": "setDesc('付费版打开（用 api.deepl.com）')"
+                },
+                {
+                    "source": "setDesc('OpenAI 兼容，如 https://api.openai.com/v1')",
+                    "target": "setDesc('OpenAI 兼容，如 https://api.openai.com/v1')"
+                },
+                {
+                    "source": "setName('API Key')",
+                    "target": "setName('API Key')"
+                },
+                {
+                    "source": "setName('模型')",
+                    "target": "setName('模型')"
+                },
+                {
+                    "source": "setName('并发数')",
+                    "target": "setName('并发数')"
+                },
+                {
+                    "source": "text=' + encodeURIComponent(text),\n  });\n  const t = res.json && res.json.translations && res.json.translations[0];\n  if (!t || !t.text) throw new Error('",
+                    "target": "text=' + encodeURIComponent(text),\n  });\n  const t = res.json && res.json.translations && res.json.translations[0];\n  if (!t || !t.text) throw new Error('"
+                },
+                {
+                    "source": "name: '翻译当前笔记 → 中文'",
+                    "target": "name: '翻译当前笔记 → 中文'"
+                }
+            ]
+        }
+    }
+}

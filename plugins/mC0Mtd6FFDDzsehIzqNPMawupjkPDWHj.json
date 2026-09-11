@@ -1,0 +1,622 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "parallel-translator",
+        "version": "1.0.0",
+        "title": "Parallel Translator",
+        "description": "Parallel Translator Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.6.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "placeholder",
+                    "source": "Landau free energy => \\u6717\\u9053\\u81EA\\u7531\\u80FD\nfirst-principles calculation => \\u7B2C\\u4E00\\u6027\\u539F\\u7406\\u8BA1\\u7B97",
+                    "target": "Landau free energy => \\u6717\\u9053\\u81EA\\u7531\\u80FD\nfirst-principles calculation => \\u7B2C\\u4E00\\u6027\\u539F\\u7406\\u8BA1\\u7B97"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Parallel Translator AI reading:",
+                    "target": "Parallel Translator AI reading:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Parallel Translator:",
+                    "target": "Parallel Translator:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Parallel Translator reverse sync:",
+                    "target": "Parallel Translator reverse sync:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Parallel Translator write-back:",
+                    "target": "Parallel Translator write-back:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add",
+                    "target": "Add"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Delete",
+                    "target": "Delete"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The language used for the selected source text.",
+                    "target": "The language used for the selected source text."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Translate after the selection in the active Markdown editor changes.",
+                    "target": "Translate after the selection in the active Markdown editor changes."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use the active engine to apply target-language edits as minimal changes to the source language.",
+                    "target": "Use the active engine to apply target-language edits as minimal changes to the source language."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show red deletions and green additions inside the plugin before changing the Markdown note.",
+                    "target": "Show red deletions and green additions inside the plugin before changing the Markdown note."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Protect equations, code, citations, URLs, and Obsidian links, and apply relevant terminology consistently.",
+                    "target": "Protect equations, code, citations, URLs, and Obsidian links, and apply relevant terminology consistently."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Send the note title, nearest heading, and bounded text around the selection for disambiguation.",
+                    "target": "Send the note title, nearest heading, and bounded text around the selection for disambiguation."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "One mapping per line: source => target. Only terms found in the current selection are sent.",
+                    "target": "One mapping per line: source => target. Only terms found in the current selection are sent."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Supports {{targetLanguage}}.",
+                    "target": "Supports {{targetLanguage}}."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Add a provider preset, then fill its API key.",
+                    "target": "Add a provider preset, then fill its API key."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Target language",
+                    "target": "Target language"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Translate selection automatically",
+                    "target": "Translate selection automatically"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sync target edits automatically",
+                    "target": "Sync target edits automatically"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Review source changes",
+                    "target": "Review source changes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scientific manuscript mode",
+                    "target": "Scientific manuscript mode"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use nearby context",
+                    "target": "Use nearby context"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scientific terminology",
+                    "target": "Scientific terminology"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Translation prompt",
+                    "target": "Translation prompt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add engine",
+                    "target": "Add engine"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Engines",
+                    "target": "Engines"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use this engine",
+                    "target": "Use this engine"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delete engine",
+                    "target": "Delete engine"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Choose translation engine",
+                    "target": "Choose translation engine"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "English",
+                    "target": "English"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Analyzing passage...",
+                    "target": "Analyzing passage..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Translate selection in parallel translator",
+                    "target": "Translate selection in parallel translator"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Revision candidate",
+                    "target": "Revision candidate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-reading-pane is-hidden",
+                    "target": "pt-reading-pane is-hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-review-pane is-hidden",
+                    "target": "pt-review-pane is-hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-review-candidates is-hidden",
+                    "target": "pt-review-candidates is-hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "pt-review-reason is-hidden",
+                    "target": "pt-review-reason is-hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon pt-icon-button",
+                    "target": "clickable-icon pt-icon-button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Best match",
+                    "target": "Best match"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "DeepSeek",
+                    "target": "DeepSeek"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI",
+                    "target": "OpenAI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Kimi (Moonshot)",
+                    "target": "Kimi (Moonshot)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Qwen",
+                    "target": "Qwen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenRouter",
+                    "target": "OpenRouter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Custom",
+                    "target": "Custom"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open selection translator",
+                    "target": "Open selection translator"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Translate current selection",
+                    "target": "Translate current selection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sync edited translation to source",
+                    "target": "Sync edited translation to source"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Explain current selection or reading block",
+                    "target": "Explain current selection or reading block"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Ask about this passage",
+                    "target": "Ask about this passage"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Engine",
+                    "target": "Engine"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Model",
+                    "target": "Model"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Target",
+                    "target": "Target"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Auto translate",
+                    "target": "Auto translate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Auto sync",
+                    "target": "Auto sync"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Review before applying",
+                    "target": "Review before applying"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Source selection",
+                    "target": "Source selection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "None",
+                    "target": "None"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Translation",
+                    "target": "Translation"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "AI reading",
+                    "target": "AI reading"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Source changes",
+                    "target": "Source changes"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No pending source changes.",
+                    "target": "No pending source changes."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No engines configured.",
+                    "target": "No engines configured."
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setPlaceholder(\"Choose translation engine\")",
+                    "target": "setPlaceholder(\"Choose translation engine\")"
+                },
+                {
+                    "source": "setText(\"Analyzing passage...\")",
+                    "target": "setText(\"Analyzing passage...\")"
+                },
+                {
+                    "source": "error(\"Parallel Translator AI reading:\",r),this.readingAnswerEl.setText(`Analysis failed: ${r.message||r}`),this.setStatus(\"AI reading failed.\")",
+                    "target": "error(\"Parallel Translator AI reading:\",r),this.readingAnswerEl.setText(`Analysis failed: ${r.message||r}`),this.setStatus(\"AI reading failed.\")"
+                },
+                {
+                    "source": "setText(`${s.file.basename}: no selection`)",
+                    "target": "setText(`${s.file.basename}: no selection`)"
+                },
+                {
+                    "source": "setText(`${s.file.basename} - ${n.length} chars`)",
+                    "target": "setText(`${s.file.basename} - ${n.length} chars`)"
+                },
+                {
+                    "source": "error(\"Parallel Translator:\",r),new p(`Translation failed: ${r.message||r}`),this.setStatus(\"Translation failed. Check engine settings and network.\")",
+                    "target": "error(\"Parallel Translator:\",r),new p(`Translation failed: ${r.message||r}`),this.setStatus(\"Translation failed. Check engine settings and network.\")"
+                },
+                {
+                    "source": "error(\"Parallel Translator reverse sync:\",l),new p(`Source sync failed: ${l.message||l}`),this.setStatus(\"Source sync failed. The Markdown note was not changed.\")",
+                    "target": "error(\"Parallel Translator reverse sync:\",l),new p(`Source sync failed: ${l.message||l}`),this.setStatus(\"Source sync failed. The Markdown note was not changed.\")"
+                },
+                {
+                    "source": "setText(`${s.fileName} - ${t.length} chars`)",
+                    "target": "setText(`${s.fileName} - ${t.length} chars`)"
+                },
+                {
+                    "source": "error(\"Parallel Translator write-back:\",a),new p(`Source write-back failed: ${a.message||a}`),this.setStatus(\"Source write-back failed; the Markdown file was not changed.\")",
+                    "target": "error(\"Parallel Translator write-back:\",a),new p(`Source write-back failed: ${a.message||a}`),this.setStatus(\"Source write-back failed; the Markdown file was not changed.\")"
+                },
+                {
+                    "source": "setName(\"Target language\")",
+                    "target": "setName(\"Target language\")"
+                },
+                {
+                    "source": "setDesc(\"The language used for the selected source text.\")",
+                    "target": "setDesc(\"The language used for the selected source text.\")"
+                },
+                {
+                    "source": "setName(\"Translate selection automatically\")",
+                    "target": "setName(\"Translate selection automatically\")"
+                },
+                {
+                    "source": "setDesc(\"Translate after the selection in the active Markdown editor changes.\")",
+                    "target": "setDesc(\"Translate after the selection in the active Markdown editor changes.\")"
+                },
+                {
+                    "source": "setName(\"Sync target edits automatically\")",
+                    "target": "setName(\"Sync target edits automatically\")"
+                },
+                {
+                    "source": "setDesc(\"Use the active engine to apply target-language edits as minimal changes to the source language.\")",
+                    "target": "setDesc(\"Use the active engine to apply target-language edits as minimal changes to the source language.\")"
+                },
+                {
+                    "source": "setName(\"Review source changes\")",
+                    "target": "setName(\"Review source changes\")"
+                },
+                {
+                    "source": "setDesc(\"Show red deletions and green additions inside the plugin before changing the Markdown note.\")",
+                    "target": "setDesc(\"Show red deletions and green additions inside the plugin before changing the Markdown note.\")"
+                },
+                {
+                    "source": "setName(\"Scientific manuscript mode\")",
+                    "target": "setName(\"Scientific manuscript mode\")"
+                },
+                {
+                    "source": "setDesc(\"Protect equations, code, citations, URLs, and Obsidian links, and apply relevant terminology consistently.\")",
+                    "target": "setDesc(\"Protect equations, code, citations, URLs, and Obsidian links, and apply relevant terminology consistently.\")"
+                },
+                {
+                    "source": "setName(\"Use nearby context\")",
+                    "target": "setName(\"Use nearby context\")"
+                },
+                {
+                    "source": "setDesc(\"Send the note title, nearest heading, and bounded text around the selection for disambiguation.\")",
+                    "target": "setDesc(\"Send the note title, nearest heading, and bounded text around the selection for disambiguation.\")"
+                },
+                {
+                    "source": "setName(\"Scientific terminology\")",
+                    "target": "setName(\"Scientific terminology\")"
+                },
+                {
+                    "source": "setDesc(\"One mapping per line: source => target. Only terms found in the current selection are sent.\")",
+                    "target": "setDesc(\"One mapping per line: source => target. Only terms found in the current selection are sent.\")"
+                },
+                {
+                    "source": "setName(\"Translation prompt\")",
+                    "target": "setName(\"Translation prompt\")"
+                },
+                {
+                    "source": "setDesc(\"Supports {{targetLanguage}}.\")",
+                    "target": "setDesc(\"Supports {{targetLanguage}}.\")"
+                },
+                {
+                    "source": "setName(\"Add engine\")",
+                    "target": "setName(\"Add engine\")"
+                },
+                {
+                    "source": "setDesc(\"Add a provider preset, then fill its API key.\")",
+                    "target": "setDesc(\"Add a provider preset, then fill its API key.\")"
+                },
+                {
+                    "source": "setName(\"Use this engine\")",
+                    "target": "setName(\"Use this engine\")"
+                },
+                {
+                    "source": "setName(\"Delete engine\")",
+                    "target": "setName(\"Delete engine\")"
+                },
+                {
+                    "source": "setTitle(\"Translate selection in parallel translator\")",
+                    "target": "setTitle(\"Translate selection in parallel translator\")"
+                },
+                {
+                    "source": "name:\"Kimi (Moonshot)\"",
+                    "target": "name:\"Kimi (Moonshot)\""
+                },
+                {
+                    "source": "text:\"Auto translate\"",
+                    "target": "text:\"Auto translate\""
+                },
+                {
+                    "source": "text:\"Auto sync\"",
+                    "target": "text:\"Auto sync\""
+                },
+                {
+                    "source": "text:\"Review before applying\"",
+                    "target": "text:\"Review before applying\""
+                },
+                {
+                    "source": "text:\"Source selection\"",
+                    "target": "text:\"Source selection\""
+                },
+                {
+                    "source": "text:\"AI reading\"",
+                    "target": "text:\"AI reading\""
+                },
+                {
+                    "source": "text:\"Source changes\"",
+                    "target": "text:\"Source changes\""
+                },
+                {
+                    "source": "text:\"No pending source changes.\"",
+                    "target": "text:\"No pending source changes.\""
+                },
+                {
+                    "source": "text:`${r+1}. ${n.label}`",
+                    "target": "text:`${r+1}. ${n.label}`"
+                },
+                {
+                    "source": "text:\"No engines configured.\"",
+                    "target": "text:\"No engines configured.\""
+                },
+                {
+                    "source": "name:\"Open selection translator\"",
+                    "target": "name:\"Open selection translator\""
+                },
+                {
+                    "source": "name:\"Translate current selection\"",
+                    "target": "name:\"Translate current selection\""
+                },
+                {
+                    "source": "name:\"Sync edited translation to source\"",
+                    "target": "name:\"Sync edited translation to source\""
+                },
+                {
+                    "source": "name:\"Explain current selection or reading block\"",
+                    "target": "name:\"Explain current selection or reading block\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,1550 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "local-book-reader",
+        "version": "1.0.0",
+        "title": "本地书籍阅读器",
+        "description": "本地书籍阅读器 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.3.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<style>\n        :host {\n            display: block;\n            container-type: size;\n        }\n        :host, #top {\n            box-sizing: border-box;\n            position: relative;\n            overflow: hidden;\n            width: 100%;\n            height: 100%;\n        }\n        #top {\n            --_gap: 7%;\n            --_margin: 48px;\n            --_max-inline-size: 720px;\n            --_max-block-size: 1440px;\n            --_max-column-count: 2;\n            --_max-column-count-portrait: 1;\n            --_max-column-count-spread: var(--_max-column-count);\n            --_half-gap: calc(var(--_gap) / 2);\n            --_max-width: calc(var(--_max-inline-size) * var(--_max-column-count-spread));\n            --_max-height: var(--_max-block-size);\n            display: grid;\n            grid-template-columns:\n                minmax(var(--_half-gap), 1fr)\n                var(--_half-gap)\n                minmax(0, calc(var(--_max-width) - var(--_gap)))\n                var(--_half-gap)\n                minmax(var(--_half-gap), 1fr);\n            grid-template-rows:\n                minmax(var(--_margin), 1fr)\n                minmax(0, var(--_max-height))\n                minmax(var(--_margin), 1fr);\n            &.vertical {\n                --_max-column-count-spread: var(--_max-column-count-portrait);\n                --_max-width: var(--_max-block-size);\n                --_max-height: calc(var(--_max-inline-size) * var(--_max-column-count-spread));\n            }\n            @container (orientation: portrait) {\n                & {\n                    --_max-column-count-spread: var(--_max-column-count-portrait);\n                }\n                &.vertical {\n                    --_max-column-count-spread: var(--_max-column-count);\n                }\n            }\n        }\n        #background {\n            grid-column: 1 / -1;\n            grid-row: 1 / -1;\n        }\n        #container {\n            grid-column: 2 / 5;\n            grid-row: 2;\n            overflow: hidden;\n        }\n        :host([flow=\"scrolled\"]) #container {\n            grid-column: 1 / -1;\n            grid-row: 1 / -1;\n            overflow: auto;\n        }\n        #header {\n            grid-column: 3 / 4;\n            grid-row: 1;\n        }\n        #footer {\n            grid-column: 3 / 4;\n            grid-row: 3;\n            align-self: end;\n        }\n        #header, #footer {\n            display: grid;\n            height: var(--_margin);\n        }\n        :is(#header, #footer) > * {\n            display: flex;\n            align-items: center;\n            min-width: 0;\n        }\n        :is(#header, #footer) > * > * {\n            width: 100%;\n            overflow: hidden;\n            white-space: nowrap;\n            text-overflow: ellipsis;\n            text-align: center;\n            font-size: .75em;\n            opacity: .6;\n        }\n        </style>\n        <div id=\"top\">\n            <div id=\"background\" part=\"filter\"></div>\n            <div id=\"header\"></div>\n            <div id=\"container\" part=\"container\"></div>\n            <div id=\"footer\"></div>\n        </div>\n        ",
+                    "target": "<style>\n        :host {\n            display: block;\n            container-type: size;\n        }\n        :host, #top {\n            box-sizing: border-box;\n            position: relative;\n            overflow: hidden;\n            width: 100%;\n            height: 100%;\n        }\n        #top {\n            --_gap: 7%;\n            --_margin: 48px;\n            --_max-inline-size: 720px;\n            --_max-block-size: 1440px;\n            --_max-column-count: 2;\n            --_max-column-count-portrait: 1;\n            --_max-column-count-spread: var(--_max-column-count);\n            --_half-gap: calc(var(--_gap) / 2);\n            --_max-width: calc(var(--_max-inline-size) * var(--_max-column-count-spread));\n            --_max-height: var(--_max-block-size);\n            display: grid;\n            grid-template-columns:\n                minmax(var(--_half-gap), 1fr)\n                var(--_half-gap)\n                minmax(0, calc(var(--_max-width) - var(--_gap)))\n                var(--_half-gap)\n                minmax(var(--_half-gap), 1fr);\n            grid-template-rows:\n                minmax(var(--_margin), 1fr)\n                minmax(0, var(--_max-height))\n                minmax(var(--_margin), 1fr);\n            &.vertical {\n                --_max-column-count-spread: var(--_max-column-count-portrait);\n                --_max-width: var(--_max-block-size);\n                --_max-height: calc(var(--_max-inline-size) * var(--_max-column-count-spread));\n            }\n            @container (orientation: portrait) {\n                & {\n                    --_max-column-count-spread: var(--_max-column-count-portrait);\n                }\n                &.vertical {\n                    --_max-column-count-spread: var(--_max-column-count);\n                }\n            }\n        }\n        #background {\n            grid-column: 1 / -1;\n            grid-row: 1 / -1;\n        }\n        #container {\n            grid-column: 2 / 5;\n            grid-row: 2;\n            overflow: hidden;\n        }\n        :host([flow=\"scrolled\"]) #container {\n            grid-column: 1 / -1;\n            grid-row: 1 / -1;\n            overflow: auto;\n        }\n        #header {\n            grid-column: 3 / 4;\n            grid-row: 1;\n        }\n        #footer {\n            grid-column: 3 / 4;\n            grid-row: 3;\n            align-self: end;\n        }\n        #header, #footer {\n            display: grid;\n            height: var(--_margin);\n        }\n        :is(#header, #footer) > * {\n            display: flex;\n            align-items: center;\n            min-width: 0;\n        }\n        :is(#header, #footer) > * > * {\n            width: 100%;\n            overflow: hidden;\n            white-space: nowrap;\n            text-overflow: ellipsis;\n            text-align: center;\n            font-size: .75em;\n            opacity: .6;\n        }\n        </style>\n        <div id=\"top\">\n            <div id=\"background\" part=\"filter\"></div>\n            <div id=\"header\"></div>\n            <div id=\"container\" part=\"container\"></div>\n            <div id=\"footer\"></div>\n        </div>\n        "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Hi",
+                    "target": "Hi"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "all",
+                    "target": "all"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "全部格式",
+                    "target": "全部格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "全部分类",
+                    "target": "全部分类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "全部状态",
+                    "target": "全部状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "unread",
+                    "target": "unread"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "未读",
+                    "target": "未读"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "reading",
+                    "target": "reading"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "正在阅读",
+                    "target": "正在阅读"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "finished",
+                    "target": "finished"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "已读",
+                    "target": "已读"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "missing",
+                    "target": "missing"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "文件缺失",
+                    "target": "文件缺失"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "fr",
+                    "target": "fr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Français",
+                    "target": "Français"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "繁體中文",
+                    "target": "繁體中文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "简体中文",
+                    "target": "简体中文"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "en",
+                    "target": "en"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "English",
+                    "target": "English"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "window",
+                    "target": "window"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "独立阅读窗口（减轻关闭卡顿）",
+                    "target": "独立阅读窗口（减轻关闭卡顿）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "tab",
+                    "target": "tab"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Obsidian 标签页（默认）",
+                    "target": "Obsidian 标签页（默认）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "仅看收藏",
+                    "target": "仅看收藏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "canvas",
+                    "target": "canvas"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "blockquote",
+                    "target": "blockquote"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "mark",
+                    "target": "mark"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ol",
+                    "target": "ol"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not inspect interrupted writes",
+                    "target": "Local Book Reader could not inspect interrupted writes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not create an automatic backup",
+                    "target": "Local Book Reader could not create an automatic backup"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not migrate reader appearance settings",
+                    "target": "Local Book Reader could not migrate reader appearance settings"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not roll back a failed restore",
+                    "target": "Local Book Reader could not roll back a failed restore"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader failed to save reading state",
+                    "target": "Local Book Reader failed to save reading state"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader library scan failed",
+                    "target": "Local Book Reader library scan failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader failed to append thought",
+                    "target": "Local Book Reader failed to append thought"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader failed to save excerpt",
+                    "target": "Local Book Reader failed to save excerpt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader failed to save reader appearance",
+                    "target": "Local Book Reader failed to save reader appearance"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not open a search result",
+                    "target": "Local Book Reader could not open a search result"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader search failed",
+                    "target": "Local Book Reader search failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader failed to open a book",
+                    "target": "Local Book Reader failed to open a book"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not open a table-of-contents item",
+                    "target": "Local Book Reader could not open a table-of-contents item"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not remove an excerpt",
+                    "target": "Local Book Reader could not remove an excerpt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not create a research note",
+                    "target": "Local Book Reader could not create a research note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not search Markdown research entries",
+                    "target": "Local Book Reader could not search Markdown research entries"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader confirmed action failed",
+                    "target": "Local Book Reader confirmed action failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not save library owner name",
+                    "target": "Local Book Reader could not save library owner name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not save notes directory",
+                    "target": "Local Book Reader could not save notes directory"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not save research directory",
+                    "target": "Local Book Reader could not save research directory"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not save note template",
+                    "target": "Local Book Reader could not save note template"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not read cache usage",
+                    "target": "Local Book Reader could not read cache usage"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader failed during startup",
+                    "target": "Local Book Reader failed during startup"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not persist the first-use guide state",
+                    "target": "Local Book Reader could not persist the first-use guide state"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader failed to flush reading state",
+                    "target": "Local Book Reader failed to flush reading state"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader failed to prepare reading data",
+                    "target": "Local Book Reader failed to prepare reading data"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not validate selected backup",
+                    "target": "Local Book Reader could not validate selected backup"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not open the reading note",
+                    "target": "Local Book Reader could not open the reading note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not retain data after a book rename",
+                    "target": "Local Book Reader could not retain data after a book rename"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not incrementally index a new book",
+                    "target": "Local Book Reader could not incrementally index a new book"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not update a changed book record",
+                    "target": "Local Book Reader could not update a changed book record"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not mark a deleted book as missing",
+                    "target": "Local Book Reader could not mark a deleted book as missing"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not return to an excerpt",
+                    "target": "Local Book Reader could not return to an excerpt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Local Book Reader could not change File Explorer visibility",
+                    "target": "Local Book Reader could not change File Explorer visibility"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "TODO: Fully support non-isolated non-knockout groups.",
+                    "target": "TODO: Fully support non-isolated non-knockout groups."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Optional content group not defined.",
+                    "target": "Optional content group not defined."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "The worker has been disabled.",
+                    "target": "The worker has been disabled."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "稍后探索",
+                    "target": "稍后探索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "打开个人图书馆",
+                    "target": "打开个人图书馆"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存名称",
+                    "target": "保存名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存目录",
+                    "target": "保存目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "保存模板",
+                    "target": "保存模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "恢复默认设置",
+                    "target": "恢复默认设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "清除全部历史",
+                    "target": "清除全部历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "重置全部进度",
+                    "target": "重置全部进度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "导出备份",
+                    "target": "导出备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "选择备份文件",
+                    "target": "选择备份文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "清理缓存",
+                    "target": "清理缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择 English、简体中文、繁體中文或 Français。切换后，重新打开已打开的插件页面即可看到完整界面更新；不会改动任何电子书、笔记或已有数据。",
+                    "target": "选择 English、简体中文、繁體中文或 Français。切换后，重新打开已打开的插件页面即可看到完整界面更新；不会改动任何电子书、笔记或已有数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "填写后显示为“名称 的个人图书馆”；留空则显示“个人图书馆”。名称只保存在插件设置中，不会改动电子书或索引。",
+                    "target": "填写后显示为“名称 的个人图书馆”；留空则显示“个人图书馆”。名称只保存在插件设置中，不会改动电子书或索引。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅允许 Vault 内、且不在 .obsidian 内的相对路径。目录会在你首次主动创建笔记时才建立。",
+                    "target": "仅允许 Vault 内、且不在 .obsidian 内的相对路径。目录会在你首次主动创建笔记时才建立。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "用于从摘录检索创建或追加主题研究笔记；仅允许 Vault 内、且不在 .obsidian 内的相对路径。",
+                    "target": "用于从摘录检索创建或追加主题研究笔记；仅允许 Vault 内、且不在 .obsidian 内的相对路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "可使用 {{title}}、{{bookId}}、{{bookPath}}、{{format}}、{{readingStatus}}、{{created}}，以及对应的 Json 占位符（如 {{titleJson}}）。模板仅在新建笔记时使用。",
+                    "target": "可使用 {{title}}、{{bookId}}、{{bookPath}}、{{format}}、{{readingStatus}}、{{created}}，以及对应的 Json 占位符（如 {{titleJson}}）。模板仅在新建笔记时使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "只恢复馆主名称、读书笔记目录、主题研究目录、新笔记模板和新书默认阅读外观。已为单本书保存的外观不会改变；不会移动或删除已有 Markdown、阅读数据或电子书。",
+                    "target": "只恢复馆主名称、读书笔记目录、主题研究目录、新笔记模板和新书默认阅读外观。已为单本书保存的外观不会改变；不会移动或删除已有 Markdown、阅读数据或电子书。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认在 Obsidian 标签页打开。选择“独立阅读窗口”可减轻关闭大型 EPUB 时主窗口的卡顿；关闭时仍可能有短暂等待，且不会改动电子书或阅读数据。",
+                    "target": "默认在 Obsidian 标签页打开。选择“独立阅读窗口”可减轻关闭大型 EPUB 时主窗口的卡顿；关闭时仍可能有短暂等待，且不会改动电子书或阅读数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅清除“最近阅读”的打开时间记录。不会删除进度、书签、高亮、摘录、想法、收藏、Markdown 笔记或原始电子书。",
+                    "target": "仅清除“最近阅读”的打开时间记录。不会删除进度、书签、高亮、摘录、想法、收藏、Markdown 笔记或原始电子书。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅清除每本书的上次阅读位置。不会删除书签、高亮、摘录、想法、阅读状态、收藏、Markdown 笔记或原始电子书。",
+                    "target": "仅清除每本书的上次阅读位置。不会删除书签、高亮、摘录、想法、阅读状态、收藏、Markdown 笔记或原始电子书。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "导出插件设置、图书索引、进度、书签、状态、收藏和本地摘录/高亮定位数据。不会导出电子书、Markdown 笔记、封面或缓存；由你通过系统窗口选择保存位置。",
+                    "target": "导出插件设置、图书索引、进度、书签、状态、收藏和本地摘录/高亮定位数据。不会导出电子书、Markdown 笔记、封面或缓存；由你通过系统窗口选择保存位置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "只读取你主动选择的 Local Book Reader 备份文件。恢复前会显示备份摘要并要求确认；恢复前自动保存当前核心数据。电子书和 Markdown 笔记不会被读取或修改。",
+                    "target": "只读取你主动选择的 Local Book Reader 备份文件。恢复前会显示备份摘要并要求确认；恢复前自动保存当前核心数据。电子书和 Markdown 笔记不会被读取或修改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "只清理插件专属 cache 目录中的可重建文件。不会删除进度、书签、高亮、摘录、想法、状态、收藏、自动备份、Markdown 笔记或电子书。",
+                    "target": "只清理插件专属 cache 目录中的可重建文件。不会删除进度、书签、高亮、摘录、想法、状态、收藏、自动备份、Markdown 笔记或电子书。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "界面语言",
+                    "target": "界面语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "插件设置",
+                    "target": "插件设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "馆主名称",
+                    "target": "馆主名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "读书笔记保存目录",
+                    "target": "读书笔记保存目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "主题研究笔记保存目录",
+                    "target": "主题研究笔记保存目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "新读书笔记默认模板",
+                    "target": "新读书笔记默认模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "恢复默认插件设置",
+                    "target": "恢复默认插件设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "电子书打开位置",
+                    "target": "电子书打开位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "阅读数据维护",
+                    "target": "阅读数据维护"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "清除全部最近阅读历史",
+                    "target": "清除全部最近阅读历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "重置全部阅读进度",
+                    "target": "重置全部阅读进度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "备份与恢复",
+                    "target": "备份与恢复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "导出核心数据备份",
+                    "target": "导出核心数据备份"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "从备份恢复核心数据",
+                    "target": "从备份恢复核心数据"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "缓存维护",
+                    "target": "缓存维护"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "清理可重建缓存",
+                    "target": "清理可重建缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：Sunny D",
+                    "target": "例如：Sunny D"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "清除本书最近阅读历史",
+                    "target": "清除本书最近阅读历史"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "重置本书阅读进度",
+                    "target": "重置本书阅读进度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "检查疑似重复文件",
+                    "target": "检查疑似重复文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in Local Book Reader",
+                    "target": "Open in Local Book Reader"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "getPdfFilenameFromUrl: ignore \"data:\"-URL for performance reasons.",
+                    "target": "getPdfFilenameFromUrl: ignore \"data:\"-URL for performance reasons."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Load test font never loaded.",
+                    "target": "Load test font never loaded."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "LoopbackPort - cannot use an `aborted` signal.",
+                    "target": "LoopbackPort - cannot use an `aborted` signal."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "#createUrl: ignore \"data:\"-URL for performance reasons.",
+                    "target": "#createUrl: ignore \"data:\"-URL for performance reasons."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cannot polyfill `DOMMatrix`, rendering may be broken.",
+                    "target": "Cannot polyfill `DOMMatrix`, rendering may be broken."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Cannot polyfill `Path2D`, rendering may be broken.",
+                    "target": "Cannot polyfill `Path2D`, rendering may be broken."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dependent image isn't ready yet",
+                    "target": "Dependent image isn't ready yet"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Missing or invalid \"Content-Range\" header.",
+                    "target": "Missing or invalid \"Content-Range\" header."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Ignoring additional textDivs for performance reasons.",
+                    "target": "Ignoring additional textDivs for performance reasons."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Enable the `dom.textMetrics.fontBoundingBox.enabled` preference in `about:config` to improve TextLayer rendering.",
+                    "target": "Enable the `dom.textMetrics.fontBoundingBox.enabled` preference in `about:config` to improve TextLayer rendering."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Setting up fake worker.",
+                    "target": "Setting up fake worker."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "saveDocument called while `annotationStorage` is empty, please use the getData-method instead.",
+                    "target": "saveDocument called while `annotationStorage` is empty, please use the getData-method instead."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unimplemented border style: beveled",
+                    "target": "Unimplemented border style: beveled"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unimplemented border style: inset",
+                    "target": "Unimplemented border style: inset"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "_bindResetFormAction - \"resetForm\" action not supported, ensure that the \\`fieldObjects\\` parameter is provided.",
+                    "target": "_bindResetFormAction - \"resetForm\" action not supported, ensure that the \\`fieldObjects\\` parameter is provided."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unknown encryption algorithm",
+                    "target": "Unknown encryption algorithm"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to decompress font",
+                    "target": "Failed to decompress font"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to open KF8; falling back to MOBI",
+                    "target": "Failed to open KF8; falling back to MOBI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "@import rules are not allowed here. See https://github.com/WICG/construct-stylesheets/issues/119#issuecomment-588352418",
+                    "target": "@import rules are not allowed here. See https://github.com/WICG/construct-stylesheets/issues/119#issuecomment-588352418"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Local Book Reader could not cache book metadata",
+                    "target": "Local Book Reader could not cache book metadata"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Local Book Reader could not cache book cover",
+                    "target": "Local Book Reader could not cache book cover"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Local Book Reader could not redraw an excerpt",
+                    "target": "Local Book Reader could not redraw an excerpt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Local Book Reader could not release the PDF reader after closing",
+                    "target": "Local Book Reader could not release the PDF reader after closing"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Local Book Reader could not open a popout reader window",
+                    "target": "Local Book Reader could not open a popout reader window"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "按格式筛选",
+                    "target": "按格式筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "按分类筛选",
+                    "target": "按分类筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "按阅读状态筛选",
+                    "target": "按阅读状态筛选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ebook-reader__pdf-text-layer textLayer",
+                    "target": "ebook-reader__pdf-text-layer textLayer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "confirmText",
+                    "source": "确认清除",
+                    "target": "确认清除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "confirmText",
+                    "source": "确认重置",
+                    "target": "确认重置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "confirmText",
+                    "source": "选择保存位置",
+                    "target": "选择保存位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "confirmText",
+                    "source": "确认清理缓存",
+                    "target": "确认清理缓存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "confirmText",
+                    "source": "确认恢复",
+                    "target": "确认恢复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "confirmText",
+                    "source": "确认恢复默认设置",
+                    "target": "确认恢复默认设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local Book Reader 备份",
+                    "target": "Local Book Reader 备份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "这项操作只会清除最近打开时间。进度、书签、高亮、摘录、想法、收藏、Markdown 笔记和原始电子书都会保留。",
+                    "target": "这项操作只会清除最近打开时间。进度、书签、高亮、摘录、想法、收藏、Markdown 笔记和原始电子书都会保留。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "这项操作只会清除上次阅读位置。书签、高亮、摘录、想法、阅读状态、收藏、Markdown 笔记和原始电子书都会保留。",
+                    "target": "这项操作只会清除上次阅读位置。书签、高亮、摘录、想法、阅读状态、收藏、Markdown 笔记和原始电子书都会保留。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "将导出插件设置、图书索引、进度、书签、状态、收藏和本地摘录/高亮定位数据。不会导出或修改电子书、Markdown 笔记、封面和缓存。下一步将由你选择新的保存位置。",
+                    "target": "将导出插件设置、图书索引、进度、书签、状态、收藏和本地摘录/高亮定位数据。不会导出或修改电子书、Markdown 笔记、封面和缓存。下一步将由你选择新的保存位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "只会删除插件专属 cache 目录中的可重建文件。进度、书签、高亮、摘录、想法、状态、收藏、自动备份、Markdown 笔记和原始电子书都会保留。",
+                    "target": "只会删除插件专属 cache 目录中的可重建文件。进度、书签、高亮、摘录、想法、状态、收藏、自动备份、Markdown 笔记和原始电子书都会保留。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "将恢复默认的馆主名称、读书笔记目录、主题研究目录、新笔记模板和新书默认阅读外观。已为单本书保存的外观不会改变；已有 Markdown 文件、进度、书签、高亮、摘录、想法、收藏、自动备份、缓存和电子书均不会被移动、删除或修改。",
+                    "target": "将恢复默认的馆主名称、读书笔记目录、主题研究目录、新笔记模板和新书默认阅读外观。已为单本书保存的外观不会改变；已有 Markdown 文件、进度、书签、高亮、摘录、想法、收藏、自动备份、缓存和电子书均不会被移动、删除或修改。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ResetForm",
+                    "target": "ResetForm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Keystroke",
+                    "target": "Keystroke"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入书名、文件名或分类路径后按 Enter 搜索",
+                    "target": "输入书名、文件名或分类路径后按 Enter 搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "例如：第三章的关键论点",
+                    "target": "例如：第三章的关键论点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "写下你的想法、问题或待核对的线索……",
+                    "target": "写下你的想法、问题或待核对的线索……"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "主题标签（可选，用空格或逗号分隔）",
+                    "target": "主题标签（可选，用空格或逗号分隔）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "可选：为这段摘录写下随想",
+                    "target": "可选：为这段摘录写下随想"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入关键词后按 Enter",
+                    "target": "输入关键词后按 Enter"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "疑似重复文件",
+                    "target": "疑似重复文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "仅按同名、同格式和同文件大小列出候选，不读取正文或计算文件哈希，因此结果只供人工核对。插件不会自动合并、移动、修改或删除任何电子书。",
+                    "target": "仅按同名、同格式和同文件大小列出候选，不读取正文或计算文件哈希，因此结果只供人工核对。插件不会自动合并、移动、修改或删除任何电子书。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "当前书籍",
+                    "target": "当前书籍"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "没有发现符合当前保守规则的疑似重复文件。",
+                    "target": "没有发现符合当前保守规则的疑似重复文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "仅索引文件名和基础属性；不会读取正文、提取封面或修改原始电子书。",
+                    "target": "仅索引文件名和基础属性；不会读取正文、提取封面或修改原始电子书。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "暂停",
+                    "target": "暂停"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "最近阅读",
+                    "target": "最近阅读"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "打开",
+                    "target": "打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "笔记",
+                    "target": "笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "管理",
+                    "target": "管理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "书籍信息",
+                    "target": "书籍信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "添加书签",
+                    "target": "添加书签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "可选：为书签填写名称或简短说明。",
+                    "target": "可选：为书签填写名称或简短说明。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "添加",
+                    "target": "添加"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "记录想法",
+                    "target": "记录想法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "将按需创建本书的 Markdown 读书笔记，并只追加这一条想法。",
+                    "target": "将按需创建本书的 Markdown 读书笔记，并只追加这一条想法。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保存到读书笔记",
+                    "target": "保存到读书笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保存摘录",
+                    "target": "保存摘录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "所选文字会保存到插件数据，并追加到本书的 Markdown 阅读笔记；不会修改原始电子书。",
+                    "target": "所选文字会保存到插件数据，并追加到本书的 Markdown 阅读笔记；不会修改原始电子书。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "阅读外观",
+                    "target": "阅读外观"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "此处调整只保存到当前书籍，不会影响其他书籍。",
+                    "target": "此处调整只保存到当前书籍，不会影响其他书籍。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "搜索正文",
+                    "target": "搜索正文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "关闭",
+                    "target": "关闭"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "上一页",
+                    "target": "上一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "下一页",
+                    "target": "下一页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "书签",
+                    "target": "书签"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "目录",
+                    "target": "目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "摘录所选文字",
+                    "target": "摘录所选文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "摘录",
+                    "target": "摘录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "页码",
+                    "target": "页码"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "缩小",
+                    "target": "缩小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "放大",
+                    "target": "放大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "适宽",
+                    "target": "适宽"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "请通过命令、侧边栏按钮或文件菜单打开电子书。",
+                    "target": "请通过命令、侧边栏按钮或文件菜单打开电子书。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "欢迎使用 Local Book Reader",
+                    "target": "欢迎使用 Local Book Reader"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "这里直接读取 Vault 内的电子书；不会复制、移动、重命名或修改原始书籍。",
+                    "target": "这里直接读取 Vault 内的电子书；不会复制、移动、重命名或修改原始书籍。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "打开“个人图书馆”，首次使用时点击“刷新图书馆”建立索引。",
+                    "target": "打开“个人图书馆”，首次使用时点击“刷新图书馆”建立索引。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "索引只读取文件路径和基础属性，不读取整本正文；之后新增书籍会自动发现。",
+                    "target": "索引只读取文件路径和基础属性，不读取整本正文；之后新增书籍会自动发现。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "阅读进度、书签、高亮和摘录保存在插件数据与 Markdown 笔记中，可在设置页导出核心数据备份。",
+                    "target": "阅读进度、书签、高亮和摘录保存在插件数据与 Markdown 笔记中，可在设置页导出核心数据备份。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "正在读取缓存占用…",
+                    "target": "正在读取缓存占用…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "清除本书的最近阅读历史或重置本书的阅读进度",
+                    "target": "清除本书的最近阅读历史或重置本书的阅读进度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "输入页码后按 Enter 跳转",
+                    "target": "输入页码后按 Enter 跳转"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "导出核心数据备份",
+                    "target": "导出核心数据备份"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "确认清理可重建缓存",
+                    "target": "确认清理可重建缓存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "确认恢复核心数据",
+                    "target": "确认恢复核心数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "确认恢复默认插件设置",
+                    "target": "确认恢复默认插件设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "search",
+                    "target": "search"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "date",
+                    "target": "date"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "paginated",
+                    "target": "paginated"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "value",
+                    "source": "scrolled",
+                    "target": "scrolled"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(`Could not resolve target ${target}`)",
+                    "target": "error(`Could not resolve target ${target}`)"
+                },
+                {
+                    "source": "error(`Could not go to ${target}`)",
+                    "target": "error(`Could not go to ${target}`)"
+                },
+                {
+                    "source": "error(`Could not get ${target}`)",
+                    "target": "error(`Could not get ${target}`)"
+                },
+                {
+                    "source": "error(\"Local Book Reader could not inspect interrupted writes\", error);\n      return;\n    }\n    for (const artifact of artifacts) {\n      const isTemporary = artifact.includes(\".writing-\")",
+                    "target": "error(\"Local Book Reader could not inspect interrupted writes\", error);\n      return;\n    }\n    for (const artifact of artifacts) {\n      const isTemporary = artifact.includes(\".writing-\")"
+                },
+                {
+                    "source": "error(`Local Book Reader kept an unreadable automatic backup: ${path}`)",
+                    "target": "error(`Local Book Reader kept an unreadable automatic backup: ${path}`)"
+                },
+                {
+                    "source": "log(\"getPageIndex\",[r])}catch(e){info(`_getPageIndex -- not a valid page reference: \"${e}\".`)}if(a.has(\"Kids\")",
+                    "target": "log(\"getPageIndex\",[r])}catch(e){info(`_getPageIndex -- not a valid page reference: \"${e}\".`)}if(a.has(\"Kids\")"
+                },
+                {
+                    "source": "log(\"getPageIndex\",[t])});h.on(\"GetDestinations\",function(e){return n.ensureCatalog(\"destinations\")",
+                    "target": "log(\"getPageIndex\",[t])});h.on(\"GetDestinations\",function(e){return n.ensureCatalog(\"destinations\")"
+                },
+                {
+                    "source": "log(\"getDestination\",[e.id])});h.on(\"GetPageLabels\",function(e){return n.ensureCatalog(\"pageLabels\")",
+                    "target": "log(\"getDestination\",[e.id])});h.on(\"GetPageLabels\",function(e){return n.ensureCatalog(\"pageLabels\")"
+                },
+                {
+                    "source": "log(\"attachmentContent\",[e])}catch(e){if(e instanceof PasswordException){t=e;continue}throw e}}});h.on(\"GetDocJSActions\",function(e){return n.ensureCatalog(\"jsActions\")",
+                    "target": "log(\"attachmentContent\",[e])}catch(e){if(e instanceof PasswordException){t=e;continue}throw e}}});h.on(\"GetDocJSActions\",function(e){return n.ensureCatalog(\"jsActions\")"
+                },
+                {
+                    "source": "setTitle(\"Open in Local Book Reader\")",
+                    "target": "setTitle(\"Open in Local Book Reader\")"
+                },
+                {
+                    "source": "name = \"document.pdf\"",
+                    "target": "name = \"document.pdf\""
+                },
+                {
+                    "source": "name = \"[\"",
+                    "target": "name = \"[\""
+                },
+                {
+                    "source": "name = \"get \"",
+                    "target": "name = \"get \""
+                },
+                {
+                    "source": "name = \"set \"",
+                    "target": "name = \"set \""
+                },
+                {
+                    "source": "name : \"\"",
+                    "target": "name : \"\""
+                },
+                {
+                    "source": "name = `${attributes.name}-${intent}`",
+                    "target": "name = `${attributes.name}-${intent}`"
+                },
+                {
+                    "source": "text: \"pdfjs-editor-remove-freetext-button\"",
+                    "target": "text: \"pdfjs-editor-remove-freetext-button\""
+                },
+                {
+                    "source": "text = \"\"",
+                    "target": "text = \"\""
+                },
+                {
+                    "source": "text: \"pdfjs-editor-freetext-added-alert\"",
+                    "target": "text: \"pdfjs-editor-freetext-added-alert\""
+                },
+                {
+                    "source": "textContent = \"Hi\"",
+                    "target": "textContent = \"Hi\""
+                },
+                {
+                    "source": "textContent = \"X\"",
+                    "target": "textContent = \"X\""
+                },
+                {
+                    "source": "name = \"GetMetadata\"",
+                    "target": "name = \"GetMetadata\""
+                },
+                {
+                    "source": "text: \"pdfjs-editor-color-picker-free-text-input\"",
+                    "target": "text: \"pdfjs-editor-color-picker-free-text-input\""
+                },
+                {
+                    "source": "name: \"ResetForm\"",
+                    "target": "name: \"ResetForm\""
+                },
+                {
+                    "source": "name: \"Keystroke\"",
+                    "target": "name: \"Keystroke\""
+                },
+                {
+                    "source": "name: \"div\"",
+                    "target": "name: \"div\""
+                },
+                {
+                    "source": "name: \"p\"",
+                    "target": "name: \"p\""
+                },
+                {
+                    "source": "name: \"span\"",
+                    "target": "name: \"span\""
+                },
+                {
+                    "source": "name: \"freeTextEditor\"",
+                    "target": "name: \"freeTextEditor\""
+                },
+                {
+                    "source": "name: \"highlightEditor\"",
+                    "target": "name: \"highlightEditor\""
+                },
+                {
+                    "source": "name: \"inkEditor\"",
+                    "target": "name: \"inkEditor\""
+                },
+                {
+                    "source": "name: \"signatureEditor\"",
+                    "target": "name: \"signatureEditor\""
+                },
+                {
+                    "source": "description: \"\"",
+                    "target": "description: \"\""
+                },
+                {
+                    "source": "name: \"stampEditor\"",
+                    "target": "name: \"stampEditor\""
+                },
+                {
+                    "source": "name: \"altText\"",
+                    "target": "name: \"altText\""
+                },
+                {
+                    "source": "name: \"HMAC\"",
+                    "target": "name: \"HMAC\""
+                },
+                {
+                    "source": "name: \"SHA-1\"",
+                    "target": "name: \"SHA-1\""
+                },
+                {
+                    "source": "search = \"\"",
+                    "target": "search = \"\""
+                },
+                {
+                    "source": "textContent : \"\"",
+                    "target": "textContent : \"\""
+                },
+                {
+                    "source": "text: `${item.book.extension.toUpperCase()}${metadata?.authors?.length ? `",
+                    "target": "text: `${item.book.extension.toUpperCase()}${metadata?.authors?.length ? `"
+                },
+                {
+                    "source": "name: \"+e);if(!t)throw new Error(\"",
+                    "target": "name: \"+e);if(!t)throw new Error(\""
+                },
+                {
+                    "source": "page: \"${n}\"",
+                    "target": "page: \"${n}\""
+                },
+                {
+                    "source": "text: `${t(label)}:`",
+                    "target": "text: `${t(label)}:`"
+                },
+                {
+                    "source": "text = `${entry.book.name}\n${entry.book.path}\n${entry.excerpt.text}\n${entry.excerpt.note}\n${tagsOf(entry).join(\" \")}`",
+                    "target": "text = `${entry.book.name}\n${entry.book.path}\n${entry.excerpt.text}\n${entry.excerpt.note}\n${tagsOf(entry).join(\" \")}`"
+                },
+                {
+                    "source": "text = `${entry.title}\n${entry.path}\n${entry.text}\n${entry.tags.join(\" \")}`",
+                    "target": "text = `${entry.title}\n${entry.path}\n${entry.text}\n${entry.tags.join(\" \")}`"
+                }
+            ]
+        }
+    }
+}

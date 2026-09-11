@@ -1,0 +1,270 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "md-razor",
+        "version": "1.0.0",
+        "title": "MarkDown 剃刀",
+        "description": "MarkDown 剃刀 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.5.12",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "table",
+                    "target": "table"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "tr",
+                    "target": "tr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "thead",
+                    "target": "thead"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "th",
+                    "target": "th"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "tbody",
+                    "target": "tbody"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "td",
+                    "target": "td"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[MDRazor] 设置镜像写入失败（不影响主文件）",
+                    "target": "[MDRazor] 设置镜像写入失败（不影响主文件）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[MDRazor] 设置镜像兑底异常，已跳过",
+                    "target": "[MDRazor] 设置镜像兑底异常，已跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "复制启动耗时检查失败",
+                    "target": "复制启动耗时检查失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[MDRazor] 位置缓存镜像写入失败（不影响主文件）",
+                    "target": "[MDRazor] 位置缓存镜像写入失败（不影响主文件）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[MDRazor] 位置缓存写入失败",
+                    "target": "[MDRazor] 位置缓存写入失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[MDRazor] 位置缓存镜像读取失败，按无镜像处理",
+                    "target": "[MDRazor] 位置缓存镜像读取失败，按无镜像处理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[MDRazor] 位置缓存清理失败，跳过本次清理",
+                    "target": "[MDRazor] 位置缓存清理失败，跳过本次清理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[MDRazor] 位置缓存迁移失败，继续使用插件目录缓存",
+                    "target": "[MDRazor] 位置缓存迁移失败，继续使用插件目录缓存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MDRazor: 读取插件目录 CHANGELOG.md 失败，回退到内嵌副本",
+                    "target": "MDRazor: 读取插件目录 CHANGELOG.md 失败，回退到内嵌副本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MDRazor: failed to execute ribbon command",
+                    "target": "MDRazor: failed to execute ribbon command"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MDRazor: failed to execute command",
+                    "target": "MDRazor: failed to execute command"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MDRazor: failed to auto-save workspace",
+                    "target": "MDRazor: failed to auto-save workspace"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MDRazor: failed to switch workspace",
+                    "target": "MDRazor: failed to switch workspace"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MDRazor: failed to auto-save workspace before native load",
+                    "target": "MDRazor: failed to auto-save workspace before native load"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "MDRazor: 保存已读更新日志版本失败",
+                    "target": "MDRazor: 保存已读更新日志版本失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "复制",
+                    "target": "复制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "完成",
+                    "target": "完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "加载耗时为触发加载实测值；随 Obsidian 自然加载的插件未计时。",
+                    "target": "加载耗时为触发加载实测值；随 Obsidian 自然加载的插件未计时。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当前为自然加载；下方为已保存的逐插件配置（暂不生效）。",
+                    "target": "当前为自然加载；下方为已保存的逐插件配置（暂不生效）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "环境",
+                    "target": "环境"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "插件状态",
+                    "target": "插件状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "仅统计已设置延迟的懒加载插件",
+                    "target": "仅统计已设置延迟的懒加载插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "总开关已关闭",
+                    "target": "总开关已关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "无已设置延迟的插件",
+                    "target": "无已设置延迟的插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "启动耗时检查",
+                    "target": "启动耗时检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "展开/折叠同级列表或标题",
+                    "target": "展开/折叠同级列表或标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[MDRazor] 设置主文件缺失或损坏，已从镜像恢复",
+                    "target": "[MDRazor] 设置主文件缺失或损坏，已从镜像恢复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[MDRazor] 主位置缓存缺失或损坏，已从镜像恢复",
+                    "target": "[MDRazor] 主位置缓存缺失或损坏，已从镜像恢复"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "已复制到剪贴板",
+                    "target": "已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "复制失败",
+                    "target": "复制失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "icon",
+                    "source": "eraser",
+                    "target": "eraser"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"MDRazor: failed to auto-save workspace before native load\",i,z)}await a(P),i=P,s()})),s()},removeButton:()=>{f();let S=Rt(e.app);S&&a&&(S.loadWorkspace=a,a=null),t&&(t.remove(),t=null)}}}var Xo=require(\"obsidian\")",
+                    "target": "error(\"MDRazor: failed to auto-save workspace before native load\",i,z)}await a(P),i=P,s()})),s()},removeButton:()=>{f();let S=Rt(e.app);S&&a&&(S.loadWorkspace=a,a=null),t&&(t.remove(),t=null)}}}var Xo=require(\"obsidian\")"
+                }
+            ]
+        }
+    }
+}

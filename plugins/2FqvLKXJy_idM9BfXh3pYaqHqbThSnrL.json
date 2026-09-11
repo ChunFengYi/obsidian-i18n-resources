@@ -1,0 +1,499 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "douyin-favorites-sync",
+        "version": "1.0.0",
+        "title": "Douyin Favorites Sync",
+        "description": "Douyin Favorites Sync Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "同步中…",
+                    "target": "同步中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy Douyin attachment",
+                    "target": "Failed to copy Douyin attachment"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Douyin favorite import failed",
+                    "target": "Douyin favorite import failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "立即同步",
+                    "target": "立即同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "重建索引",
+                    "target": "重建索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "清理中…",
+                    "target": "清理中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "重新检查",
+                    "target": "重新检查"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "检查中…",
+                    "target": "检查中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "本地 Python 后端服务地址，默认 http://127.0.0.1:8765",
+                    "target": "本地 Python 后端服务地址，默认 http://127.0.0.1:8765"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Obsidian 启动后和运行期间会检查是否到达每日同步时间",
+                    "target": "Obsidian 启动后和运行期间会检查是否到达每日同步时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "格式为 HH:MM；如果 Obsidian 在该时间后启动，会自动补跑一次",
+                    "target": "格式为 HH:MM；如果 Obsidian 在该时间后启动，会自动补跑一次"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Light 模式仅同步链接和文案，速度快；Heavy 模式下载视频并转写，耗时较长",
+                    "target": "Light 模式仅同步链接和文案，速度快；Heavy 模式下载视频并转写，耗时较长"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅 Heavy 模式视频转写使用；模型越大越精准但越慢，首次使用需下载模型文件",
+                    "target": "仅 Heavy 模式视频转写使用；模型越大越精准但越慢，首次使用需下载模型文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "同步完成后自动打开最后导入的笔记",
+                    "target": "同步完成后自动打开最后导入的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "每条收藏提取之间的等待秒数，用于避免抖音限流（0 为不等待；heavy 模式含下载+转写，建议 ≥10s）",
+                    "target": "每条收藏提取之间的等待秒数，用于避免抖音限流（0 为不等待；heavy 模式含下载+转写，建议 ≥10s）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "存放抖音笔记的 Vault 文件夹路径",
+                    "target": "存放抖音笔记的 Vault 文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "存放视频、图片等附件的路径（Heavy 模式使用）",
+                    "target": "存放视频、图片等附件的路径（Heavy 模式使用）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "立即拉取新的抖音收藏并导入为笔记",
+                    "target": "立即拉取新的抖音收藏并导入为笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "清空去重索引，下次同步时从后端数据重新建立（如笔记被手动删除或移动导致重复）",
+                    "target": "清空去重索引，下次同步时从后端数据重新建立（如笔记被手动删除或移动导致重复）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "测试与本地后端服务的连接",
+                    "target": "测试与本地后端服务的连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "数据同步 / Data Sync",
+                    "target": "数据同步 / Data Sync"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "连接配置 / Connection",
+                    "target": "连接配置 / Connection"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "后端地址 / Backend URL",
+                    "target": "后端地址 / Backend URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步配置 / Sync",
+                    "target": "同步配置 / Sync"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动同步 / Auto Sync",
+                    "target": "自动同步 / Auto Sync"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "每日同步时间 / Daily Sync Time",
+                    "target": "每日同步时间 / Daily Sync Time"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "上次运行时间 / Last Run",
+                    "target": "上次运行时间 / Last Run"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步模式 / Sync Mode",
+                    "target": "同步模式 / Sync Mode"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Whisper 模型 / Whisper Model",
+                    "target": "Whisper 模型 / Whisper Model"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "创建后打开最后一篇笔记 / Open Last Note",
+                    "target": "创建后打开最后一篇笔记 / Open Last Note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "提取间隔 / Extract Delay",
+                    "target": "提取间隔 / Extract Delay"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "笔记配置 / Notes",
+                    "target": "笔记配置 / Notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "笔记文件夹 / Note Folder",
+                    "target": "笔记文件夹 / Note Folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "附件文件夹 / Attachment Folder",
+                    "target": "附件文件夹 / Attachment Folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "手动同步 / Manual Sync",
+                    "target": "手动同步 / Manual Sync"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "重建索引 / Rebuild Index",
+                    "target": "重建索引 / Rebuild Index"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "检查后端 / Check Backend",
+                    "target": "检查后端 / Check Backend"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Douyin",
+                    "target": "Douyin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "检查中…",
+                    "target": "检查中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "抖音同步就绪",
+                    "target": "抖音同步就绪"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "● 抖音同步已连接",
+                    "target": "● 抖音同步已连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "○ 抖音同步未连接",
+                    "target": "○ 抖音同步未连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "⏳ 同步中…",
+                    "target": "⏳ 同步中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "● 已同步 · 无新内容",
+                    "target": "● 已同步 · 无新内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to register Douyin vault config",
+                    "target": "Failed to register Douyin vault config"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DouyinSync] Scheduled sync gave up for today after",
+                    "target": "[DouyinSync] Scheduled sync gave up for today after"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "failures",
+                    "target": "failures"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DouyinSync] Scheduled sync skipped — backend unavailable:",
+                    "target": "[DouyinSync] Scheduled sync skipped — backend unavailable:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DouyinSync] Scheduled sync failed:",
+                    "target": "[DouyinSync] Scheduled sync failed:"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "✅ 抖音同步后端已连接",
+                    "target": "✅ 抖音同步后端已连接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "抖音同步正在运行中。",
+                    "target": "抖音同步正在运行中。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "✨ 没有新的抖音收藏。",
+                    "target": "✨ 没有新的抖音收藏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "douyin-sync-card douyin-sync-card--status",
+                    "target": "douyin-sync-card douyin-sync-card--status"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "douyin-sync-section douyin-sync-section--actions",
+                    "target": "douyin-sync-section douyin-sync-section--actions"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "本地 Python 后端服务地址，默认 http://127.0.0.1:8765",
+                    "target": "本地 Python 后端服务地址，默认 http://127.0.0.1:8765"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Obsidian 启动后和运行期间会检查是否到达每日同步时间",
+                    "target": "Obsidian 启动后和运行期间会检查是否到达每日同步时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "格式为 HH:MM；如果 Obsidian 在该时间后启动，会自动补跑一次",
+                    "target": "格式为 HH:MM；如果 Obsidian 在该时间后启动，会自动补跑一次"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Light 模式仅同步链接和文案；Heavy 模式下载视频并转写",
+                    "target": "Light 模式仅同步链接和文案；Heavy 模式下载视频并转写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "仅 Heavy 模式视频转写使用；模型越大越精准但越慢",
+                    "target": "仅 Heavy 模式视频转写使用；模型越大越精准但越慢"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "同步完成后自动打开最后导入的笔记",
+                    "target": "同步完成后自动打开最后导入的笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "每条收藏提取之间的等待秒数，用于避免抖音限流",
+                    "target": "每条收藏提取之间的等待秒数，用于避免抖音限流"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "存放抖音笔记的 Vault 文件夹路径",
+                    "target": "存放抖音笔记的 Vault 文件夹路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "存放视频、图片等附件的路径（Heavy 模式使用）",
+                    "target": "存放视频、图片等附件的路径（Heavy 模式使用）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "heavy",
+                    "source": "🎬 Heavy — 下载视频 + 转写",
+                    "target": "🎬 Heavy — 下载视频 + 转写"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "light",
+                    "source": "⚡ Light — 仅链接与文案",
+                    "target": "⚡ Light — 仅链接与文案"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "后端地址 / Backend URL",
+                    "target": "后端地址 / Backend URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动同步 / Auto Sync",
+                    "target": "自动同步 / Auto Sync"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "每日同步时间 / Daily Sync Time",
+                    "target": "每日同步时间 / Daily Sync Time"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "同步模式 / Sync Mode",
+                    "target": "同步模式 / Sync Mode"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Whisper 模型 / Whisper Model",
+                    "target": "Whisper 模型 / Whisper Model"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "创建后打开最后一篇笔记 / Open Last Note",
+                    "target": "创建后打开最后一篇笔记 / Open Last Note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "提取间隔 / Extract Delay",
+                    "target": "提取间隔 / Extract Delay"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "笔记文件夹 / Note Folder",
+                    "target": "笔记文件夹 / Note Folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "附件文件夹 / Attachment Folder",
+                    "target": "附件文件夹 / Attachment Folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "立即同步抖音收藏",
+                    "target": "立即同步抖音收藏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "检查后端连接状态",
+                    "target": "检查后端连接状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "将抖音收藏自动同步为 Obsidian 笔记，通过本地后端服务实现 / Sync Douyin favorites to Obsidian notes via local backend.",
+                    "target": "将抖音收藏自动同步为 Obsidian 笔记，通过本地后端服务实现 / Sync Douyin favorites to Obsidian notes via local backend."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔗",
+                    "target": "🔗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "后端连接状态 / Backend Status",
+                    "target": "后端连接状态 / Backend Status"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "检查中…",
+                    "target": "检查中…"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

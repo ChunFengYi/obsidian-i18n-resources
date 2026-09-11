@@ -1,0 +1,324 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "file-explorer-size",
+        "version": "1.0.0",
+        "title": "File Explorer Size",
+        "description": "File Explorer Size Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Note group size",
+                    "target": "注意分组大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "physical",
+                    "target": "物理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Physical file size",
+                    "target": "物理文件大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "All direct non-note file links",
+                    "target": "所有直接非笔记文件链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Embedded attachments only",
+                    "target": "仅嵌入式附件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "File Explorer Size: rebuild failed",
+                    "target": "文件资源管理器大小：重建失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show file and recursive folder sizes in Obsidian's file browser.",
+                    "target": "在Obsidian的文件浏览器中显示文件和递归文件夹的大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Control size labels in MAKE.md's Navigator independently.",
+                    "target": "在MAKE.md的导航器中独立控制大小标签。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose whether notes show physical size or note group size.",
+                    "target": "选择笔记是否显示物理大小或分组大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which direct non-note links count toward note groups.",
+                    "target": "选择哪些直接非笔记链接计入笔记组。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of entries shown in the ranking view.",
+                    "target": "排名视图显示的条目数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Reserved for desktop filesystem support. Hidden configuration folders are not included by the vault API.",
+                    "target": "为桌面文件系统支持预留。隐藏配置文件夹不包括在保险库API中。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show sizes in file browser",
+                    "target": "在文件浏览器中显示大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show sizes in MAKE.md Navigator",
+                    "target": "在MAKE.md导航器中显示大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Size display mode",
+                    "target": "大小显示模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Note group link mode",
+                    "target": "笔记组链接模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ranking limit",
+                    "target": "排名限制。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Size unit",
+                    "target": "大小单位。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include hidden settings content",
+                    "target": "包括隐藏设置内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Physical file size",
+                    "target": "物理文件大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Note group size",
+                    "target": "笔记分组大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Hide sizes",
+                    "target": "隐藏大小"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File and folder sizes recalculated.",
+                    "target": "文件和文件夹大小重新计算。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to recalculate file sizes.",
+                    "target": "无法重新计算文件大小。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Recalculate all sizes",
+                    "target": "重新计算所有大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon fes-ranking-expander",
+                    "target": "clickable-icon fes-ranking-expander"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle file browser sizes",
+                    "target": "切换文件浏览器大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle MAKE.md Navigator sizes",
+                    "target": "切换 MAKE.md 导航器大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show physical file sizes in file browser",
+                    "target": "在文件浏览器中显示物理文件大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show note group sizes in file browser",
+                    "target": "在文件浏览器中显示笔记组大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open size ranking",
+                    "target": "打开大小排名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Recalculate all sizes",
+                    "target": "重新计算所有大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No items to display.",
+                    "target": "没有可显示的项目。"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Show sizes in file browser\")",
+                    "target": "setName(\"Show sizes in file browser\")"
+                },
+                {
+                    "source": "setDesc(\"Show file and recursive folder sizes in Obsidian's file browser.\")",
+                    "target": "setDesc(\"Show file and recursive folder sizes in Obsidian's file browser.\")"
+                },
+                {
+                    "source": "setName(\"Show sizes in MAKE.md Navigator\")",
+                    "target": "setName(\"Show sizes in MAKE.md Navigator\")"
+                },
+                {
+                    "source": "setDesc(\"Control size labels in MAKE.md's Navigator independently.\")",
+                    "target": "setDesc(\"Control size labels in MAKE.md's Navigator independently.\")"
+                },
+                {
+                    "source": "setName(\"Size display mode\")",
+                    "target": "setName(\"Size display mode\")"
+                },
+                {
+                    "source": "setDesc(\"Choose whether notes show physical size or note group size.\")",
+                    "target": "setDesc(\"Choose whether notes show physical size or note group size.\")"
+                },
+                {
+                    "source": "setName(\"Note group link mode\")",
+                    "target": "setName(\"Note group link mode\")"
+                },
+                {
+                    "source": "setDesc(\"Choose which direct non-note links count toward note groups.\")",
+                    "target": "setDesc(\"Choose which direct non-note links count toward note groups.\")"
+                },
+                {
+                    "source": "setName(\"Ranking limit\")",
+                    "target": "setName(\"Ranking limit\")"
+                },
+                {
+                    "source": "setDesc(\"Number of entries shown in the ranking view.\")",
+                    "target": "setDesc(\"Number of entries shown in the ranking view.\")"
+                },
+                {
+                    "source": "setName(\"Size unit\")",
+                    "target": "setName(\"Size unit\")"
+                },
+                {
+                    "source": "setName(\"Include hidden settings content\")",
+                    "target": "setName(\"Include hidden settings content\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Reserved for desktop filesystem support. Hidden configuration folders are not included by the vault API.\"\n    )",
+                    "target": "setDesc(\n      \"Reserved for desktop filesystem support. Hidden configuration folders are not included by the vault API.\"\n    )"
+                },
+                {
+                    "source": "Notice(\"File and folder sizes recalculated.\")",
+                    "target": "Notice(\"File and folder sizes recalculated.\")"
+                },
+                {
+                    "source": "error(\"File Explorer Size: rebuild failed\", error);\n      if (options == null ? void 0 : options.notify) new import_obsidian3.Notice(\"Failed to recalculate file sizes.\")",
+                    "target": "error(\"File Explorer Size: rebuild failed\", error);\n      if (options == null ? void 0 : options.notify) new import_obsidian3.Notice(\"Failed to recalculate file sizes.\")"
+                },
+                {
+                    "source": "setTitle(\"Physical file size\")",
+                    "target": "setTitle(\"Physical file size\")"
+                },
+                {
+                    "source": "setTitle(\"Note group size\")",
+                    "target": "setTitle(\"Note group size\")"
+                },
+                {
+                    "source": "setTitle(\"Hide sizes\")",
+                    "target": "setTitle(\"Hide sizes\")"
+                },
+                {
+                    "source": "text: \"No items to display.\"",
+                    "target": "text: \"No items to display.\""
+                },
+                {
+                    "source": "name: \"Toggle file browser sizes\"",
+                    "target": "name: \"Toggle file browser sizes\""
+                },
+                {
+                    "source": "name: \"Toggle MAKE.md Navigator sizes\"",
+                    "target": "name: \"Toggle MAKE.md Navigator sizes\""
+                },
+                {
+                    "source": "name: \"Show physical file sizes in file browser\"",
+                    "target": "name: \"Show physical file sizes in file browser\""
+                },
+                {
+                    "source": "name: \"Show note group sizes in file browser\"",
+                    "target": "name: \"Show note group sizes in file browser\""
+                },
+                {
+                    "source": "name: \"Open size ranking\"",
+                    "target": "name: \"Open size ranking\""
+                },
+                {
+                    "source": "name: \"Recalculate all sizes\"",
+                    "target": "name: \"Recalculate all sizes\""
+                }
+            ]
+        }
+    }
+}

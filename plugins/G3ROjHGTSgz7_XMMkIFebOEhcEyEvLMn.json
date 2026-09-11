@@ -1,0 +1,2410 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "modular-theme-dashboard",
+        "version": "1.0.0",
+        "title": "Modular Theme Dashboard",
+        "description": "Modular Theme Dashboard Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "17.2.7",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⏳ 正在加载文档引擎...</div>",
+                    "target": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⏳ 正在加载文档引擎...</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⏳ docstream 正在解析...</div>",
+                    "target": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⏳ docstream 正在解析...</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"text-align:center;color:var(--text-error);padding:40px 0;\">⚠ 文档解析库加载失败<br><small>请检查网络连接后刷新</small></div>",
+                    "target": "<div style=\"text-align:center;color:var(--text-error);padding:40px 0;\">⚠ 文档解析库加载失败<br><small>请检查网络连接后刷新</small></div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⏳ CFB 正在解析 OLE2...</div>",
+                    "target": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⏳ CFB 正在解析 OLE2...</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⏳ 扫描文本...</div>",
+                    "target": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⏳ 扫描文本...</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⏳ 全流扫描...</div>",
+                    "target": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⏳ 全流扫描...</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⏳ 原始二进制扫描...</div>",
+                    "target": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⏳ 原始二进制扫描...</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⚠ 未能提取到文本内容<br><small>该文档可能损坏、加密或仅包含图片</small></div>",
+                    "target": "<div style=\"text-align:center;color:var(--text-muted);padding:40px 0;\">⚠ 未能提取到文本内容<br><small>该文档可能损坏、加密或仅包含图片</small></div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"text-align:center;color:var(--text-error);padding:40px 0;\">⚠ Word解析库(mammoth.js)加载失败<br><small>请检查网络连接后刷新</small></div>",
+                    "target": "<div style=\"text-align:center;color:var(--text-error);padding:40px 0;\">⚠ Word解析库(mammoth.js)加载失败<br><small>请检查网络连接后刷新</small></div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:var(--text-muted);font-size:13px;\">⏳ 正在加载表格引擎...</div>",
+                    "target": "<div style=\"position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:var(--text-muted);font-size:13px;\">⏳ 正在加载表格引擎...</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:var(--text-error);text-align:center;\">⚠ SheetJS 加载失败<br><small>请检查网络连接后刷新</small></div>",
+                    "target": "<div style=\"position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:var(--text-error);text-align:center;\">⚠ SheetJS 加载失败<br><small>请检查网络连接后刷新</small></div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<div style=\"position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:var(--text-muted);font-size:13px;\">📊 表格为空</div>",
+                    "target": "<div style=\"position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:var(--text-muted);font-size:13px;\">📊 表格为空</div>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "📐",
+                    "target": "📐"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "🧲",
+                    "target": "🧲"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "🎨",
+                    "target": "🎨"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "🔄",
+                    "target": "🔄"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "⚙️",
+                    "target": "⚙️"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "&#9881;",
+                    "target": "&#9881;"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "📂 用默认程序打开",
+                    "target": "📂 用默认程序打开"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "\n                .v15-inline-settings-container {\n                    margin: -4px 0 16px 24px;\n                    padding: 0;\n                    border-left: 3px solid var(--interactive-accent);\n                    border-radius: 0 6px 6px 0;\n                    background: var(--background-secondary);\n                    overflow: hidden;\n                }\n                .v15-inline-settings-container .v15-module-settings-wrapper {\n                    padding: 12px 16px;\n                }\n                .v15-inline-settings-container .v15-module-settings-wrapper h3 {\n                    margin-top: 0;\n                    font-size: 14px;\n                }\n                .v15-inline-settings-container .setting-item {\n                    border-top: none;\n                    padding: 8px 0;\n                }\n            ",
+                    "target": "\n                .v15-inline-settings-container {\n                    margin: -4px 0 16px 24px;\n                    padding: 0;\n                    border-left: 3px solid var(--interactive-accent);\n                    border-radius: 0 6px 6px 0;\n                    background: var(--background-secondary);\n                    overflow: hidden;\n                }\n                .v15-inline-settings-container .v15-module-settings-wrapper {\n                    padding: 12px 16px;\n                }\n                .v15-inline-settings-container .v15-module-settings-wrapper h3 {\n                    margin-top: 0;\n                    font-size: 14px;\n                }\n                .v15-inline-settings-container .setting-item {\n                    border-top: none;\n                    padding: 8px 0;\n                }\n            "
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "▶ VIDEO",
+                    "target": "▶ VIDEO"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "♪ AUDIO",
+                    "target": "♪ AUDIO"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ai",
+                    "target": "ai"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "system",
+                    "target": "system"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "en",
+                    "target": "en"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "zh",
+                    "target": "zh"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "uk",
+                    "target": "uk"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Українська",
+                    "target": "Українська"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "pl",
+                    "target": "pl"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Polski",
+                    "target": "Polski"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "nl",
+                    "target": "nl"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Nederlands",
+                    "target": "Nederlands"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "id",
+                    "target": "id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Bahasa Indonesia",
+                    "target": "Bahasa Indonesia"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "vi",
+                    "target": "vi"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Tiếng Việt",
+                    "target": "Tiếng Việt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "th",
+                    "target": "th"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ไทย",
+                    "target": "ไทย"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "hi",
+                    "target": "hi"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "हिन्दी",
+                    "target": "हिन्दी"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ar",
+                    "target": "ar"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "العربية",
+                    "target": "العربية"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "it",
+                    "target": "it"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Italiano",
+                    "target": "Italiano"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "pt",
+                    "target": "pt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Português",
+                    "target": "Português"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "es",
+                    "target": "es"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Español",
+                    "target": "Español"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "fr",
+                    "target": "fr"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Français",
+                    "target": "Français"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "de",
+                    "target": "de"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Deutsch",
+                    "target": "Deutsch"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ru",
+                    "target": "ru"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Русский",
+                    "target": "Русский"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ko",
+                    "target": "ko"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "한국어",
+                    "target": "한국어"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ja",
+                    "target": "ja"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "日本語",
+                    "target": "日本語"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "English",
+                    "target": "English"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "直接修改原文件（覆盖）",
+                    "target": "直接修改原文件（覆盖）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "pre"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "iframe",
+                    "target": "iframe"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "video",
+                    "target": "video"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "audio",
+                    "target": "audio"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[DFV] SheetJS 所有加载方式均失败（内嵌+本地+CDN）",
+                    "target": "[DFV] SheetJS 所有加载方式均失败（内嵌+本地+CDN）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[DashboardFileViewer] 渲染错误:",
+                    "target": "[DashboardFileViewer] 渲染错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[DashboardFileViewer] .doc 解析失败:",
+                    "target": "[DashboardFileViewer] .doc 解析失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[DashboardFileViewer] DOCX渲染失败:",
+                    "target": "[DashboardFileViewer] DOCX渲染失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[DFV-PPT] 错误:",
+                    "target": "[DFV-PPT] 错误:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[DashboardFileViewer] 表格渲染失败:",
+                    "target": "[DashboardFileViewer] 表格渲染失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[V17] onClose cleanup error:",
+                    "target": "[V17] onClose cleanup error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[i18n] aiTranslateAll error:",
+                    "target": "[i18n] aiTranslateAll error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Dashboard] setupImgGalleryProcessor failed:",
+                    "target": "[Dashboard] setupImgGalleryProcessor failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Dashboard] setupMemoriesProcessor failed:",
+                    "target": "[Dashboard] setupMemoriesProcessor failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Dashboard] Excel->Markdown 插入失败:",
+                    "target": "[Dashboard] Excel->Markdown 插入失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Dashboard] 注册 Excel 粘贴处理失败:",
+                    "target": "[Dashboard] 注册 Excel 粘贴处理失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Dashboard] 图片处理失败:",
+                    "target": "[Dashboard] 图片处理失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] SheetJS 使用主窗口已有实例",
+                    "target": "[DFV] SheetJS 使用主窗口已有实例"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] SheetJS ✓ 使用内嵌库",
+                    "target": "[DFV] SheetJS ✓ 使用内嵌库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] SheetJS ✓ 从本地加载成功",
+                    "target": "[DFV] SheetJS ✓ 从本地加载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] mammoth 加载完成",
+                    "target": "[DFV] mammoth 加载完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] mammoth 从 CDN 加载成功",
+                    "target": "[DFV] mammoth 从 CDN 加载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] mammoth ✓ 使用内嵌库",
+                    "target": "[DFV] mammoth ✓ 使用内嵌库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] mammoth ✓ 从本地加载成功",
+                    "target": "[DFV] mammoth ✓ 从本地加载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] docstream 加载完成",
+                    "target": "[DFV] docstream 加载完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] docstream 从 CDN 加载成功",
+                    "target": "[DFV] docstream 从 CDN 加载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] docstream ✓ 使用内嵌库",
+                    "target": "[DFV] docstream ✓ 使用内嵌库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] docstream ✓ 从本地加载成功",
+                    "target": "[DFV] docstream ✓ 从本地加载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] CFB 加载完成",
+                    "target": "[DFV] CFB 加载完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] CFB 从 CDN 加载成功",
+                    "target": "[DFV] CFB 从 CDN 加载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] CFB ✓ 使用内嵌库",
+                    "target": "[DFV] CFB ✓ 使用内嵌库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] CFB ✓ 从本地加载成功",
+                    "target": "[DFV] CFB ✓ 从本地加载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] JSZip 加载完成",
+                    "target": "[DFV] JSZip 加载完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] JSZip 从 CDN 加载成功",
+                    "target": "[DFV] JSZip 从 CDN 加载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] JSZip ✓ 使用内嵌库",
+                    "target": "[DFV] JSZip ✓ 使用内嵌库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] JSZip ✓ 从本地加载成功",
+                    "target": "[DFV] JSZip ✓ 从本地加载成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DashboardFileViewer] 打开文件:",
+                    "target": "[DashboardFileViewer] 打开文件:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "扩展名:",
+                    "target": "扩展名:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FV] Dev 模式：开始动态加载 FileViewer 扩展...",
+                    "target": "[FV] Dev 模式：开始动态加载 FileViewer 扩展..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FV] ✓",
+                    "target": "[FV] ✓"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[FV] 动态加载完成:",
+                    "target": "[FV] 动态加载完成:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "个扩展可用",
+                    "target": "个扩展可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Gallery] Dev 模式：开始动态加载 Gallery 处理器...",
+                    "target": "[Gallery] Dev 模式：开始动态加载 Gallery 处理器..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Gallery] utilsDir:",
+                    "target": "[Gallery] utilsDir:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Gallery] Loading:",
+                    "target": "[Gallery] Loading:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Gallery] Content length:",
+                    "target": "[Gallery] Content length:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Gallery] ✓",
+                    "target": "[Gallery] ✓"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Gallery] 动态加载完成:",
+                    "target": "[Gallery] 动态加载完成:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "个处理器可用",
+                    "target": "个处理器可用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] UTF-16LE 扫描成功, 长度:",
+                    "target": "[DFV] UTF-16LE 扫描成功, 长度:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] UTF-16LE 仅扫描到",
+                    "target": "[DFV] UTF-16LE 仅扫描到"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "字符，尝试 ANSI",
+                    "target": "字符，尝试 ANSI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] ANSI 扫描结果长度:",
+                    "target": "[DFV] ANSI 扫描结果长度:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] DOC 文件大小:",
+                    "target": "[DFV] DOC 文件大小:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "bytes",
+                    "target": "bytes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] .doc docstream 解析成功, 文本长度:",
+                    "target": "[DFV] .doc docstream 解析成功, 文本长度:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] docstream 返回空文本，降级到 CFB",
+                    "target": "[DFV] docstream 返回空文本，降级到 CFB"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] 找到 WordDocument 流, 大小:",
+                    "target": "[DFV] 找到 WordDocument 流, 大小:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] WordDocument magic:",
+                    "target": "[DFV] WordDocument magic:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] .doc CFB 扫描成功, 文本长度:",
+                    "target": "[DFV] .doc CFB 扫描成功, 文本长度:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] WordDocument 流扫描无结果，降级到全流扫描",
+                    "target": "[DFV] WordDocument 流扫描无结果，降级到全流扫描"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] 未找到 WordDocument 流（CFB dirs:",
+                    "target": "[DFV] 未找到 WordDocument 流（CFB dirs:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "个条目）",
+                    "target": "个条目）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] .doc 全流扫描完成, 文本长度:",
+                    "target": "[DFV] .doc 全流扫描完成, 文本长度:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] OLE2 扫描无结果，尝试原始二进制扫描",
+                    "target": "[DFV] OLE2 扫描无结果，尝试原始二进制扫描"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] .doc 原始二进制扫描完成, 文本长度:",
+                    "target": "[DFV] .doc 原始二进制扫描完成, 文本长度:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] DOCX ArrayBuffer 大小:",
+                    "target": "[DFV] DOCX ArrayBuffer 大小:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] mammoth 纯文本提取成功",
+                    "target": "[DFV] mammoth 纯文本提取成功"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV] JSZip 手动解包成功, 文本长度:",
+                    "target": "[DFV] JSZip 手动解包成功, 文本长度:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DashboardFileViewer] mammoth 警告:",
+                    "target": "[DashboardFileViewer] mammoth 警告:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV-PPT] 开始解析 PPT, 文件大小:",
+                    "target": "[DFV-PPT] 开始解析 PPT, 文件大小:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV-PPT] PowerPoint Document 流大小:",
+                    "target": "[DFV-PPT] PowerPoint Document 流大小:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "(原始文件",
+                    "target": "(原始文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "bytes, 瘦身",
+                    "target": "bytes, 瘦身"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV-PPT] 签名扫描找到:",
+                    "target": "[DFV-PPT] 签名扫描找到:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "段文本",
+                    "target": "段文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV-PPT] 过滤后有效文本:",
+                    "target": "[DFV-PPT] 过滤后有效文本:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[DFV-PPT] 开始解析",
+                    "target": "[DFV-PPT] 开始解析"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": ", 大小:",
+                    "target": ", 大小:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[i18n] toTranslate count:",
+                    "target": "[i18n] toTranslate count:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[i18n] key not in dict (skipping):",
+                    "target": "[i18n] key not in dict (skipping):"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[i18n] translation done, count:",
+                    "target": "[i18n] translation done, count:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Dashboard] image gallery processor registered (code: t)",
+                    "target": "[Dashboard] image gallery processor registered (code: t)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Dashboard] media gallery processor registered (code: s)",
+                    "target": "[Dashboard] media gallery processor registered (code: s)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Dashboard] 文件夹计数器扫描完成, 文件夹数:",
+                    "target": "[Dashboard] 文件夹计数器扫描完成, 文件夹数:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Dashboard] 文件夹计数器预扫描失败:",
+                    "target": "[Dashboard] 文件夹计数器预扫描失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Dashboard] 文件夹计数器更新失败:",
+                    "target": "[Dashboard] 文件夹计数器更新失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "在新窗口中打开",
+                    "target": "在新窗口中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "复制图片",
+                    "target": "复制图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "复制为Base64编码图片",
+                    "target": "复制为Base64编码图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "格式转换/压缩（自定义参数）",
+                    "target": "格式转换/压缩（自定义参数）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "快捷转换：→ WebP (质量75)",
+                    "target": "快捷转换：→ WebP (质量75)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "快捷转换：→ JPEG (质量85)",
+                    "target": "快捷转换：→ JPEG (质量85)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "快捷转换：→ PNG",
+                    "target": "快捷转换：→ PNG"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "旋转/翻转",
+                    "target": "旋转/翻转"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "  顺时针旋转 90°",
+                    "target": "  顺时针旋转 90°"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "  逆时针旋转 90°",
+                    "target": "  逆时针旋转 90°"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "  旋转 180°",
+                    "target": "  旋转 180°"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "  水平翻转",
+                    "target": "  水平翻转"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "  垂直翻转",
+                    "target": "  垂直翻转"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Dashboard] Sandbox eval 失败:",
+                    "target": "[Dashboard] Sandbox eval 失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] SheetJS 本地文件 eval 失败，回退CDN",
+                    "target": "[DFV] SheetJS 本地文件 eval 失败，回退CDN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] SheetJS 本地加载失败:",
+                    "target": "[DFV] SheetJS 本地加载失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "→ 回退CDN",
+                    "target": "→ 回退CDN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] SheetJS 内嵌库不可用，回退CDN",
+                    "target": "[DFV] SheetJS 内嵌库不可用，回退CDN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] mammoth 本地 eval 返回无效对象，回退CDN",
+                    "target": "[DFV] mammoth 本地 eval 返回无效对象，回退CDN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] mammoth 本地 eval 异常:",
+                    "target": "[DFV] mammoth 本地 eval 异常:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] mammoth 本地加载失败:",
+                    "target": "[DFV] mammoth 本地加载失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] mammoth 内嵌库不可用，回退CDN",
+                    "target": "[DFV] mammoth 内嵌库不可用，回退CDN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] docstream 内嵌库 eval 异常:",
+                    "target": "[DFV] docstream 内嵌库 eval 异常:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] docstream 本地 eval 返回无效对象，回退CDN",
+                    "target": "[DFV] docstream 本地 eval 返回无效对象，回退CDN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] docstream 本地 eval 异常:",
+                    "target": "[DFV] docstream 本地 eval 异常:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] docstream 本地加载失败:",
+                    "target": "[DFV] docstream 本地加载失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] docstream 内嵌库不可用，回退CDN",
+                    "target": "[DFV] docstream 内嵌库不可用，回退CDN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] CFB 内嵌库 eval 异常:",
+                    "target": "[DFV] CFB 内嵌库 eval 异常:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] CFB 本地 eval 返回无效对象，回退CDN",
+                    "target": "[DFV] CFB 本地 eval 返回无效对象，回退CDN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] CFB 本地 eval 异常:",
+                    "target": "[DFV] CFB 本地 eval 异常:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] CFB 本地加载失败:",
+                    "target": "[DFV] CFB 本地加载失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] CFB 内嵌库不可用，回退CDN",
+                    "target": "[DFV] CFB 内嵌库不可用，回退CDN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] JSZip 本地 eval 返回无效对象，回退CDN",
+                    "target": "[DFV] JSZip 本地 eval 返回无效对象，回退CDN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] JSZip 本地 eval 异常:",
+                    "target": "[DFV] JSZip 本地 eval 异常:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] JSZip 本地加载失败:",
+                    "target": "[DFV] JSZip 本地加载失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] JSZip 内嵌库不可用，回退CDN",
+                    "target": "[DFV] JSZip 内嵌库不可用，回退CDN"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[FV] modules/file-viewers/ 目录为空或不存在，无扩展加载",
+                    "target": "[FV] modules/file-viewers/ 目录为空或不存在，无扩展加载"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[FV] ✗ 加载失败:",
+                    "target": "[FV] ✗ 加载失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[FV] 扫描 file-viewers 目录失败:",
+                    "target": "[FV] 扫描 file-viewers 目录失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Gallery] manifest.dir is undefined",
+                    "target": "[Gallery] manifest.dir is undefined"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Gallery] ✗ 加载失败:",
+                    "target": "[Gallery] ✗ 加载失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] docstream 解析失败:",
+                    "target": "[DFV] docstream 解析失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] CFB.read 失败:",
+                    "target": "[DFV] CFB.read 失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] mammoth HTML 转换失败，降级为纯文本:",
+                    "target": "[DFV] mammoth HTML 转换失败，降级为纯文本:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] mammoth extractRawText 也失败:",
+                    "target": "[DFV] mammoth extractRawText 也失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[DFV] JSZip 解包也失败:",
+                    "target": "[DFV] JSZip 解包也失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[V17] 扫描模块目录失败:",
+                    "target": "[V17] 扫描模块目录失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[V17] 打开设置失败:",
+                    "target": "[V17] 打开设置失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[V17] 渲染模块设置项失败:",
+                    "target": "[V17] 渲染模块设置项失败:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[i18n] batch err:",
+                    "target": "[i18n] batch err:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Gallery] Action error:",
+                    "target": "[Gallery] Action error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[img-gallery] render error:",
+                    "target": "[img-gallery] render error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Media] Action error:",
+                    "target": "[Media] Action error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[memories] render error:",
+                    "target": "[memories] render error:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Dashboard] FV 加载异常:",
+                    "target": "[Dashboard] FV 加载异常:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Dashboard] FileViewer registration failed:",
+                    "target": "[Dashboard] FileViewer registration failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Dashboard] Gallery processors init failed:",
+                    "target": "[Dashboard] Gallery processors init failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Dashboard] img-gallery processor init failed:",
+                    "target": "[Dashboard] img-gallery processor init failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Dashboard] memories processor init failed:",
+                    "target": "[Dashboard] memories processor init failed:"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "✓ Excel数据已自动转为Markdown表格",
+                    "target": "✓ Excel数据已自动转为Markdown表格"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "⏳ 正在处理图片...",
+                    "target": "⏳ 正在处理图片..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "You are a professional translator for software UI.",
+                    "target": "You are a professional translator for software UI."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "API Key is required",
+                    "target": "API Key is required"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Translation in progress",
+                    "target": "Translation in progress"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "WebP",
+                    "target": "WebP"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "PNG",
+                    "target": "PNG"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "保持原格式",
+                    "target": "保持原格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "晨曦",
+                    "target": "晨曦"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "侘寂",
+                    "target": "侘寂"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "暮光",
+                    "target": "暮光"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "海岸",
+                    "target": "海岸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "丰收",
+                    "target": "丰收"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "墨迹",
+                    "target": "墨迹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "亚麻",
+                    "target": "亚麻"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "碳灰",
+                    "target": "碳灰"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔗",
+                    "target": "🔗"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🏠",
+                    "target": "🏠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📂",
+                    "target": "📂"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Support",
+                    "target": "Support"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "目标格式：",
+                    "target": "目标格式："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "输出质量（1-100）：",
+                    "target": "输出质量（1-100）："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "最大宽度（px，0=不限制）：",
+                    "target": "最大宽度（px，0=不限制）："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消勾选则另存为新文件",
+                    "target": "取消勾选则另存为新文件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "开始处理",
+                    "target": "开始处理"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "缩小",
+                    "target": "缩小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "放大",
+                    "target": "放大"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "重置缩放",
+                    "target": "重置缩放"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(`Invalid value for toText: ${c}`)",
+                    "target": "log(`Invalid value for toText: ${c}`)"
+                },
+                {
+                    "source": "log(`Invalid value for toMarkdown: ${c}`)",
+                    "target": "log(`Invalid value for toMarkdown: ${c}`)"
+                },
+                {
+                    "source": "log('[DFV] SheetJS 使用主窗口已有实例')",
+                    "target": "log('[DFV] SheetJS 使用主窗口已有实例')"
+                },
+                {
+                    "source": "error('[DFV] SheetJS 所有加载方式均失败（内嵌+本地+CDN）')",
+                    "target": "error('[DFV] SheetJS 所有加载方式均失败（内嵌+本地+CDN）')"
+                },
+                {
+                    "source": "log('[DFV] SheetJS 加载成功 (CDN #' + (idx+1) + ')",
+                    "target": "log('[DFV] SheetJS 加载成功 (CDN #' + (idx+1) + ')"
+                },
+                {
+                    "source": "log('[DFV] SheetJS ✓ 使用内嵌库')",
+                    "target": "log('[DFV] SheetJS ✓ 使用内嵌库')"
+                },
+                {
+                    "source": "log('[DFV] SheetJS ✓ 从本地加载成功')",
+                    "target": "log('[DFV] SheetJS ✓ 从本地加载成功')"
+                },
+                {
+                    "source": "log('[DFV] mammoth 加载完成')",
+                    "target": "log('[DFV] mammoth 加载完成')"
+                },
+                {
+                    "source": "error('[DFV] mammoth 加载失败 (' + label + ')",
+                    "target": "error('[DFV] mammoth 加载失败 (' + label + ')"
+                },
+                {
+                    "source": "log('[DFV] mammoth 从 CDN 加载成功')",
+                    "target": "log('[DFV] mammoth 从 CDN 加载成功')"
+                },
+                {
+                    "source": "log('[DFV] mammoth ✓ 使用内嵌库')",
+                    "target": "log('[DFV] mammoth ✓ 使用内嵌库')"
+                },
+                {
+                    "source": "log('[DFV] mammoth ✓ 从本地加载成功')",
+                    "target": "log('[DFV] mammoth ✓ 从本地加载成功')"
+                },
+                {
+                    "source": "log('[DFV] docstream 加载完成')",
+                    "target": "log('[DFV] docstream 加载完成')"
+                },
+                {
+                    "source": "error('[DFV] docstream 加载失败 (' + label + ')",
+                    "target": "error('[DFV] docstream 加载失败 (' + label + ')"
+                },
+                {
+                    "source": "log('[DFV] docstream 从 CDN 加载成功')",
+                    "target": "log('[DFV] docstream 从 CDN 加载成功')"
+                },
+                {
+                    "source": "log('[DFV] docstream ✓ 使用内嵌库')",
+                    "target": "log('[DFV] docstream ✓ 使用内嵌库')"
+                },
+                {
+                    "source": "log('[DFV] docstream ✓ 从本地加载成功')",
+                    "target": "log('[DFV] docstream ✓ 从本地加载成功')"
+                },
+                {
+                    "source": "log('[DFV] CFB 加载完成')",
+                    "target": "log('[DFV] CFB 加载完成')"
+                },
+                {
+                    "source": "error('[DFV] CFB 加载失败 (' + label + ')",
+                    "target": "error('[DFV] CFB 加载失败 (' + label + ')"
+                },
+                {
+                    "source": "log('[DFV] CFB 从 CDN 加载成功')",
+                    "target": "log('[DFV] CFB 从 CDN 加载成功')"
+                },
+                {
+                    "source": "log('[DFV] CFB ✓ 使用内嵌库')",
+                    "target": "log('[DFV] CFB ✓ 使用内嵌库')"
+                },
+                {
+                    "source": "log('[DFV] CFB ✓ 从本地加载成功')",
+                    "target": "log('[DFV] CFB ✓ 从本地加载成功')"
+                },
+                {
+                    "source": "log('[DFV] JSZip 加载完成')",
+                    "target": "log('[DFV] JSZip 加载完成')"
+                },
+                {
+                    "source": "error('[DFV] JSZip 加载失败 (' + label + ')",
+                    "target": "error('[DFV] JSZip 加载失败 (' + label + ')"
+                },
+                {
+                    "source": "log('[DFV] JSZip 从 CDN 加载成功')",
+                    "target": "log('[DFV] JSZip 从 CDN 加载成功')"
+                },
+                {
+                    "source": "log('[DFV] JSZip ✓ 使用内嵌库')",
+                    "target": "log('[DFV] JSZip ✓ 使用内嵌库')"
+                },
+                {
+                    "source": "log('[DFV] JSZip ✓ 从本地加载成功')",
+                    "target": "log('[DFV] JSZip ✓ 从本地加载成功')"
+                },
+                {
+                    "source": "log('[FV] 内置模式：FileViewer 扩展已内联到 main.js')",
+                    "target": "log('[FV] 内置模式：FileViewer 扩展已内联到 main.js')"
+                },
+                {
+                    "source": "log('[FV] Dev 模式：开始动态加载 FileViewer 扩展...')",
+                    "target": "log('[FV] Dev 模式：开始动态加载 FileViewer 扩展...')"
+                },
+                {
+                    "source": "log('[FV] ✓', filePath.replace(fvDir, '')",
+                    "target": "log('[FV] ✓', filePath.replace(fvDir, '')"
+                },
+                {
+                    "source": "log('[FV] 动态加载完成:', loaded + '/' + files.length, '个扩展可用')",
+                    "target": "log('[FV] 动态加载完成:', loaded + '/' + files.length, '个扩展可用')"
+                },
+                {
+                    "source": "log('[Gallery] 内置模式：处理器已内联到 main.js')",
+                    "target": "log('[Gallery] 内置模式：处理器已内联到 main.js')"
+                },
+                {
+                    "source": "log('[Gallery] Dev 模式：开始动态加载 Gallery 处理器...')",
+                    "target": "log('[Gallery] Dev 模式：开始动态加载 Gallery 处理器...')"
+                },
+                {
+                    "source": "log('[DFV] UTF-16LE 仅扫描到', utf16Text.length, '字符，尝试 ANSI')",
+                    "target": "log('[DFV] UTF-16LE 仅扫描到', utf16Text.length, '字符，尝试 ANSI')"
+                },
+                {
+                    "source": "log('[DFV] DOC 文件大小:', u8.byteLength, 'bytes')",
+                    "target": "log('[DFV] DOC 文件大小:', u8.byteLength, 'bytes')"
+                },
+                {
+                    "source": "log('[DFV] .doc docstream 解析成功, 文本长度:', docText.length);\r\n                        return;\r\n                    }\r\n                    console.log('[DFV] docstream 返回空文本，降级到 CFB')",
+                    "target": "log('[DFV] .doc docstream 解析成功, 文本长度:', docText.length);\r\n                        return;\r\n                    }\r\n                    console.log('[DFV] docstream 返回空文本，降级到 CFB')"
+                },
+                {
+                    "source": "log('[DFV] 找到 WordDocument 流, 大小:', wdStream.length, 'bytes')",
+                    "target": "log('[DFV] 找到 WordDocument 流, 大小:', wdStream.length, 'bytes')"
+                },
+                {
+                    "source": "log('[DFV] .doc CFB 扫描成功, 文本长度:', scanned.length);\r\n                        return;\r\n                    }\r\n                    console.log('[DFV] WordDocument 流扫描无结果，降级到全流扫描')",
+                    "target": "log('[DFV] .doc CFB 扫描成功, 文本长度:', scanned.length);\r\n                        return;\r\n                    }\r\n                    console.log('[DFV] WordDocument 流扫描无结果，降级到全流扫描')"
+                },
+                {
+                    "source": "log('[DFV] 未找到 WordDocument 流（CFB dirs:', dirs.length, '个条目）')",
+                    "target": "log('[DFV] 未找到 WordDocument 流（CFB dirs:', dirs.length, '个条目）')"
+                },
+                {
+                    "source": "log('[DFV] DOCX ArrayBuffer 大小:', arrayBuffer.byteLength, 'bytes')",
+                    "target": "log('[DFV] DOCX ArrayBuffer 大小:', arrayBuffer.byteLength, 'bytes')"
+                },
+                {
+                    "source": "log('[DFV] mammoth 纯文本提取成功')",
+                    "target": "log('[DFV] mammoth 纯文本提取成功')"
+                },
+                {
+                    "source": "error('[DashboardFileViewer] DOCX渲染失败:', e);\r\n        }\r\n    }\r\n\r\n    // 当 mammoth 的两重策略（convertToHtml + extractRawText）都失败时使用\r\n    async function extractDocxTextViaJSZip(arrayBuffer) {\r\n        var JSZip = await getJSZipAsync();\r\n        if (!JSZip) throw new Error('JSZip 加载失败')",
+                    "target": "error('[DashboardFileViewer] DOCX渲染失败:', e);\r\n        }\r\n    }\r\n\r\n    // 当 mammoth 的两重策略（convertToHtml + extractRawText）都失败时使用\r\n    async function extractDocxTextViaJSZip(arrayBuffer) {\r\n        var JSZip = await getJSZipAsync();\r\n        if (!JSZip) throw new Error('JSZip 加载失败')"
+                },
+                {
+                    "source": "log('[DFV-PPT] 开始解析 PPT, 文件大小:', rawBytes.length, 'bytes')",
+                    "target": "log('[DFV-PPT] 开始解析 PPT, 文件大小:', rawBytes.length, 'bytes')"
+                },
+                {
+                    "source": "log('[DFV-PPT] PowerPoint Document 流大小:', ppStream.length, 'bytes',\r\n        '(原始文件', rawBytes.length, 'bytes, 瘦身', Math.round(100 * (1 - ppStream.length / rawBytes.length)) + '%)')",
+                    "target": "log('[DFV-PPT] PowerPoint Document 流大小:', ppStream.length, 'bytes',\r\n        '(原始文件', rawBytes.length, 'bytes, 瘦身', Math.round(100 * (1 - ppStream.length / rawBytes.length)) + '%)')"
+                },
+                {
+                    "source": "log('[DFV-PPT] 签名扫描找到:', recordTexts.length, '段文本')",
+                    "target": "log('[DFV-PPT] 签名扫描找到:', recordTexts.length, '段文本')"
+                },
+                {
+                    "source": "log('[DFV-PPT] 过滤后有效文本:', filtered.length, '段')",
+                    "target": "log('[DFV-PPT] 过滤后有效文本:', filtered.length, '段')"
+                },
+                {
+                    "source": "log('[DFV-PPT] 开始解析', formatLabel, ', 大小:', arrayBuffer.byteLength, 'bytes')",
+                    "target": "log('[DFV-PPT] 开始解析', formatLabel, ', 大小:', arrayBuffer.byteLength, 'bytes')"
+                },
+                {
+                    "source": "error('[DashboardFileViewer] 表格渲染失败:', e);\r\n        }\r\n    }\r\n\r\n// 小数位数设置（持久化到 localStorage，null=自动不格式化）\r\nvar _decimalPlaces = (function() {\r\n    try { var v = localStorage.getItem('dbfv-decimal-places')",
+                    "target": "error('[DashboardFileViewer] 表格渲染失败:', e);\r\n        }\r\n    }\r\n\r\n// 小数位数设置（持久化到 localStorage，null=自动不格式化）\r\nvar _decimalPlaces = (function() {\r\n    try { var v = localStorage.getItem('dbfv-decimal-places')"
+                },
+                {
+                    "source": "Notice('已复制 ' + lines.length + ' 行 × ' + (maxCol - minCol + 1) + ' 列')",
+                    "target": "Notice('已复制 ' + lines.length + ' 行 × ' + (maxCol - minCol + 1) + ' 列')"
+                },
+                {
+                    "source": "setPlaceholder('tags/我的标签.md')",
+                    "target": "setPlaceholder('tags/我的标签.md')"
+                },
+                {
+                    "source": "setPlaceholder('sk-... / gs-...')",
+                    "target": "setPlaceholder('sk-... / gs-...')"
+                },
+                {
+                    "source": "setPlaceholder('留空或 Bearer Token')",
+                    "target": "setPlaceholder('留空或 Bearer Token')"
+                },
+                {
+                    "source": "setTitle('🎙️ ' + _t('at.contextMenu', '转录音频/视频')",
+                    "target": "setTitle('🎙️ ' + _t('at.contextMenu', '转录音频/视频')"
+                },
+                {
+                    "source": "Notice('❌ ' + _t('at.notice.tooLarge', '文件过大（超过 500MB）')",
+                    "target": "Notice('❌ ' + _t('at.notice.tooLarge', '文件过大（超过 500MB）')"
+                },
+                {
+                    "source": "Notice('🎙️ ' + _t('at.notice.reading', '正在读取文件...')",
+                    "target": "Notice('🎙️ ' + _t('at.notice.reading', '正在读取文件...')"
+                },
+                {
+                    "source": "Notice('⚠️ ' + _t('at.notice.empty', '转录完成但结果为空')",
+                    "target": "Notice('⚠️ ' + _t('at.notice.empty', '转录完成但结果为空')"
+                },
+                {
+                    "source": "Notice('✅ ' + _t('at.notice.done', '转录完成')",
+                    "target": "Notice('✅ ' + _t('at.notice.done', '转录完成')"
+                },
+                {
+                    "source": "Notice('❌ ' + _t('at.notice.failed', '转录失败')",
+                    "target": "Notice('❌ ' + _t('at.notice.failed', '转录失败')"
+                },
+                {
+                    "source": "Notice('✓ Excel数据已自动转为Markdown表格')",
+                    "target": "Notice('✓ Excel数据已自动转为Markdown表格')"
+                },
+                {
+                    "source": "log('[Dashboard] file-sort 模块已注册 (Custom File Sort)')",
+                    "target": "log('[Dashboard] file-sort 模块已注册 (Custom File Sort)')"
+                },
+                {
+                    "source": "log('[mobile-adapter] 桌面端，跳过')",
+                    "target": "log('[mobile-adapter] 桌面端，跳过')"
+                },
+                {
+                    "source": "log('[mobile-adapter] navbar CSS 已立即注入')",
+                    "target": "log('[mobile-adapter] navbar CSS 已立即注入')"
+                },
+                {
+                    "source": "setPlaceholder('待办')",
+                    "target": "setPlaceholder('待办')"
+                },
+                {
+                    "source": "setPlaceholder('Base64 data URI or leave empty for default')",
+                    "target": "setPlaceholder('Base64 data URI or leave empty for default')"
+                },
+                {
+                    "source": "setPlaceholder('e.g. notes/quick')",
+                    "target": "setPlaceholder('e.g. notes/quick')"
+                },
+                {
+                    "source": "log('showing windows')",
+                    "target": "log('showing windows')"
+                },
+                {
+                    "source": "log('hiding windows')",
+                    "target": "log('hiding windows')"
+                },
+                {
+                    "source": "log('tray icon created')",
+                    "target": "log('tray icon created')"
+                },
+                {
+                    "source": "log('intercepting window close')",
+                    "target": "log('intercepting window close')"
+                },
+                {
+                    "source": "log('unregistered all hotkeys')",
+                    "target": "log('unregistered all hotkeys')"
+                },
+                {
+                    "source": "Notice('❌ ' + _t('tray.quickNoteFailed', 'Quick note failed')",
+                    "target": "Notice('❌ ' + _t('tray.quickNoteFailed', 'Quick note failed')"
+                },
+                {
+                    "source": "Notice('✅ ' + _t('tray.quickNoteCreated', 'Quick note created')",
+                    "target": "Notice('✅ ' + _t('tray.quickNoteCreated', 'Quick note created')"
+                },
+                {
+                    "source": "log('[Dashboard] Tray Manager module registered')",
+                    "target": "log('[Dashboard] Tray Manager module registered')"
+                },
+                {
+                    "source": "log('[Dashboard] .url 浏览器模块已注册 (webview opener)')",
+                    "target": "log('[Dashboard] .url 浏览器模块已注册 (webview opener)')"
+                },
+                {
+                    "source": "log('[xhs-importer] DOM提取图片:', imgMatches.length, '张')",
+                    "target": "log('[xhs-importer] DOM提取图片:', imgMatches.length, '张')"
+                },
+                {
+                    "source": "log('[xhs-importer] JSON正则提取图片:', jsonUrls.length, '张')",
+                    "target": "log('[xhs-importer] JSON正则提取图片:', jsonUrls.length, '张')"
+                },
+                {
+                    "source": "log('[xhs-importer] requestUrl 未获取到 __INITIAL_STATE__，尝试 fetch...')",
+                    "target": "log('[xhs-importer] requestUrl 未获取到 __INITIAL_STATE__，尝试 fetch...')"
+                },
+                {
+                    "source": "log('[xhs-importer] 是视频:', isVideo, videoUrl ? 'URL: ' + videoUrl.substring(0, 60) : '')",
+                    "target": "log('[xhs-importer] 是视频:', isVideo, videoUrl ? 'URL: ' + videoUrl.substring(0, 60) : '')"
+                },
+                {
+                    "source": "error('[xhs-importer] 解析失败 - 无内容且无图片')",
+                    "target": "error('[xhs-importer] 解析失败 - 无内容且无图片')"
+                },
+                {
+                    "source": "log('[xhs-importer] HTML前500字:', html ? html.substring(0, 500) : '(null)')",
+                    "target": "log('[xhs-importer] HTML前500字:', html ? html.substring(0, 500) : '(null)')"
+                },
+                {
+                    "source": "Notice('📕 ' + t('mod.xhsImporter.error.import')",
+                    "target": "Notice('📕 ' + t('mod.xhsImporter.error.import')"
+                },
+                {
+                    "source": "log('[V17] 已加载内置模块: ' + [...this.modules.keys()].join(', ')",
+                    "target": "log('[V17] 已加载内置模块: ' + [...this.modules.keys()].join(', ')"
+                },
+                {
+                    "source": "log('[V17] 已加载模块: ' + [...this.modules.keys()].join(', ')",
+                    "target": "log('[V17] 已加载模块: ' + [...this.modules.keys()].join(', ')"
+                },
+                {
+                    "source": "error('[V17] 模块解析错误 (' + fallbackId + ')",
+                    "target": "error('[V17] 模块解析错误 (' + fallbackId + ')"
+                },
+                {
+                    "source": "error('[V17] 模块 ' + moduleId + ' 渲染错误:', e);\r\n            container.createEl('div', {\r\n                text: t('mod.manager.renderFailed')",
+                    "target": "error('[V17] 模块 ' + moduleId + ' 渲染错误:', e);\r\n            container.createEl('div', {\r\n                text: t('mod.manager.renderFailed')"
+                },
+                {
+                    "source": "error('[V17] onunload error in ' + moduleId + ':', e); }\r\n                }\r\n            }\r\n            // 再清理实例模块\r\n            for (const inst of this.plugin.moduleManager.instances) {\r\n                const baseId = inst.id.split('#')",
+                    "target": "error('[V17] onunload error in ' + moduleId + ':', e); }\r\n                }\r\n            }\r\n            // 再清理实例模块\r\n            for (const inst of this.plugin.moduleManager.instances) {\r\n                const baseId = inst.id.split('#')"
+                },
+                {
+                    "source": "Notice('✅ ' + t('settings.aiPreview.applySuccess')",
+                    "target": "Notice('✅ ' + t('settings.aiPreview.applySuccess')"
+                },
+                {
+                    "source": "Notice('AI ' + t('settings.language')",
+                    "target": "Notice('AI ' + t('settings.language')"
+                },
+                {
+                    "source": "Notice('❌ ' + t('settings.aiKey')",
+                    "target": "Notice('❌ ' + t('settings.aiKey')"
+                },
+                {
+                    "source": "Notice('⚠️ ' + diagMsg, 8000);\r\n                            } else {\r\n                                self._showTranslationPreview(result, targetLang);\r\n                            }\r\n                        } else {\r\n                            new Notice('❌ ' + t('settings.aiTranslateFailed')",
+                    "target": "Notice('⚠️ ' + diagMsg, 8000);\r\n                            } else {\r\n                                self._showTranslationPreview(result, targetLang);\r\n                            }\r\n                        } else {\r\n                            new Notice('❌ ' + t('settings.aiTranslateFailed')"
+                },
+                {
+                    "source": "Notice('❌ ' + t('settings.aiTranslateFailed')",
+                    "target": "Notice('❌ ' + t('settings.aiTranslateFailed')"
+                },
+                {
+                    "source": "error('[V17] 模块 ' + moduleId + ' 设置渲染失败:', e);\r\n            wrapper.createEl('p', { text: t('settings.moduleSettingsFailed')",
+                    "target": "error('[V17] 模块 ' + moduleId + ' 设置渲染失败:', e);\r\n            wrapper.createEl('p', { text: t('settings.moduleSettingsFailed')"
+                },
+                {
+                    "source": "log('[Dashboard] image gallery processor registered (code: t)')",
+                    "target": "log('[Dashboard] image gallery processor registered (code: t)')"
+                },
+                {
+                    "source": "error('[Dashboard] setupImgGalleryProcessor failed:', e);\r\n        }\r\n    }\r\n\r\n    if (typeof global !== 'undefined')",
+                    "target": "error('[Dashboard] setupImgGalleryProcessor failed:', e);\r\n        }\r\n    }\r\n\r\n    if (typeof global !== 'undefined')"
+                },
+                {
+                    "source": "log('[Dashboard] media gallery processor registered (code: s)')",
+                    "target": "log('[Dashboard] media gallery processor registered (code: s)')"
+                },
+                {
+                    "source": "error('[Dashboard] setupMemoriesProcessor failed:', e);\r\n        }\r\n    }\r\n\r\n    if (typeof global !== 'undefined')",
+                    "target": "error('[Dashboard] setupMemoriesProcessor failed:', e);\r\n        }\r\n    }\r\n\r\n    if (typeof global !== 'undefined')"
+                },
+                {
+                    "source": "log('[Dashboard] 文件夹计数器扫描完成, 文件夹数:', Object.keys(folderCountMap).length);\n            } catch(e) {\n                console.log('[Dashboard] 文件夹计数器预扫描失败:', e.message);\n            }\n        }\n\n        function getCountText(folderPath) {\n            if (folderPath === '')",
+                    "target": "log('[Dashboard] 文件夹计数器扫描完成, 文件夹数:', Object.keys(folderCountMap).length);\n            } catch(e) {\n                console.log('[Dashboard] 文件夹计数器预扫描失败:', e.message);\n            }\n        }\n\n        function getCountText(folderPath) {\n            if (folderPath === '')"
+                },
+                {
+                    "source": "log('[Dashboard] FC debug: fp=\"' + fp + '\", mapKeys:', Object.keys(folderCountMap).slice(0, 5).join(', ')",
+                    "target": "log('[Dashboard] FC debug: fp=\"' + fp + '\", mapKeys:', Object.keys(folderCountMap).slice(0, 5).join(', ')"
+                },
+                {
+                    "source": "setTitle('在新窗口中打开')",
+                    "target": "setTitle('在新窗口中打开')"
+                },
+                {
+                    "source": "setTitle('复制图片')",
+                    "target": "setTitle('复制图片')"
+                },
+                {
+                    "source": "setTitle('快捷转换：→ WebP (质量75)')",
+                    "target": "setTitle('快捷转换：→ WebP (质量75)')"
+                },
+                {
+                    "source": "setTitle('快捷转换：→ JPEG (质量85)')",
+                    "target": "setTitle('快捷转换：→ JPEG (质量85)')"
+                },
+                {
+                    "source": "setTitle('快捷转换：→ PNG')",
+                    "target": "setTitle('快捷转换：→ PNG')"
+                },
+                {
+                    "source": "setTitle('旋转/翻转')",
+                    "target": "setTitle('旋转/翻转')"
+                },
+                {
+                    "source": "setTitle('  顺时针旋转 90°')",
+                    "target": "setTitle('  顺时针旋转 90°')"
+                },
+                {
+                    "source": "setTitle('  逆时针旋转 90°')",
+                    "target": "setTitle('  逆时针旋转 90°')"
+                },
+                {
+                    "source": "setTitle('  旋转 180°')",
+                    "target": "setTitle('  旋转 180°')"
+                },
+                {
+                    "source": "setTitle('  水平翻转')",
+                    "target": "setTitle('  水平翻转')"
+                },
+                {
+                    "source": "setTitle('  垂直翻转')",
+                    "target": "setTitle('  垂直翻转')"
+                },
+                {
+                    "source": "appendText('直接修改原文件（覆盖）')",
+                    "target": "appendText('直接修改原文件（覆盖）')"
+                },
+                {
+                    "source": "Notice('⏳ 正在处理图片...')",
+                    "target": "Notice('⏳ 正在处理图片...')"
+                },
+                {
+                    "source": "Notice('✅ 已修改: ' + file.name + ' (' + w + 'x' + h + ', ' + ext.toUpperCase() + ', q=' + quality + ')",
+                    "target": "Notice('✅ 已修改: ' + file.name + ' (' + w + 'x' + h + ', ' + ext.toUpperCase() + ', q=' + quality + ')"
+                },
+                {
+                    "source": "Notice('✅ 已另存: ' + newPath.split('/')",
+                    "target": "Notice('✅ 已另存: ' + newPath.split('/')"
+                },
+                {
+                    "source": "Notice('✅ 已修改: ' + file.name + ' (' + opLabel + ')",
+                    "target": "Notice('✅ 已修改: ' + file.name + ' (' + opLabel + ')"
+                },
+                {
+                    "source": "name='Heading 1'",
+                    "target": "name='Heading 1'"
+                },
+                {
+                    "source": "name='Heading 3'",
+                    "target": "name='Heading 3'"
+                },
+                {
+                    "source": "name='Heading 4'",
+                    "target": "name='Heading 4'"
+                },
+                {
+                    "source": "name='Heading 5'",
+                    "target": "name='Heading 5'"
+                },
+                {
+                    "source": "name='Heading 6'",
+                    "target": "name='Heading 6'"
+                },
+                {
+                    "source": "name='heading 1'",
+                    "target": "name='heading 1'"
+                },
+                {
+                    "source": "name='heading 3'",
+                    "target": "name='heading 3'"
+                },
+                {
+                    "source": "name='heading 4'",
+                    "target": "name='heading 4'"
+                },
+                {
+                    "source": "name='heading 5'",
+                    "target": "name='heading 5'"
+                },
+                {
+                    "source": "name='heading 6'",
+                    "target": "name='heading 6'"
+                },
+                {
+                    "source": "name='footnote text'",
+                    "target": "name='footnote text'"
+                },
+                {
+                    "source": "name='footnote reference'",
+                    "target": "name='footnote reference'"
+                },
+                {
+                    "source": "name='endnote text'",
+                    "target": "name='endnote text'"
+                },
+                {
+                    "source": "name='endnote reference'",
+                    "target": "name='endnote reference'"
+                },
+                {
+                    "source": "name='annotation text'",
+                    "target": "name='annotation text'"
+                },
+                {
+                    "source": "name='annotation reference'",
+                    "target": "name='annotation reference'"
+                },
+                {
+                    "source": "name='Footnote anchor'",
+                    "target": "name='Footnote anchor'"
+                },
+                {
+                    "source": "name='Endnote anchor'",
+                    "target": "name='Endnote anchor'"
+                },
+                {
+                    "source": "name=`${this.name} [${T}]`",
+                    "target": "name=`${this.name} [${T}]`"
+                },
+                {
+                    "source": "name : '📄 文件查看器'",
+                    "target": "name : '📄 文件查看器'"
+                },
+                {
+                    "source": "text: '.'",
+                    "target": "text: '.'"
+                },
+                {
+                    "source": "text: '🔗'",
+                    "target": "text: '🔗'"
+                },
+                {
+                    "source": "text: '−'",
+                    "target": "text: '−'"
+                },
+                {
+                    "source": "text: '100%'",
+                    "target": "text: '100%'"
+                },
+                {
+                    "source": "text: '+'",
+                    "target": "text: '+'"
+                },
+                {
+                    "source": "text: '↺'",
+                    "target": "text: '↺'"
+                },
+                {
+                    "source": "text = ''",
+                    "target": "text = ''"
+                },
+                {
+                    "source": "text: '🎵 '",
+                    "target": "text: '🎵 '"
+                },
+                {
+                    "source": "text: '• '",
+                    "target": "text: '• '"
+                },
+                {
+                    "source": "textContent = `分析于：${today}`",
+                    "target": "textContent = `分析于：${today}`"
+                },
+                {
+                    "source": "textContent = ''",
+                    "target": "textContent = ''"
+                },
+                {
+                    "source": "textContent = `上次分析：${diskCache.lastDate}（正在刷新…）`",
+                    "target": "textContent = `上次分析：${diskCache.lastDate}（正在刷新…）`"
+                },
+                {
+                    "source": "text: '📊 '",
+                    "target": "text: '📊 '"
+                },
+                {
+                    "source": "text: '🎙️ '",
+                    "target": "text: '🎙️ '"
+                },
+                {
+                    "source": "text: '☁️ '",
+                    "target": "text: '☁️ '"
+                },
+                {
+                    "source": "text: '🖥️ '",
+                    "target": "text: '🖥️ '"
+                },
+                {
+                    "source": "text: '📝 '",
+                    "target": "text: '📝 '"
+                },
+                {
+                    "source": "text: ''",
+                    "target": "text: ''"
+                },
+                {
+                    "source": "textContent = `${lunarYear.ganZhi}年 · ${lunarYear.animal}年`",
+                    "target": "textContent = `${lunarYear.ganZhi}年 · ${lunarYear.animal}年`"
+                },
+                {
+                    "source": "text: '‹'",
+                    "target": "text: '‹'"
+                },
+                {
+                    "source": "text: `${year}年${month}月`",
+                    "target": "text: `${year}年${month}月`"
+                },
+                {
+                    "source": "text: '›'",
+                    "target": "text: '›'"
+                },
+                {
+                    "source": "textContent = '(YAML)'",
+                    "target": "textContent = '(YAML)'"
+                },
+                {
+                    "source": "text: '📁'",
+                    "target": "text: '📁'"
+                },
+                {
+                    "source": "textContent = '▼'",
+                    "target": "textContent = '▼'"
+                },
+                {
+                    "source": "textContent = '▶'",
+                    "target": "textContent = '▶'"
+                },
+                {
+                    "source": "text: '⚠️'",
+                    "target": "text: '⚠️'"
+                },
+                {
+                    "source": "textContent = '插入失败: '",
+                    "target": "textContent = '插入失败: '"
+                },
+                {
+                    "source": "textContent = '复制失败，请手动选中上方文本复制'",
+                    "target": "textContent = '复制失败，请手动选中上方文本复制'"
+                },
+                {
+                    "source": "text:'🌾 '",
+                    "target": "text:'🌾 '"
+                },
+                {
+                    "source": "text:'⬆ '",
+                    "target": "text:'⬆ '"
+                },
+                {
+                    "source": "text: `${cropDef.name} x${cp.count}`",
+                    "target": "text: `${cropDef.name} x${cp.count}`"
+                },
+                {
+                    "source": "text: `+${getTotalEarning(cropDef,cp.count)}`",
+                    "target": "text: `+${getTotalEarning(cropDef,cp.count)}`"
+                },
+                {
+                    "source": "name: '/'",
+                    "target": "name: '/'"
+                },
+                {
+                    "source": "text: '📂'",
+                    "target": "text: '📂'"
+                },
+                {
+                    "source": "text: '  '",
+                    "target": "text: '  '"
+                },
+                {
+                    "source": "name : ''",
+                    "target": "name : ''"
+                },
+                {
+                    "source": "textContent = '0'",
+                    "target": "textContent = '0'"
+                },
+                {
+                    "source": "text: '\\\\uD83D\\\\uDCF7'",
+                    "target": "text: '\\\\uD83D\\\\uDCF7'"
+                },
+                {
+                    "source": "textContent = '✓ '",
+                    "target": "textContent = '✓ '"
+                },
+                {
+                    "source": "textContent = '✗ '",
+                    "target": "textContent = '✗ '"
+                },
+                {
+                    "source": "text: '\\\\u7C7B\\\\u578B:'",
+                    "target": "text: '\\\\u7C7B\\\\u578B:'"
+                },
+                {
+                    "source": "text: '\\\\uD83C\\\\uDFAC'",
+                    "target": "text: '\\\\uD83C\\\\uDFAC'"
+                },
+                {
+                    "source": "text: '\\\\uD83C\\\\uDFB5'",
+                    "target": "text: '\\\\uD83C\\\\uDFB5'"
+                },
+                {
+                    "source": "textContent = '\\\\uD83C\\\\uDFB5 '",
+                    "target": "textContent = '\\\\uD83C\\\\uDFB5 '"
+                },
+                {
+                    "source": "text: '🔥'",
+                    "target": "text: '🔥'"
+                },
+                {
+                    "source": "text: '❌'",
+                    "target": "text: '❌'"
+                },
+                {
+                    "source": "text: '✕'",
+                    "target": "text: '✕'"
+                },
+                {
+                    "source": "text:`FPS: -- | ${t('pt.count')||'Particles'}: --`",
+                    "target": "text:`FPS: -- | ${t('pt.count')||'Particles'}: --`"
+                },
+                {
+                    "source": "textContent = `FPS: ${fpsCounter} | ${t('pt.count')||'Particles'}: ${particles.length}`",
+                    "target": "textContent = `FPS: ${fpsCounter} | ${t('pt.count')||'Particles'}: ${particles.length}`"
+                },
+                {
+                    "source": "text:'🛒 '",
+                    "target": "text:'🛒 '"
+                },
+                {
+                    "source": "text:`💰${s.price}`",
+                    "target": "text:`💰${s.price}`"
+                },
+                {
+                    "source": "textContent = `💰 ${state.coins}`",
+                    "target": "textContent = `💰 ${state.coins}`"
+                },
+                {
+                    "source": "text: '📝'",
+                    "target": "text: '📝'"
+                },
+                {
+                    "source": "textContent = '#'",
+                    "target": "textContent = '#'"
+                },
+                {
+                    "source": "textContent = 'CSV | '",
+                    "target": "textContent = 'CSV | '"
+                },
+                {
+                    "source": "textContent = 'XLSX | '",
+                    "target": "textContent = 'XLSX | '"
+                },
+                {
+                    "source": "name = `${folder}/${today}.md`",
+                    "target": "name = `${folder}/${today}.md`"
+                },
+                {
+                    "source": "text: '⭕'",
+                    "target": "text: '⭕'"
+                },
+                {
+                    "source": "textContent = '✓'",
+                    "target": "textContent = '✓'"
+                },
+                {
+                    "source": "text: '📌 '",
+                    "target": "text: '📌 '"
+                },
+                {
+                    "source": "text: '◀'",
+                    "target": "text: '◀'"
+                },
+                {
+                    "source": "text: '▶'",
+                    "target": "text: '▶'"
+                },
+                {
+                    "source": "text: '⟳'",
+                    "target": "text: '⟳'"
+                },
+                {
+                    "source": "name=' + encodeURIComponent(city) + '",
+                    "target": "name=' + encodeURIComponent(city) + '"
+                },
+                {
+                    "source": "description : ''",
+                    "target": "description : ''"
+                },
+                {
+                    "source": "text: '🔑'",
+                    "target": "text: '🔑'"
+                },
+                {
+                    "source": "name: '晨曦'",
+                    "target": "name: '晨曦'"
+                },
+                {
+                    "source": "name: '侘寂'",
+                    "target": "name: '侘寂'"
+                },
+                {
+                    "source": "name: '暮光'",
+                    "target": "name: '暮光'"
+                },
+                {
+                    "source": "text: '#e8eaf6'",
+                    "target": "text: '#e8eaf6'"
+                },
+                {
+                    "source": "name: '海岸'",
+                    "target": "name: '海岸'"
+                },
+                {
+                    "source": "text: '#1a3c40'",
+                    "target": "text: '#1a3c40'"
+                },
+                {
+                    "source": "name: '丰收'",
+                    "target": "name: '丰收'"
+                },
+                {
+                    "source": "name: '墨迹'",
+                    "target": "name: '墨迹'"
+                },
+                {
+                    "source": "text: '#eceff1'",
+                    "target": "text: '#eceff1'"
+                },
+                {
+                    "source": "name: '亚麻'",
+                    "target": "name: '亚麻'"
+                },
+                {
+                    "source": "name: '碳灰'",
+                    "target": "name: '碳灰'"
+                },
+                {
+                    "source": "text: '#eeeeee'",
+                    "target": "text: '#eeeeee'"
+                },
+                {
+                    "source": "text: '🏠'",
+                    "target": "text: '🏠'"
+                },
+                {
+                    "source": "settings=\"' + targetModuleId + '\"",
+                    "target": "settings=\"' + targetModuleId + '\""
+                },
+                {
+                    "source": "text: '→'",
+                    "target": "text: '→'"
+                },
+                {
+                    "source": "text: '🧲 '",
+                    "target": "text: '🧲 '"
+                },
+                {
+                    "source": "settings=\"' + self._currentModuleId + '\"",
+                    "target": "settings=\"' + self._currentModuleId + '\""
+                },
+                {
+                    "source": "settings=\"' + moduleId + '\"",
+                    "target": "settings=\"' + moduleId + '\""
+                },
+                {
+                    "source": "text: '8'",
+                    "target": "text: '8'"
+                },
+                {
+                    "source": "text: '⚡'",
+                    "target": "text: '⚡'"
+                },
+                {
+                    "source": "settings=\"' + umId + '\"",
+                    "target": "settings=\"' + umId + '\""
+                },
+                {
+                    "source": "settings=\"' + this._currentModuleId + '\"",
+                    "target": "settings=\"' + this._currentModuleId + '\""
+                },
+                {
+                    "source": "settings=\"' + inst.id + '\"",
+                    "target": "settings=\"' + inst.id + '\""
+                },
+                {
+                    "source": "text: '💡 '",
+                    "target": "text: '💡 '"
+                },
+                {
+                    "source": "text: 'ifdian.net'",
+                    "target": "text: 'ifdian.net'"
+                },
+                {
+                    "source": "text: 'Support'",
+                    "target": "text: 'Support'"
+                },
+                {
+                    "source": "page: ' },\n    '",
+                    "target": "page: ' },\n    '"
+                },
+                {
+                    "source": "text: '📸 '",
+                    "target": "text: '📸 '"
+                },
+                {
+                    "source": "text: '目标格式：'",
+                    "target": "text: '目标格式：'"
+                },
+                {
+                    "source": "name: 'imgFormat'",
+                    "target": "name: 'imgFormat'"
+                },
+                {
+                    "source": "text: '输出质量（1-100）：'",
+                    "target": "text: '输出质量（1-100）：'"
+                },
+                {
+                    "source": "text: '最大宽度（px，0=不限制）：'",
+                    "target": "text: '最大宽度（px，0=不限制）：'"
+                },
+                {
+                    "source": "text: '取消勾选则另存为新文件'",
+                    "target": "text: '取消勾选则另存为新文件'"
+                },
+                {
+                    "source": "text: '取消'",
+                    "target": "text: '取消'"
+                },
+                {
+                    "source": "text: '开始处理'",
+                    "target": "text: '开始处理'"
+                }
+            ]
+        }
+    }
+}

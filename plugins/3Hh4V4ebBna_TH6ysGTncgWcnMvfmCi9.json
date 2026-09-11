@@ -1,0 +1,61 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "cn-emoji",
+        "version": "1.0.0",
+        "title": "表情选择器",
+        "description": "表情选择器 Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[cn-emoji] 样式注入失败",
+                    "target": "[cn-emoji] 样式注入失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[cn-emoji] 读取编辑器失败",
+                    "target": "[cn-emoji] 读取编辑器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[cn-emoji] 插件已加载，试试输入 ：：",
+                    "target": "[cn-emoji] 插件已加载，试试输入 ：："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[cn-emoji] 样式已内联注入",
+                    "target": "[cn-emoji] 样式已内联注入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "无结果",
+                    "target": "无结果"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "打开中文 emoji 选择器",
+                    "target": "打开中文 emoji 选择器"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

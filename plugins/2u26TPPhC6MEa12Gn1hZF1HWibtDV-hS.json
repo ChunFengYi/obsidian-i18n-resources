@@ -1,0 +1,568 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "defuddle-clipper",
+        "version": "1.0.0",
+        "title": "Defuddle Web Clipper",
+        "description": "Defuddle Web Clipper Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "return to article",
+                    "target": "返回文章标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "EntityRef: expecting ;",
+                    "target": "EntityRef: 预期 ;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Extra content at the end of the document",
+                    "target": "文档末尾存在多余内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "unexpected end of input",
+                    "target": "输入结束意外"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Defuddle",
+                    "target": "Defuddle"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error fetching async variables:",
+                    "target": "错误：正在获取异步变量："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in async extraction:",
+                    "target": "错误：在异步提取中："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing document:",
+                    "target": "错误：处理文档："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Defuddle: Error evaluating media queries:",
+                    "target": "Defuddle：错误评估媒体查询："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error applying styles for selector:",
+                    "target": "错误：应用选择器的样式："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Defuddle: Error parsing schema.org data:",
+                    "target": "Defuddle: 解析 schema.org 数据时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Defuddle: Problematic JSON content:",
+                    "target": "Defuddle: 存在问题的 JSON 内容："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error finding extractor:",
+                    "target": "找不到提取器："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "YoutubeExtractor: failed to extract transcript from existing DOM",
+                    "target": "YoutubeExtractor: 无法从现有 DOM 中提取字幕"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "YoutubeExtractor: failed to parse inline JSON",
+                    "target": "YoutubeExtractor: 无法解析内联 JSON"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "YoutubeExtractor: failed to fetch transcript",
+                    "target": "YoutubeExtractor: 无法获取字幕"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "YoutubeExtractor: failed to extract transcript from opened DOM",
+                    "target": "YoutubeExtractor: 无法从打开的 DOM 中提取字幕"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "YoutubeExtractor: failed to open mobile transcript panel",
+                    "target": "YoutubeExtractor: 无法打开移动字幕面板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error converting HTML to Markdown:",
+                    "target": "将 HTML 转换为 Markdown 时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Defuddle:",
+                    "target": "Defuddle: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Problematic content:",
+                    "target": "问题内容："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Parse",
+                    "target": "解析"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "New note",
+                    "target": "新笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Insert at Cursor",
+                    "target": "插入光标处"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save parsed content to",
+                    "target": "将解析内容保存到"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New note folder",
+                    "target": "新笔记文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "URL",
+                    "target": "URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Clippings",
+                    "target": "剪贴板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Enter a valid HTTP(s) URL.",
+                    "target": "输入有效的HTTP(s) URL。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Defuddle: Failed to process stylesheet:",
+                    "target": "Defuddle：处理样式表失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Defuddle: Failed to process CSS rule:",
+                    "target": "Defuddle: 处理CSS规则失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to convert MathML to LaTeX:",
+                    "target": "无法将 MathML 转换为 LaTeX："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to convert LaTeX to MathML:",
+                    "target": "无法将 LaTeX 转换为 MathML："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to parse URL:",
+                    "target": "无法解析 URL："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to parse base URL:",
+                    "target": "无法解析基础 URL："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: Temml doesn't work in quirks mode. Make sure your website has a suitable doctype.",
+                    "target": "警告：Temml在quirks模式下不工作。请确保您的网站有一个合适的文档类型。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Fetching page…",
+                    "target": "正在获取页面…"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Defuddle: no article content found on that page.",
+                    "target": "Defuddle: 在该页面上未找到文章内容。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Defuddle: open a note first to insert content at the Cursor.",
+                    "target": "Defuddle: 首先打开一个笔记来在光标处插入内容。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Defuddle: content inserted.",
+                    "target": "Defuddle: 内容已插入。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mi",
+                    "target": "mi"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mfenced",
+                    "target": "mfenced"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "mrow",
+                    "target": "mrow"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Save parsed content to",
+                    "target": "Save parsed content to"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "New note folder",
+                    "target": "New note folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Parse URL",
+                    "target": "Parse URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "hyphen",
+                    "target": "hyphen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "1st-level escape",
+                    "target": "1st-level escape"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "ellipsis",
+                    "target": "ellipsis"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "addition compound",
+                    "target": "addition compound"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "circa",
+                    "target": "circa"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "comma enumeration S",
+                    "target": "comma enumeration S"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "electron dot",
+                    "target": "electron dot"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "KV x",
+                    "target": "KV x"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "option",
+                    "source": "prime",
+                    "target": "prime"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Clippings",
+                    "target": "剪贴板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Parse URL with defuddle",
+                    "target": "使用 defuddle 解析 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Save parsed content",
+                    "target": "保存解析内容"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"EntityRef: expecting ;\")",
+                    "target": "error(\"EntityRef: expecting ;\")"
+                },
+                {
+                    "source": "error(\"entity not matching Reference production: \"+me),me;var Ge=Ee.slice(1,-1);return a(M,Ge)?M[Ge]:Ge.charAt(0)===\"#\"?T(parseInt(Ge.substring(1).replace(\"x\",\"0x\")",
+                    "target": "error(\"entity not matching Reference production: \"+me),me;var Ge=Ee.slice(1,-1);return a(M,Ge)?M[Ge]:Ge.charAt(0)===\"#\"?T(parseInt(Ge.substring(1).replace(\"x\",\"0x\")"
+                },
+                {
+                    "source": "error(\"Extra content at the end of the document\")",
+                    "target": "error(\"Extra content at the end of the document\")"
+                },
+                {
+                    "source": "error(\"Unexpected content outside root element: '\"+we+\"'\")",
+                    "target": "error(\"Unexpected content outside root element: '\"+we+\"'\")"
+                },
+                {
+                    "source": "error(\"unexpected end of input\")",
+                    "target": "error(\"unexpected end of input\")"
+                },
+                {
+                    "source": "log(\"Initial parse returned very little content, trying again\")",
+                    "target": "log(\"Initial parse returned very little content, trying again\")"
+                },
+                {
+                    "source": "log(\"Retry produced more content\")",
+                    "target": "log(\"Retry produced more content\")"
+                },
+                {
+                    "source": "log(\"Still very little content, retrying without hidden-element removal\")",
+                    "target": "log(\"Still very little content, retrying without hidden-element removal\")"
+                },
+                {
+                    "source": "log(\"Hidden-element retry produced more content\")",
+                    "target": "log(\"Hidden-element retry produced more content\")"
+                },
+                {
+                    "source": "log(\"Hidden-selector retry produced better focused content\")",
+                    "target": "log(\"Hidden-selector retry produced better focused content\")"
+                },
+                {
+                    "source": "log(\"Still very little content, retrying without scoring/partial selectors (possible index page)\")",
+                    "target": "log(\"Still very little content, retrying without scoring/partial selectors (possible index page)\")"
+                },
+                {
+                    "source": "log(\"Index page retry produced more content\")",
+                    "target": "log(\"Index page retry produced more content\")"
+                },
+                {
+                    "source": "log(\"Schema.org suggests a better content element, retrying with selector:\",b),g=this.parseInternal({contentSelector:b})}else{this._log(\"Using schema.org text as content (DOM element not found)\")",
+                    "target": "log(\"Schema.org suggests a better content element, retrying with selector:\",b),g=this.parseInternal({contentSelector:b})}else{this._log(\"Using schema.org text as content (DOM element not found)\")"
+                },
+                {
+                    "source": "log(\"Using contentSelector:\",T.contentSelector,pe?\"found\":\"not found\")",
+                    "target": "log(\"Using contentSelector:\",T.contentSelector,pe?\"found\":\"not found\")"
+                },
+                {
+                    "source": "log(\"Found content element via schema.org text\")",
+                    "target": "log(\"Found content element via schema.org text\")"
+                },
+                {
+                    "source": "error(\"Defuddle\",\"Error processing document:\",ne);let n=this._serializeFallbackBody(),o=Date.now();return Object.assign(Object.assign({content:n},F),{wordCount:this.countHtmlWords(n),parseTime:Math.round(o-M),metaTags:Y})}}countHtmlWords(g){let E=g.replace(/<[^>]*>/g,\" \")",
+                    "target": "error(\"Defuddle\",\"Error processing document:\",ne);let n=this._serializeFallbackBody(),o=Date.now();return Object.assign(Object.assign({content:n},F),{wordCount:this.countHtmlWords(n),parseTime:Math.round(o-M),metaTags:Y})}}countHtmlWords(g){let E=g.replace(/<[^>]*>/g,\" \")"
+                },
+                {
+                    "source": "error(\"Defuddle: Error evaluating media queries:\",q)}return E}applyMobileStyles(g,E){E.forEach(({selector:A,styles:q})=>{try{g.querySelectorAll(A).forEach(m=>{m.setAttribute(\"style\",(m.getAttribute(\"style\")",
+                    "target": "error(\"Defuddle: Error evaluating media queries:\",q)}return E}applyMobileStyles(g,E){E.forEach(({selector:A,styles:q})=>{try{g.querySelectorAll(A).forEach(m=>{m.setAttribute(\"style\",(m.getAttribute(\"style\")"
+                },
+                {
+                    "source": "error(\"Defuddle\",\"Error applying styles for selector:\",A,m)}})}removeImages(g){let E=g.getElementsByTagName(\"img\")",
+                    "target": "error(\"Defuddle\",\"Error applying styles for selector:\",A,m)}})}removeImages(g){let E=g.getElementsByTagName(\"img\")"
+                },
+                {
+                    "source": "log(\"Content candidates:\",E.map(m=>({element:m.element.tagName,selector:this.getElementSelector(m.element),score:m.score}))),E.length===1&&E[0].element.tagName.toLowerCase()===\"body\")",
+                    "target": "log(\"Content candidates:\",E.map(m=>({element:m.element.tagName,selector:this.getElementSelector(m.element),score:m.score}))),E.length===1&&E[0].element.tagName.toLowerCase()===\"body\")"
+                },
+                {
+                    "source": "log(\"Resolved streamed content:\",m,\"suspense boundaries\")",
+                    "target": "log(\"Resolved streamed content:\",m,\"suspense boundaries\")"
+                },
+                {
+                    "source": "error(\"Defuddle: Error parsing schema.org data:\",C),this.debug&&console.error(\"Defuddle: Problematic JSON content:\",b)}});let q=m=>{if(typeof m==\"string\")",
+                    "target": "error(\"Defuddle: Error parsing schema.org data:\",C),this.debug&&console.error(\"Defuddle: Problematic JSON content:\",b)}});let q=m=>{if(typeof m==\"string\")"
+                },
+                {
+                    "source": "error(\"Error converting HTML to Markdown:\",m),console.log(\"Problematic content:\",S.substring(0,1e3)+\"...\")",
+                    "target": "error(\"Error converting HTML to Markdown:\",m),console.log(\"Problematic content:\",S.substring(0,1e3)+\"...\")"
+                },
+                {
+                    "source": "log(`Temml parse error: Command ${e.funcName} is invalid in math mode.`)",
+                    "target": "log(`Temml parse error: Command ${e.funcName} is invalid in math mode.`)"
+                },
+                {
+                    "source": "log(`Temml strict-mode warning: Command ${t} is invalid in math mode.`)",
+                    "target": "log(`Temml strict-mode warning: Command ${t} is invalid in math mode.`)"
+                },
+                {
+                    "source": "setName(\"Save parsed content to\")",
+                    "target": "setName(\"Save parsed content to\")"
+                },
+                {
+                    "source": "setName(\"New note folder\")",
+                    "target": "setName(\"New note folder\")"
+                },
+                {
+                    "source": "setText(\"Enter a valid HTTP(s) URL.\")",
+                    "target": "setText(\"Enter a valid HTTP(s) URL.\")"
+                },
+                {
+                    "source": "setButtonText(\"New note\")",
+                    "target": "setButtonText(\"New note\")"
+                },
+                {
+                    "source": "setButtonText(\"Insert at Cursor\")",
+                    "target": "setButtonText(\"Insert at Cursor\")"
+                },
+                {
+                    "source": "Notice(`Defuddle: failed to fetch page (HTTP ${te.status}).`)",
+                    "target": "Notice(`Defuddle: failed to fetch page (HTTP ${te.status}).`)"
+                },
+                {
+                    "source": "Notice(`Defuddle: failed to fetch page (${te.message}).`)",
+                    "target": "Notice(`Defuddle: failed to fetch page (${te.message}).`)"
+                },
+                {
+                    "source": "Notice(`Defuddle: failed to parse page (${te.message}).`)",
+                    "target": "Notice(`Defuddle: failed to parse page (${te.message}).`)"
+                },
+                {
+                    "source": "Notice(\"Defuddle: no article content found on that page.\")",
+                    "target": "Notice(\"Defuddle: no article content found on that page.\")"
+                },
+                {
+                    "source": "Notice(\"Defuddle: open a note first to insert content at the Cursor.\")",
+                    "target": "Notice(\"Defuddle: open a note first to insert content at the Cursor.\")"
+                },
+                {
+                    "source": "Notice(\"Defuddle: content inserted.\")",
+                    "target": "Notice(\"Defuddle: content inserted.\")"
+                },
+                {
+                    "source": "Notice(`Defuddle: created \"${X.basename}\".`)",
+                    "target": "Notice(`Defuddle: created \"${X.basename}\".`)"
+                },
+                {
+                    "source": "text:`<a href=\"${(0,R.escapeHtml)(E)}\">${(0,R.escapeHtml)(A)}</a>${(0,R.escapeHtml)(q)}`",
+                    "target": "text:`<a href=\"${(0,R.escapeHtml)(E)}\">${(0,R.escapeHtml)(A)}</a>${(0,R.escapeHtml)(q)}`"
+                },
+                {
+                    "source": "description:`ChatGPT conversation with ${s.length} messages`",
+                    "target": "description:`ChatGPT conversation with ${s.length} messages`"
+                },
+                {
+                    "source": "description:`Claude conversation with ${s.length} messages`",
+                    "target": "description:`Claude conversation with ${s.length} messages`"
+                },
+                {
+                    "source": "description:`Gemini conversation with ${a} messages`",
+                    "target": "description:`Gemini conversation with ${a} messages`"
+                },
+                {
+                    "source": "description:`Grok conversation with ${a} messages`",
+                    "target": "description:`Grok conversation with ${a} messages`"
+                },
+                {
+                    "source": "text=`${C.text} ${O.text}`",
+                    "target": "text=`${C.text} ${O.text}`"
+                },
+                {
+                    "source": "text:\" \"",
+                    "target": "text:\" \""
+                },
+                {
+                    "source": "text=\"}}}),actions:{output:function(e){if(e.text_){var t={type_:\"",
+                    "target": "text=\"}}}),actions:{output:function(e){if(e.text_){var t={type_:\""
+                },
+                {
+                    "source": "name: \"+f,l);k=this.formatUnsupportedCmd(f),this.consume()}return k}formLigatures(t){let r=t.length-1;for(let l=0;l<r;++l){let f=t[l],k=f.text;k===\"",
+                    "target": "name: \"+f,l);k=this.formatUnsupportedCmd(f),this.consume()}return k}formLigatures(t){let r=t.length-1;for(let l=0;l<r;++l){let f=t[l],k=f.text;k===\""
+                },
+                {
+                    "source": "name:\"Save parsed content to\"",
+                    "target": "name:\"Save parsed content to\""
+                },
+                {
+                    "source": "name:\"New note folder\"",
+                    "target": "name:\"New note folder\""
+                },
+                {
+                    "source": "text:\"Parse URL with defuddle\"",
+                    "target": "text:\"Parse URL with defuddle\""
+                },
+                {
+                    "source": "text:\"Save parsed content\"",
+                    "target": "text:\"Save parsed content\""
+                },
+                {
+                    "source": "name:\"Parse URL\"",
+                    "target": "name:\"Parse URL\""
+                }
+            ]
+        }
+    }
+}

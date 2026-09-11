@@ -1,0 +1,216 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "douyin-capture",
+        "version": "1.0.0",
+        "title": "Douyin Capture",
+        "description": "Douyin Capture Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.0.5",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "检查后端连接",
+                    "target": "检查后端连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认 http://127.0.0.1:5050",
+                    "target": "默认 http://127.0.0.1:5050"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "仅视频转写时使用",
+                    "target": "仅视频转写时使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "关闭则笔记内仅显示下载链接",
+                    "target": "关闭则笔记内仅显示下载链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "后端地址",
+                    "target": "后端地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Whisper 模型",
+                    "target": "Whisper 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "笔记文件夹",
+                    "target": "笔记文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "附件文件夹",
+                    "target": "附件文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "嵌入视频",
+                    "target": "嵌入视频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "创建后打开笔记",
+                    "target": "创建后打开笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "base",
+                    "source": "base",
+                    "target": "base"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "douyin-modal-progress is-hidden",
+                    "target": "douyin-modal-progress is-hidden"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "mod-cta douyin-btn-primary",
+                    "target": "mod-cta douyin-btn-primary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "douyin-step is-pending",
+                    "target": "douyin-step is-pending"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "medium",
+                    "source": "medium",
+                    "target": "medium"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "从抖音链接创建笔记",
+                    "target": "从抖音链接创建笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "从剪贴板创建笔记",
+                    "target": "从剪贴板创建笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "检查后端连接",
+                    "target": "检查后端连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "small",
+                    "source": "small",
+                    "target": "small"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "import douyin",
+                    "target": "import douyin"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "粘贴抖音分享链接（v.douyin.com 或 douyin.com）",
+                    "target": "粘贴抖音分享链接（v.douyin.com 或 douyin.com）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "提取视频",
+                    "target": "提取视频"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "提取文案",
+                    "target": "提取文案"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "处理进度",
+                    "target": "处理进度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "需先启动本地后端 obsidian-content-capture-backend（python web/app.py）",
+                    "target": "需先启动本地后端 obsidian-content-capture-backend（python web/app.py）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tiny",
+                    "source": "tiny",
+                    "target": "tiny"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "text"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "text:\"import douyin\"",
+                    "target": "text:\"import douyin\""
+                }
+            ]
+        }
+    }
+}
